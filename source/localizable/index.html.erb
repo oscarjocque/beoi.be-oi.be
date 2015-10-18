@@ -80,29 +80,84 @@
   </div>
   <!--end of container-->
 </section>
-<section class="image-bg overlay parallax">
-  <div class="background-image-holder">
-  <img alt="Background" class="background-image" src="/img/bg1.jpg" />
+<a name="contest"></a>
+<section class="image-square left bg-secondary">
+  <div class="col-md-6 image">
+    <div class="background-image-holder">
+    <img alt="image" class="background-image" src="/img/pic1.jpg" />
+    </div>
   </div>
+  <div class="col-md-6 col-md-offset-1 content">
+    <h3>27 janvier: Éliminatoires</h3>
+    <h4>Lieu et date</h4>
+    <p>
+      L'éliminatoire a lieu le <strong>mercredi 27 janvier 2016</strong> dans l'un des <strong>11 centre régionaux</strong> à travers la Belgique ou <strong>dans votre école</strong>. L'épreuve durera 1h30.
+    </p>
+    <h4>Types de questions</h4>
+    <p>
+      L'épreuve est uniquement sur papier. Aucune question ne comporte de programmation, uniquement des exercices de raisonnement informatique ne nécessitant aucune connaissance préalable. 
+    </p>
+  </div>
+</section>
+<section class="pt64 pb64">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center">
-        <h4 class="uppercase mb16">Étape 1 : Éliminatoires fin janvier</h4>
-        <!-- <p class="lead mb64">
-          Restant: 
-        </p> -->
-      </div>
-    </div>
-    <!--end of row-->
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <div class="countdown mb40" data-date="2016/01/27"></div>
+        <h3 class="mb8">Formation</h3>
+        <p class="lead mb40">
+          Nous organiserons, entre les deux épreuves, une formation d'introduction à la programmation pour les finalistes. Plus d'information suivra. 
+        </p>
       </div>
     </div>
     <!--end of row-->
   </div>
   <!--end of container-->
 </section>
+<section class="image-square right bg-secondary">
+  <div class="col-md-6 image">
+    <div class="background-image-holder">
+      <img alt="image" class="background-image" src="/img/pic2.jpg" />
+    </div>
+  </div>
+  <div class="col-md-6 content">
+    <h3>19 mars: Finale</h3>
+    <h4>Lieu et date</h4>
+    <p>
+      L'éliminatoire devrait avoir lieu le <strong>samedi 19 mars 2016</strong> à <strong>Bruxelles</strong>. L'épreuve devrait durer 2x 1h30.
+    </p>
+    <h4>Types de questions</h4>
+    <p>
+      L'épreuve est uniquement sur papier. En plus des questions du même type qu'à l'éliminatoire, le finale comportera des questions de programmations, via des codes à comprendre et à compléter.
+    </p>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h4 class="uppercase mb64 mb-xs-40">Nos membres</h4>
+      </div>
+    </div>
+    <!--end of row-->
+    <div class="row">
+      <div class="logo-carousel">
+        <ul class="slides">
+          <% data.members.each do |m| %>
+          <li>
+            <a href="<%= m.href %>">
+              <img alt="<%= m.name %>" src="/img/members-logo/<%= m.image %>" />
+            </a>
+          </li>
+          <% end %>
+        </ul>
+      </div>
+      <!--end of logo slider-->
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>  
+<a name="sample-questions"></a>
 <section class="bg-secondary">
   <div class="container">
     <div class="row">
@@ -173,65 +228,7 @@
   </div>
   <!--end of container-->
 </section>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h4 class="uppercase mb64 mb-xs-40">Nos membres</h4>
-      </div>
-    </div>
-    <!--end of row-->
-    <div class="row">
-      <div class="logo-carousel">
-        <ul class="slides">
-          <li>
-            <a href="#">
-              <img alt="Logo" src="/img/members-logo/ua-logo.jpg" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img alt="Logo" src="/img/members-logo/ucl-logo.png" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img alt="Logo" src="/img/members-logo/ugent-logo.jpg" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img alt="Logo" src="/img/members-logo/uhasselt-logo.png" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img alt="Logo" src="/img/members-logo/ulb-logo.png" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img alt="Logo" src="/img/members-logo/ulg-logo.png" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img alt="Logo" src="/img/members-logo/umons-logo.png" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img alt="Logo" src="img/l4.png" />
-            </a>
-          </li>
-        </ul>
-      </div>
-      <!--end of logo slider-->
-    </div>
-    <!--end of row-->
-  </div>
-  <!--end of container-->
-</section>
+
 <section class="bg-dark pb0">
   <div class="container">
     <div class="row mb64 mb-xs-32">

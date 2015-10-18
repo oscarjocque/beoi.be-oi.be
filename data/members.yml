@@ -1,0 +1,80 @@
+-
+  name: UNamur
+  href: https://www.unamur.be/
+  image: unamur-logo.png
+-
+  name: UCLouvain
+  href: http://www.uclouvain.be/
+  image: ucl-logo.png
+-
+  name: VUB
+  href: http://www.vub.ac.be/
+  image: vub-logo.jpg
+-
+  name: ULB
+  href: http://www.ulb.ac.be/
+  image: ulb-logo.png
+-
+  name: UAntwerpen
+  href: https://www.uantwerpen.be/
+  image: ua-logo.jpg
+-
+  name: UGent
+  href: http://www.ugent.be/
+  image: ugent-logo.jpg
+-
+  name: UHasselt
+  href: http://www.uhasselt.be/
+  image: uhasselt-logo.png
+-
+  name: ULg
+  href: http://www.ulg.ac.be/
+  image: ulg-logo.png
+-
+  name: HERS
+  href: http://www.hers.be/
+  image: hers-logo.jpg  
+-
+  name: KULeuven
+  href: http://www.kuleuven.be/
+  image: kuleuven.png
+-
+  name: UMons
+  href: http://www.umons.ac.be/
+  image: umons-logo.png
+-
+  name: Howest
+  href: http://www.howest.be/
+  image: howest-logo.jpg
+-
+  name: UGent Faculteit Wetenschappen
+  href: http://www.ugent.be/we/
+  image: ugent-facwet.png
+-
+  name: HELMo
+  href: http://www.helmo.be
+  image: helmo-logo.png
+-
+  name: Thomas More
+  href: http://www.thomasmore.be
+  image: thomasmore-logo.jpg
+- 
+  name: Cetic
+  href: https://www.cetic.be/
+  image: cetic-logo.png
+-
+  name: KDG
+  href: https://www.kdg.be/
+  image: kdg-logo.jpg
+-
+  name: HEB-ESI
+  href: http://www.heb.be/esi/
+  image: heb-esi-logo.gif
+-
+  name: VIVES
+  href: http://www.vives.be
+  image: vives-logo.jpg
+-
+  name: EHB
+  href: http://www.ehb.be
+  image: ehb-logo.jpg
