@@ -20,9 +20,8 @@ switch (fr_or_nl()) {
 }
 </script>
 
-<section class="image-bg overlay parallax" style="background-color:#48ad68;">
-  <div class="background-image-holder background-image-mosaic">
-    <img alt="Background" class="background-image" src="/img/background-sciences.png"/>
+<section class="image-bg fullscreen parallax" style="background-color:#ffffbf;">
+  <div class="background-image-holder" id="page-header-image-holder">
   </div>
   <div class="container">
     <div class="row">
@@ -60,17 +59,11 @@ switch (fr_or_nl()) {
   </div>
   <!--end of container-->
 </section>
-<footer class="footer-1 bg-dark">
-  <div class="container">
-    
-    <div class="row">
-      <div class="col-sm-6">
-        <span class="sub">beOI ASBL/VZW</span><br/>
-        <span class="sub">Belgische Informatica-olympiade - Olympiade belge d’Informatique</span><br/>
-        <span class="sub">&copy; 2011-2015 - All rights reserved.</span>
-      </div>
-    </div>
-  </div>
-  <!--end of container-->
-  <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
-</footer>
+<script>
+    var pattern = Trianglify({
+        width: window.innerWidth,
+        height: window.innerHeight*1.5,
+        x_colors: "RdYlGn"
+    });
+    document.getElementById("page-header-image-holder").appendChild(pattern.canvas())
+</script>
