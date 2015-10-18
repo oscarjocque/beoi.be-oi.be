@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title><%= "beOI : "+ (current_page.data.title || t(:default_page_title)) %></title>
+    <%= favicon_tag 'favicon.png' %>
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <%= stylesheet_link_tag "bootstrap.min", "themify-icons", "flexslider", "lightbox.min", "theme-red", "custom" %>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.1/trianglify.min.js"></script>
+    
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+
+    <link href='//fonts.googleapis.com/css?family=Comfortaa:700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="nav-container">
+      <a id="top"></a>
+      <nav class="">
+        <div class="nav-bar">
+<!--           <div class="module left">
+            <a href="//www.be-oi.be">
+              <img class="logo logo-light" alt="beOI" src="/img/logo-beoi-white.png">
+              <img class="logo logo-dark" alt="beOI" src="/img/logo-beoi.png">
+            </a>
+          </div>
+ -->
+          <div class="module-group left">
+            <div class="module left">
+              <ul class="menu">
+                <li class="has-dropdown">
+                  <a href="index.html" style="opacity:1 !important;">
+                    <img class="logo" alt="beOI" src="/img/logo-beoi-small.png">
+                  </a>
+                  <ul>
+                    <li><a href="//www.be-oi.be">Tous les concours</a></li>
+                    <li><a href="//bebras.be-oi.be">Bebras</a></li>
+                    <li><a href="//beoi.be-oi.be">beOI</a></li>
+                    <li><a href="#">beCP</a></li>
+                  </ul>
+                </li>
+                <li class="has-dropdown">
+                  <a href="#">Concours</a>
+                  <ul>
+                    <li><a href="contest.html">Déroulement</a></li>
+                    <li><a href="rules.html">Règlement</a></li>
+                    <!-- <li><a href="register.html">Inscription</a></li> -->
+                    <li><a href="questions.html">Questions</a></li>
+                    <!-- <li><a href="learn-programming.html">Apprendre à programmer</a></li> -->
+                    <!-- <li><a href="prizes.html">À remporter</a></li> -->
+                    <li><a href="faq.html">FAQ</a></li>
+                  </ul>
+                </li>
+                <li class="has-dropdown">
+                  <a href="#">Archives</a>
+                  <ul class="mega-menu">
+                    <li>
+                      <ul>
+                        <li><a href="archives.html">Toutes les questions</a></li>
+                        <li><a href="hall-of-fame.html">Hall of Fame</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ul>
+                        <li><span class="title">Précédentes éditions</span></li>
+                        <li><a href="/">Édition 2015</a></li>
+                        <li><a href="/">Édition 2014</a></li>
+                        <li><a href="/">Édition 2013</a></li>
+                        <li><a href="/">Édition 2012</a></li>
+                        <li><a href="/">Édition 2011</a></li>
+                        <li><a href="/">Édition 2010</a></li>
+                        <li><a href="/">Édition 1992</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="has-dropdown">
+                  <a href="#">A propos</a>
+                  <ul>
+                    <li><a href="/">beOI ASBL</a></li>
+                    <li><a href="/">Sponsors/Supports</a></li>
+                    <li><a href="/">Presse</a></li>
+                    <li><a href="/">Membres</a></li>
+                    <li><a href="/">Sponsors</a></li>
+                  </ul>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="module-group right">
+
+            <div class="module left">
+              <ul class="menu">
+
+              </ul>
+            </div>
+
+            <!--end of menu module-->
+            <div class="module widget-handle language left">
+              <ul class="menu">
+
+                <li class="has-dropdown">
+                  <a href="#"><%= I18n.locale %></a>
+                  <ul>
+                    <li>
+                      <a href="/fr/">Français</a>
+                      <a href="/nl/">Nederlands</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--end of module group-->
+        </div>
+      </nav>
+    </div>
+    <div class="main-container">
+      <%= yield %>
+      <footer class="footer-2 bg-dark pt0 pb40">
+        <div class="container">
+          <div class="row">
+            <hr class="mt0 mb40" />
+          </div><!--end of row-->
+          <div class="row">
+            <div class="col-sm-3">
+              <a href="#"><img class="image-xxs fade-half" alt="Pic" src="/img/logo-beoi-grey.png"></a>
+            </div>
+
+            <div class="col-sm-6 text-center">
+              <span class="fade-half">
+                beOI ASBL/VZW<br/>
+                Belgische Informatica-olympiade - Olympiade belge d’Informatique<br/>
+                © Copyright 2010-2015
+              </span>
+            </div>
+
+            <div class="col-sm-3 text-right">
+              <ul class="list-inline social-list">
+                <li><a href="//www.facebook.com/beoi.contest"><i class="ti-facebook"></i></a></li>
+              </ul>
+            </div>
+          </div><!--end of row-->
+        </div><!--end of container-->
+      </footer>
+    </div>
+
+
+    <%= javascript_include_tag "jquery.min", "bootstrap.min", "flexslider.min", "smooth-scroll.min", "parallax", "scripts", "countdown.min" %>
+  </body>
+</html>

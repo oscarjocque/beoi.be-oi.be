@@ -1,0 +1,75 @@
+---
+title: FAQ
+---
+<section class="page-title page-title-4 image-bg">
+  <div class="background-image-holder" id="page-header-image-holder" > </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="uppercase mb0">Foire aux questions</h3>
+      </div>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>
+<script>
+  var pattern = Trianglify({
+    width: window.innerWidth,
+    height: window.innerHeight*1.5,
+    x_colors: "RdYlGn"
+  });
+  document.getElementById("page-header-image-holder").appendChild(pattern.canvas())
+</script>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h4 class="mb16">Questions fréquemment posées à propos de l'olympiade</h4>
+        <p class="lead mb64">
+        Vous avez d'autres questions ? Posez-les nous via <a href="mailto:info@be-oi.be">e-mail</a>, Facebook ou Twitter.
+        </p>
+      </div>
+    </div>
+    <!--end of row-->
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        
+
+        <div class="tabbed-content button-tabs">
+          <ul class="tabs">
+            <% data.faq[lang].each do |cat| %>
+            <li <% if cat.default_sel %>class="active"<% end %> >
+              <div class="tab-title">
+                <span><%= cat.category_title %></span>
+              </div>
+              <div class="tab-content">
+                <ul class="accordion accordion-2 text-left">
+                  <% cat.questions.each do |q| %>
+                  <li>
+                    <div class="title">
+                      <h4 class="inline-block mb0"><%= q.question %></h4>
+                    </div>
+                    <div class="content">
+                      <p><%= q.answer %></p>
+                    </div>
+                  </li>
+                  <% end %>
+                </ul>
+                <!--end of accordion-->
+              </div>
+            </li>
+            <% end %>
+          </ul>
+        </div>
+        <!--end of button tabs-->
+
+
+
+
+      </div>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>

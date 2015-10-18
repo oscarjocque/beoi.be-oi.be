@@ -1,0 +1,76 @@
+<script type="text/javascript">
+function browser_langs() {
+  if (window.navigator.languages != undefined) return window.navigator.languages;
+  if (window.navigator.language != undefined) return [window.navigator.language];
+  if (window.navigator.browserLanguage != undefined) return [window.navigator.browserLanguage];
+  return [];
+}
+function fr_or_nl() {
+  var languages = browser_langs();
+  for (i = 0; i < languages.length; i++) {
+    if (languages[i].substr(0,2) == "fr") return "fr";
+    if (languages[i].substr(0,2) == "nl") return "nl";
+  }
+  return undefined;
+}
+// find, in the browser preference order, if 'fr' or 'nl' is present. If so, redirect immediatly to the right subsite.
+switch (fr_or_nl()) {
+  case "fr": document.location.href = "/fr/"; break;
+  case "nl": document.location.href = "/nl/"; break;
+}
+</script>
+
+<section class="image-bg overlay parallax" style="background-color:#48ad68;">
+  <div class="background-image-holder background-image-mosaic">
+    <img alt="Background" class="background-image" src="/img/background-sciences.png"/>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 mb32 text-center">
+        <img src="/img/logo-beoi-white.png" style="max-height: 160px;">
+      </div>
+    </div>
+    <!--end of row-->
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="feature feature-1 boxed">
+          <div class="text-center">
+            <h5 class="uppercase">Belgische wedstrijden logica en programmeren voor leerlingen uit het lager en middelbaar onderwijs</h5>
+          </div>
+          <div class="text-center">
+            <a class="btn btn-lg mb0" href="/nl/">Ga verder in het Nederlands</a>
+          </div>
+        </div>
+        <!--end of feature-->
+      </div>
+      <div class="col-sm-6">
+        <div class="feature feature-1 boxed">
+          <div class="text-center">
+            <h5 class="uppercase">Concours belges de logique et de programmation pour élèves du primaire et du secondaire</h5>
+          </div>
+          <div class="text-center">
+            <a class="btn btn-lg mb0" href="/fr/" >Continuer en français</a>
+          </div>
+
+        </div>
+        <!--end of feature-->
+      </div>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>
+<footer class="footer-1 bg-dark">
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-sm-6">
+        <span class="sub">beOI ASBL/VZW</span><br/>
+        <span class="sub">Belgische Informatica-olympiade - Olympiade belge d’Informatique</span><br/>
+        <span class="sub">&copy; 2011-2015 - All rights reserved.</span>
+      </div>
+    </div>
+  </div>
+  <!--end of container-->
+  <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
+</footer>

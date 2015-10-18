@@ -1,0 +1,41 @@
+- 
+  category_title: "Concours & Inscription"
+  default_sel: true
+  questions: 
+    - 
+      question: Combien coûte l'inscription ?
+      answer: Le concours est entièrement gratuit.
+    - 
+      question: "J'habite à l'étranger, puis-je participer ?"
+      answer: | 
+        Les belges habitant à l'étranger ou inscrits dans une école secondaire 
+        à l'étranger peuvent participer à l'Olympiade belge.
+    - 
+      question: "Je ne suis pas belge, puis-je participer ?"
+      answer: |
+        Si vous n'êtes pas belge mais inscrit dans un école belge, vous pouvez 
+        vous inscrire à l'Olympiade belge d'Informatique. Si vous n'êtes pas 
+        belge et n'êtes pas inscrits dans une école belge, vous ne pouvez
+        pas participer à notre olympiade. La plupart des pays ont cependant 
+        un concours dont les liens sont principalement repris sur
+        http://ioinformatics.org/admin/members.shtml.
+        Pour la France, le concours est organisé par France-IOI.
+    - 
+      question: Puis-je participer si je suis en échange dans un pays étranger lors du concours ?
+      answer: | 
+        Nous réglons pour l'instant ce problème au cas par cas. Il peut être 
+        possible de participer à la demi-finale à distance si nous avons un 
+        point de contact fiable (dans une école, université). Veuillez nous 
+        contacter à info@be-oi.be dans tous les cas.
+- 
+  category_title: Éliminatoire
+  questions: 
+    - 
+      question: Puis-je passer l'éliminatoire dans un centre néerlandophone ?
+      answer: |
+        Vous pouvez passer l'épreuve en français dans l'ensemble de 
+        centre en Belgique. Sachez cependant que les surveillants de 
+        centres néerlandophones peuvent ne pas savoir vous répondre à vos 
+        questions en français. Les questions pouvant être posées à la 
+        demi-finale ne concernent pas l'épreuve mais uniquement des détails 
+        pratiques (temps restant, ...).

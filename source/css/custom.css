@@ -1,0 +1,11 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+dl.category-list dt {
+  width: 50px;
+}
+dl.category-list dd {
+  margin-left: 70px;
+}
+section.altern:nth-of-type(odd){
+  background: #f8f8f8;
+}

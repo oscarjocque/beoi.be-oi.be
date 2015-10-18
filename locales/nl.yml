@@ -1,0 +1,46 @@
+---
+nl:
+  main_slogan_part1: Belgische wedstrijden logica en programmeren
+  main_slogan_part2: voor leerlingen uit het lager en middelbaar onderwijs
+  bebras_desc: >
+    Wedstrijd als introductie tot informatica door het oplossen van eenvoudige en speelse 
+    vraagstukken. De wedstrijd vindt plaats in de school, voor 5e leerjaar tot einde secundair.
+  beoi_desc: >
+    Wedstrijd informaticagericht denken en initiatie tot programmeren. Voor het secundair 
+    onderwijs, vormt dit een startpunt richting meer geavanceerde programmeerwedstrijden.
+  becp_desc: >
+    Wedstrijd algoritmisch programmeren, waarmee de Belgische delegatie wordt geselecteerd
+    voor de volgende Internationale Olympiade in Informatica.
+
+  more_info: Meer info
+  official_website: Website
+  soon: Soon ...
+
+  Calendar: Kalender
+
+  calendar_abstract: Data van de wedstrijden. Data voor eventuele trainingen worden aangekondigd op de sites van de wedstrijden zelf.
+  calendar_bebras1_title: "Bebras : wedstrijdweek"
+  calendar_bebras1_desc: De wedstrijd wordt georganiseerd door de leerkracht in de school tijdens een lesuur in de Bebrasweek.
+  calendar_beoi1_title: "beOI : selectieronde"
+  calendar_beoi1_desc: "Selectieproef georganiseerd in 11 regionale centra, onderverdeeld in 3 niveau's."
+  calendar_bebras2_title: "Bebras : The masters"
+  calendar_bebras2_desc: Wedstrijd voor de titel van meester in elke categorie.
+  calendar_beoi2_title: "beOI : Finale"
+  calendar_beoi2_desc: "Finaleproef op centrale locatie, op papier."
+  calendar_becp_title: "beCP : Selectie voor de IOI"
+  calendar_becp_desc: Selectiewedstrijd voor de Belgische delegatie op de IOI.
+  calendar_ioi_title: Internationale Olympiade in Informatica (IOI)
+  calendar_ioi_desc: "Kazan, Rusland."
+
+  Jan: jan
+  Feb: Feb
+  Mar: Maa
+  Apr: Apr
+  May: Mei
+  Jun: Jun
+  Jul: Jul
+  Aug: Aug
+  Sep: Sep
+  Oct: Okt
+  Nov: Nov
+  Dec: Dev
