@@ -5,9 +5,9 @@
     <div class="row">
       <div class="col-md-8 col-sm-12">
         <!-- <h1 style="font-family: 'Comfortaa'; font-size:90px; color:#101010; opacity:0.5;">beOI</h1> -->
-        <h1 style="color:#101010; opacity:0.7;">Olympiade belge d'Informatique</h1>
+        <h1 style="color:#101010; opacity:0.7;"><%= t(:title) %></h1>
         <h4 class=" mb48 mb-xs-32" style="color:#101010; opacity:0.7;">
-          Concours de raisonnement informatique et d'initiation à la programmation pour élèves du secondaire.
+          <%= t(:subtitle) %>
         </h4>
         <!-- <a class="btn btn-lg btn-filled" href="#">View Case Study</a> -->
       </div>
@@ -28,10 +28,8 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center">
-        <h4 class="uppercase mb16">Un nouveau concours... accessible à tous</h4>
-        <p class="lead mb64">
-          Le concours beOI a été rendu plus accessible qu'auparavant afin que tout élève du secondaire puisse y participer sans connaissance préalable.
-        </p>
+        <h4 class="uppercase mb16"><%= t(:overview_title) %></h4>
+        <p class="lead mb64"><%= t(:overview_desc) %></p>
       </div>
     </div>
     <!--end of row-->
@@ -40,11 +38,9 @@
         <div class="feature feature-2 boxed">
           <div class="text-center">
             <i class="ti-write icon-sm"></i>
-            <h5 class="uppercase">Aucune base nécessaire</h5>
+            <h5 class="uppercase"><%= t(:overview_first_title) %></h5>
           </div>
-          <p>
-            L'épreuve éliminatoire ne comporte pas de programmation, uniquement des exercices de raisonnement informatique ne nécessitant aucune connaissance préalable. La finale comporte, elle, de la programmation, via des codes à comprendre et à compléter sur papier. 
-          </p>
+          <p><%= t(:overview_first_desc) %></p>
         </div>
         <!--end of feature-->
       </div>
@@ -52,13 +48,13 @@
         <div class="feature feature-2 boxed">
           <div class="text-center">
             <i class="ti-bar-chart icon-sm"></i>
-            <h5 class="uppercase">Trois catégories d'âge</h5>
+            <h5 class="uppercase"><%= t(:overview_second_title) %></h5>
           </div>
-          <p class="mb8">Le concours comporte maintenant trois catégories selon l'année de l'élève, chacune comportant son propre classement:</p> 
+          <p class="mb8"><%= t(:overview_second_desc) %></p> 
           <dl class="dl-horizontal category-list">
-            <dt>Cadet</dt><dd>2<sup>e</sup> secondaire et inférieur</dd>
-            <dt>Junior</dt><dd>3<sup>e</sup> et 4<sup>e</sup> secondaire</dd>
-            <dt>Senior</dt><dd>5<sup>e</sup>, 6<sup>e</sup> (et 7<sup>e</sup>) secondaire</dd>
+            <dt><%= t(:Cadet) %></dt><dd>2<sup>e</sup> secondaire et inférieur</dd>
+            <dt><%= t(:Junior) %></dt><dd>3<sup>e</sup> et 4<sup>e</sup> secondaire</dd>
+            <dt><%= t(:Senior) %></dt><dd>5<sup>e</sup>, 6<sup>e</sup> (et 7<sup>e</sup>) secondaire</dd>
           </dl>
         </div>
         <!--end of feature-->
@@ -67,11 +63,9 @@
         <div class="feature feature-2 boxed">
           <div class="text-center">
             <i class="ti-direction-alt icon-sm"></i>
-            <h5 class="uppercase">Guidage</h5>
+            <h5 class="uppercase"><%= t(:overview_third_title) %></h5>
           </div>
-          <p>
-            Les candidats passant les éliminatoires se verront proposer une formation et une série d'outils leur permettant d'apprendre les bases de la programmation. Les meilleurs pourront également  intégrer la formation de l'équipe nationale (beCP).
-          </p>
+          <p><%= t(:overview_third_desc) %></p>
         </div>
         <!--end of feature-->
       </div>

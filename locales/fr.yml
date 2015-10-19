@@ -1,6 +1,42 @@
 ---
 fr:
   default_page_title: "Olympiade belge d'Informatique"
+  Cadet: Cadet
+  Junior: Junior
+  Senior: Senior
+
+  # Index 
+  title: "Olympiade belge d'Informatique"
+  subtitle: |
+    Concours de raisonnement informatique et d'initiation
+    à la programmation pour élèves du secondaire.
+
+  # index: overview module
+  overview_title: Un nouveau concours... accessible à tous
+  overview_desc: |
+    Le concours beOI a été rendu plus accessible 
+    qu'auparavant afin que tout élève du secondaire puisse y 
+    participer sans connaissance préalable.
+
+  overview_first_title: Aucune base nécessaire
+  overview_first_desc: |
+    L'épreuve éliminatoire ne comporte pas de programmation, 
+    uniquement des exercices de raisonnement informatique ne 
+    nécessitant aucune connaissance préalable. La finale 
+    comporte, elle, de la programmation, via des codes à 
+    comprendre et à compléter sur papier. 
+
+  overview_second_title: Trois catégories d'âge
+  overview_second_desc: |
+    Le concours comporte maintenant trois catégories selon 
+    l'année de l'élève, chacune comportant son propre classement:
+
+  overview_third_title: Guidage
+  overview_third_desc: |
+    Les candidats passant les éliminatoires se verront proposer
+    une formation et une série d'outils leur permettant d'apprendre les
+    bases de la programmation. Les meilleurs pourront également 
+    intégrer la formation de l'équipe nationale (beCP).
 
   Jan: jan
   Feb: fév
