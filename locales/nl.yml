@@ -1,46 +1,51 @@
 ---
 nl:
-  main_slogan_part1: Belgische wedstrijden logica en programmeren
-  main_slogan_part2: voor leerlingen uit het lager en middelbaar onderwijs
-  bebras_desc: >
-    Wedstrijd als introductie tot informatica door het oplossen van eenvoudige en speelse 
-    vraagstukken. De wedstrijd vindt plaats in de school, voor 5e leerjaar tot einde secundair.
-  beoi_desc: >
-    Wedstrijd informaticagericht denken en initiatie tot programmeren. Voor het secundair 
-    onderwijs, vormt dit een startpunt richting meer geavanceerde programmeerwedstrijden.
-  becp_desc: >
-    Wedstrijd algoritmisch programmeren, waarmee de Belgische delegatie wordt geselecteerd
-    voor de volgende Internationale Olympiade in Informatica.
+  default_page_title: "Belgische Informatica-olympiade"
+  Cadet: Belofte
+  Junior: Junior
+  Senior: Senior
 
-  more_info: Meer info
-  official_website: Website
-  soon: Soon ...
+  # Index 
+  title: "Belgische Informatica-olympiade"
+  subtitle: |
+    Wedstrijd creatief probleemoplossend denken en initiatie 
+    tot programmeren voor leerlingen uit het secundair. 
 
-  Calendar: Kalender
+  # index: overview module
+  overview_title: Een nieuwe wedstrijd... voor iedereen
+  overview_desc: |
+    De beOI wedstrijd is toegankelijker dan ooit
+    tevoren: elke leerling uit het secundair kan
+    deelnemen zonder enige voorkennis.
 
-  calendar_abstract: Data van de wedstrijden. Data voor eventuele trainingen worden aangekondigd op de sites van de wedstrijden zelf.
-  calendar_bebras1_title: "Bebras : wedstrijdweek"
-  calendar_bebras1_desc: De wedstrijd wordt georganiseerd door de leerkracht in de school tijdens een lesuur in de Bebrasweek.
-  calendar_beoi1_title: "beOI : selectieronde"
-  calendar_beoi1_desc: "Selectieproef georganiseerd in 11 regionale centra, onderverdeeld in 3 niveau's."
-  calendar_bebras2_title: "Bebras : The masters"
-  calendar_bebras2_desc: Wedstrijd voor de titel van meester in elke categorie.
-  calendar_beoi2_title: "beOI : Finale"
-  calendar_beoi2_desc: "Finaleproef op centrale locatie, op papier."
-  calendar_becp_title: "beCP : Selectie voor de IOI"
-  calendar_becp_desc: Selectiewedstrijd voor de Belgische delegatie op de IOI.
-  calendar_ioi_title: Internationale Olympiade in Informatica (IOI)
-  calendar_ioi_desc: "Kazan, Rusland."
+  overview_first_title: Geen voorkennis nodig
+  overview_first_desc: |
+    De eerste ronde bevat enkel puzzelvragen en logica,
+    geen vragen over programmeren, dus geen voorkennis is
+    vereist. Enkel de finale bevat vragen waarbij
+    code op papier gelezen en vervolledigd moet worden. 
+
+  overview_second_title: Drie leeftijdscategorieën
+  overview_second_desc: |
+    De wedstrijd omvat nu drie categorieën volgens
+    studiejaar, die elk een eigen klassement krijgen.
+
+  overview_third_title: Coaching
+  overview_third_desc: |
+    Wie voorbij de eerste ronde raakt, mag een opleiding volgen
+    en krijgt ook enkele tools aangereikt om de basis van 
+    programmeren te leren. De allerbesten mogen ook meedoen 
+    met de trainingen van de nationale ploeg (beCP).
 
   Jan: jan
-  Feb: Feb
-  Mar: Maa
-  Apr: Apr
-  May: Mei
-  Jun: Jun
-  Jul: Jul
-  Aug: Aug
-  Sep: Sep
-  Oct: Okt
-  Nov: Nov
-  Dec: Dev
+  Feb: feb
+  Mar: maa
+  Apr: apr
+  May: mei
+  Jun: jun
+  Jul: jul
+  Aug: aug
+  Sep: sep
+  Oct: okt
+  Nov: nov
+  Dec: dec
