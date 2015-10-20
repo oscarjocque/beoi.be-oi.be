@@ -1,0 +1,40 @@
+- 
+  category_title: "Wedstrijd & Inschrijven"
+  default_sel: true
+  questions: 
+    - 
+      question: Wat kost het om in te schrijven ?
+      answer: De wedstrijd is helemaal gratis.
+    - 
+      question: "Ik woon in het buitenland, mag ik deelnemen?"
+      answer: | 
+        Belgen die in het buitenland wonen of ingeschreven zijn in een secundaire 
+        school in het buitenland, mogen deelnemen aan de Belgische olympiade.
+    - 
+      question: "Ik ben geen Belg, mag ik deelnemen?"
+      answer: |
+        Als je geen Belg bent maar wel ingeschreven bent in een Belgische school,
+        mag je wel deelnemen. Als je geen Belg bent en ook niet op een Belgische 
+        school zit, kan je niet deelnemen aan onze olympiade. De meeste landen 
+        organiseren een eigen olympiade, je kan een lijst met links vinden op
+        http://ioinformatics.org/admin/members.shtml .
+        In Nederland wordt de wedstrijd georganiseerd door de Nederlandse
+        Informatica-olympiade (NIO).
+    - 
+      question: "Kan ik deelnemen als ik tijdens de wedstrijd op uitwisseling ben in het buitenland?"
+      answer: | 
+        Nous réglons pour l'instant ce problème au cas par cas. Il peut être 
+        possible de participer à l'éliminatoire à distance si nous avons un 
+        point de contact fiable (dans une école, université). Veuillez nous 
+        contacter à info@be-oi.be dans tous les cas.
+- 
+  category_title: Eerste ronde
+  questions: 
+    - 
+      question: "Kan ik de eerste ronde in een Franstalig centrum komen doen?"
+      answer: |
+        Je kan de proef afleggen in het Nederlands in eender welk lokaal centrum 
+        in België. We kunnen echter niet garanderen dat begeleiders in Franstalige
+        centra kunnen antwoorden op vragen in het Nederlands. Sowieso kan je geen
+        vragen stellen over de proef zelf, enkel over praktische details 
+        (resterende tijd, ...).
