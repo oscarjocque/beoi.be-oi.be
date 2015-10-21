@@ -29,6 +29,7 @@
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
 activate :i18n, :mount_at_root => false 
+activate :directory_indexes
 
 ###
 # Helpers
@@ -48,6 +49,9 @@ end
 #     "Helping"
 #   end
 # end
+
+set :markdown_engine
+set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 set :css_dir, 'css'
 

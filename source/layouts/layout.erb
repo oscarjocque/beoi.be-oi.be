@@ -32,27 +32,27 @@
                     <img class="logo" alt="beOI" src="/img/logo-beoi-small.png">
                   </a>
                   <ul>
-                    <li><a href="//www.be-oi.be">Tous les concours</a></li>
-                    <li><a href="//bebras.be-oi.be">Bebras</a></li>
-                    <li><a href="//beoi.be-oi.be">beOI</a></li>
-                    <li><a href="#">beCP</a></li>
+                    <li><%= link_to t('AllContests'), '//www.be-oi.be' %></li>
+                    <li><%= link_to 'Bebras', '//bebras.be-oi.be' %></li>
+                    <li><%= link_to 'beOI', '//beoi.be-oi.be' %></li>
+                    <li><%= link_to 'beCP (upcoming)', '' %></li>
                   </ul>
                 </li>
                 <li class="has-dropdown">
                   <a href="index.html">Concours</a>
                   <ul>
-                    <li><a href="index.html#contest">Déroulement</a></li>
-                    <li><a href="rules.html">Règlement</a></li>
+                    <li><%= link_to t('Contest'), 'index.html#contest' %></li>
+                    <li><%= link_to t('Rules'), 'rules.html' %></li>
                     <!-- <li><a href="register.html">Inscription</a></li> -->
-                    <li><a href="index.html#sample-questions">Questions</a></li>
+                    <li><%= link_to t('Tasks'), 'index.html#sample-questions' %></li>
                     <!-- <li><a href="learn-programming.html">Apprendre à programmer</a></li> -->
                     <!-- <li><a href="prizes.html">À remporter</a></li> -->
-                    <li><a href="faq.html">FAQ</a></li>
+                    <li><%= link_to t('FAQ'), 'faq.html' %></li>
                   </ul>
                 </li>
                 <li class="has-dropdown">
-                  <a href="#">Archives</a>
-                  <ul class="mega-menu">
+                  <a href="#"><%= t(:Archives) %> (upcoming)</a>
+                  <!--<ul class="mega-menu">
                     <li>
                       <ul>
                         <li><a href="archives.html">Toutes les questions</a></li>
@@ -71,17 +71,17 @@
                         <li><a href="/">Édition 1992</a></li>
                       </ul>
                     </li>
-                  </ul>
+                  </ul>-->
                 </li>
                 <li class="has-dropdown">
-                  <a href="#">A propos</a>
-                  <ul>
+                  <a href="#"><%= t(:About) %> (upcoming)</a>
+                  <!--<ul>
                     <li><a href="/">beOI ASBL</a></li>
                     <li><a href="/">Sponsors/Supports</a></li>
                     <li><a href="/">Presse</a></li>
                     <li><a href="/">Membres</a></li>
                     <li><a href="/">Sponsors</a></li>
-                  </ul>
+                  </ul>-->
                 </li>
 
               </ul>

@@ -5,11 +5,27 @@ fr:
   Junior: Junior
   Senior: Senior
 
+  # Menu
+  AllContests: Tous les concours
+  Contest: Déroulement
+  Rules: Règlement
+  Tasks: Questions
+  FAQ: FAQ
+  Archives: Archives
+  About: À propos
+
   # Index 
   title: "Olympiade belge d'Informatique"
   subtitle: |
     Concours de raisonnement informatique et d'initiation
     à la programmation pour élèves du secondaire.
+
+  members: Nos membres
+  sample_tasks_qualifying: "Exemples de question pour l'éliminatoire"
+  more_questions_soon: "Plus de questions et solutions d'ici peu ..."
+  questions: Des questions ?
+  contact_us: Contactez-nous !
+
 
   # index: overview module
   overview_title: Un nouveau concours... accessible à tous
@@ -50,3 +66,6 @@ fr:
   Oct: oct
   Nov: nov
   Dec: dec
+
+  task_social_network: Le réseau social
+  task_south_pole: Sous le pôle sud
