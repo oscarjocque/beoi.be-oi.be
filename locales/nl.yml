@@ -5,11 +5,26 @@ nl:
   Junior: Junior
   Senior: Senior
 
+  # Menu
+  AllContests: Alle wedstrijden
+  Contest: Wedstrijdverloop
+  Rules: Reglement
+  Tasks: Voorbeeldvragen
+  FAQ: FAQ
+  Archives: Archieven
+  About: Over ons
+
   # Index 
   title: "Belgische Informatica-olympiade"
   subtitle: |
     Wedstrijd creatief probleemoplossend denken en initiatie 
     tot programmeren voor leerlingen uit het secundair. 
+
+  members: Onze leden
+  sample_tasks_qualifying: "Voorbeeldvragen voor de eerste ronde"
+  more_questions_soon: "Meer vragen en oplossingen volgen binnenkort..."
+  questions: Vragen?
+  contact_us: Contacteer ons!
 
   # index: overview module
   overview_title: Een nieuwe wedstrijd... voor iedereen
@@ -21,7 +36,7 @@ nl:
   overview_first_title: Geen voorkennis nodig
   overview_first_desc: |
     De eerste ronde bevat enkel puzzelvragen en logica,
-    geen vragen over programmeren, dus geen voorkennis is
+    geen vragen over programmeren, dus er is geen voorkennis
     vereist. Enkel de finale bevat vragen waarbij
     code op papier gelezen en vervolledigd moet worden. 
 
@@ -49,3 +64,6 @@ nl:
   Oct: okt
   Nov: nov
   Dec: dec
+  
+  task_social_network: Het sociaal netwerk
+  task_south_pole: Onder de Zuidpool
