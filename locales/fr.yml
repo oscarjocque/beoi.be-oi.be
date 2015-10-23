@@ -6,6 +6,7 @@ fr:
   Senior: Senior
 
   # Menu
+  Contest_menu: Concours
   AllContests: Tous les concours
   Contest: Déroulement
   Rules: Règlement
@@ -69,3 +70,13 @@ fr:
 
   task_social_network: Le réseau social
   task_south_pole: Sous le pôle sud
+  
+  
+  # FAQ
+  faq_title: Foire aux questions
+  faq_subtitle: Questions fréquemment posées à propos de l'olympiade
+  faq_morequestions: |
+      Vous avez d'autres questions ? Posez-les nous via <a href="mailto:info@be-oi.be">e-mail</a>, 
+      <a href="https://www.facebook.com/beoi.contest" target="_blank">Facebook</a> ou
+      <a href="https://twitter.com/beoi_nl" target="_blank">Twitter</a>. 
+  

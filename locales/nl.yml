@@ -6,6 +6,7 @@ nl:
   Senior: Senior
 
   # Menu
+  Contest_menu: Wedstrijd
   AllContests: Alle wedstrijden
   Contest: Wedstrijdverloop
   Rules: Reglement
@@ -67,3 +68,11 @@ nl:
   
   task_social_network: Het sociaal netwerk
   task_south_pole: Onder de Zuidpool
+  
+   # FAQ
+  faq_title: Vaak gestelde vragen
+  faq_subtitle: Antwoorden op de meest gestelde vragen over de olympiade
+  faq_morequestions: |
+      Een andere vraag ? Stel ze aan ons via <a href="mailto:info@be-oi.be">e-mail</a>, 
+      <a href="https://www.facebook.com/beoi.contest" target="_blank">Facebook</a> of 
+      <a href="https://twitter.com/beoi_nl" target="_blank">Twitter</a>. 
