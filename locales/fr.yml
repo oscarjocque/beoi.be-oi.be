@@ -5,11 +5,28 @@ fr:
   Junior: Junior
   Senior: Senior
 
+  # Menu
+  Contest_menu: Concours
+  AllContests: Tous les concours
+  Contest: Déroulement
+  Rules: Règlement
+  Tasks: Questions
+  FAQ: FAQ
+  Archives: Archives
+  About: À propos
+
   # Index 
   title: "Olympiade belge d'Informatique"
   subtitle: |
     Concours de raisonnement informatique et d'initiation
     à la programmation pour élèves du secondaire.
+
+  members: Nos membres
+  sample_tasks_qualifying: "Exemples de question pour l'éliminatoire"
+  more_questions_soon: "Plus de questions et solutions d'ici peu ..."
+  questions: Des questions ?
+  contact_us: Contactez-nous !
+
 
   # index: overview module
   overview_title: Un nouveau concours... accessible à tous
@@ -50,3 +67,31 @@ fr:
   Oct: oct
   Nov: nov
   Dec: dec
+
+  task_social_network: Le réseau social
+  task_south_pole: Sous le pôle sud
+  
+  
+  # FAQ
+  faq_title: Foire aux questions
+  faq_subtitle: Questions fréquemment posées à propos de l'olympiade
+  faq_morequestions: |
+      Vous avez d'autres questions ? Posez-les nous via <a href="mailto:info@be-oi.be">e-mail</a>, 
+      <a href="https://www.facebook.com/beoi.contest" target="_blank">Facebook</a> ou
+      <a href="https://twitter.com/beoi_nl" target="_blank">Twitter</a>. 
+        
+  # Rules
+  rules_title: Règlement
+  Introduction: Introduction
+  Participants: Participants
+  Contestflow: Déroulement du concours
+  InShort: En bref
+  rules_part_1: Élèves du primaire ou secondaire
+  rules_part_2: Belge ou dans une école belge
+  rules_part_3: Né à partir du 1/07/1996 (beOI'16)
+  Categories: Catégories
+  rules_part_4: Concours gratuit
+  rules_part_5: 15 meilleurs (ou 33%) de l'éliminatoire en finale (par catégorie)
+  
+  
+  
