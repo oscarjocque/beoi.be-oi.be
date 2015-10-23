@@ -69,10 +69,25 @@ nl:
   task_social_network: Het sociaal netwerk
   task_south_pole: Onder de Zuidpool
   
-   # FAQ
+  # FAQ
   faq_title: Vaak gestelde vragen
   faq_subtitle: Antwoorden op de meest gestelde vragen over de olympiade
   faq_morequestions: |
       Een andere vraag ? Stel ze aan ons via <a href="mailto:info@be-oi.be">e-mail</a>, 
       <a href="https://www.facebook.com/beoi.contest" target="_blank">Facebook</a> of 
-      <a href="https://twitter.com/beoi_nl" target="_blank">Twitter</a>. 
+      <a href="https://twitter.com/beoi_nl"
+      target="_blank">Twitter</a>. 
+        
+  # Rules
+  rules_title: Reglement
+  Introduction: Introductie
+  Participants: Deelnemers
+  Contestflow: Wedstrijdverloop
+  InShort: In't kort
+  rules_part_1: Voor leerlingen middelbaar of lager
+  rules_part_2: Belg of in een Belgische school
+  rules_part_3: Geboren vanaf 01/07/1996 (beOI'16)
+  Categories: Categorieën
+  rules_part_4: Gratis wedstrijd
+  rules_part_5: 15 besten (of 33%) van de eerste ronde naar de finale (per categorie)
+  

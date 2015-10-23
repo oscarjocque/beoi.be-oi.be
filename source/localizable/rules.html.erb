@@ -1,12 +1,12 @@
 ---
-title: Règlement
+title: Rules
 ---
 <section class="page-title page-title-4 image-bg">
   <div class="background-image-holder" id="page-header-image-holder" > </div>
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h3 class="uppercase mb0">Règlement</h3>
+        <h3 class="uppercase mb0"><%= t(:rules_title) %></h3>
       </div>
     </div>
     <!--end of row-->
@@ -25,11 +25,9 @@ title: Règlement
   <div class="container">
     <div class="row ">
       <div class="col-sm-12 col-md-8 col-md-offset-2">
-        <h4 class="uppercase">Introduction</h4>
+        <h4 class="uppercase"><%= t(:Introduction) %></h4>
         <hr>
-        <p class="lead">
-          En s'inscrivant au concours beOI, le participant accepte le présent règlement. Ce concours est organisée par l'<strong>ASBL beOI</strong>. L'association est chargée de gérer tous les aspects liés au concours.
-        </p>
+        <%= partial "rules_introduction" %>
       </div>
     </div><!--end of row-->
   </div><!--end of container-->
@@ -39,38 +37,26 @@ title: Règlement
   <div class="container">
     <div class="row">
       <div class="col-sm-10 col-md-8 col-md-offset-1">
-        <h4 class="uppercase">Participants</h4>
+        <h4 class="uppercase"><%= t(:Participants) %></h4>
         <hr>
       </div>
     </div><!--end of row-->
     <div class="row">
       <div class="col-sm-10 col-md-8 col-md-offset-1">
-        <p class="lead">
-          Le concours est réservé aux élèves inscrits dans l'<strong>enseignement secondaire ou primaire</strong> au mois de septembre précédant l'épreuve. Les participants doivent, par ailleurs, avoir la <strong>nationalité belge ou être inscrits dans un établissement scolaire établi en Belgique</strong>. Les candidats doivent également avoir <strong>moins de 20 ans</strong> révolus au 30 juin de l'année au cours de laquelle a lieu l'épreuve (pour la beOI'xx, le participant doit donc être né le 1er juillet 20xx-20 ou ultérieusement). Des preuves de l'âge du participant ainsi que de son inscription dans l'établissement scolaire pourront être demandées aux participants par les organisateurs du concours.
-        </p>
-        <p class="lead">
-          Le concours est composé de trois catégories d'âge. Chaque participants est tenu de s'inscire dans la catégorie correspondant à l'année d'étude dans laquelle il ne situe. La catégorie <strong>cadet</strong> est réservée aux élèves du primaire et de 1<sup>re</sup> et 2<sup>e</sup> secondaire. La catégorie <strong>junior</strong> est réservée aux élèves de 3<sup>e</sup> et 4<sup>e</sup> secondaire. La catégorie <strong>senior</strong> est réservée aux élèves de 5<sup>e</sup>, 6<sup>e</sup> et 7<sup>e</sup> secondaire.
-        </p>
-
+        <%= partial "rules_participants" %>
       </div>
       <div class="col-sm-3 col-md-3">
         <div class="widget">
-          <h6 class="title">En bref</h6>
+          <h6 class="title"><%= t(:InShort) %></h6>
           <ol style="padding-left:16px">
-            <li>Élèves du primaire ou secondaire</li>
-            <li>Belge ou dans une école belge</li>
-            <li>Né à partir du 1/07/1996 (beOI'16)</li>
+            <li><%= t(:rules_part_1) %></li>
+            <li><%= t(:rules_part_2) %></li>
+            <li><%= t(:rules_part_3) %></li>
             <li>
-              Catégories:
+              <%= t(:Categories) %>:
               <dl class="mb0">
-                <dt>Cadet</dt><dd>Primaire, 1<sup>re</sup> et 2<sup>e</sup> secondaire.</dd>
-              </dl>
-              <dl class="mb0">
-                <dt>Junior</dt><dd>3<sup>e</sup> et 4<sup>e</sup> secondaire.</dd>
-              </dl>
-              <dl class="mb0">
-                <dt>Senior</dt><dd>5<sup>e</sup>, 6<sup>e</sup> et 7<sup>e</sup> secondaire.</dd>
-              </dl>
+              	<%= partial "index_list_categories" %>
+              </d1>
             </li>
           </ol>
         </div>
@@ -82,25 +68,20 @@ title: Règlement
   <div class="container">
     <div class="row">
       <div class="col-sm-10 col-md-8 col-md-offset-1">
-        <h4 class="uppercase">Déroulement du concours</h4>
+        <h4 class="uppercase"><%= t(:Contestflow) %></h4>
         <hr>
       </div>
     </div><!--end of row-->
     <div class="row">
       <div class="col-sm-10 col-md-8 col-md-offset-1">
-        <p class="lead">
-          La participation au concours est entièrement <strong>gratuite</strong>. Pour les formations (facultatives) proposées, une participation aux frais pourra être demandée pour couvrir une partie des frais de logements et des repas.
-        </p>
-        <p class="lead">
-          Les finalistes seront les participants des éliminatoires ayant marqués les plus grand score dans chacune des catégories. Pour chaque catégorie, 15 participants seront sélectionnés, avec un maximum de 33% du nombre de participants de la catégorie.
-        </p>
+        <%= partial "rules_contestflow" %>
       </div>
       <div class="col-sm-3 col-md-3">
         <div class="widget">
-          <h6 class="title">En bref</h6>
+          <h6 class="title"><%= t(:InShort) %></h6>
           <ol style="padding-left:16px">
-            <li>Concours gratuit</li>
-            <li>15 meilleurs (ou 33%) de l'éliminatoire en finale (par catégorie)</li>
+            <li><%= t(:rules_part_4) %></li>
+            <li><%= t(:rules_part_5) %></li>
           </ol>
         </div>
       </div>
