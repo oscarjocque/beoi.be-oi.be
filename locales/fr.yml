@@ -55,6 +55,13 @@ fr:
     bases de la programmation. Les meilleurs pourront également 
     intégrer la formation de l'équipe nationale (beCP).
 
+  # Be inform about registration form
+  keep_me_informed_of_registrations : Soyez le premier informé de l'ouverture des inscriptions !
+  mailinglist_success_msg: Merci. Nous vous informerons de l'ouverture des inscriptions.
+  mailinglist_error_msg: Veuillez entrez une adresse e-mail correcte.
+  mailinglist_email_placeholder: Adresse e-mail
+  mailinglist_submit_button: Tenez-moi informé
+
   Jan: jan
   Feb: fév
   Mar: mars
