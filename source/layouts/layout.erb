@@ -13,6 +13,7 @@
     <link href='//fonts.googleapis.com/css?family=Comfortaa:700' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <% if [:fr, :nl].include? lang %>
     <div class="nav-container">
       <a id="top"></a>
       <nav class="">
@@ -83,7 +84,6 @@
                     <li><a href="/">Sponsors</a></li>
                   </ul>-->
                 </li>
-
               </ul>
             </div>
           </div>
@@ -116,6 +116,7 @@
         </div>
       </nav>
     </div>
+    <% end %>
     <div class="main-container">
       <%= yield %>
       <footer class="footer-2 bg-dark pt0 pb40">
