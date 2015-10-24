@@ -18,20 +18,13 @@
       <a id="top"></a>
       <nav class="">
         <div class="nav-bar">
-<!--           <div class="module left">
-            <a href="//www.be-oi.be">
-              <img class="logo logo-light" alt="beOI" src="/img/logo-beoi-white.png">
-              <img class="logo logo-dark" alt="beOI" src="/img/logo-beoi.png">
-            </a>
-          </div>
- -->
           <div class="module-group left">
             <div class="module left">
               <ul class="menu">
                 <li class="has-dropdown">
-                  <a href="index.html" style="opacity:1 !important;">
-                    <img class="logo" alt="beOI" src="/img/logo-beoi-small.png">
-                  </a>
+                  <% link_to 'index.html', style:'opacity:1 !important;' do %>
+                    <%= image_tag 'logo-beoi-small.png', class:'logo', alt:'beOI' %>
+                  <% end %>
                   <ul>
                     <li><%= link_to t('AllContests'), '//www.be-oi.be' %></li>
                     <li><%= link_to 'Bebras', '//bebras.be-oi.be' %></li>
@@ -40,7 +33,7 @@
                   </ul>
                 </li>
                 <li class="has-dropdown">
-                  <a href="index.html"><%= t(:Contest_menu) %></a>
+                  <%= link_to t(:Contest_menu), 'index.html' %>
                   <ul>
                     <li><%= link_to t('Contest'), 'index.html#contest' %></li>
                     <li><%= link_to t('Rules'), 'rules.html' %></li>
@@ -52,7 +45,7 @@
                   </ul>
                 </li>
                 <li class="has-dropdown">
-                  <a href="#"><%= t(:Archives) %> (soon)</a>
+                  <%= link_to '%s (soon)'%t(:Archives), '#' %>
                   <!--<ul class="mega-menu">
                     <li>
                       <ul>
@@ -75,7 +68,7 @@
                   </ul>-->
                 </li>
                 <li class="has-dropdown">
-                  <a href="#"><%= t(:About) %> (soon)</a>
+                  <%= link_to '%s (soon)'%t(:About), '#' %>
                   <!--<ul>
                     <li><a href="/">beOI ASBL</a></li>
                     <li><a href="/">Sponsors/Supports</a></li>
@@ -101,12 +94,10 @@
               <ul class="menu">
 
                 <li class="has-dropdown">
-                  <a href="#"><%= I18n.locale %></a>
+                  <%= link_to I18n.locale, '#' %>
                   <ul>
-                    <li>
-                      <a href="/fr/">Français</a>
-                      <a href="/nl/">Nederlands</a>
-                    </li>
+                    <li><%= link_to 'Français', '/fr/' %></li>
+                    <li><%= link_to 'Nederlands', '/nl/' %></li>
                   </ul>
                 </li>
               </ul>
@@ -126,7 +117,9 @@
           </div><!--end of row-->
           <div class="row">
             <div class="col-sm-3">
-              <a href="#"><img class="image-xxs fade-half" alt="Pic" src="/img/logo-beoi-grey.png"></a>
+              <% link_to '//www.be-oi.be' do %>
+                <%= image_tag 'logo-beoi-grey.png', class:'image-xxs fade-half', alt:'beOI' %>
+              <% end %>
             </div>
 
             <div class="col-sm-6 text-center">
