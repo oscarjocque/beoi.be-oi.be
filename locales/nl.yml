@@ -53,6 +53,13 @@ nl:
     programmeren te leren. De allerbesten mogen ook meedoen 
     met de trainingen van de nationale ploeg (beCP).
 
+  # Be informed about registration form
+  keep_me_informed_of_registrations : Wees als eerste op de hoogte van de start van de inschrijvingen!
+  mailinglist_success_msg: Bedankt! We houden je op de hoogte van de start van de inschrijvingen. 
+  mailinglist_error_msg: Gelieve een correct e-mailadres in te geven.
+  mailinglist_email_placeholder: E-mailadres 
+  mailinglist_submit_button: Hou me op de hoogte 
+
   Jan: jan
   Feb: feb
   Mar: maa
