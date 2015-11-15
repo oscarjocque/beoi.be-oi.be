@@ -45,27 +45,16 @@
                   </ul>
                 </li>
                 <li class="has-dropdown">
-                  <%= link_to '%s (soon)'%t(:Archives), '#' %>
-                  <!--<ul class="mega-menu">
-                    <li>
-                      <ul>
-                        <li><a href="archives.html">Toutes les questions</a></li>
-                        <li><a href="hall-of-fame.html">Hall of Fame</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <ul>
-                        <li><span class="title">Précédentes éditions</span></li>
-                        <li><a href="/">Édition 2015</a></li>
-                        <li><a href="/">Édition 2014</a></li>
-                        <li><a href="/">Édition 2013</a></li>
-                        <li><a href="/">Édition 2012</a></li>
-                        <li><a href="/">Édition 2011</a></li>
-                        <li><a href="/">Édition 2010</a></li>
-                        <li><a href="/">Édition 1992</a></li>
-                      </ul>
-                    </li>
-                  </ul>-->
+                  <%= link_to t(:Archives), '#' %>
+                  <ul>
+                        <li><%= link_to "#{t('Edition')} 2015", 'beoi15.html' %></li>
+                        <li><%= link_to "#{t('Edition')} 2014", 'beoi14.html' %></li>
+                        <li><%= link_to "#{t('Edition')} 2013", 'beoi13.html' %></li>
+                        <li><%= link_to "#{t('Edition')} 2012", 'beoi12.html' %></li>
+                        <li><%= link_to "#{t('Edition')} 2011", 'beoi11.html' %></li>
+                        <li><%= link_to "#{t('Edition')} 2010", 'beoi10.html' %></li>
+                        <!-- <li><a href="/">Édition 1992</a></li> -->
+                  </ul>
                 </li>
                 <li class="has-dropdown">
                   <%= link_to '%s (soon)'%t(:About), '#' %>

@@ -14,6 +14,7 @@ fr:
   FAQ: FAQ
   Archives: Archives
   About: À propos
+  Edition: Édition
 
   # Index 
   title: "Olympiade belge d'Informatique"
@@ -103,6 +104,7 @@ fr:
   Categories: Catégories
   rules_part_4: Concours gratuit
   rules_part_5: 15 meilleurs (ou 33%) de l'éliminatoire en finale (par catégorie)
-  
-  
-  
+
+  # Archives
+  previous_olympiad_edition_tile: beOI %d
+

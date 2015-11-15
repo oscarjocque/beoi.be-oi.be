@@ -136,7 +136,7 @@ mailchimp_submit:
           <% data.members.each do |m| %>
           <li>
             <% link_to m.href do %>
-              <%= image_tag "members-logo/%s"%m.image, alt:m.name %>
+              <%= image_tag "ext-logos/%s"%m.image, alt:m.name %>
             <% end %>
           </li>
           <% end %>
