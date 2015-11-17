@@ -165,6 +165,10 @@ mailchimp_submit:
                 <!-- <h5 class="uppercase">Let's Talk Tabs</h5>
                 <hr> -->
                 <%= partial "tasks/"+task %>
+                <a class="btn btn-sm" href="javascript:$('#task_<%= task %>').toggle();"><%= t(:task_toggle_solution) %></a>
+                <div id="task_<%= task %>" style="display: none; padding:10px;" class="feature bordered bg-white">
+                  <%= partial "tasks/"+task+"_sol" %>
+                </div>
               </div>
             </li>
             <% end %>
@@ -172,7 +176,7 @@ mailchimp_submit:
         </div>
         <!--end of button tabs-->
       </div>
-      <h4 class="text-center"><%= t(:more_questions_soon) %></h4>
+
     </div>
     <!--end of row-->
   </div>
