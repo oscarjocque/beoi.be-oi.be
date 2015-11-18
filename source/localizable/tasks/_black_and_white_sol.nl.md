@@ -1,7 +1,7 @@
 
 ##### Vraag 1
 
-Je moet de dozen éen na éen openen. Als je een zwarte bal tegenkomt, ken je de positie ervan ook. Als je na het openen van 7 dozen nog geen zwarte bal hebt gevonden, ben je zeker dat één van de twee laatste dozen een zwarte bal bevat. De oplossing is dus 7.
+Je moet de dozen éen na éen openen. Als je een zwarte bal tegenkomt, ken je de positie ervan ook. Als je na het openen van 7 dozen nog geen zwarte bal hebt gevonden, ben je zeker dat de twee laatste dozen zwarte ballen bevatten. De oplossing is dus 7.
 
 ##### Vraag 2
 

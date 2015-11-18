@@ -1,5 +1,4 @@
 Eind 2012, zoals voorspeld door de Maya's, ontdekten Australische wetenschappers tekenen van buitenaards leven op aarde. Om precies te zijn, vonden ze verschillende kaarten van oeroude ondergrondse kamers en gangenstelsels onder de zuidpool. De eerste kaart werd ontdekt op kerstavond, in Queen Mary Land. 
-<img class="pull-right" src="/img/tasks/robots.png">
 
 Bovendien hielp het toeval de wetenschappers een handje: ze slaagden er namelijk in om met behulp van sonar één van de ondergrondse kamers te lokaliseren en er zelfs een tunnel naartoe te boren. Nu zouden ze graag een kleine robot neerlaten in deze kamer.
 
