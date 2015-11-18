@@ -9,4 +9,11 @@ De robot begrijpt slechts vier eenvoudige opdrachten: noord, oost, zuid en west.
 
 De wetenschappers zijn vooral geïnteresseerd in de kamer die op de kaart is aangegeven met een zwarte stip. Jammer genoeg weten ze niet in welke van de kamers op de kaart de robot zal worden neergelaten. Welke opdrachten moeten ze geven zodat de robot met zekerheid eindigt in de juiste kamer?
 
-**Geef de instructies die de robot moet krijgen, gegeven de kaart hiernaast.** Na de laatste instructie moet de robot aangekomen zijn in de kamer die aangeduid is met een zwarte stip, ongeacht in welke kamer hij vertrokken is.
+**Geef de instructies die de robot moet krijgen, gegeven de kaarten hieronder.** Na de laatste instructie moet de robot aangekomen zijn in de kamer die aangeduid is met een zwarte stip, ongeacht in welke kamer hij vertrokken is.
+
+<img src="/img/tasks/robots.png">
+<img src="/img/tasks/robots2.png">
+<img src="/img/tasks/robots3.png">
+
+Op de derde kaart zie je een onstabiele tunnel helemaal links (stippellijn), die de robot in geen geval mag gebruiken!
+

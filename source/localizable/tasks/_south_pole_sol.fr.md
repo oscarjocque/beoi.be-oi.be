@@ -4,9 +4,9 @@ Quelque soit la salle dans laquelle le robot arrive, le robot se retrouvera touj
 
 <ul data-bullet="ti-arrow-right">
   <li>S'il est déjà dans la salle au nord-est, aller vers le nord ou vers l'est le fera revenir à cette même salle.</li>
-  <li>S'il est dans la salle du nord-ouest, le déplacement vers le nord le fera rester dans la même salle et le déplacement vers l'est, le fera arriver dans la salle du nord-ouest.</li>
-  <li>S'il est dans la salle du sud-est, le déplacement vers le nord le fera arriver dans la salle du nord-ouest et le déplacement vers l'est le fera rester dans la même salle. </li>
-  <li>S'il se trouve dans la salle du sud-ouest, le déplacement vers le nord le fera arriver dans la salle du nord-ouest et le déplacement vers l'est le fera arriver dans la salle du nord-ouest.</li>
+  <li>S'il est dans la salle du nord-ouest, le déplacement vers le nord le fera rester dans la même salle et le déplacement vers l'est, le fera arriver dans la salle du nord-est.</li>
+  <li>S'il est dans la salle du sud-est, le déplacement vers le nord le fera arriver dans la salle du nord-est et le déplacement vers l'est le fera rester dans la même salle. </li>
+  <li>S'il se trouve dans la salle du sud-ouest, le déplacement vers le nord le fera arriver dans la salle du nord-ouest et le déplacement vers l'est le fera arriver dans la salle du nord-est.</li>
 </ul>
 
 <h6 class="mt24">Quelques observations intéressantes</h6>
