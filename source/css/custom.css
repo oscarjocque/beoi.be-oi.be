@@ -9,3 +9,10 @@ dl.category-list dd {
 section.altern:nth-of-type(odd){
   background: #f8f8f8;
 }
+.accordion li.active .content{ 
+  max-height: none !important; 
+}
+
+ul[data-bullet] li {
+  line-height: 24px !important;
+}

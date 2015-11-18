@@ -12,7 +12,7 @@ favorable.
 
 ##### Problème 1
 
-Il y a 9 boîtes dont 7 contiennent une boule blanche. En utilisant la meilleure stratégie, combien de boîtes faut-il ouvrir, dans le pire des cas, pour être certains de trouver une boule noire ?
+Il y a 9 boîtes dont 7 contiennent une boule blanche. En utilisant la meilleure stratégie, combien de boîtes faut-il ouvrir, dans le pire des cas, pour pouvoir donner la position d'une boule noire avec certitude ?
 
 
 ##### Problème 2

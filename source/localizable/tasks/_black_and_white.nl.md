@@ -10,15 +10,10 @@ dat wil zeggen, in het geval dat de beginsituatie zo ongunstig mogelijk is.
 
 ##### Probleem 1
 
-Er zijn 9 dozen en 7 witte ballen in totaal. Als je de best mogelijke strategie
-gebruikt, hoeveel dozen moet je dan openen, in het slechtste geval, om zeker
-één zwarte bal te vinden? 
+Er zijn 9 dozen en 7 witte ballen in totaal. Als je de best mogelijke strategie gebruikt, hoeveel dozen moet je dan openen, in het slechtste geval, om met zekerheid de positie van een zwarte bal te weten? 
 
 
 ##### Probleem 2
 
-De dozen bevatten afwisselend een witte en zwarte bal (bijvoorbeeld *WZWZW* of *ZWZ*). 
-Als je de best mogelijke strategie gebruikt, hoeveel dozen moet je dan openen,
-in het slechtste geval, om het totale aantal zwarte ballen te bepalen, als er 3
-dozen zijn? En als er 8 dozen zijn? en als er 85 dozen zijn?
+De dozen bevatten afwisselend een witte en zwarte bal (bijvoorbeeld *WZWZW* of *ZWZ*). Als je de best mogelijke strategie gebruikt, hoeveel dozen moet je dan openen, in het slechtste geval, om het totale aantal zwarte ballen te bepalen, als er 3 dozen zijn? En als er 8 dozen zijn? en als er 85 dozen zijn?
 
