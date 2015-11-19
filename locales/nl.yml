@@ -14,6 +14,7 @@ nl:
   FAQ: FAQ
   Archives: Archieven
   About: Over ons
+  Edition: Editie
 
   # Index 
   title: "Belgische Informatica-olympiade"
@@ -28,7 +29,7 @@ nl:
   contact_us: Contacteer ons!
 
   # index: overview module
-  overview_title: Een nieuwe wedstrijd... voor iedereen
+  overview_title: Een vernieuwde wedstrijd... voor iedereen
   overview_desc: |
     De beOI wedstrijd is toegankelijker dan ooit
     tevoren: elke leerling uit het secundair kan
@@ -102,4 +103,7 @@ nl:
   Categories: Categorieën
   rules_part_4: Gratis wedstrijd
   rules_part_5: 15 besten (of 33%) van de eerste ronde naar de finale (per categorie)
+  
+  # Archives
+  previous_olympiad_edition_tile: beOI %d
   
