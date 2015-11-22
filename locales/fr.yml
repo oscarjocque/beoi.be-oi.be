@@ -4,6 +4,7 @@ fr:
   Cadet: Cadet
   Junior: Junior
   Senior: Senior
+  nonprofit: ASBL
 
   # Menu
   Contest_menu: Concours
@@ -15,6 +16,7 @@ fr:
   Archives: Archives
   About: À propos
   Edition: Édition
+  Members: Membres
 
   # Index 
   title: "Olympiade belge d'Informatique"
@@ -91,7 +93,27 @@ fr:
       Vous avez d'autres questions ? Posez-les nous via <a href="mailto:info@be-oi.be">e-mail</a>, 
       <a href="https://www.facebook.com/beoi.contest" target="_blank">Facebook</a> ou
       <a href="https://twitter.com/beoi_fr" target="_blank">Twitter</a>. 
-        
+  
+  # About
+  about_title: A propos de beOI
+  belgium: Belgique
+  about_its_members: ses membres
+  about_its_sponsors: ses sponsors
+  about_its_volunteer: ses bénévoles
+  about_intro: |
+    L'Olympiade belge d'Informatique est organisée par l'ASBL beOI. Elle n'est
+    possible que grâce au soutien de ses membres, de ses sponsors et du temps
+    consacré par ses bénévoles. 
+  about_interested_sponsors: |
+    Intéressés à devenir sponsor pour cette édition ou à offrir un prix ?
+  about_contact_us_on: Contactez-nous via
+  about_become_member: Devenir membre ? Contactez-nous !
+  about_our_contact_details: Nos coordonnées
+  about_contact_text: |
+    N'hésitez pas à nous contacter pour toute question à propos
+    de l'association ou de nos activités.
+  bce_num: Numéro BCE
+
   # Rules
   rules_title: Règlement
   Introduction: Introduction
