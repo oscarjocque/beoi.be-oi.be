@@ -1,0 +1,99 @@
+---
+title: About
+---
+<section class="page-title page-title-4 image-bg">
+  <div class="background-image-holder" id="page-header-image-holder" > </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="uppercase mb0"><%= t(:about_title) %></h3>
+      </div>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>
+<script>
+  var pattern = Trianglify({
+    width: window.innerWidth,
+    height: window.innerHeight*1.5,
+    x_colors: ["#fff5f0","#fee0d2","#fcbba1","#fc9272","#fb6a4a","#ef3b2c","#cb181d","#a50f15","#67000d"].reverse()
+  });
+  document.getElementById("page-header-image-holder").appendChild(pattern.canvas())
+</script>
+
+<section class="bg-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <h3 class="mb64 uppercase">beOI &nbsp;
+          <i class="ti-heart"></i>&nbsp; 
+          <div class="verticalFlip">
+            <span><%= t(:about_its_members) %></span>
+            <span><%= t(:about_its_sponsors) %></span>
+            <span><%= t(:about_its_volunteer) %></span>
+          </div>
+
+        </h3>
+        <!-- <h3 class="uppercase mb40 mb-xs-24">Smash Your Comfort Zone</h3> -->
+        <p class="lead mb64"><%= t(:about_intro) %>
+        <strong><%= t(:about_interested_sponsors) %></strong><!--  Consultez notre nouvelle brochure de sponsoring ou --> 
+        <%= t(:about_contact_us_on) %>  <%= mail_to ' sponsors@be-oi.be' %>.
+        </p>
+      </div>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>
+
+<a name="members"></a>
+<section class="bg-white">
+  <div class="container">
+    <div class="row v-align-children">
+      <div class="col-md-5 col-sm-6 text-center mb-xs-24">
+        <a href="#">
+          <h2 class="uppercase mb16"><%= t(:members) %></h2>
+        </a>
+      </div>
+    </div>
+    <div class="row mt16">
+      <% data.members.each do |m| %>
+        <% link_to m.href, target:"_blank" do %>
+        <div class="col-md-2 col-sm-4 col-xs-6" style="height:130px;" class="text-center">
+          <%= image_tag "ext-logos/%s"%m.image, alt:m.name, style:"max-height:120px;"  %>
+        </div>
+        <% end %>
+      <% end %>
+      <%= mail_to 'info@be-oi.be', t(:about_become_member), class:'btn btn-lg btn-filled' %>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>
+
+
+
+<section class="image-square left bg-secondary">
+  <div class="col-md-6 image">
+    <div class="background-image-holder">
+      <img alt="image" class="background-image" src="/img/backgrounds/office-336368_1920.jpg" />
+    </div>
+  </div>
+  <div class="col-md-6 col-md-offset-1 content">
+    <h4 class="uppercase"><%= t(:about_our_contact_details) %></h4>
+    <p><%= t(:about_contact_text) %></p>
+    <hr>
+    <p>
+      beOI ASBL/VZW
+      <br> rue du Grand Hornu, 1 bte 207
+      <br> 1348 Louvain-la-Neuve
+      <br> <%= t(:belgium) %>
+    </p>
+    <p>
+      <strong>Email:</strong> info@be-oi.be
+      <strong><%= t(:bce_num) %>:</strong> 0849.738.707
+    </p>
+  </div>
+</section>
+

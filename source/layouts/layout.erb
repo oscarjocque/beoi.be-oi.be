@@ -47,24 +47,24 @@
                 <li class="has-dropdown">
                   <%= link_to t(:Archives), '#' %>
                   <ul>
-                        <li><%= link_to "#{t('Edition')} 2015", 'beoi15.html' %></li>
-                        <li><%= link_to "#{t('Edition')} 2014", 'beoi14.html' %></li>
-                        <li><%= link_to "#{t('Edition')} 2013", 'beoi13.html' %></li>
-                        <li><%= link_to "#{t('Edition')} 2012", 'beoi12.html' %></li>
-                        <li><%= link_to "#{t('Edition')} 2011", 'beoi11.html' %></li>
-                        <li><%= link_to "#{t('Edition')} 2010", 'beoi10.html' %></li>
+                    <li><%= link_to "#{t('Edition')} 2015", 'beoi15.html' %></li>
+                    <li><%= link_to "#{t('Edition')} 2014", 'beoi14.html' %></li>
+                    <li><%= link_to "#{t('Edition')} 2013", 'beoi13.html' %></li>
+                    <li><%= link_to "#{t('Edition')} 2012", 'beoi12.html' %></li>
+                    <li><%= link_to "#{t('Edition')} 2011", 'beoi11.html' %></li>
+                    <li><%= link_to "#{t('Edition')} 2010", 'beoi10.html' %></li>
                         <!-- <li><a href="/">Édition 1992</a></li> -->
                   </ul>
                 </li>
                 <li class="has-dropdown">
-                  <%= link_to '%s (soon)'%t(:About), '#' %>
-                  <!--<ul>
-                    <li><a href="/">beOI ASBL</a></li>
-                    <li><a href="/">Sponsors/Supports</a></li>
-                    <li><a href="/">Presse</a></li>
-                    <li><a href="/">Membres</a></li>
-                    <li><a href="/">Sponsors</a></li>
-                  </ul>-->
+                  <%= link_to t(:About), 'about.html' %>
+                    <ul>
+                      <li><%= link_to "beOI #{t('nonprofit')}", 'about.html' %></li>
+                      <!-- <li><a href="/">Sponsors/Supports</a></li> -->
+                      <!-- <li><a href="/">Presse</a></li> -->
+                      <li><%= link_to t(:Members), 'about.html#members' %></li>
+                      <!-- <li><a href="/">Sponsors</a></li> -->
+                  </ul>
                 </li>
               </ul>
             </div>

@@ -4,6 +4,7 @@ nl:
   Cadet: Belofte
   Junior: Junior
   Senior: Senior
+  nonprofit: VZW
 
   # Menu
   Contest_menu: Wedstrijd
@@ -15,6 +16,7 @@ nl:
   Archives: Archieven
   About: Over ons
   Edition: Editie
+  Members: Onze leden
 
   # Index 
   title: "Belgische Informatica-olympiade"
@@ -90,7 +92,24 @@ nl:
       <a href="https://www.facebook.com/beoi.contest" target="_blank">Facebook</a> of 
       <a href="https://twitter.com/beoi_nl"
       target="_blank">Twitter</a>. 
-        
+
+  # About
+  about_title: Over beOI
+  belgium: België
+  about_its_members: haar leden
+  about_its_sponsors: haar sponsors
+  about_its_volunteer: haar vrijwilligers
+  about_intro: |
+    De Belgische Informatica-olympiade wordt georganiseerd door beOI vzw. De organisatie wordt mogelijk gemaakt door de steun van haar leden, haar sponsors en de tijd die vrijwilligers er aan wijden.    
+  about_interested_sponsors: |
+    Interesse om sponsor te worden voor deze editie, of om een prijs aan te bieden?    
+  about_contact_us_on: Contacteer ons via
+  about_become_member: Lid worden ? Contacteer ons !
+  about_our_contact_details: Contactgegevens
+  about_contact_text: |
+    Aarzel niet om ons te contacteren met vragen over onze vereniging en haar activiteiten.    
+  bce_num: KBO-nummer
+
   # Rules
   rules_title: Reglement
   Introduction: Introductie
