@@ -19,5 +19,3 @@
 
 # Prevent versioning of files containing credentials
 /.s3_sync
-
-/Gemfile.lock
