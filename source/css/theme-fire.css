@@ -1590,13 +1590,6 @@ nav.transparent.fixed.bg-dark .module.widget-handle i {
 nav.nav-centered.outOfSight .logo {
   display: none;
 }
-.nav-is-overlay nav {
-  opacity: 1;
-  visibility: visible;
-  transform: translate3d(0, 0, 0) !important;
-  -webkit-transform: translate3d(0, 0, 0) !important;
-  -moz-transform: translate3d(0, 0, 0) !important;
-}
 /*!---------- 8. TOOLTIPS ----------*/
 .tooltip {
   font-weight: 600;
@@ -4776,6 +4769,7 @@ video {
 }
 .foundry_modal.no-bg {
   background: none;
+  box-shadow: none !important;
 }
 .modal-screen {
   position: fixed;
