@@ -18,7 +18,7 @@
         belge et n'êtes pas inscrits dans une école belge, vous ne pouvez
         pas participer à notre olympiade. La plupart des pays ont cependant 
         un concours dont les liens sont principalement repris sur
-        http://ioinformatics.org/admin/members.shtml.
+        <a href="http://ioinformatics.org/a_d_m/members.shtml" target="_blank">http://ioinformatics.org/a_d_m/members.shtml </a>.
         Pour la France, le concours est organisé par France-IOI.
     - 
       question: Puis-je participer si je suis en échange dans un pays étranger lors du concours ?
@@ -30,6 +30,12 @@
 - 
   category_title: Éliminatoires
   questions: 
+    -
+      question: Où se les éliminatoires se déroulent-ils ?
+      answer: |
+        Les éliminatoires se déroulent dans les centres suivants, des adresses détaillées suivront:
+        Bruxelles (Etterbeek), Louvain-la-Neuve, Namur, Liège, Mons, Libramont, Gand, Anvers, Leuven,
+        Hasselt, Courtrai.
     - 
       question: Puis-je passer l'éliminatoire dans un centre néerlandophone ?
       answer: |
@@ -39,3 +45,47 @@
         questions en français. Les questions pouvant être posées à l'éliminatoire 
         ne concernent pas l'épreuve mais uniquement des détails 
         pratiques (temps restant, ...).
+    -
+      question: Puis-je passer l'éliminatoire dans mon école ?
+      answer: |
+        Oui, à condition que l'école puisse remplir un ensemble de condition indiquée
+        ci-dessous dans la catégorie "écoles".
+-
+  category_title: Écoles
+  questions:
+    -
+      question: Sous quelles conditions mon école peut-elle organiser l'éliminatoire ?
+      answer: |
+        L'éliminatoire peut être organisé dans votre établissement à condition que l'ensemble de
+        ces critères soient remplis :<br>
+        - Avoir au moins 10 élèves participants à l'épreuve dans votre établissement, tout
+        niveau confondu.<br>
+        - Avoir un local dans lequel organiser l'épreuve et adapté pour un examen (espacement
+          entre les élèves, ...).<br>
+        - Avoir une surveillance constante pendant toute l'épreuve.<br>
+        - Faire respecter le règlement de l'épreuve (pas de GSM, ...), qui sera fourni quelques
+          jours avant l'épreuve.<br>
+        - Organiser l'épreuve en même temps que dans les autres centres. Plus précisément,
+          l'épreuve doit débuter le mercredi 27 janvier 2016 entre 13h et 14h15 et durer 1h30.<br>
+        - Être capable d'imprimer par vous même les énoncés le mardi après-midi ou mercredi matin
+        et de les conserver en sécurité jusqu'au début de l'épreuve.<br>
+        - Nous renvoyer les énoncés remplis (du moins les feuilles reprenant les solutions) soit par
+          email après les avoir scannés, soit par colis recommandés, soit en les déposant au centre
+          de correction de Bruxelles (Campus de la Plaine).
+    -
+      question: L'éliminatoire se déroule-t-il sur ordinateur ?
+      answer: "Non, l'éliminatoire se déroule exclusivement sur papier."
+    -
+      question: Mes élèves doivent-ils s'inscrire sur votre site ?
+      answer: |
+        Tous les participants doivent s'inscrire sur notre afin de recevoir, par e-mail, leurs résultats
+        et le cas échéant, des propositions de formations et une invitation à la finale.
+        Notez que si l'un ou l'autre participants n'est pas inscrit le jour de l'éliminatoire, il sera toujours
+        possible de l'inscrire a posteriori.
+    -
+      question: Comment inscrire mon école ?
+      answer: |
+        Cette année, pour inscrire votre école, envoyez-nous un simple e-mail à info@be-oi.be pour
+        confirmer l'organisation du concours dans votre école. Demandez également à vos élèves de s'inscrire
+        au concours via ce site avant le 25 janvier 2016. Il est nécessaire que 10 élèves de votre école soient
+        inscrits pour confirmer l'organisation du concours dans votre établissement.
