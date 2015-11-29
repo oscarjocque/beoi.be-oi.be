@@ -17,7 +17,7 @@
         mag je wel deelnemen. Als je geen Belg bent en ook niet op een Belgische 
         school zit, kan je niet deelnemen aan onze olympiade. De meeste landen 
         organiseren een eigen olympiade, je kan een lijst met links vinden op
-        http://ioinformatics.org/admin/members.shtml .
+        <a href="http://ioinformatics.org/a_d_m/members.shtml" target="_blank">http://ioinformatics.org/a_d_m/members.shtml </a>.
         In Nederland wordt de wedstrijd georganiseerd door de Nederlandse
         Informatica-olympiade (NIO).
     - 
@@ -30,6 +30,10 @@
 - 
   category_title: Eerste ronde
   questions: 
+    -
+      question: Waar vindt de eerste ronde plaats ?
+      answer: |
+        De eerste ronde vindt plaats in de volgende centra, exacte adres-informatie volgt nog: Antwerpen, Leuven, Hasselt, Gent, Kortrijk, Brussel (Etterbeek), Louvain-la-Neuve, Namen, Luik, Bergen, Libramont.
     - 
       question: "Kan ik de eerste ronde in een Franstalig centrum komen doen?"
       answer: |
@@ -38,3 +42,33 @@
         centra kunnen antwoorden op vragen in het Nederlands. Sowieso kan je geen
         vragen stellen over de proef zelf, enkel over praktische details 
         (resterende tijd, ...).
+        -
+      question: Kan ik de eerste ronde in mijn school afleggen?
+      answer: |
+        Ja, maar enkel onder voorwaarde dat je school kan voldoen aan de voorwaarden hieronder beschreven in de sectie "voor scholen". In alle andere gevallen ga je best naar het dichtstbijzijnde lokale centrum.
+-
+  category_title: Voor scholen
+  questions:
+    -
+      question: Onder welke voorwaarden kan de eerste ronde in de school doorgaan ?
+      answer: |
+        De eerste ronde kan in uw school worden georganiseerd indien aan al de volgende voorwaarden is voldaan: :<br>
+        - Minstens 10 leerlingen van uw school moeten deelnemen, alle niveau's tesamen. <br>
+        - Er moet een lokaal beschikbaar zijn, geschikt voor een examen (voldoende plaats tussen de leerlingen, ...).<br>
+        - Er moet constant toezicht zijn tijdens de volledige proef.<br>
+        - Het reglement van de proef (geen GSM, ...) moet gerespecteerd worden. Het wordt u enkele dagen voor de proef toegezonden. <br>
+        - De proef moet doorgaan op hetzelfde moment als in de andere centra. Dat wil zeggen, de proef moet beginnen op woensdag 27 januari 2016 tussen 13u en 14u15, en moet 1u30 duren. <br>
+        - U moet zelf alle vragenlijsten afdrukken op dinsdagmiddag of woensdagvoormiddag, en ze veilig bewaren tot het begin van de proef. <br>
+        - U moet ons de ingevulde opgaves (en zeker alle antwoordbladen) nadien doorsturen, ofwel door ze in te scannen en te emailen, ofwel via aangetekende post, ofwel door ze zelf af te geven in het verbetercentrum in Brussel (ULB Pleinlaan).
+    -
+      question: Moet er aan de computer gewerkt worden in de eerste ronde ?
+      answer: "Nee, de eerste ronde is enkel een papieren examen."
+    -
+      question: Moeten mijn leerlingen zich op uw site inschrijven? 
+      answer: |
+        Alle deelnemers moeten zich persoonlijk inschrijven op onze site, zodat ze via email hun resultaten toegestuurd krijgen, en als ze in aanmerking komen, ook de uitnodigingen voor de vormingssessies en de finale  krijgen.
+        Als per ongeluk een leerling niet ingeschreven blijkt te zijn op de dag van de eerste ronde, laten we wel toe om achteraf nog in te schrijven. 
+    -
+      question: Hoe schrijf ik mijn school in? 
+      answer: |
+        Als u de intentie heeft de eerste ronde in uw school te organiseren, laat ons dat dan weten door een e-mail te sturen naar info@be-oi.be . Vraag ook aan uw leerlingen om zich in te schrijven voor de wedstrijd via deze website, voor 25 januari 2016. 10 leerlingen van uw school moeten ingeschreven zijn voordat we de organisatie van de eerste ronde in uw school bevestigen.
