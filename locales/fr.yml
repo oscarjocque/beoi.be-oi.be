@@ -130,3 +130,37 @@ fr:
   # Archives
   previous_olympiad_edition_tile: beOI %d
 
+  # Registrations
+  registration_title: Inscription à la beOI %s
+  email_field: Adresse e-mail
+  firstname_field: Prénom
+  lastname_field: Nom de famille
+  birthday_field: Date de naissance
+  gender_field: Sexe
+  gender_men: Masculin
+  gender_women: Féminin
+  city_field: Ville
+  city_placeholder: Ville (+ pays si pas Belgique)
+  school_field: École
+  school_name_placeholder: Nom de l'école
+  school_city_placeholder: Ville de l'école
+  school_year_field: Classe
+  select_make_choice: Sélectionnez une valeur
+  primary: primaire
+  secondary: secondaire
+  year_1st: 1re
+  year_2nd: 2e
+  year_3rd: 3e
+  year_4th: 4e
+  year_5th: 5e
+  year_6th: 6e
+  year_7th: 7e
+  qualification_center_field: Centre pour l'éliminatoire
+  qualification_center_my_school: mon école
+  qualification_center_my_school_expl: |
+    Si vous choississez "%s", votre école DOIT nous contacter et
+    suivre les règles définies dans la %s.
+  registration_rule_approval: |
+    En vous inscrivant, vous acceptez les règles du concours décrites dans
+    la page %s.
+  subscribe_button: M'inscrire

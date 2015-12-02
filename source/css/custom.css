@@ -70,3 +70,60 @@ ul[data-bullet] li {
   80% { opacity: 0; }
   100% { opacity: 0; }
 }
+
+/* form */
+.mc-field-group {
+  text-align: left;
+  margin-top: 12px;
+}
+.mc-field-group input,
+.mc-field-group select {
+  margin-bottom: 0px;
+  color: #555;
+}
+.mc-field-group label{
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 700;
+  display: block;
+  cursor: default;
+  margin-bottom: 4px;
+}
+input[type="email"] {
+  background: #f5f5f5;
+  border: none;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  border-radius: 0;
+  color: #555;
+}
+.mce_inline_error {
+  color: white;
+  padding-bottom: 0px;
+}
+.datefield {
+  color: white;
+}
+.datefield .dayfield input,
+.datefield .monthfield input {
+  width: 20%;
+}
+.datefield .yearfield input {
+  width: 40%;
+}
+#mce-error-response,
+#mce-success-response{
+  color: white;
+  font-weight: bold;
+  background-color: rgba(255,255,255,0.2);
+  padding: 8px;
+  margin: 16px 0 8px 0;
+  border: 1px solid white;
+}
+

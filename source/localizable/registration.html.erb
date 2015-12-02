@@ -1,0 +1,119 @@
+---
+title: Registration
+mailchimp_registration_submit:
+  fr: "//be-oi.us6.list-manage.com/subscribe/post?u=4a51a9ab354aa26ba87f9a75f&amp;id=7625cd0208"
+  nl: "//be-oi.us9.list-manage.com/subscribe/post?u=c6d8dcea8c4875082e570aee9&amp;id=7047097aa7"
+---
+<section class="cover image-bg overlay">
+  <div class="background-image-holder" id="page-header-image-holder">
+  </div>
+  <div class="container">
+    <div class="row mt16">
+      <div class="col-sm-6 col-sm-offset-3">
+        <div class="feature bordered text-center">
+          <h4 class="uppercase"><%= t(:registration_title)%2015 %></h4>
+
+          <!-- Begin MailChimp Signup Form -->
+          <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+          <style type="text/css">
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+          </style>
+          <form action="<%= current_page.data.mailchimp_registration_submit[lang] %>" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+            <div class="mc-field-group">
+              <label for="mce-EMAIL"><%= t(:email_field) %>
+              </label>
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-FNAME"><%= t(:firstname_field) %>
+              </label>
+              <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-LNAME"><%= t(:lastname_field) %>
+              </label>
+              <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+            </div>
+            <div class="mc-field-group size1of2">
+              <label for="mce-BIRTHD-month"><%= t(:birthday_field) %>
+              </label>
+              <div class="datefield">
+                <span class="subfield dayfield"><input class="datepart required" type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHD[day]" id="mce-BIRTHD-day"></span> / 
+                <span class="subfield monthfield"><input class="datepart required" type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHD[month]" id="mce-BIRTHD-month"></span> / 
+                <span class="subfield yearfield"><input class="datepart required" type="text" pattern="[0-9]*" value="" placeholder="YYYY" size="4" maxlength="4" name="BIRTHD[year]" id="mce-BIRTHD-year"></span>
+              </div>
+            </div><div class="mc-field-group">
+            <label for="mce-GENDER"><%= t(:gender_field) %>
+            </label>
+            <select name="GENDER" class="required" id="mce-GENDER">
+              <option value="Male" selected="selected"><%= t(:gender_men) %></option>
+              <option value="Female"><%= t(:gender_women) %></option>
+            </select>
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-CITY"><%= t(:city_field) %>
+            </label>
+            <input type="text" value="" name="CITY" class="required" id="mce-CITY" placeholder="<%= t(:city_placeholder) %>">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-SCHNAME"><%= t(:school_field) %></label>
+            <input type="text" value="" name="SCHNAME" class="required" id="mce-SCHNAME" placeholder="<%= t(:school_name_placeholder) %>">
+            <input type="text" value="" name="SCHCITY" class="required" id="mce-SCHCITY" placeholder="<%= t(:school_city_placeholder) %>">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-YEAR"><%= t(:school_year_field) %>
+            </label>
+            <select name="YEAR" class="required" id="mce-YEAR">
+              <option value=""><%= t(:select_make_choice) %></option>
+              <option value="prim"><%= "#{t(:primary)} (#{t(:Cadet)})" %></option>
+              <option value="1sec"><%= "#{t(:year_1st)} #{t(:secondary)} (#{t(:Cadet)})" %></option>
+              <option value="2sec"><%= "#{t(:year_2nd)} #{t(:secondary)} (#{t(:Cadet)})" %></option>
+              <option value="3sec"><%= "#{t(:year_3rd)} #{t(:secondary)} (#{t(:Junior)})" %></option>
+              <option value="4sec"><%= "#{t(:year_4th)} #{t(:secondary)} (#{t(:Junior)})" %></option>
+              <option value="5sec"><%= "#{t(:year_5th)} #{t(:secondary)} (#{t(:Senior)})" %></option>
+              <option value="6sec"><%= "#{t(:year_6th)} #{t(:secondary)} (#{t(:Senior)})" %></option>
+              <option value="7sec"><%= "#{t(:year_7th)} #{t(:secondary)} (#{t(:Senior)})" %></option>
+            </select>
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-CENTER"><%= t(:qualification_center_field) %>
+            </label>
+            <select name="CENTER" class="required" id="mce-CENTER">
+              <option value=""><%= t(:select_make_choice) %></option>
+              <% data.qualification_centers.each do |c| %>
+              <option value="<%= c.city %>"><%= c.city %></option>
+              <% end %>
+              <option value="In my school"><%= t(:qualification_center_my_school) %></option>
+            </select>
+            <span><%= t(:qualification_center_my_school_expl)%[t(:qualification_center_my_school),link_to(t(:FAQ),"faq")] %></span>
+          </div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4a51a9ab354aa26ba87f9a75f_7625cd0208" tabindex="-1" value=""></div>
+          <input type="submit" value="<%= t(:subscribe_button) %>" name="subscribe" id="mc-embedded-subscribe-nocss" class="button mt24">
+        </form>
+
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='BIRTHD';ftypes[3]='date';fnames[4]='GENDER';ftypes[4]='dropdown';fnames[5]='CITY';ftypes[5]='text';fnames[6]='SCHNAME';ftypes[6]='text';fnames[7]='SCHCITY';ftypes[7]='text';fnames[8]='YEAR';ftypes[8]='dropdown';fnames[9]='CENTER';ftypes[9]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!--End mc_embed_signup-->
+
+        <p class="mb0"><%= t(:registration_rule_approval)%link_to(t(:rules_title),"rules") %></p>
+      </div>
+    </div>
+  </div>
+  <!--end of row-->
+</div>
+<!--end of container-->
+</section>
+<script>
+  var pattern = Trianglify({
+    width: window.innerWidth,
+    height: window.innerHeight*6,
+    x_colors: "RdYlGn"
+  });
+  document.getElementById("page-header-image-holder").appendChild(pattern.canvas())
+</script>
