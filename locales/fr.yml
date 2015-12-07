@@ -141,8 +141,9 @@ fr:
   gender_women: Féminin
   city_field: Ville
   city_placeholder: Ville (+ pays si pas Belgique)
-  school_field: École
+  school_field: "École (nom, code postal et ville)"
   school_name_placeholder: Nom de l'école
+  school_zip_placeholder: CP
   school_city_placeholder: Ville de l'école
   school_year_field: Classe
   select_make_choice: Sélectionnez une valeur
