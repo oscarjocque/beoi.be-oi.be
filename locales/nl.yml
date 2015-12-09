@@ -137,8 +137,9 @@ nl:
   gender_women: Vrouwelijk
   city_field: Gemeente
   city_placeholder: Gemeente (+ land indien niet in België) 
-  school_field: School
+  school_field: "School (naam, postcode en gemeente)"
   school_name_placeholder: Naam van de school
+  school_zip_placeholder: Postcode
   school_city_placeholder: Stad van de school
   school_year_field: Klas
   select_make_choice: Selecteer een waarde
