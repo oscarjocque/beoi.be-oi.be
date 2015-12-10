@@ -126,3 +126,36 @@ nl:
   # Archives
   previous_olympiad_edition_tile: beOI %d
   
+   # Registrations
+  registration_title: Inschrijven voor beOI %s
+  email_field: E-mailadres
+  firstname_field: Voornaam
+  lastname_field: Achternaam
+  birthday_field: Geboortedatum
+  gender_field: Geslacht
+  gender_men: Mannelijk
+  gender_women: Vrouwelijk
+  city_field: Gemeente
+  city_placeholder: Gemeente (+ land indien niet in België) 
+  school_field: "School (naam, postcode en gemeente)"
+  school_name_placeholder: Naam van de school
+  school_zip_placeholder: Postcode
+  school_city_placeholder: Stad van de school
+  school_year_field: Klas
+  select_make_choice: Selecteer een waarde
+  primary: lagere school
+  secondary: middelbaar
+  year_1st: 1e
+  year_2nd: 2e
+  year_3rd: 3e
+  year_4th: 4e
+  year_5th: 5e
+  year_6th: 6e
+  year_7th: 7e
+  qualification_center_field: Centrum voor eerste ronde
+  qualification_center_my_school: mijn school
+  qualification_center_my_school_expl: |
+    Als je kiest voor "%s", dan MOET jouw school ons contacteren en de regels volgen die in de %s staan.
+  registration_rule_approval: |
+    Door je in te schrijven aanvaard je de regels van de wedstrijd beschreven in het %s.
+  subscribe_button: Inschrijven
