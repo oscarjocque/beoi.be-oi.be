@@ -14,88 +14,80 @@
   </head>
   <body>
     <% if [:fr, :nl].include? lang %>
-    <div class="nav-container">
-      <a id="top"></a>
-      <nav class="">
-        <div class="nav-bar">
-          <div class="module-group left">
-            <div class="module left">
-              <ul class="menu">
-                <li class="has-dropdown">
-                  <% link_to 'index.html', style:'opacity:1 !important;' do %>
-                    <%= image_tag 'logo-beoi-small.png', class:'logo', alt:'beOI' %>
-                  <% end %>
-                  <ul>
-                    <li><%= link_to t('AllContests'), '//www.be-oi.be' %></li>
-                    <li><%= link_to 'Bebras', '//bebras.be-oi.be' %></li>
-                    <li><%= link_to 'beOI', '//beoi.be-oi.be' %></li>
-                    <li><%= link_to 'beCP (soon)', '' %></li>
-                  </ul>
-                </li>
-                <li class="has-dropdown">
-                  <%= link_to t(:Contest_menu), 'index.html' %>
-                  <ul>
-                    <li><%= link_to t('Contest'), 'index.html#contest' %></li>
-                    <li><%= link_to t('Rules'), 'rules.html' %></li>
-                    <!-- <li><a href="register.html">Inscription</a></li> -->
-                    <li><%= link_to t('Tasks'), 'index.html#sample-questions' %></li>
-                    <!-- <li><a href="learn-programming.html">Apprendre à programmer</a></li> -->
-                    <!-- <li><a href="prizes.html">À remporter</a></li> -->
-                    <li><%= link_to t('FAQ'), 'faq.html' %></li>
-                  </ul>
-                </li>
-                <li class="has-dropdown">
-                  <%= link_to t(:Archives), '#' %>
-                  <ul>
-                    <li><%= link_to "#{t('Edition')} 2015", 'beoi15.html' %></li>
-                    <li><%= link_to "#{t('Edition')} 2014", 'beoi14.html' %></li>
-                    <li><%= link_to "#{t('Edition')} 2013", 'beoi13.html' %></li>
-                    <li><%= link_to "#{t('Edition')} 2012", 'beoi12.html' %></li>
-                    <li><%= link_to "#{t('Edition')} 2011", 'beoi11.html' %></li>
-                    <li><%= link_to "#{t('Edition')} 2010", 'beoi10.html' %></li>
-                        <!-- <li><a href="/">Édition 1992</a></li> -->
-                  </ul>
-                </li>
-                <li class="has-dropdown">
-                  <%= link_to t(:About), 'about.html' %>
-                    <ul>
-                      <li><%= link_to "beOI #{t('nonprofit')}", 'about.html' %></li>
-                      <!-- <li><a href="/">Sponsors/Supports</a></li> -->
-                      <!-- <li><a href="/">Presse</a></li> -->
-                      <li><%= link_to t(:Members), 'about.html#members' %></li>
-                      <!-- <li><a href="/">Sponsors</a></li> -->
-                  </ul>
-                </li>
+
+
+    <div class="nav-bar">
+      <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+        <i class="ti-menu"></i>
+      </div>
+      <div class="module-group left">
+        <div class="module left">
+          <ul class="menu mb0">
+            <li class="has-dropdown">
+              <% link_to 'index.html', style:'opacity:1 !important;' do %>
+              <%= image_tag 'logo-beoi-small.png', class:'logo', alt:'beOI' %>
+              <% end %>
+              <ul>
+                <li><%= link_to t('AllContests'), '//www.be-oi.be' %></li>
+                <li><%= link_to 'Bebras', '//bebras.be-oi.be' %></li>
+                <li><%= link_to 'beOI', '//beoi.be-oi.be' %></li>
+                <li><%= link_to 'beCP (soon)', '' %></li>
               </ul>
-            </div>
-          </div>
-
-          <div class="module-group right">
-
-            <div class="module left">
-              <ul class="menu">
-
+            </li>
+            <li class="has-dropdown">
+              <%= link_to t(:Contest_menu), 'index.html' %>
+              <ul>
+                <li><%= link_to t('Contest'), 'index.html#contest' %></li>
+                <li><%= link_to t('Rules'), 'rules.html' %></li>
+                <!-- <li><a href="register.html">Inscription</a></li> -->
+                <li><%= link_to t('Tasks'), 'index.html#sample-questions' %></li>
+                <!-- <li><a href="learn-programming.html">Apprendre à programmer</a></li> -->
+                <!-- <li><a href="prizes.html">À remporter</a></li> -->
+                <li><%= link_to t('FAQ'), 'faq.html' %></li>
               </ul>
-            </div>
-
-            <!--end of menu module-->
-            <div class="module widget-handle language left">
-              <ul class="menu">
-
-                <li class="has-dropdown">
-                  <%= link_to I18n.locale, '#' %>
-                  <ul>
-                    <li><%= link_to 'Français', '/fr/' %></li>
-                    <li><%= link_to 'Nederlands', '/nl/' %></li>
-                  </ul>
-                </li>
+            </li>
+            <li class="has-dropdown">
+              <%= link_to t(:Archives), '#' %>
+              <ul>
+                <li><%= link_to "#{t('Edition')} 2015", 'beoi15.html' %></li>
+                <li><%= link_to "#{t('Edition')} 2014", 'beoi14.html' %></li>
+                <li><%= link_to "#{t('Edition')} 2013", 'beoi13.html' %></li>
+                <li><%= link_to "#{t('Edition')} 2012", 'beoi12.html' %></li>
+                <li><%= link_to "#{t('Edition')} 2011", 'beoi11.html' %></li>
+                <li><%= link_to "#{t('Edition')} 2010", 'beoi10.html' %></li>
+                <!-- <li><a href="/">Édition 1992</a></li> -->
               </ul>
-            </div>
-          </div>
-          <!--end of module group-->
+            </li>
+            <li class="has-dropdown">
+              <%= link_to t(:About), 'about.html' %>
+              <ul>
+                <li><%= link_to "beOI #{t('nonprofit')}", 'about.html' %></li>
+                <!-- <li><a href="/">Sponsors/Supports</a></li> -->
+                <!-- <li><a href="/">Presse</a></li> -->
+                <li><%= link_to t(:Members), 'about.html#members' %></li>
+                <!-- <li><a href="/">Sponsors</a></li> -->
+              </ul>
+            </li>
+          </ul>
         </div>
-      </nav>
+        <!--end of menu module-->
+      </div>
+      <!--end of module group-->
+      <div class="module-group right">
+        <div class="module widget-handle language left">
+          <ul class="menu mb0">
+            <li class="has-dropdown">
+              <%= link_to I18n.locale, '#' %>
+              <ul>
+                <li><%= link_to 'Français', '/fr/' %></li>
+                <li><%= link_to 'Nederlands', '/nl/' %></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
+
     <% end %>
     <div class="main-container">
       <%= yield %>

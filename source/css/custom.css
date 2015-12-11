@@ -17,6 +17,11 @@ ul[data-bullet] li {
   line-height: 24px !important;
 }
 
+@media all and (max-width: 990px) {
+  .nav-bar .module-group {
+    padding: 0px 0 !important;
+  }
+}
 
 /*Vertical Flip*/
 .verticalFlip{
