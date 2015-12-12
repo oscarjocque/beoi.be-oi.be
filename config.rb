@@ -44,11 +44,11 @@ configure :development do
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def page_header_empty_image_holder
+    '<div class="background-image-holder" id="page-header-image-holder"><img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" width="0" height="0" alt="" /></div>'
+  end
+end
 
 set :markdown_engine
 set :markdown, :fenced_code_blocks => true, :smartypants => true
