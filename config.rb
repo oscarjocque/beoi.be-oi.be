@@ -48,6 +48,10 @@ helpers do
   def page_header_empty_image_holder
     '<div class="background-image-holder" id="page-header-image-holder"><img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" width="0" height="0" alt="" /></div>'
   end
+
+  def ext_link_to(name, href, **params)
+    link_to(name, href, params.merge({"target"=>"_blank"}))
+  end
 end
 
 set :markdown_engine
