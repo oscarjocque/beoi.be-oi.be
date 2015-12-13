@@ -4,9 +4,8 @@ mailchimp_registration_submit:
   fr: "//be-oi.us6.list-manage.com/subscribe/post?u=4a51a9ab354aa26ba87f9a75f&amp;id=7625cd0208"
   nl: "//be-oi.us9.list-manage.com/subscribe/post?u=c6d8dcea8c4875082e570aee9&amp;id=7047097aa7"
 ---
-<section class="cover image-bg overlay">
-  <div class="background-image-holder" id="page-header-image-holder">
-  </div>
+<section class="cover image-bg overlay" style="background-color:#fdae61;">
+  <%=page_header_empty_image_holder %>
   <div class="container">
     <div class="row mt16">
       <div class="col-sm-6 col-sm-offset-3">
@@ -89,6 +88,7 @@ mailchimp_registration_submit:
               <% end %>
               <option value="In my school"><%= t(:qualification_center_my_school) %></option>
             </select>
+            <span><%= t(:qualification_center_expl) %></span>
             <span><%= t(:qualification_center_my_school_expl)%[t(:qualification_center_my_school),link_to(t(:FAQ),"faq")] %></span>
           </div>
           <div id="mce-responses" class="clear">

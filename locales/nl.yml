@@ -56,6 +56,9 @@ nl:
     programmeren te leren. De allerbesten mogen ook meedoen 
     met de trainingen van de nationale ploeg (beCP).
 
+  register_button: Inschrijven voor de wedstrijd
+  register_text: Schrijf je in voor de eerste ronde op 27 januari !
+
   # Be informed about registration form
   keep_me_informed_of_registrations : Wees als eerste op de hoogte van de start van de inschrijvingen!
   mailinglist_success_msg: Bedankt! We houden je op de hoogte van de start van de inschrijvingen. 
@@ -156,6 +159,9 @@ nl:
   qualification_center_my_school: mijn school
   qualification_center_my_school_expl: |
     Als je kiest voor "%s", dan MOET jouw school ons contacteren en de regels volgen die in de %s staan.
+  qualification_center_expl: |
+    Het exacte adres waar je verwacht wordt (universiteit/hogeschool) krijg je later via e-mail en
+    zal binnenkort ook op de website staan.
   registration_rule_approval: |
     Door je in te schrijven aanvaard je de regels van de wedstrijd beschreven in het %s.
   subscribe_button: Inschrijven

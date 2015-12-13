@@ -58,6 +58,9 @@ fr:
     bases de la programmation. Les meilleurs pourront également 
     intégrer la formation de l'équipe nationale (beCP).
 
+  register_button: M'inscrire au concours
+  register_text: Inscrivez-vous aux éliminatoires du 27 janvier !
+
   # Be inform about registration form
   keep_me_informed_of_registrations : Soyez le premier informé de l'ouverture des inscriptions !
   mailinglist_success_msg: Merci. Nous vous informerons de l'ouverture des inscriptions.
@@ -161,6 +164,9 @@ fr:
   qualification_center_my_school_expl: |
     Si vous choississez "%s", votre école DOIT nous contacter et
     suivre les règles définies dans la %s.
+  qualification_center_expl: |
+    L'adresse plus précise du centre (université/haute-école) vous sera communiquée par e-mail et
+    sera disponible sur le site d'ici peu.
   registration_rule_approval: |
     En vous inscrivant, vous acceptez les règles du concours décrites dans
     la page %s.
