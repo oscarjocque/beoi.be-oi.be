@@ -90,6 +90,9 @@ fr:
 
   task_toggle_solution: Montrer/cacher la solution
 
+  route_instruct: Instructions
+  center_in_your_school: "L'épreuve peut également être organisée dans votre école, sous condition."
+
   # FAQ
   faq_title: Foire aux questions
   faq_subtitle: Questions fréquemment posées à propos de l'olympiade

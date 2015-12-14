@@ -192,6 +192,66 @@ mailchimp_submit:
   <!--end of container-->
 </section>
 
+<a name="qualif-centers"></a>
+<section class="image-edge">
+  <div class="col-md-6 image" id="map" style="height:700px;"></div>
+  <div class="col-md-6 content">
+    <h3>Eliminatoire: les 11 centres</h3>
+    <p><%= link_to t(:center_in_your_school), "faq" %></p>
+    <% for i in 0..data.qualification_centers.length/2 %>
+    <div class="row">
+      <%
+      for j in 0..1
+        c = data.qualification_centers[i*2+j]
+        if c %>
+        <div class="col-sm-6" style="padding:0 6px 0 12px;">
+          <h6 class="uppercase mb0"><%= c.city %></h6>
+          <p>
+            <%= c.place %>
+            <% if c.address %><br><%= c.address.gsub(/(\n)/, "<br>") %><% end %>
+            <% if c.route_link %><%= ext_link_to t(:route_instruct), c.route_link %><% end %>
+          </p>
+        </div>
+        <%
+      end
+      end %>
+    </div>
+    <% end %>
+    <% data.qualification_centers.each_with_index do |c,i| %>
+    <% end %>
+  </div>
+</div>
+</section>
+
+ <script type="text/javascript">
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 50.5644843, lng: 4.4025018},
+    zoom: 9,
+    disableDefaultUI: true,
+    zoomControl: true,
+    styles: [{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"stylers":[{"hue":"#00aaff"},{"saturation":-100},{"gamma":2.15},{"lightness":12}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"lightness":24}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":57}]}]
+  });
+  var markers = [
+    <% data.qualification_centers.select{|x|x.pos}.each do |c| %>
+    new google.maps.Marker({
+      position: {lat: <%= c.pos.lat %>, lng: <%= c.pos.lng %>},
+      map: map,
+      title: "<%= c.city %>"
+    }),
+    <% end %>
+  ];
+  var bounds = new google.maps.LatLngBounds();
+  for(i=0;i<markers.length;i++) {
+    bounds.extend(markers[i].getPosition());
+  }
+  map.fitBounds(bounds);
+}
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1vE1ZQ8yU7M9ZR5IcvLL8wfUAwKKEXPw&callback=initMap">
+</script>
 
 <section class="bg-dark pb0">
   <div class="container">

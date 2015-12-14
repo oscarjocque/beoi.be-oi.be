@@ -1,22 +1,104 @@
 - 
   city: Antwerpen
+  place: Universiteit Antwerpen
+  address: |
+    Campus Middelheim, gebouw G
+    lokaal G.010
+    Middelheimlaan 1
+    2020 Antwerpen
+  route_link: https://www.uantwerpen.be/campus-middelheim
+  pos:
+    lat: 51.1842647
+    lng: 4.420781
 - 
   city: Bruxelles / Brussel
+  place: Vrije Universiteit Brussel
+  address: |
+    campus Etterbeek, gebouw F,
+    lokaal F.10.720 (10e verdieping)
+    Pleinlaan 2
+    1050 Brussel
+  route_link: http://www.vub.ac.be/campus/etterbeek
+  pos:
+    lat: 50.8215274
+    lng: 4.3961758
 - 
   city: Gent
+  place: Universiteit Gent
+  address: |
+    Campus Sterre, Gebouw S9
+    lokaal zal aangeduid staan aan de ingang
+    Krijgslaan 281
+    9000 Gent
+  route_link: http://www.ugent.be/we/nl/diensten/ipvw-ices/contact/locaties/sterre
+  pos:
+    lat: 51.0269583
+    lng: 3.716344
 - 
   city: Hasselt
+  place: Universiteit Hasselt
+  address: |
+    Campus Diepenbeek, lokaal H3
+    Agoralaan Gebouw D
+    3590 Diepenbeek
+  route_link: http://www.uhasselt.be/Contact-en-ligging#tabs2
+  pos:
+    lat: 50.9253703
+    lng: 5.3912436
 - 
   city: Kortrijk
+  place: Hogeschool VIVES Kortrijk
+  address: |
+    lokaal 003 in het 1e zwart gebouw bij de campus-ingang
+    Doorniksesteenweg 145
+    8500 Kortrijk
+  route_link: https://www.vives.be/campus/kortrijk/onderweg
+  pos:
+    lat: 50.8058796
+    lng: 3.2840281
 - 
   city: Leuven
+  place: KU Leuven
+  address: |
+    Departement Computerwetenschappen
+    Lokaal 200A-05.152
+    Celestijnenlaan 200A
+    3001 Heverlee
+  route_link: https://wms.cs.kuleuven.be/cs/algemeen/routebeschrijving
+  pos:
+    lat: 50.86411
+    lng: 4.6786777
 - 
   city: Libramont
+  place: Haute École Robert Schuman (HERS)
+  address: A venir
+  pos:
+    lat: 49.9277929
+    lng: 5.3789513
 - 
   city: Liège
+  place: A venir
+  pos:
+    lat: 50.6320527
+    lng: 5.5803183
 - 
   city: Louvain-la-Neuve
+  place: Université catholique de Louvain
+  address: A venir
+  pos:
+    lat: 50.668485
+    lng: 4.6192429
 - 
   city: Mons
+  place: UMons
+  address: A venir
+  pos:
+    lat: 50.4546352
+    lng: 3.9524284
 - 
   city: Namur
+  place: UNamur
+  address: A venir
+  pos:
+    lat: 50.4658487
+    lng: 4.8576964
