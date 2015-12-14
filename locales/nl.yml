@@ -83,6 +83,9 @@ nl:
   task_card_shuffle: Kaartspel
 
   task_toggle_solution: Toon/verberg de oplossing
+
+  route_instruct: Routebeschrijving
+  center_in_your_school: "De eerste ronde kan ook in uw school georganiseerd worden, onder voorwaarden."
   
   # FAQ
   faq_title: Vaak gestelde vragen
