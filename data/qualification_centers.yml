@@ -71,16 +71,24 @@
 - 
   city: Libramont
   place: Haute École Robert Schuman (HERS)
-  address: A venir
+  address: |
+    Local B4 (près de la salle de sport de l'école)
+    Rue de la Cité 64
+    6800 Libramont
+  route_link: "https://www.google.be/maps/place/Haute+Ecole+Robert+Schuman/@49.9280097,5.3788132,15z/data=!4m2!3m1!1s0x0:0x9b062899079abb50?hl=fr-BE"
   pos:
-    lat: 49.9277929
-    lng: 5.3789513
+    lat: 49.9280097
+    lng: 5.3788132
 - 
   city: Liège
-  place: A venir
+  place: HELMo - Haute Ecole Libre Mosane
+  address: |
+    Local M010
+    Rue de Harlez 35
+    4000 Liège
   pos:
-    lat: 50.6320527
-    lng: 5.5803183
+    lat: 50.6224705
+    lng: 5.574451
 - 
   city: Louvain-la-Neuve
   place: Université catholique de Louvain
@@ -90,15 +98,24 @@
     lng: 4.6192429
 - 
   city: Mons
-  place: UMons
-  address: A venir
+  place: Université de Mons
+  address: |
+    Campus de la plaine de Nimy
+    Auditoire Vésale 025
+    Avenue Maistriau 19
+    7000 Mons
+  route_link: https://portail.umons.ac.be/fr/universite/admin/cerp/plancampus/pages/campusplainedenimy.aspx
   pos:
-    lat: 50.4546352
-    lng: 3.9524284
+    lat: 50.4651325
+    lng: 3.9567017
 - 
   city: Namur
-  place: UNamur
-  address: A venir
+  place: Université de Namur
+  address: |
+    Auditoire I02
+    Faculté d'Informatique
+    Rue grandgagnage 21
+    5000 Namur
   pos:
     lat: 50.4658487
     lng: 4.8576964
