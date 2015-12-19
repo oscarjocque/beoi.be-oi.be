@@ -6,10 +6,7 @@
     <%= favicon_tag 'favicon.png' %>
     <meta name="viewport" content="width=device-width, initial-scale=0.9">
     <%= stylesheet_link_tag "bootstrap.min", "themify-icons", "flexslider", "lightbox.min", "theme-red", "custom" %>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.1/trianglify.min.js"></script>
-    
     <link href='//fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
-
     <link href='//fonts.googleapis.com/css?family=Comfortaa:700' rel='stylesheet' type='text/css'>
   </head>
   <body>
@@ -121,8 +118,34 @@
       </footer>
     </div>
 
+    <% if current_page.data.trianglify_colors %>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.1/trianglify.min.js"></script>
+      <script type="text/javascript">
+        var gen_pattern = function() {
+          return Trianglify({
+            width: window.innerWidth,
+            height: window.innerHeight*1.5,
+            x_colors: <%= current_page.data.trianglify_colors %>
+          })
+        }
+        document.getElementById("page-header-image-holder").appendChild(gen_pattern().canvas())
+      </script>
+    <% end %>
 
     <%= javascript_include_tag "jquery.min", "bootstrap.min", "flexslider.min", "smooth-scroll.min", "parallax", "scripts", "countdown.min" %>
+    <% if current_page.data.trianglify_colors %>
+    <script type="text/javascript">
+      jQuery(function($){
+        var windowWidth = $(window).width();
+        $(window).resize(function() {
+          if(windowWidth != $(window).width()){
+            $("#page-header-image-holder > canvas").remove()
+            $("#page-header-image-holder").append(gen_pattern().canvas())
+          }
+        });
+      });
+    </script>
+    <% end %>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

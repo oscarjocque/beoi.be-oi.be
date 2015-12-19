@@ -1,3 +1,6 @@
+---
+trianglify_colors: '"RdYlGn"'
+---
 <script type="text/javascript">
 function browser_langs() {
   if (window.navigator.languages != undefined) return window.navigator.languages;
@@ -58,11 +61,3 @@ switch (fr_or_nl()) {
   </div>
   <!--end of container-->
 </section>
-<script>
-    var pattern = Trianglify({
-        width: window.innerWidth,
-        height: window.innerHeight*1.5,
-        x_colors: "RdYlGn"
-    });
-    document.getElementById("page-header-image-holder").appendChild(pattern.canvas())
-</script>
