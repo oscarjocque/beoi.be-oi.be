@@ -92,10 +92,15 @@
 - 
   city: Louvain-la-Neuve
   place: Université catholique de Louvain
-  address: A venir
+  address: |
+    Auditoire SCES 01
+    Auditoires des Sciences
+    Place des Sciences 2
+    1348 Louvain-la-Neuve
+  route_link: https://www.uclouvain.be/17488.html
   pos:
-    lat: 50.668485
-    lng: 4.6192429
+    lat: 50.668426
+    lng: 4.619527
 - 
   city: Mons
   place: Université de Mons
