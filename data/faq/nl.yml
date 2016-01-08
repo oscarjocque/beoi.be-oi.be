@@ -49,25 +49,33 @@
         Ja, maar enkel onder voorwaarde dat je school kan voldoen aan de voorwaarden hieronder beschreven in de sectie "voor scholen". In alle andere gevallen ga je best naar het dichtstbijzijnde lokale centrum.
 -
   category_title: Voor scholen
-  questions:
+  questions:        
     -
       question: Onder welke voorwaarden kan de eerste ronde in de school doorgaan ?
       answer: |
-        De eerste ronde kan in uw school worden georganiseerd indien aan al de volgende voorwaarden is voldaan: :<br>
+        De eerste ronde kan in uw school worden georganiseerd indien aan al de volgende voorwaarden is voldaan:<br>
         - Minstens 10 leerlingen van uw school moeten deelnemen, alle niveau's tesamen. <br>
         - Er moet een lokaal beschikbaar zijn, geschikt voor een examen (voldoende plaats tussen de leerlingen, ...).<br>
         - Er moet constant toezicht zijn tijdens de volledige proef.<br>
         - Het reglement van de proef (geen GSM, ...) moet gerespecteerd worden. Het wordt u enkele dagen voor de proef toegezonden. <br>
-        - De proef moet doorgaan op hetzelfde moment als in de andere centra. Dat wil zeggen, de proef moet beginnen op woensdag 27 januari 2016 tussen 13u en 14u15, en moet 1u30 duren. <br>
+        - De proef moet doorgaan op hetzelfde moment als in de andere centra. Dat wil zeggen, de proef moet beginnen op woensdag 27 januari 2016 tussen 13u en 14u30, en moet 1u30 duren. <em>(uitzondering voor scholen die de biologie-olympiade organiseren: zie hieronder)</em><br>
         - U moet zelf alle vragenlijsten afdrukken op dinsdagmiddag of woensdagvoormiddag, en ze veilig bewaren tot het begin van de proef. <br>
         - U moet ons de ingevulde opgaves (en zeker alle antwoordbladen) nadien doorsturen, ofwel door ze in te scannen en te emailen, ofwel via aangetekende post, ofwel door ze zelf af te geven in het verbetercentrum in Brussel (ULB Pleinlaan).
+    -
+      question: Is er een oplossing voor de overlap met een andere wedstrijd?
+      answer: |
+        In 2016 valt de eerste ronde van de Informatica-olympiade samen met die van de Biologie-olympiade. De biologie-olympiade gaat door op school in een computerklas van 13u tot 15u. Uw leerlingen kunnen na afloop de Informatica-olympiade afleggen (pas beginnend om 15u of net iets later als er een kleine pauze is), onder de volgende bijkomende voorwaarden:<br>
+        - De deelnemers hebben vanaf 14u30 geen contact met de buitenwereld: scholieren geven gsm, smartwatches en andere apparaten met internetverbinding af, met uitzondering van wat nodig is om de biologie-olympiade te beëindigen.<br>
+        - Alle leerlingen die deelnemen aan de Informatica-olympiade beginnen op hetzelfde moment (niet enkelen om 14u en anderen om 15u).<br>
+        
+        Wij vinden deze overlap met een andere wedstrijd zelf jammer, maar ze was niet te vermijden. Ze is een gevolg van het feit dat we als nationale olympiade rekening moeten houden met de verschillende kalenders van andere wedstrijden in zowel Vlaanderen als in Franstalig België. 
     -
       question: Moet er aan de computer gewerkt worden in de eerste ronde ?
       answer: "Nee, de eerste ronde is enkel een papieren examen."
     -
       question: Moeten mijn leerlingen zich op uw site inschrijven? 
       answer: |
-        Alle deelnemers moeten zich persoonlijk inschrijven op onze site, zodat ze via email hun resultaten toegestuurd krijgen, en als ze in aanmerking komen, ook de uitnodigingen voor de vormingssessies en de finale  krijgen.
+        Alle deelnemers moeten zich persoonlijk inschrijven op onze site, zodat ze via email hun resultaten toegestuurd krijgen, en als ze in aanmerking komen, ook de uitnodigingen voor de vormingssessies en de finale krijgen.
         Als per ongeluk een leerling niet ingeschreven blijkt te zijn op de dag van de eerste ronde, laten we wel toe om achteraf nog in te schrijven. 
     -
       question: Hoe schrijf ik mijn school in? 
