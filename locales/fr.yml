@@ -176,3 +176,6 @@ fr:
     la page %s.
   subscribe_button: M'inscrire
   form_fail: (Un problème avec ce formulaire ? Essayez un autre navigateur !)
+  
+  # Local Centers
+  localcenters_title: "Eliminatoire: les 11 centres"
