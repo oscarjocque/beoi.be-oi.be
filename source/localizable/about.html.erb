@@ -44,7 +44,7 @@ trianglify_colors: '["#fff5f0","#fee0d2","#fcbba1","#fc9272","#fb6a4a","#ef3b2c"
     <div class="row mt16">
       <% data.sponsors.each do |m| %>
         <% link_to m.href, target:"_blank" do %>
-        <div class="col-md-4 col-sm-6 col-xs-8" style="height:130px;" class="text-center">
+        <div class="col-md-3 col-sm-6 col-xs-8" style="height:130px;" class="text-center">
           <%= image_tag "ext-logos/%s"%m.image, alt:m.name, style:"max-height:120px;"  %>
         </div>
         <% end %>
