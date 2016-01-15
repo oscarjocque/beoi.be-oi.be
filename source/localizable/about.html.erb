@@ -2,18 +2,6 @@
 title: About
 trianglify_colors: '["#fff5f0","#fee0d2","#fcbba1","#fc9272","#fb6a4a","#ef3b2c","#cb181d","#a50f15","#67000d"].reverse()'
 ---
-<section class="page-title page-title-4 image-bg">
-  <%=page_header_empty_image_holder %>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h3 class="uppercase mb0"><%= t(:about_title) %></h3>
-      </div>
-    </div>
-    <!--end of row-->
-  </div>
-  <!--end of container-->
-</section>
 
 <section class="bg-secondary">
   <div class="container">
@@ -30,8 +18,6 @@ trianglify_colors: '["#fff5f0","#fee0d2","#fcbba1","#fc9272","#fb6a4a","#ef3b2c"
         </h3>
         <!-- <h3 class="uppercase mb40 mb-xs-24">Smash Your Comfort Zone</h3> -->
         <p class="lead mb64"><%= t(:about_intro) %>
-        <strong><%= t(:about_interested_sponsors) %></strong><!--  Consultez notre nouvelle brochure de sponsoring ou --> 
-        <%= t(:about_contact_us_on) %>  <%= mail_to ' sponsors@be-oi.be' %>.
         </p>
       </div>
     </div>
@@ -39,6 +25,43 @@ trianglify_colors: '["#fff5f0","#fee0d2","#fcbba1","#fc9272","#fb6a4a","#ef3b2c"
   </div>
   <!--end of container-->
 </section>
+
+
+<a name="sponsors"></a>
+<section class="bg-white">
+  <div class="container">
+    <div class="row v-align-children">
+      <div class="col-md-6 col-sm-12 text-center mb-xs-24">
+        <a href="#">
+          <h2 class="uppercase mb16"><%= t(:sponsors_support) %></h2>
+        </a>
+      </div>
+    </div>
+    <div class="row mt16 text-center">   
+      <strong><%= t(:sponsors_intro) %></strong>
+      <br /><br />
+    </div>
+    <div class="row mt16">
+      <% data.sponsors.each do |m| %>
+        <% link_to m.href, target:"_blank" do %>
+        <div class="col-md-4 col-sm-6 col-xs-8" style="height:130px;" class="text-center">
+          <%= image_tag "ext-logos/%s"%m.image, alt:m.name, style:"max-height:120px;"  %>
+        </div>
+        <% end %>
+      <% end %>
+   </div>   
+   <div class="row mt16 text-center">   
+      <strong><%= t(:about_interested_sponsors) %></strong>
+      <br />
+      <br />
+      <%= mail_to 'sponsors@be-oi.be', t(:about_become_sponsor), class:'btn btn-lg btn-filled' %>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>
+
+
 
 <a name="members"></a>
 <section class="bg-white">
@@ -58,6 +81,8 @@ trianglify_colors: '["#fff5f0","#fee0d2","#fcbba1","#fc9272","#fb6a4a","#ef3b2c"
         </div>
         <% end %>
       <% end %>
+    </div>   
+    <div class="row mt16 text-center">  
       <%= mail_to 'info@be-oi.be', t(:about_become_member), class:'btn btn-lg btn-filled' %>
     </div>
     <!--end of row-->
