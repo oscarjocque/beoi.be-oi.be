@@ -7,4 +7,4 @@ Elke persoon kan zijn/haar foto's alleen delen met zijn/haar vrienden. Zodra iem
 
 Emma heeft een foto van haar huisdier gepost (een chihuahua genaamd Paris), maar ze wil niet dat Damien die foto te zien krijgt. Ze is er zeker van dat Damien niet plots bevriend zal worden met een van haar eigen vrienden (dus: het diagram hierboven zal niet veranderen).
 
-**Beschouw de volgende personen. Mag Emma ze toegang geven tot de foto, als ze ook de garantie wil behouden dat Damien de foto nooit te zien zal krijgen?** Charlotte, Lucas, Damien, Lucie, Daan, Peter.
+**Beschouw de volgende personen. Kan Emma ze toegang geven tot de foto, als ze ook de garantie wil dat Damien de foto nooit te zien zal krijgen?** Charlotte, Lucas, Damien, Lucie, Daan, Peter.
