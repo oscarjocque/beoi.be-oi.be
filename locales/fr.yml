@@ -18,6 +18,7 @@ fr:
   Edition: Édition
   Members: Membres
   Registration: Inscriptions
+  Sponsors: Nos sponsors
 
   # Index 
   title: "Olympiade belge d'Informatique"
@@ -61,6 +62,7 @@ fr:
 
   register_button: M'inscrire au concours
   register_text: Inscrivez-vous aux éliminatoires du 27 janvier !
+  register_school_text: "Vous représentez une école ? Lisez notre <a href='faq'>FAQ</a> pour savoir comment organiser l'épreuve dans votre établissement."
 
   # Be inform about registration form
   keep_me_informed_of_registrations : Soyez le premier informé de l'ouverture des inscriptions !
@@ -120,6 +122,9 @@ fr:
     N'hésitez pas à nous contacter pour toute question à propos
     de l'association ou de nos activités.
   bce_num: Numéro BCE
+  about_become_sponsor: Envie de nous sponsoriser ? Contactez-nous !
+  sponsors_support: "Sponsors & Support"
+  sponsors_intro: Nos sponsors nous permettent de pouvoir financer les frais liés aux formations et d'offrir des prix aux gagnants.
 
   # Rules
   rules_title: Règlement
