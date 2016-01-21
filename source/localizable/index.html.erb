@@ -91,10 +91,36 @@ trianglify_colors: '["#e31d3b","#d53e4f","#f46d43","#fdae61","#fee08b","#ffffbf"
       <div class="col-md-12 col-sm-12 text-center">
         <h2 class="large"><%= t("register_text") %></h2>
         <%= link_to t(:register_button), "registration", class:"btn btn-filled btn-lg mb0" %>
+        <h4 class="large mt24"><%= t("register_school_text") %></h4>
       </div>
     </div><!--end of row-->
   </div><!--end of container-->
 </section>
+
+<a name="sponsors"></a>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h4 class="uppercase mb16 mb-xs-40"><%= t(:sponsors_support) %></h4>
+      </div>
+    </div>
+    <!--end of row-->
+    <div class="row">
+      <div class="mt8">
+        <% data.sponsors.each do |m| %>
+          <% link_to m.href, target:"_blank" do %>
+          <div class="col-md-3 col-sm-6 col-xs-12" class="text-center">
+            <%= image_tag "ext-logos/%s"%m.image, alt:m.name, style:"max-height:100px; max-width:100%;"  %>
+          </div>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>  
 
 <a name="contest"></a>
 <section class="image-square left bg-secondary">
@@ -124,6 +150,8 @@ trianglify_colors: '["#e31d3b","#d53e4f","#f46d43","#fdae61","#fee08b","#ffffbf"
   </div>
   <div class="col-md-6 content"><%= partial "index_contest_step2" %></div>
 </section>
+
+<a name="members"></a>
 <section>
   <div class="container">
     <div class="row">
@@ -150,6 +178,7 @@ trianglify_colors: '["#e31d3b","#d53e4f","#f46d43","#fdae61","#fee08b","#ffffbf"
   </div>
   <!--end of container-->
 </section>  
+
 <a name="sample-questions"></a>
 <section class="bg-secondary">
   <div class="container">

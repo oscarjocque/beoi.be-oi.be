@@ -18,6 +18,7 @@ nl:
   Edition: Editie
   Members: Onze leden
   Registration: Inschrijven
+  Sponsors: Onze sponsors
 
   # Index 
   title: "Belgische Informatica-olympiade"
@@ -59,6 +60,7 @@ nl:
 
   register_button: Inschrijven voor de wedstrijd
   register_text: Schrijf je in voor de eerste ronde op 27 januari !
+  register_school_text: ""
 
   # Be informed about registration form
   keep_me_informed_of_registrations : Wees als eerste op de hoogte van de start van de inschrijvingen!
@@ -116,6 +118,9 @@ nl:
   about_contact_text: |
     Aarzel niet om ons te contacteren met vragen over onze vereniging en haar activiteiten.    
   bce_num: KBO-nummer
+  about_become_sponsor: Sponsor worden ? Contacteer ons !
+  sponsors_support: "Sponsors & Steun"
+  sponsors_intro: Onze sponsors zorgen ervoor dat we aan onze getalenteerde deelnemers opleidingen kunnen geven en een interessante prijzenpot kunnen aanbieden.
 
   # Rules
   rules_title: Reglement
