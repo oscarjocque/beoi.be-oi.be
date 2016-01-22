@@ -60,7 +60,7 @@ nl:
 
   register_button: Inschrijven voor de wedstrijd
   register_text: Schrijf je in voor de eerste ronde op 27 januari !
-  register_school_text: ""
+  register_school_text: "U bent leerkracht ? Lees dan onze <a href='faq'>FAQ</a> om te weten hoe u de proef in uw eigen school kane organieren!"
 
   # Be informed about registration form
   keep_me_informed_of_registrations : Wees als eerste op de hoogte van de start van de inschrijvingen!
