@@ -98,6 +98,10 @@ fr:
   route_instruct: Instructions
   center_in_your_school: "L'épreuve peut également être organisée dans votre école, sous condition."
 
+  task_descriptions_title: Éliminatoire 2016
+  task_description: Énoncé
+  solutions: Solutions
+
   # FAQ
   faq_title: Foire aux questions
   faq_subtitle: Questions fréquemment posées à propos de l'olympiade
