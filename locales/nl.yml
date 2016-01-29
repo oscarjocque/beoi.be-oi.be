@@ -96,7 +96,11 @@ nl:
 
   route_instruct: Routebeschrijving
   center_in_your_school: "De eerste ronde kan ook in uw school georganiseerd worden, onder voorwaarden."
-  
+ 
+  task_descriptions_title: Eerste ronde 2016
+  task_description: Opgaven
+  solutions: Oplossingen 
+ 
   # FAQ
   faq_title: Vaak gestelde vragen
   faq_subtitle: Antwoorden op de meest gestelde vragen over de olympiade
