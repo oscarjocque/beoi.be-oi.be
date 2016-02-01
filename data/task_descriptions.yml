@@ -3,13 +3,13 @@
     type: :task_description
     category: :Cadet
     file:
-      fr: beOI16-qualif-fr-cadets.pdf
+      fr: beOI16-qualif-fr-cadet.pdf
       nl: beOI16-qualif-nl-beloften.pdf
   -
     type: :solutions
     category: :Cadet
     file:
-      fr: beOI16-qualif-fr-cadets-sol.pdf
+      fr: beOI16-qualif-fr-cadet-sol.pdf
       nl: beOI16-qualif-nl-beloften-sol.pdf
   -
     type: :task_description
