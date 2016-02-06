@@ -101,6 +101,9 @@ fr:
   task_descriptions_title: Éliminatoire 2016
   task_description: Énoncé
   solutions: Solutions
+  task_descriptions_remark: |
+    (Attention, quelques solutions fournies dans ces documents sont incorrectes. 
+    Une version corrigé sera mise en ligne d'ici peu !)
 
   # FAQ
   faq_title: Foire aux questions
