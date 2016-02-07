@@ -5,11 +5,13 @@ nl:
   Junior: Junior
   Senior: Senior
   nonprofit: VZW
+  participants: deelnemers
 
   # Menu
   Contest_menu: Wedstrijd
   AllContests: Alle wedstrijden
   Contest: Wedstrijdverloop
+  QualifResults: "Eerste ronde: resulaten"
   Rules: Reglement
   Tasks: Voorbeeldvragen
   FAQ: FAQ
@@ -32,6 +34,7 @@ nl:
   questions: Vragen?
   contact_us: Contacteer ons!
 
+
   # index: overview module
   overview_title: Een vernieuwde wedstrijd... voor iedereen
   overview_desc: |
@@ -45,11 +48,12 @@ nl:
     geen vragen over programmeren, dus er is geen voorkennis
     vereist. Enkel de finale bevat vragen waarbij
     code op papier gelezen en vervolledigd moet worden. 
+    
 
   overview_second_title: Drie leeftijdscategorieën
   overview_second_desc: |
     De wedstrijd omvat nu drie categorieën volgens
-    studiejaar, die elk een eigen klassement krijgen.
+    studiejaar, die elk een eigen klassement krijgen:
 
   overview_third_title: Coaching
   overview_third_desc: |
@@ -72,6 +76,8 @@ nl:
   wait_for_qualif_results_title: Heb je deelgenomen aan de eerste ronde ?
   wait_for_qualif_results_descr: Je krijgt jouw resultaten via email in de loop van de volgende weken.
 
+  index_qualif_result_title: "Eerste ronde 2016"
+  index_qualif_result_link: "De resultaten"
 
   Jan: jan
   Feb: feb
@@ -146,6 +152,20 @@ nl:
   
   # Archives
   previous_olympiad_edition_tile: beOI %d
+  
+    # Qualif result page
+  qualif_result_title: "Eerste ronde 2016: resultaten"
+  qualif_topx: Top %d
+  column_name: Naam
+  column_school: "School (jaar)"
+  column_score: Score
+  qualif_on_total: Op een totaal van %d deelnemers
+  qualif_top_schools: Scholen 
+  qualif_top_schools_count_expl: Deelnemende scholen gerangschikt volgens aantal deelnemers aan de eerste ronde 
+  qualif_top_schools_score_expl: Klassement van scholen gerangschikt volgens gemiddelde score van hun 5 beste deelnemers 
+  qualif_top_girls: De beste meisjes
+  qualif_top_girls_expl: |
+    In een (helaas en onterecht) vaak mannelijk gekleurd vak, hebben dit jaar %d meisjes deelgenomen aan de eerste ronde, een absoluut record! Dit zijn de besten onder hen. 
   
    # Registrations
   registration_title: Inschrijven voor beOI %s

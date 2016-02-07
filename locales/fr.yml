@@ -5,11 +5,13 @@ fr:
   Junior: Junior
   Senior: Senior
   nonprofit: ASBL
+  participants: participants
 
   # Menu
   Contest_menu: Concours
   AllContests: Tous les concours
   Contest: Déroulement
+  QualifResults: "Eliminatoire: Résultats"
   Rules: Règlement
   Tasks: Questions
   FAQ: FAQ
@@ -73,6 +75,9 @@ fr:
 
   wait_for_qualif_results_title: Vous avez participé à l'éliminatoire ?
   wait_for_qualif_results_descr: Vos résultats vous seront transmis par e-mail dans les prochaines semaines.
+
+  index_qualif_result_title: "Éliminatoire 2016"
+  index_qualif_result_link: "Les résultats"
 
   Jan: jan
   Feb: fév
@@ -151,6 +156,21 @@ fr:
 
   # Archives
   previous_olympiad_edition_tile: beOI %d
+
+  # Qualif result page
+  qualif_result_title: "Éliminatoire 2016: Résultats"
+  qualif_topx: Top %d
+  column_name: Nom
+  column_school: "Ecole (année)"
+  column_score: Score
+  qualif_on_total: Sur un total de %d participants
+  qualif_top_schools: Écoles 
+  qualif_top_schools_count_expl: Classement des écoles par nombre de participants à l'éliminatoire
+  qualif_top_schools_score_expl: Classement des écoles par score moyen de leurs 5 meilleurs participants
+  qualif_top_girls: Top des filles
+  qualif_top_girls_expl: |
+    Dans un domaine par les hommes, %d filles participaient cette année à l'éliminatoire,
+    un record ! Voici un classement des meilleures d'entre elles.
 
   # Registrations
   registration_title: Inscription à la beOI %s
