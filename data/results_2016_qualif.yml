@@ -237,6 +237,11 @@ contestants:
       name: Lien De Brabandere
       school: GO! atheneum Erasmus De Pinte
       year: year_6th
+    - position: 16
+      score: 60
+      name: Alexandre Terefenko
+      school: Athénée Provincial de La Louvière
+      year: year_6th
 count_cadet: 204
 count_junior: 250
 count_senior: 263

@@ -159,7 +159,7 @@ fr:
 
   # Qualif result page
   qualif_result_title: "Éliminatoire 2016: Résultats"
-  qualif_top15: Top 15
+  qualif_topx: Top %d
   column_name: Nom
   column_school: "Ecole (année)"
   column_score: Score

@@ -155,7 +155,7 @@ nl:
   
     # Qualif result page
   qualif_result_title: "Eerste ronde 2016: resultaten"
-  qualif_top15: Top 15
+  qualif_topx: Top %d
   column_name: Naam
   column_school: "School (jaar)"
   column_score: Score
