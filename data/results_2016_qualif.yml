@@ -11,51 +11,51 @@ contestants:
       score: 444
       name: Robert Doe
       school: Athénee Royal d'Outsiplou 2
-      year: 3
+      year: year_2nd
     -
       position: 3
       score: 111
       name: Marc Doe
       school: Athénee Royal d'Outsiplou 3
-      year: 1
+      year: year_1st
   junior:
     -
       position: 1
       score: 111
       name: John Doe
       school: Athénee Royal d'Outsiplou
-      year: 3
+      year: year_3rd
     -
       position: 2
       score: 55
       name: Robert Doe
       school: Athénee Royal d'Outsiplou 2
-      year: 4
+      year: year_4th
     -
       position: 3
       score: 6
       name: Marc Doe
       school: Athénee Royal d'Outsiplou 3
-      year: 4
+      year: year_4th
   senior:
     -
       position: 1
       score: 534
       name: John Doe
       school: Athénee Royal d'Outsiplou
-      year: 6
+      year: year_6th
     -
       position: 2
       score: 111
       name: Robert Doe
       school: Athénee Royal d'Outsiplou 2
-      year: 5
+      year: year_5th
     -
       position: 3
       score: 56
       name: Marc Doe
       school: Athénee Royal d'Outsiplou 3
-      year: 5
+      year: year_5th
 count_cadet: 204
 count_junior: 250
 count_senior: 263
@@ -90,54 +90,54 @@ girls:
       score: 757
       name: John Doe
       school: Athénee Royal d'Outsiplou c
-      year: 1
+      year: year_1st
     -
       position: 2
       score: 444
       name: Robert Doe
       school: Athénee Royal d'Outsiplou 2 c
-      year: 3
+      year: year_3rd
     -
       position: 3
       score: 111
       name: Marc Doe
       school: Athénee Royal d'Outsiplou 3 c
-      year: 1
+      year: year_1st
   junior:
     -
       position: 1
       score: 111
       name: John Doe
       school: Athénee Royal d'Outsiplou j
-      year: 3
+      year: year_3rd
     -
       position: 2
       score: 55
       name: Robert Doe
       school: Athénee Royal d'Outsiplou 2 j
-      year: 4
+      year: year_4th
     -
       position: 3
       score: 6
       name: Marc Doe
       school: Athénee Royal d'Outsiplou 3 j
-      year: 4
+      year: year_4th
   senior:
     -
       position: 1
       score: 534
       name: John Doe
       school: Athénee Royal d'Outsiplou s
-      year: 6
+      year: year_6th
     -
       position: 2
       score: 111
       name: Robert Doe
       school: Athénee Royal d'Outsiplou 2 s
-      year: 5
+      year: year_5th
     -
       position: 3
       score: 56
       name: Marc Doe
       school: Athénee Royal d'Outsiplou 3 s
-      year: 5
+      year: year_5th
