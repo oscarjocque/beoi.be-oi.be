@@ -247,8 +247,8 @@ count_junior: 249
 count_senior: 264
 schools:
   cadet:
-    - "Sint-Bavohumaniora, Gent"
     - "Instituut Heilig Hart van Maria, Berlaar"
+    - "Sint-Bavohumaniora, Gent"
     - "Sint-Franciscus-Xaveriusinstituut, Brugge"
   junior:
     - "Maris Stella Instituut, Malle"
