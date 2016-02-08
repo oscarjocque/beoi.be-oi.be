@@ -58,7 +58,7 @@ contestants:
     - position: 11
       score: 68
       name: Brent Silkyn
-      school: Oostakker, Gent
+      school: Sint-Bavohumaniora, Gent
       year: year_1st
     - position: 13
       score: 67
@@ -247,9 +247,9 @@ count_junior: 249
 count_senior: 264
 schools:
   cadet:
+    - "Sint-Bavohumaniora, Gent"
     - "Instituut Heilig Hart van Maria, Berlaar"
     - "Sint-Franciscus-Xaveriusinstituut, Brugge"
-    - "Sint-Bavohumaniora, Gent"
   junior:
     - "Maris Stella Instituut, Malle"
     - "College Ieper"
