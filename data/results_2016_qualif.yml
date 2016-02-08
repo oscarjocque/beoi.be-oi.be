@@ -242,8 +242,8 @@ contestants:
       name: Alexandre Terefenko
       school: Athénée Provincial de La Louvière
       year: year_6th
-count_cadet: 204
-count_junior: 250
+count_cadet: 205
+count_junior: 249
 count_senior: 264
 schools:
   cadet:
