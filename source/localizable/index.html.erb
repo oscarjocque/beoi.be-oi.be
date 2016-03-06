@@ -239,6 +239,44 @@ trianglify_colors: '["#e31d3b","#d53e4f","#f46d43","#fdae61","#fee08b","#ffffbf"
   <!--end of container-->
 </section>
 
+<a name="sample-questions"></a>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 class="uppercase mb80"><%= t(:sample_tasks_final) %></h4>
+        <p>Le language informatique utilisé dans les questionnaires est un pseudo-code défini
+        <%= link_to "dans ce document", "/archives/pseudo-code.pdf", target:"_blank" %>.</p>
+        <div class="tabbed-content button-tabs vertical">
+          <ul class="tabs">
+            <% data.final_tasks.each_with_index do |task, index| %>
+            <li <% if index == 0 %>class="active"<% end %>>
+              <div class="tab-title">
+                <span><%= t("task_"+task) %></span>
+              </div>
+              <div class="tab-content">
+                <!-- <h5 class="uppercase">Let's Talk Tabs</h5>
+                <hr> -->
+                <%= partial "tasks/"+task %>
+                <a class="btn btn-sm" onclick="javascript:$('#task_<%= task %>').toggle();"><%= t(:task_toggle_solution) %></a>
+                <div id="task_<%= task %>" style="display: none; padding:10px;" class="feature bordered bg-white">
+                  <%= partial "tasks/"+task+"_sol" %>
+                </div>
+              </div>
+            </li>
+            <% end %>
+          </ul>
+        </div>
+        <!--end of button tabs-->
+      </div>
+
+    </div>
+    <!--end of row-->
+
+  </div>
+  <!--end of container-->
+</section>
+
 <section class="bg-dark pb0">
   <div class="container">
     <div class="row mb64 mb-xs-32">
