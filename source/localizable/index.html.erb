@@ -245,8 +245,8 @@ trianglify_colors: '["#e31d3b","#d53e4f","#f46d43","#fdae61","#fee08b","#ffffbf"
     <div class="row">
       <div class="col-sm-12">
         <h4 class="uppercase mb80"><%= t(:sample_tasks_final) %></h4>
-        <p>Le language informatique utilisé dans les questionnaires est un pseudo-code défini
-        <%= link_to "dans ce document", "/archives/pseudo-code.pdf", target:"_blank" %>.</p>
+        <p><%= t(:pseudocode_expl) %>
+        <%= link_to t(:inthisdoc), "/archives/pseudo-code-#{lang}.pdf", target:"_blank" %>.</p>
         <div class="tabbed-content button-tabs vertical">
           <ul class="tabs">
             <% data.final_tasks.each_with_index do |task, index| %>

@@ -32,6 +32,8 @@ fr:
   sample_tasks_qualifying: "Exemples de question pour l'éliminatoire"
   sample_tasks_final: "Exemples de question pour la finale"
   more_questions_soon: "Plus de questions et solutions d'ici peu ..."
+  pseudocode_expl: "Le language informatique utilisé dans les questionnaires est un pseudo-code défini"
+  inthisdoc: "dans ce document"
   questions: Des questions ?
   contact_us: Contactez-nous !
 
