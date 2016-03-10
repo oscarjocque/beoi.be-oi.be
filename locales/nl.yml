@@ -30,7 +30,10 @@ nl:
 
   members: Onze leden
   sample_tasks_qualifying: "Voorbeeldvragen voor de eerste ronde"
+  sample_tasks_final: "Voorbeeldvragen voor de finale"
   more_questions_soon: "Meer vragen en oplossingen volgen binnenkort..."
+  pseudocode_expl: "De programmeertaal die we hier gebruiken  is een pseudocode die uitgelegd wordt"
+  inthisdoc: "in dit document"
   questions: Vragen?
   contact_us: Contacteer ons!
 
@@ -97,6 +100,9 @@ nl:
   task_black_and_white: Zwart-wit
   task_learn_english: Learn English
   task_card_shuffle: Kaartspel
+
+  task_double1: Dubbel-1
+  task_recursive: Recursie
 
   task_toggle_solution: Toon/verberg de oplossing
 

@@ -30,7 +30,10 @@ fr:
 
   members: Nos membres
   sample_tasks_qualifying: "Exemples de question pour l'éliminatoire"
+  sample_tasks_final: "Exemples de question pour la finale"
   more_questions_soon: "Plus de questions et solutions d'ici peu ..."
+  pseudocode_expl: "Le language informatique utilisé dans les questionnaires est un pseudo-code défini"
+  inthisdoc: "dans ce document"
   questions: Des questions ?
   contact_us: Contactez-nous !
 
@@ -97,6 +100,9 @@ fr:
   task_black_and_white: Black and white
   task_learn_english: Learn English
   task_card_shuffle: Mélange de cartes
+
+  task_double1: Double 1
+  task_recursive: Récursivité
 
   task_toggle_solution: Montrer/cacher la solution
 
