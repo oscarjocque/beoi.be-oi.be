@@ -7,6 +7,6 @@
 * (f) `n-1`
 * (g) `0`
 * (h) `-1`
-* (i) `arr[j+count]`
+* (i) `arr[j+count] <-- arr[j]`
 * (j) `count - 1`
 * ongeveer 10 milliseconden
