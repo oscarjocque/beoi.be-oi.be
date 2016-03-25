@@ -1,0 +1,182 @@
+contestants:
+  cadet_top6:
+    - 
+      name: Julien Brandoit
+      school: Athénée Royal de Marche-en-Famenne
+      year: year_2nd
+    - 
+      name: Phlips Daan
+      school: Sint-Bavohumaniora, Gent
+      year: year_1st
+    - 
+      name: Arn De Moor
+      school: College Paters Jozefieten, Melle
+      year: year_2nd
+    - 
+      name: Ruben Van Dijck
+      school: Instituut Heilig Hart van Maria, Berlaar
+      year: year_2nd
+    - 
+      name: Gus Vanpoucke
+      school: Sint-Bavohumaniora, Gent
+      year: year_1st
+    - 
+      name: Pieter Van Steenweghen
+      school: Instituut Heilig Hart van Maria, Berlaar
+      year: year_2nd
+  cadet:
+    - position: 7
+      score: 40
+      name: Brent Silkyn
+      school: Sint-Bavohumaniora, Gent
+      year: year_1st
+    - position: 8
+      score: 39
+      name: Henri Lemahieu
+      school: Sint-Franciscus-Xaveriusinstituut, Brugge
+      year: year_2nd
+    - position: 9
+      score: 38
+      name: Sander Verwimp
+      school: Instituut Heilig Hart van Maria, Berlaar
+      year: year_1st
+    - position: 9
+      score: 38
+      name: Wouter Burssens
+      school: Sint-Vincentiusinstituut Dendermonde
+      year: year_2nd
+    - position: 11
+      score: 34
+      name: Elina Van der Taelen
+      school: Instituut Heilig Hart van Maria, Berlaar
+      year: year_1st
+    - position: 12
+      score: 33
+      name: Niels Rubens
+      school: KCST, Sint-Truiden
+      year: year_2nd
+    - position: 13
+      score: 25
+      name: Manon Léonard
+      school: Institut de la Vierge Fidèle, Schaerbeek
+      year: year_2nd
+    - position: 14
+      score: 17
+      name: Aaron Goos
+      school: Maris Stella Instituut, Oostmalle
+      year: year_1st
+    - position: 15
+      score: 8
+      name: Henri Dambiermont
+      school: Athénée Royal de Marche-en-Famenne
+      year: year_2nd
+  junior_top6:
+    - name: Kristiaan Bogaerts
+      school: Sint-Ludgardisschool Merksem
+      year: year_4th
+    - name: Loïc Grumiaux
+      school: Collège Saint-Guibert Gembloux
+      year: year_4th
+    - name: Jan Livens
+      school: Vita et Pax-College, Schoten
+      year: year_3rd
+    - name: Arthur Massar
+      school: Institut Saint-Boniface-Parnasse d'Ixelles
+      year: year_4th
+    - name: Bruno Ploumhans
+      school: Collège Saint-Michel, Etterbeek
+      year: year_4th
+    - name: Lucas Prieels
+      school: Collège Don Bosco, Bruxelles
+      year: year_3rd
+  junior:
+    - position: 7
+      score: 59
+      name: Gwenaël Vervaet
+      school: Athénée Robert Catteau, Bruxelles
+      year: year_4th
+    - position: 8
+      score: 51
+      name: Diederik Dujardin
+      school: College Ieper
+      year: year_4th
+    - position: 9
+      score: 45
+      name: Miro Stuyven
+      school: Sint-Lodewijkscollege, Lokeren
+      year: year_4th
+    - position: 10
+      score: 43
+      name: Joke Tanghe
+      school: Sint-Franciscus-Xaveriusinstituut, Brugge
+      year: year_4th
+    - position: 11
+      score: 41
+      name: Wout David
+      school: Sint-Lodewijkscollege, Sint-Andries
+      year: year_4th
+    - position: 12
+      score: 41
+      name: Achille Vincart
+      school: Athénée Robert Catteau, Bruxelles
+      year: year_3rd
+    - position: 13
+      score: 38
+      name: Manon Breugelmans
+      school: GO! atheneum Erasmus De Pinte
+      year: year_4th
+    - position: 14
+      score: 32
+      name: Marthe D'Hooghe
+      school: Maris Stella Instituut, Oostmalle
+      year: year_3rd
+  senior_top6:
+    - name: Louis Billot
+      school: Collège Notre-Dame de Bon Secours, Binche
+      year: year_6th
+    - name: Sammy Delanghe
+      school: Petrus & Paulus OLV College, Oostende
+      year: year_6th
+    - name: Damien Galant
+      school: Athénée Provincial de La Louvière
+      year: year_6th
+    - name: Robbe Pincket
+      school: Maris Stella Instituut, Oostmalle
+      year: year_5th
+    - name: Robin Simoens
+      school: Sint-Barbaracollege, Gent
+      year: year_5th
+    - name: Alexandre Terefenko
+      school: Athénée Provincial de La Louvière
+      year: year_6th
+  senior:
+    - position: 7
+      score: 76
+      name: Thijs Paelman
+      school: Atheneum Voskenslaan Gent
+      year: year_5th
+    - position: 8
+      score: 70
+      name: Nicolas Mahiat
+      school: Institut Saint-Michel Verviers
+      year: year_6th
+    - position: 9
+      score: 65
+      name: Bavo Ceulemans
+      school: V.T.I. Sint-Laurentius Lokeren
+      year: year_6th
+    - position: 10
+      score: 63
+      name: Auke Van Sighem
+      school: Vita et Pax-College, Schoten
+      year: year_5th
+    - position: 11
+      score: 63
+      name: Lennert Luyckx
+      school: Sint Jan Berchmanscollege, Mol
+      year: year_5th
+    - position: 12
+      score: 62
+      name: Ovidiu Parfene
+      school: SHAPE, Mons
+      year: year_5th
