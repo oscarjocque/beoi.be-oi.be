@@ -109,7 +109,8 @@ fr:
   route_instruct: Instructions
   center_in_your_school: "L'épreuve peut également être organisée dans votre école, sous condition."
 
-  task_descriptions_title: Éliminatoire 2016
+  qualif_task_descriptions_title: Éliminatoire 2016
+  final_task_descriptions_title: Finale 2016
   task_description: Énoncé
   solutions: Solutions
   task_descriptions_remark: ""

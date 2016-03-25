@@ -1,37 +1,57 @@
 2016:
-  -
-    type: :task_description
-    category: :Cadet
-    file:
-      fr: beOI16-qualif-fr-cadet.pdf
-      nl: beOI16-qualif-nl-beloften.pdf
-  -
-    type: :solutions
-    category: :Cadet
-    file:
-      fr: beOI16-qualif-fr-cadet-sol.pdf
-      nl: beOI16-qualif-nl-beloften-sol.pdf
-  -
-    type: :task_description
-    category: :Junior
-    file:
-      fr: beOI16-qualif-fr-junior.pdf
-      nl: beOI16-qualif-nl-junior.pdf
-  -
-    type: :solutions
-    category: :Junior
-    file:
-      fr: beOI16-qualif-fr-junior-sol.pdf
-      nl: beOI16-qualif-nl-junior-sol.pdf
-  -
-    type: :task_description
-    category: :Senior
-    file:
-      fr: beOI16-qualif-fr-senior.pdf
-      nl: beOI16-qualif-nl-senior.pdf
-  -
-    type: :solutions
-    category: :Senior
-    file:
-      fr: beOI16-qualif-fr-senior-sol.pdf
-      nl: beOI16-qualif-nl-senior-sol.pdf
+  qualif:
+    -
+      type: :task_description
+      category: :Cadet
+      file:
+        fr: beOI16-qualif-fr-cadet.pdf
+        nl: beOI16-qualif-nl-beloften.pdf
+    -
+      type: :solutions
+      category: :Cadet
+      file:
+        fr: beOI16-qualif-fr-cadet-sol.pdf
+        nl: beOI16-qualif-nl-beloften-sol.pdf
+    -
+      type: :task_description
+      category: :Junior
+      file:
+        fr: beOI16-qualif-fr-junior.pdf
+        nl: beOI16-qualif-nl-junior.pdf
+    -
+      type: :solutions
+      category: :Junior
+      file:
+        fr: beOI16-qualif-fr-junior-sol.pdf
+        nl: beOI16-qualif-nl-junior-sol.pdf
+    -
+      type: :task_description
+      category: :Senior
+      file:
+        fr: beOI16-qualif-fr-senior.pdf
+        nl: beOI16-qualif-nl-senior.pdf
+    -
+      type: :solutions
+      category: :Senior
+      file:
+        fr: beOI16-qualif-fr-senior-sol.pdf
+        nl: beOI16-qualif-nl-senior-sol.pdf
+  final:
+    -
+      type: :solutions
+      category: :Cadet
+      file:
+        fr: beOI16-final-fr-cadet-sol.pdf
+        nl: beOI16-final-nl-beloften-sol.pdf
+    -
+      type: :solutions
+      category: :Junior
+      file:
+        fr: beOI16-final-fr-junior-sol.pdf
+        nl: beOI16-final-nl-junior-sol.pdf
+    -
+      type: :solutions
+      category: :Senior
+      file:
+        fr: beOI16-final-fr-senior-sol.pdf
+        nl: beOI16-final-nl-senior-sol.pdf
