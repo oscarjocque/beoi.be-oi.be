@@ -12,6 +12,7 @@ nl:
   AllContests: Alle wedstrijden
   Contest: Wedstrijdverloop
   QualifResults: "Eerste ronde: resulaten"
+  FinalResults: "Finale: resultaten"
   Rules: Reglement
   Tasks: Voorbeeldvragen
   FAQ: FAQ
@@ -80,6 +81,7 @@ nl:
   wait_for_qualif_results_descr: Je krijgt jouw resultaten via email in de loop van de volgende weken.
 
   index_qualif_result_title: "Eerste ronde 2016"
+  index_final_result_title: "Finale 2016"
   index_qualif_result_link: "De resultaten"
 
   Jan: jan
@@ -173,7 +175,14 @@ nl:
   qualif_top_girls: De beste meisjes
   qualif_top_girls_expl: |
     In een (helaas en onterecht) vaak mannelijk gekleurd vak, hebben dit jaar %d meisjes deelgenomen aan de eerste ronde, een absoluut record! Dit zijn de besten onder hen. 
-  
+
+  final_results_expl: |
+    Hieronder staan, per categorie, de resultaten van de finale. 
+    De eerste zes finalisten in elke categorie zijn in alfabetische volgorde vermeld, zonder hun score. 
+    Zij komen hun plaats te weten, en krijgen een prijs uitgereikt, op de proclamatie op 7 mei in Brussel.
+  final_top6: Top-6, in alfabetische volgorde 
+  final_after_top6: Eindklassement vanaf de 7e plaats
+
    # Registrations
   registration_title: Inschrijven voor beOI %s
   email_field: E-mailadres

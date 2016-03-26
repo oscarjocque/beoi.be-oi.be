@@ -12,6 +12,7 @@ fr:
   AllContests: Tous les concours
   Contest: Déroulement
   QualifResults: "Eliminatoire: Résultats"
+  FinalResults: "Finale: Résultats"
   Rules: Règlement
   Tasks: Questions
   FAQ: FAQ
@@ -80,6 +81,7 @@ fr:
   wait_for_qualif_results_descr: Vos résultats vous seront transmis par e-mail dans les prochaines semaines.
 
   index_qualif_result_title: "Éliminatoire 2016"
+  index_final_result_title: "Finale 2016"
   index_qualif_result_link: "Les résultats"
 
   Jan: jan
@@ -179,6 +181,14 @@ fr:
   qualif_top_girls_expl: |
     Dans un domaine par les hommes, %d filles participaient cette année à l'éliminatoire,
     un record ! Voici un classement des meilleures d'entre elles.
+  
+  final_results_expl: |
+    Les classements ci-dessous reprennent, par catégorie, les résultats de la finale. 
+    Les six premiers de chaque catégorie sont donnés par ordre alphabétique et sans leur score. 
+    Ces derniers recevront leur classement final et un prix lors de la proclamation du 7 mai à Bruxelles.
+  final_top6: Top-6, par ordre alphabétique 
+  final_after_top6: Classement à partir de la 7e position
+
 
   # Registrations
   registration_title: Inscription à la beOI %s
