@@ -180,8 +180,8 @@ nl:
     Hieronder staan, per categorie, de resultaten van de finale. 
     De eerste zes finalisten in elke categorie zijn in alfabetische volgorde vermeld, zonder hun score. 
     Zij komen hun plaats te weten, en krijgen een prijs uitgereikt, op de proclamatie op 7 mei in Brussel.
-  final_top6: Top-6, in alfabetische volgorde 
-  final_after_top6: Eindklassement vanaf de 7e plaats
+  final_top: Top-%d, in alfabetische volgorde
+  final_after_top: Eindklassement vanaf de %de plaats
 
    # Registrations
   registration_title: Inschrijven voor beOI %s

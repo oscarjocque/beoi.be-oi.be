@@ -186,8 +186,8 @@ fr:
     Les classements ci-dessous reprennent, par catégorie, les résultats de la finale. 
     Les six premiers de chaque catégorie sont donnés par ordre alphabétique et sans leur score. 
     Ces derniers recevront leur classement final et un prix lors de la proclamation du 7 mai à Bruxelles.
-  final_top6: Top-6, par ordre alphabétique 
-  final_after_top6: Classement à partir de la 7e position
+  final_top: Top-%d, par ordre alphabétique
+  final_after_top: Classement à partir de la %de position
 
 
   # Registrations
