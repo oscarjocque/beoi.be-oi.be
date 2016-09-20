@@ -6,6 +6,9 @@
       question: Wat kost het om in te schrijven ?
       answer: De wedstrijd is helemaal gratis.
     - 
+      question: Wanneer starten de inschrijvingen ?
+      answer: We hopen de inschrijvingen, zowel voor individuele deelnemers als voor scholen, te kunnen starten begin december. Tot die tijd kan je alvast je emailadres achterlaten op onze website, en dan ben je als eerste op de hoogte zodra de inschrijvingen starten. 
+    - 
       question: "Ik woon in het buitenland, mag ik deelnemen?"
       answer: | 
         Belgen die in het buitenland wonen of ingeschreven zijn in een secundaire 
@@ -31,10 +34,10 @@
   category_title: Eerste ronde
   questions: 
     -
-      question: Waar vindt de eerste ronde plaats ?
+      question: Waar vindt de eerste ronde plaats?
       answer: |
-        De eerste ronde vindt plaats in de volgende centra: Antwerpen, Leuven, Hasselt, Gent, Kortrijk, Brussel (Etterbeek), Louvain-la-Neuve, Namen, Luik, Bergen, Libramont.
-        Exacte adressen zullen op de website verschijnen zodra de inschrijvingen geopend zijn.
+        Je kan deelnemen in jouw eigen school (zie hieronder), of in de volgende regionale centra: Antwerpen, Leuven, Hasselt, Gent, Kortrijk, Brussel (Etterbeek), Louvain-la-Neuve, Namen, Luik, Bergen, Libramont.
+        Exacte adressen zullen op de website verschijnen zodra de inschrijvingen geopend zijn. 
     - 
       question: "Kan ik de eerste ronde in een Franstalig centrum komen doen?"
       answer: |
@@ -43,41 +46,80 @@
         centra kunnen antwoorden op vragen in het Nederlands. Sowieso kan je geen
         vragen stellen over de proef zelf, enkel over praktische details 
         (resterende tijd, ...).
-        -
+    -
       question: Kan ik de eerste ronde in mijn school afleggen?
       answer: |
-        Ja, maar enkel onder voorwaarde dat je school kan voldoen aan de voorwaarden hieronder beschreven in de sectie "voor scholen". In alle andere gevallen ga je best naar het dichtstbijzijnde lokale centrum.
+        Ja. Daarvoor moet er een leerkracht zijn die de eerste ronde wilt begeleiden. Ook moet de school voldoen aan de voorwaarden hieronder beschreven in de sectie "voor scholen". In alle andere gevallen ga je best naar het dichtstbijzijnde lokale centrum.
+- 
+  category_title: Finale en verder
+  questions: 
+    -
+      question: Waar vindt de finale plaats?
+      answer: |
+        De finale zal plaatsvinden op een centrale locatie, meestal is dit in Brussel. Het exacte adres wordt later nog bevestigd. 
+    -
+      question: Moet ik kunnen programmeren voor de finale?
+      answer: |
+        De finale is een proef op papier. Bij sommige vragen zal je immers gevraagd worden om eenvoudige stukjes code te lezen of aan te vullen. Daarom is het handig om in een courante programmeertaal een beetje te kunnen programmeren. 
+        Alle finalisten zullen de mogelijkheid krijgen om een introductiecursus programmeren te volgen in de krokusvakantie. De exacte datum en locatie wordt na de eerste ronde bekendgemaakt.         
+    -
+      question: Ik kan best al wat programmeren!
+      answer: |
+        Dan nodigen we je graag uit om kennis te maken met beCP. Voor deze groep getalenteerde jonge programmeurs organiseren we aparte trainingen en cursussen waarin geavanceerde onderwerpen aan bod komen.
+        Via beCP wordt je voorbereid op deelname aan internationale programmeerwedstrijden, waaronder de Internationale Olympiade in Informatica. 
+        Alles wat je moet doen om lid te worden van beCP vind je op <a href="http://becp.be-oi.be" target="_blank">becp.be-oi.be</a>. 
+        Je kan al lid worden van beCP voordat je deelgenomen hebt aan de Belgische Informatica-olympiade.
+    -  
+      question: Hoe kan ik deelnemen aan de Internationale Olympiade?
+      answer: |
+        België mag elk jaar een ploeg van 4 leerlingen naar de Internationale Olympiade in Informatica sturen. De ploeg wordt samengesteld na een aparte programmeerwedstrijd die georganiseerd wordt in mei en enkel toegankelijk is voor de leden van de beCP groep. 
+        Daarom moet je eerst en vooral lid worden van beCP.
+        (Omdat onze subsidies van 2 overheden komen, bestaat de Belgische ploeg wel altijd uit minstens 1 Nederlandstalige en minstens 1 Franstalige.)
 -
   category_title: Voor scholen
-  questions:        
+  questions:
+    - question: Wat verandert er in 2017? 
+      answer: |
+        In grote lijnen:<br> 
+        - In 2017 willen we de eerste ronde via de computer doen verlopen. Het wedstrijdplatform daarvoor is volop in ontwikkeling.<br> 
+        - We trachten het inschrijvingsproces verder te automatiseren. <br>
+        - Om de groei te kunnen opvangen, zullen dit jaar tot 50 deelnemers in elke categorie tot de finale worden toegelaten.<br>
+        - De finale blijft dit jaar een proef op papier.<br>
+        - Er wordt een betere inschatting van vereiste tijdsduur en moeilijkheidsgraad nagestreefd voor de vragen.<br>
+        - Omdat computerklassen moeilijker te reserveren zijn, hopen we meer flexibiliteit in de praktische organisatie te kunnen toelaten.<br> 
+        Dit alles is afhankelijk van de uiteindelijke specificaties van het wedstrijdplatform, dat momenteel nog in ontwikkeling is. Tegen eind november zullen we concreter kunnen zijn.
     -
       question: Onder welke voorwaarden kan de eerste ronde in de school doorgaan ?
       answer: |
-        De eerste ronde kan in uw school worden georganiseerd indien aan al de volgende voorwaarden is voldaan:<br>
-        - Minstens 10 leerlingen van uw school moeten deelnemen, alle niveau's tesamen. <br>
-        - Er moet een lokaal beschikbaar zijn, geschikt voor een examen (voldoende plaats tussen de leerlingen, ...).<br>
+        De eerste ronde kan in uw school worden georganiseerd indien aan al de volgende voorwaarden is voldaan (noot: door de wijzingen in 2017 is het mogelijk dat dit later nog licht wordt aangepast):<br>
+        - Minstens 4 leerlingen van uw school moeten deelnemen, alle niveau's tesamen. <br>
+        - Er moet een computerlokaal beschikbaar zijn, met een internetverbinding en 1 computer voor iedere deelnemer.<br>
         - Er moet constant toezicht zijn tijdens de volledige proef.<br>
         - Het reglement van de proef (geen GSM, ...) moet gerespecteerd worden. Het wordt u enkele dagen voor de proef toegezonden. <br>
-        - De proef moet doorgaan op hetzelfde moment als in de andere centra. Dat wil zeggen, de proef moet beginnen op woensdag 27 januari 2016 tussen 13u en 14u30, en moet 1u30 duren. <em>(uitzondering voor scholen die de biologie-olympiade organiseren: zie hieronder)</em><br>
-        - U moet zelf alle vragenlijsten afdrukken op dinsdagmiddag of woensdagvoormiddag, en ze veilig bewaren tot het begin van de proef. <br>
-        - U moet ons de ingevulde opgaves (en zeker alle antwoordbladen) nadien doorsturen, ofwel door ze in te scannen en te emailen, ofwel via aangetekende post, ofwel door ze zelf af te geven in het verbetercentrum in Brussel (ULB Pleinlaan).
+        - De proef moet doorgaan op hetzelfde moment als in de andere centra. Voor editie 2017 betekent dit dat de proef plaatsvindt op woensdag 1 februari in de namiddag. De proef moet 1u30 duren. Er wordt later nog beslist hoeveel marge we daarop zullen toelaten.<br>
+        - Als een school de eerste ronde in eigen huis organiseert, moeten alle deelnemers van die school de eerste ronde op school afleggen. Een deel van de leerlingen op school en een ander deel in een regionaal centrum is niet mogelijk.<br>
+        - Alle deelnemers aan de Informatica-olympiade van uw school die behoren tot eenzelfde categorie, beginnen op hetzelfde moment aan hun proef (niet enkelen om 14u en anderen om 15u).<br>
     -
       question: Is er een oplossing voor de overlap met een andere wedstrijd?
       answer: |
-        In 2016 valt de eerste ronde van de Informatica-olympiade samen met die van de Biologie-olympiade. De biologie-olympiade gaat door op school in een computerklas van 13u tot 15u. Uw leerlingen kunnen na afloop de Informatica-olympiade afleggen (pas beginnend om 15u of net iets later als er een kleine pauze is), onder de volgende bijkomende voorwaarden:<br>
-        - De deelnemers hebben vanaf 14u30 geen contact met de buitenwereld: scholieren geven gsm, smartwatches en andere apparaten met internetverbinding af, met uitzondering van wat nodig is om de biologie-olympiade te beëindigen.<br>
-        - Alle leerlingen die deelnemen aan de Informatica-olympiade beginnen op hetzelfde moment (niet enkelen om 14u en anderen om 15u).<br>
-        
-        Wij vinden deze overlap met een andere wedstrijd zelf jammer, maar ze was niet te vermijden. Ze is een gevolg van het feit dat we als nationale olympiade rekening moeten houden met de verschillende kalenders van andere wedstrijden in zowel Vlaanderen als in Franstalig België. 
+        In 2017 valt de eerste ronde van de Informatica-olympiade samen met die van de Biologie-olympiade. De biologie-olympiade gaat ook door op school in een computerklas, op vaste tijdstippen. Uw leerlingen mogen voordien of na afloop de Informatica-olympiade afleggen.<br>
+        Wij vinden deze overlap met een andere wedstrijd zelf jammer, maar ze is niet te vermijden. Ze is een gevolg van de langere voorbereidingstijd die we nodig hebben in 2017, en het feit dat we als nationale olympiade rekening moeten houden met de kalenders van andere wedstrijden in zowel Vlaanderen als in Franstalig België. 
     -
-      question: Moet er aan de computer gewerkt worden in de eerste ronde ?
-      answer: "Nee, de eerste ronde is enkel een papieren examen."
+      question: Is een computerklas noodzakelijk?
+      answer: De eerste ronde is in 2017 gepland als een wedstrijd via de computer. Indien de voorbereidingen daarvoor succesvol zijn, zal de wedstrijd in een computerklas met internetverbinding moeten plaatsvinden.
+    -
+      question: Mijn computerklas is niet groot genoeg!
+      answer: |
+        Het zal zeer waarschijnlijk toegelaten worden de eerste ronde in maximaal 3 aparte sessies te organiseren, m.n. 1 sessie per deelnemerscategorie. 
+        We zullen echter wel vragen dat alle deelnemers van eenzelfde categorie en eenzelfde school, de wedstrijd tegelijkertijd afleggen.
+        Ook vragen we in dat geval dat de communicatie tussen deelnemers van verschillende sessies tot een absoluut minimum wordt beperkt, zelfs al behoren ze tot een verschillende categorie.
     -
       question: Moeten mijn leerlingen zich op uw site inschrijven? 
       answer: |
-        Alle deelnemers moeten zich persoonlijk inschrijven op onze site, zodat ze via email hun resultaten toegestuurd krijgen, en als ze in aanmerking komen, ook de uitnodigingen voor de vormingssessies en de finale krijgen.
+        We trachten vanaf 2017 de inschrijvingen te kunnen laten verlopen via het wedstrijdplatform. De details van de inschrijvingsprocedure worden momenteel nog uitgewerkt. 
+        Een geldig emailadres blijft echter wel noodzakelijk, zodat we deelnemers hun resultaten kunnen toesturen, en als ze in aanmerking komen, ook de uitnodigingen voor de vormingssessies en de finale kunnen bezorgen.
         Als per ongeluk een leerling niet ingeschreven blijkt te zijn op de dag van de eerste ronde, laten we wel toe om achteraf nog in te schrijven. 
     -
       question: Hoe schrijf ik mijn school in? 
       answer: |
-        Als u de intentie heeft de eerste ronde in uw school te organiseren, laat ons dat dan weten door een e-mail te sturen naar info@be-oi.be . Vraag ook aan uw leerlingen om zich in te schrijven voor de wedstrijd via deze website, voor 25 januari 2016. 10 leerlingen van uw school moeten ingeschreven zijn voordat we de organisatie van de eerste ronde in uw school bevestigen.
+        De details van de inschrijvingsprocedure voor scholen hopen we eind november te kunnen publiceren.
