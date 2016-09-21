@@ -5,6 +5,13 @@
     - 
       question: Combien coûte l'inscription ?
       answer: Le concours est entièrement gratuit.
+    -
+      question: Quand commencent les inscriptions ?
+      answer: |
+        Les inscriptions devraient être ouvertes individuellement ou pour les écoles
+        pour début décembre au plus tard. D'ici là, vous pouvez laisser votre adresse
+        e-mail sur la page principale du site afin d'être prévenu dès l'ouverture
+        des inscriptions.
     - 
       question: "J'habite à l'étranger, puis-je participer ?"
       answer: | 
@@ -33,7 +40,8 @@
     -
       question: Où se les éliminatoires se déroulent-ils ?
       answer: |
-        Les éliminatoires se déroulent dans les centres suivants:
+        Les éliminatoires se déroulent dans les écoles (voir ci-dessous) et dans les 
+        centres régionaux suivants:
         Bruxelles (Etterbeek), Louvain-la-Neuve, Namur, Liège, Mons, Libramont, Gand, Anvers, Leuven,
         Hasselt, Courtrai. Les adresses précises sont disponibles sur la page du concours lorsque les
         inscriptions sont ouvertes.
@@ -49,44 +57,99 @@
     -
       question: Puis-je passer l'éliminatoire dans mon école ?
       answer: |
-        Oui, à condition que l'école puisse remplir un ensemble de condition indiquée
-        ci-dessous dans la catégorie "écoles".
+        Oui, à condition d'avoir le support d'un enseignant. L'école doit également remplir
+        un ensemble de condition indiquée ci-dessous dans la catégorie "écoles". Dans le 
+        cas contraire, passez l'épreuve dans le centre régional le plus proche.
+-
+  category_title: Finale et la suite ...
+  questions:
+    -
+      question: Où la finale a-t-elle lieu ?
+      answer: |
+        La finale aura lieu dans un lieu central pour les participants, typiquement Bruxelles.
+        Le lieu exact sera indiqué sur notre site dès qu'il sera connu.
+    -
+      question: Dois-je savoir programmer pour la finale ?
+      answer: |
+        La finale est épreuve papier. Les questions comporteront des extraits de code
+        simples à compléter. Il est donc nécessaire de savoir programmer dans un language
+        de programmation commun. 
+        Tous les finalistes auront l'occasion de participer à une formation d'introduction à la 
+        programmation donnée durant les vacances du Carnaval. Les dates et lieux exacts 
+        seront annoncés à l'approche de la formation.
+    -
+      question: Et si je sais déjà bien programmer ?
+      answer: |
+        Nous vous invitons alors à participer à la beCP. Il s'agit du groupe de nos 
+        programmeurs les plus talentueux, ils participent à des formations avancées
+        d'algorithmique. 
+        La beCP permet de s'entraîner et de participer à des compétitions de niveau
+        international, telles que l'Olympiade Internationale d'Informatique.
+        Toutes les infos a propos de la beCP (y compris comment la rejoindre) se trouvent
+        sur notre site <a href="http://becp.be-oi.be" target="_blank">becp.be-oi.be</a>.
+    -
+      question:  Comment puis-je participer à l'Olympiade Internationale ?
+      answer: |
+        La Belgique envoie une délégation de quatre étudiants à l'Olympiade Internationale
+        d'Informatique chaque année. L'équipe est composée suite à un concours de sélection
+        parmi les participants du groupe beCP.
+        Pour y participer, vous devez donc commencer par rejoindre la beCP. 
 -
   category_title: Écoles
   questions:
+    - 
+      question: Qu'est-ce qui change en 2017 ?
+      answer: |
+        Dans les grandes lignes:<br>
+        - La qualification aura lieu sur ordinateur via une plate-forme en ligne.<br>
+        - Notre objectif est d'automatiser les inscriptions autant que possible.<br>
+        - Afin de répondre à la croissance du concours, 50 participants de chaque catégorie
+          seront qualifiés pour la finale.<br>
+        - La finale restera sur papier.<br>
+        - Un effort sera mis sur une meilleure estimation du temps et de la difficulté de
+          l'épreuve.<br>
+        - Vu que nous savons qu'il peut être difficile de réserver des salles informatique,
+          nous essayerons de donner le plus de souplesse dans l'organisation pratique.
+        Lorsque la plate-forme de concours sera prête, nous vous permettrons de tester le 
+        concours (pour novembre nous l'espérons).
     -
       question: Sous quelles conditions mon école peut-elle organiser l'éliminatoire ?
       answer: |
         L'éliminatoire peut être organisé dans votre établissement à condition que l'ensemble de
-        ces critères soient remplis :<br>
-        - Avoir au moins 10 élèves participants à l'épreuve dans votre établissement, tout
+        ces critères soient remplis (note: il est possible que ces règles soient légèrement
+        ajustées à l'ouverture des inscriptions):<br>
+        - Avoir au moins 4 élèves participants à l'épreuve dans votre établissement, tout
         niveau confondu.<br>
-        - Avoir un local dans lequel organiser l'épreuve et adapté pour un examen (espacement
-          entre les élèves, ...).<br>
+        - Avoir une salle informatique dans lequelle organiser l'épreuve avec un ordinateur par
+          participant et une connexion Internet.<br>
         - Avoir une surveillance constante pendant toute l'épreuve.<br>
         - Faire respecter le règlement de l'épreuve (pas de GSM, ...), qui sera fourni quelques
           jours avant l'épreuve.<br>
-        - Organiser l'épreuve en même temps que dans les autres centres. Plus précisément,
-          l'épreuve doit débuter le mercredi 27 janvier 2016 entre 13h et 14h15 et durer 1h30.<br>
-        - Être capable d'imprimer par vous même les énoncés le mardi après-midi ou mercredi matin
-        et de les conserver en sécurité jusqu'au début de l'épreuve.<br>
-        - Nous renvoyer les énoncés remplis (du moins les feuilles reprenant les solutions) soit par
-          email après les avoir scannés, soit par colis recommandés, soit en les déposant au centre
-          de correction de Bruxelles (Campus de la Plaine).
+        - Organiser l'épreuve le même jour que les autres centres.<br>
     -
       question: L'éliminatoire se déroule-t-il sur ordinateur ?
       answer: "Non, l'éliminatoire se déroule exclusivement sur papier."
     -
       question: Mes élèves doivent-ils s'inscrire sur votre site ?
       answer: |
-        Tous les participants doivent s'inscrire sur notre afin de recevoir, par e-mail, leurs résultats
-        et le cas échéant, des propositions de formations et une invitation à la finale.
-        Notez que si l'un ou l'autre participants n'est pas inscrit le jour de l'éliminatoire, il sera toujours
-        possible de l'inscrire a posteriori.
+        Cette année, non. L'inscription de vos élèves sera faite par l'école. 
+        Davantage d'informations suivra. 
     -
       question: Comment inscrire mon école ?
       answer: |
-        Cette année, pour inscrire votre école, envoyez-nous un simple e-mail à info@be-oi.be pour
-        confirmer l'organisation du concours dans votre école. Demandez également à vos élèves de s'inscrire
-        au concours via ce site avant le 25 janvier 2016. Il est nécessaire que 10 élèves de votre école soient
-        inscrits pour confirmer l'organisation du concours dans votre établissement.
+        Cette année, l'inscription de votre école devrait se faire via la plate-forme du concours.
+        Davantage d'informations suivra. 
+    -
+      question: Est-il nécessaire de disposer d'une salle informatique ?
+      answer: |
+        La qualification 2017 sera organisée sur ordinateur. Le concours devra donc être réalisé dans
+        des salles informatiques avec accès à Internet.
+    -
+      question: Est-il nécessaire de disposer d'une bonne connexion Internet ?
+      answer: |
+        Non, le concours est très léger et peut pratiquement être réalisé avec une connexion
+        Internet intermittente.
+    -
+      question: Des programmes en particulier sont-ils nécessaires sur les ordinateurs ?
+      answer: Non, le concours n'a besoin que d'un navigateur Internet.
+
