@@ -60,7 +60,7 @@
     -
       question: Moet ik kunnen programmeren voor de finale?
       answer: |
-        De finale is een proef op papier. Bij sommige vragen zal je immers gevraagd worden om eenvoudige stukjes code te lezen of aan te vullen. Daarom is het handig om in een courante programmeertaal een beetje te kunnen programmeren. 
+        De finale is een proef op papier. Bij sommige vragen kan je gevraagd worden om eenvoudige stukjes code te lezen of aan te vullen. Daarom is het handig om in een courante programmeertaal een beetje te kunnen programmeren. 
         Alle finalisten zullen de mogelijkheid krijgen om een introductiecursus programmeren te volgen in de krokusvakantie. De exacte datum en locatie wordt na de eerste ronde bekendgemaakt.         
     -
       question: Ik kan best al wat programmeren!
@@ -68,58 +68,53 @@
         Dan nodigen we je graag uit om kennis te maken met beCP. Voor deze groep getalenteerde jonge programmeurs organiseren we aparte trainingen en cursussen waarin geavanceerde onderwerpen aan bod komen.
         Via beCP wordt je voorbereid op deelname aan internationale programmeerwedstrijden, waaronder de Internationale Olympiade in Informatica. 
         Alles wat je moet doen om lid te worden van beCP vind je op <a href="http://becp.be-oi.be" target="_blank">becp.be-oi.be</a>. 
-        Je kan al lid worden van beCP voordat je deelgenomen hebt aan de Belgische Informatica-olympiade.
     -  
       question: Hoe kan ik deelnemen aan de Internationale Olympiade?
       answer: |
-        België mag elk jaar een ploeg van 4 leerlingen naar de Internationale Olympiade in Informatica sturen. De ploeg wordt samengesteld na een aparte programmeerwedstrijd die georganiseerd wordt in mei en enkel toegankelijk is voor de leden van de beCP groep. 
-        Daarom moet je eerst en vooral lid worden van beCP.
-        (Omdat onze subsidies van 2 overheden komen, bestaat de Belgische ploeg wel altijd uit minstens 1 Nederlandstalige en minstens 1 Franstalige.)
+        België mag elk jaar een ploeg van 4 leerlingen naar de Internationale Olympiade in Informatica sturen. De ploeg wordt samengesteld na een aparte programmeerwedstrijd die georganiseerd wordt in mei voor de leden van de beCP groep. 
+        Daarom moet je dus eerst en vooral zelf lid worden van beCP.
 -
   category_title: Voor scholen
   questions:
     - question: Wat verandert er in 2017? 
       answer: |
         In grote lijnen:<br> 
-        - In 2017 willen we de eerste ronde via de computer doen verlopen. Het wedstrijdplatform daarvoor is volop in ontwikkeling.<br> 
-        - We trachten het inschrijvingsproces verder te automatiseren. <br>
-        - Om de groei te kunnen opvangen, zullen dit jaar tot 50 deelnemers in elke categorie tot de finale worden toegelaten.<br>
+        - Dit jaar willen we de eerste ronde via de computer doen verlopen. <br> 
+        - We trachten het inschrijvingsproces zo goed mogelijk te automatiseren. <br>
+        - Om onze groei te kunnen opvangen, zullen dit jaar tot 50 deelnemers in elke categorie tot de finale worden toegelaten.<br>
         - De finale blijft dit jaar een proef op papier.<br>
         - Er wordt een betere inschatting van vereiste tijdsduur en moeilijkheidsgraad nagestreefd voor de vragen.<br>
-        - Omdat computerklassen moeilijker te reserveren zijn, hopen we meer flexibiliteit in de praktische organisatie te kunnen toelaten.<br> 
-        Dit alles is afhankelijk van de uiteindelijke specificaties van het wedstrijdplatform, dat momenteel nog in ontwikkeling is. Tegen eind november zullen we concreter kunnen zijn.
+        - Omdat computerklassen moeilijker te reserveren zijn, zullen we soepeler proberen zijn betreffende de praktische organisatie.<br> 
+        - Er is geen minimum voor het aantal deelnemende leerlingen meer. 
+        Zodra de ontwikkeling van het wedstrijdplatform is afgerond, zullen we u toelaten dit te testen (in de loop van november, hopen we) .
     -
       question: Onder welke voorwaarden kan de eerste ronde in de school doorgaan ?
       answer: |
-        De eerste ronde kan in uw school worden georganiseerd indien aan al de volgende voorwaarden is voldaan (noot: door de wijzingen in 2017 is het mogelijk dat dit later nog licht wordt aangepast):<br>
-        - Minstens 4 leerlingen van uw school moeten deelnemen, alle niveau's tesamen. <br>
+        De eerste ronde kan in uw school worden georganiseerd indien aan al de volgende voorwaarden is voldaan (noot: door de vele wijzigingen dit jaar is het mogelijk dat dit bij de start van de inschrijvingen nog licht wordt aangepast):<br>
         - Er moet een computerlokaal beschikbaar zijn, met een internetverbinding en 1 computer voor iedere deelnemer.<br>
         - Er moet constant toezicht zijn tijdens de volledige proef.<br>
         - Het reglement van de proef (geen GSM, ...) moet gerespecteerd worden. Het wordt u enkele dagen voor de proef toegezonden. <br>
-        - De proef moet doorgaan op hetzelfde moment als in de andere centra. Voor editie 2017 betekent dit dat de proef plaatsvindt op woensdag 1 februari in de namiddag. De proef moet 1u30 duren. Er wordt later nog beslist hoeveel marge we daarop zullen toelaten.<br>
-        - Als een school de eerste ronde in eigen huis organiseert, moeten alle deelnemers van die school de eerste ronde op school afleggen. Een deel van de leerlingen op school en een ander deel in een regionaal centrum is niet mogelijk.<br>
-        - Alle deelnemers aan de Informatica-olympiade van uw school die behoren tot eenzelfde categorie, beginnen op hetzelfde moment aan hun proef (niet enkelen om 14u en anderen om 15u).<br>
-    -
-      question: Is er een oplossing voor de overlap met een andere wedstrijd?
-      answer: |
-        In 2017 valt de eerste ronde van de Informatica-olympiade samen met die van de Biologie-olympiade. De biologie-olympiade gaat ook door op school in een computerklas, op vaste tijdstippen. Uw leerlingen mogen voordien of na afloop de Informatica-olympiade afleggen.<br>
-        Wij vinden deze overlap met een andere wedstrijd zelf jammer, maar ze is niet te vermijden. Ze is een gevolg van de langere voorbereidingstijd die we nodig hebben in 2017, en het feit dat we als nationale olympiade rekening moeten houden met de kalenders van andere wedstrijden in zowel Vlaanderen als in Franstalig België. 
-    -
-      question: Is een computerklas noodzakelijk?
-      answer: De eerste ronde is in 2017 gepland als een wedstrijd via de computer. Indien de voorbereidingen daarvoor succesvol zijn, zal de wedstrijd in een computerklas met internetverbinding moeten plaatsvinden.
-    -
-      question: Mijn computerklas is niet groot genoeg!
-      answer: |
-        Het zal zeer waarschijnlijk toegelaten worden de eerste ronde in maximaal 3 aparte sessies te organiseren, m.n. 1 sessie per deelnemerscategorie. 
-        We zullen echter wel vragen dat alle deelnemers van eenzelfde categorie en eenzelfde school, de wedstrijd tegelijkertijd afleggen.
-        Ook vragen we in dat geval dat de communicatie tussen deelnemers van verschillende sessies tot een absoluut minimum wordt beperkt, zelfs al behoren ze tot een verschillende categorie.
+        - De proef moet doorgaan op dezelfde dag als in de andere centra. <br>
+        - Alle deelnemers van eenzelfde school die in eenzelfde categorie deelnemen, moeten de eerste ronde op dezelfde plaats en op hetzelfde tijdstip afleggen. Hiervan afwijken is enkel toegestaan als de begeleidende leerkrachten kunnen garanderen dat de contacten tussen leerlingen van eenzelfde categorie die op verschillende locaties of tijdstippen deelnemen tot een minimum wordt beperkt.<br>
     -
       question: Moeten mijn leerlingen zich op uw site inschrijven? 
       answer: |
-        We trachten vanaf 2017 de inschrijvingen te kunnen laten verlopen via het wedstrijdplatform. De details van de inschrijvingsprocedure worden momenteel nog uitgewerkt. 
-        Een geldig emailadres blijft echter wel noodzakelijk, zodat we deelnemers hun resultaten kunnen toesturen, en als ze in aanmerking komen, ook de uitnodigingen voor de vormingssessies en de finale kunnen bezorgen.
-        Als per ongeluk een leerling niet ingeschreven blijkt te zijn op de dag van de eerste ronde, laten we wel toe om achteraf nog in te schrijven. 
+        Vanaf dit jaar niet meer. De inschrijving van uw leerlingen gebeurt door de school. Later volgt meer informatie. 
     -
       question: Hoe schrijf ik mijn school in? 
       answer: |
-        De details van de inschrijvingsprocedure voor scholen hopen we eind november te kunnen publiceren.
+        Vanaf dit jaar zal uw school zich moeten registeren op het wedstrijdplatform. Details van de inschrijvingsprocedure volgen later.
+    -
+      question: Is een computerklas noodzakelijk?
+      answer: De eerste ronde is in 2017 gepland als een wedstrijd via de computer. De wedstrijd zal dus in een computerklas met internetverbinding moeten plaatsvinden.
+    -
+      question: Is een goede internetverbinding noodzakelijk? 
+      answer: |
+        Neen, het wedstrijdplatform is erg licht en de wedstrijd kan zelfs met een slechte inbelverbinding worden gerealiseerd.
+    -
+      question: Moeten de computers beschikken over specifieke software? 
+      answer: Nee, er is enkel een browser nodig.
+    -
+      question: Is er een oplossing voor de overlap met een andere wedstrijd?
+      answer: |
+        Dit jaar valt de eerste ronde van de Informatica-olympiade samen met die van de Biologie-olympiade. De biologie-olympiade gaat ook door op school in een computerklas, op vaste tijdstippen. We laten deelname aan de Informatica-olympiade gedurende de hele dag toe, zodat u hier gemakkelijk omheen kan werken. 
