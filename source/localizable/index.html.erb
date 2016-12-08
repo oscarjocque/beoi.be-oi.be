@@ -82,8 +82,8 @@ trianglify_colors: '["#e31d3b","#d53e4f","#f46d43","#fdae61","#fee08b","#ffffbf"
       <div class="mt8">
         <% data.sponsors.each do |m| %>
           <% link_to m.href, target:"_blank" do %>
-          <div class="col-md-3 col-sm-6 col-xs-12" class="text-center">
-            <%= image_tag "ext-logos/%s"%m.image, alt:m.name, style:"max-height:100px; max-width:100%;"  %>
+          <div class="col-md-6 col-sm-6 col-xs-12" class="text-center">
+            <%= image_tag "ext-logos/%s"%m.image, alt:m.name, style:"max-height:60px; display:block; max-width:100%; margin:auto;"  %>
           </div>
           <% end %>
         <% end %>
