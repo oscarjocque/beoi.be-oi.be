@@ -66,9 +66,11 @@ nl:
     programmeren te leren. De allerbesten mogen ook meedoen 
     met de trainingen van de nationale ploeg (beCP).
 
-  register_button: Inschrijven voor de wedstrijd
-  register_text: Schrijf je in voor de eerste ronde op 27 januari !
-  register_school_text: "U bent leerkracht ? Lees dan onze <a href='faq'>FAQ</a> om te weten hoe u de proef in uw eigen school kan organiseren!"
+  register_button: Ik vertegenwoordig een school en wil mijn school inschrijven
+  register_text: Schrijf je in voor de eerste ronde op 1 februari!
+  register_school_text: |
+    Kan je echt geen leerkracht vinden om jouw school in te schrijven voor beOI?  
+    <a href="/nl/registration">Schrijf je dan individueel in</a> om de proef af te leggen in één van de regionale centra.
 
   # Be informed about registration form
   keep_me_informed_of_registrations : Wees als eerste op de hoogte van de start van beOI 2017!
@@ -83,6 +85,9 @@ nl:
   index_qualif_result_title: "Eerste ronde 2016"
   index_final_result_title: "Finale 2016"
   index_qualif_result_link: "De resultaten"
+
+  platform_try_title: "Nieuwe wedstrijd, interactief aan de computer!"
+  platform_try_link: "Test de nieuwe interactieve vragen op ons wedstrijdplatform"
 
   Jan: jan
   Feb: feb
