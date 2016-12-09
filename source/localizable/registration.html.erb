@@ -81,7 +81,7 @@ trianglify_colors: '"RdYlGn"'
               <% data.qualification_centers.each do |c| %>
               <option value="<%= c.city %>"><%= c.city %></option>
               <% end %>
-              <option value="In my school"><%= t(:qualification_center_my_school) %></option>
+              <!--<option value="In my school"><%= t(:qualification_center_my_school) %></option>-->
             </select>
             <span><%= t(:qualification_center_expl) %></span>
             <span><%= t(:qualification_center_my_school_expl)%[t(:qualification_center_my_school),link_to(t(:FAQ),"../faq")] %></span>

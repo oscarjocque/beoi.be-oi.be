@@ -66,9 +66,11 @@ fr:
     bases de la programmation. Les meilleurs pourront également 
     intégrer la formation de l'équipe nationale (beCP).
 
-  register_button: M'inscrire au concours
-  register_text: Inscrivez-vous aux éliminatoires du 27 janvier !
-  register_school_text: "Vous représentez une école ? Lisez notre <a href='faq'>FAQ</a> pour savoir comment organiser l'épreuve dans votre établissement."
+  register_button: Je représente une école, je souhaite inscrire mon école
+  register_text: Inscrivez-vous aux éliminatoires du 1er février !
+  register_school_text: |
+    Même après leur avoir parlé du concours votre école ne souhaite pas participer à la beOI ?
+    <a href="/fr/registration">Inscrivez-vous</a> pour passer l'épreuve dans l'un des centres près de chez vous.
 
   # Be inform about registration form
   keep_me_informed_of_registrations: M'informer de l'ouverture de la beOI 2017
@@ -83,6 +85,10 @@ fr:
   index_qualif_result_title: "Éliminatoire 2016"
   index_final_result_title: "Finale 2016"
   index_qualif_result_link: "Les résultats"
+
+  platform_try_title: "Nouvelle épreuve interactive sur ordinateur!"
+  platform_try_link: "Testez les nouvelles tâches interactives sur notre plateforme"
+
 
   Jan: jan
   Feb: fév
