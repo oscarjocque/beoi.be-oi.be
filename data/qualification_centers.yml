@@ -10,18 +10,19 @@
   pos:
     lat: 51.17821
     lng: 4.41853
-- 
-  city: Brussel
-  place: Vrije Universiteit Brussel
+-
+  city: Brussel / Bruxelles
+  place: Université Libre de Bruxelles
   address: |
-    campus Etterbeek, gebouw E,
-    computerlokalen 1e verdieping/étage
-    Pleinlaan 2
-    1050 Brussel
-  route_link: http://www.vub.ac.be/campus/etterbeek
+    Campus de la Plaine, salle/zaal NO4.008,
+    bâtiment NO, 4ème étage, à gauche en sortant des ascenseurs.
+    gebouw NO, 4e verdieping, links bij het uitstappen uit de lift.
+    Boulevard du Triomphe
+    1050 Bruxelles
+  route_link: https://www.ulb.ac.be/campus/plaine/plaine.html
   pos:
-    lat: 50.8213605
-    lng: 4.3925561
+    lat: 50.8200945
+    lng: 4.3973233
 - 
   city: Gent
   place: Universiteit Gent
@@ -126,15 +127,3 @@
   pos:
     lat: 50.4658487
     lng: 4.8576964
--
-  city: Bruxelles
-  place: Université Libre de Bruxelles
-  address: |
-    Campus de la Plaine, salle NO4.008,
-    bâtiment NO, 4ème étage, à gauche en sortant des ascenseurs.
-    Boulevard du Triomphe
-    1050 Bruxelles
-  route_link: https://www.ulb.ac.be/campus/plaine/plaine.html
-  pos:
-    lat: 50.8200945
-    lng: 4.3973233
