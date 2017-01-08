@@ -33,8 +33,8 @@
     9000 Gent
   route_link: http://www.ugent.be/we/nl/diensten/ipvw-ices/contact/locaties/sterre
   pos:
-    lat: 51.0269583
-    lng: 3.716344
+    lat: 51.0227516
+    lng: 3.7105733
 - 
   city: Hasselt
   place: Universiteit Hasselt
@@ -95,8 +95,8 @@
   city: Louvain-la-Neuve
   place: Université catholique de Louvain
   address: |
-    Auditoire SCES 01
     Auditoires des Sciences
+    salle encore à décider
     Place des Sciences 2
     1348 Louvain-la-Neuve
   route_link: https://www.uclouvain.be/17488.html
