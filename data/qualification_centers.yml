@@ -50,7 +50,8 @@
   city: Kortrijk
   place: Hogeschool VIVES Kortrijk
   address: |
-    lokaal te bepalen
+    VIVES gebouw HWBK, zone HANTAL 2, 
+    lokalen 2.11, 2.12, 2.13 en 2.14
     Doorniksesteenweg 145
     8500 Kortrijk
   route_link: https://www.vives.be/campus/kortrijk/onderweg
@@ -95,11 +96,11 @@
   city: Louvain-la-Neuve
   place: Université catholique de Louvain
   address: |
-    Auditoires des Sciences
-    salle encore à décider
-    Place des Sciences 2
+    bâtiment Réaumur, salle INTEL
+    rez-de-chaussée, aile B
+    place Ste Barbe 2
     1348 Louvain-la-Neuve
-  route_link: https://www.uclouvain.be/17488.html
+  route_link: https://www.uclouvain.be/395422.html
   pos:
     lat: 50.668426
     lng: 4.619527
