@@ -2,9 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title><%= "beOI" + (current_page.data.title ? " : #{current_page.data.title}" : "") %></title>
+    <title><%= current_page.data.title ? "beOI: #{current_page.data.title}" : (([:fr, :nl].include? lang) ? t("default_page_title") : "beOI" ) %></title>
+    <meta property="og:title" content="<%= current_page.data.title ? "beOI: #{current_page.data.title}" : (([:fr, :nl].include? lang) ? t("default_page_title") : "beOI" ) %>" />
     <%= favicon_tag 'favicon.png' %>
     <meta name="viewport" content="width=device-width, initial-scale=0.9">
+
+    <% if [:fr, :nl].include? lang %>
+    <meta name="description" content="<%= t('meta_description') %>" />
+    <meta property="og:description" content="<%= t('meta_description') %>" />
+    <meta property="og:locale" content="<%= lang %>" />
+    <% end %>
+
     <%= stylesheet_link_tag "bootstrap.min", "themify-icons", "flexslider", "lightbox.min", "theme-red", "custom" %>
     <link href='//fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Comfortaa:700' rel='stylesheet' type='text/css'>
