@@ -5,12 +5,12 @@
 </p>
 <h4 class="mb8">Types de questions</h4>
 <p>
-	Visitez la <%= link_to "plate-forme du concours", current_page.data.contest_platform["fr"] %> afin de tester les nouvelles tâches interactives de beOI.
+	Visitez la <%= link_to "plate-forme du concours", current_page.data.contest_platform["fr"], onclick:"fbq('track', 'GoToContestPlatform', {});" %> afin de tester les nouvelles tâches interactives de beOI.
 
 </p>
 <h4 class="mb8">Comment participer ?</h4>
 <p>
-	<strong>Vous êtes une école?</strong> Inscrivez-vous en tant que coordinateur sur <%= link_to "notre plate-forme", current_page.data.management_platform["fr"] %> dédiée.
+	<strong>Vous êtes une école?</strong> Inscrivez-vous en tant que coordinateur sur <%= link_to "notre plate-forme", current_page.data.management_platform["fr"], onclick:"fbq('track', 'GoToMgmtPlatform', {});" %> dédiée.
 	<strong>Votre école ne souhaite pas participer?</strong> Inscrivez-vous dans l'un des centres régionaux via <%= link_to "ce formulaire", "registration" %>.
 
 </p>
