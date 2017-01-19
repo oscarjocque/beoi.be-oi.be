@@ -5,11 +5,11 @@
 </p>
 <h4 class="mb8">Types van vragen</h4>
 <p>
-  Bezoek het <%= link_to "wedstrijdplatform", current_page.data.contest_platform["nl"] %> om de nieuwe interactieve vragen uit te testen.
+  Bezoek het <%= link_to "wedstrijdplatform", current_page.data.contest_platform["nl"], onclick:"fbq('track', 'GoToContestPlatform', {});" %> om de nieuwe interactieve vragen uit te testen.
 
 </p>
 <h4 class="mb8">Hoe deelnemen?</h4>
 <p>
-  <strong>U vertegenwoordigt een school?</strong> Schrijf u in als coördinator op ons <%= link_to "wedstrijdplatform (administratie)", current_page.data.management_platform["nl"] %> .
+  <strong>U vertegenwoordigt een school?</strong> Schrijf u in als coördinator op ons <%= link_to "wedstrijdplatform (administratie)", current_page.data.management_platform["nl"], onclick:"fbq('track', 'GoToMgmtPlatform', {});"  %> .
 	<strong>Jouw school wenst niet deel te nemen?</strong> Registreer je individueel bij een van onze regionale centra via <%= link_to "dit formulier", "registration" %>.
 </p>
