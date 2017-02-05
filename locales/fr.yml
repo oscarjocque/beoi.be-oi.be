@@ -214,7 +214,7 @@ fr:
   firstname_field: Prénom
   lastname_field: Nom de famille
   birthday_field: Date de naissance
-  gender_field: Sexe
+  gender_field: Genre
   gender_men: Masculin
   gender_women: Féminin
   city_field: Ville
