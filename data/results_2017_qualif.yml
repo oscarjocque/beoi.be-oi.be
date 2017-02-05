@@ -1,0 +1,226 @@
+contestants:
+  cadet:
+    - position: 1
+      score: 37
+      name: Phlips Daan
+      school: Sint-Bavohumaniora, Gent
+      year: year_2nd
+    - position: 2
+      score: 35
+      name: Bas De Bue
+      school: Vita et Pax-Collège, Schoten
+      year: year_2nd
+    - position: "-"
+      score: 35
+      name: Gus Vanpoucke
+      school: Sint-Bavohumaniora, Gent
+      year: year_2nd
+    - position: 4
+      score: 34
+      name: Diego Torres
+      school: Collège Saint-Michel, Etterbeek
+      year: year_1st
+    - position: 5
+      score: 33
+      name: Niels Vaneynde
+      school: Koninklijk Atheneum Ekeren
+      year: year_1st
+    - position: "-"
+      score: 33
+      name: Elina Van Der Taelen
+      school: Heilig Hart Van Maria, Berlaar
+      year: year_2nd
+    - position: 7
+      score: 31
+      name: Jorian Debaeke Van Meerhaeghe
+      school: Don Boscocollege Zwijnaarde
+      year: year_2nd
+    - position: 8
+      score: 30
+      name: Natan Coppens
+      school: Óscar Romerocollege campus Nachtegaal
+      year: year_1st
+    - position: "-"
+      score: 30
+      name: Janneke Meert
+      school: Sint-Bavohumaniora, Gent
+      year: year_1st
+    - position: "-"
+      score: 30
+      name: Pepijn  Vranckx
+      school: Heilig Hart Van Maria, Berlaar
+      year: year_1st
+    - position: "-"
+      score: 30
+      name: Brent Silkyn
+      school: Sint-Bavohumaniora, Gent
+      year: year_2nd
+    - position: "-"
+      score: 30
+      name: Elien Van Clemen
+      school: Heilig Hart Van Maria, Berlaar
+      year: year_2nd
+
+  junior:
+    - position: 1
+      score: 39
+      name: Lucas Prieels
+      school: Collège Don Bosco, Bruxelles
+      year: year_4th
+    - position: 2
+      score: 38
+      name: Daniel  Cortild
+      school: Collège Saint-Michel, Etterbeek
+      year: year_3rd
+    - position: "-"
+      score: 38
+      name: Ruben Van Dijck
+      school: Heilig Hart Van Maria, Berlaar
+      year: year_3rd
+    - position: "-"
+      score: 38
+      name: Michiel Vande Ginste
+      school: Vita et Pax-Collège, Schoten
+      year: year_3rd
+    - position: "-" 
+      score: 38
+      name: Thibault Fiasse
+      school: Collège Saint-Guibert, Gembloux
+      year: year_4th
+    - position: "-"
+      score: 38
+      name: Jeffrey Tang
+      school: DvM Humaniora Aalst
+      year: year_4th
+    - position: "-"
+      score: 38
+      name: Sebastian Weiermann
+      school: GO! Erasmus De Pinte
+      year: year_4th
+    - position: 8
+      score: 37
+      name: Senne De Vocht
+      school: Githo Nijlen
+      year: year_3rd
+    - position: "-"
+      score: 37
+      name: Antoine Bauer
+      school: Collège Saint-Michel, Etterbeek
+      year: year_4th
+    - position: "-"
+      score: 37
+      name: Ruben Bekaert
+      school: École Européenne de Bruxelles IV
+      year: year_4th
+    - position: "-"
+      score: 37
+      name: Nicolas Guilbaud
+      school: Collège Saint-Michel, Etterbeek
+      year: year_4th
+    - position: "-"
+      score: 37
+      name: Jan Livens
+      school: Vita et Pax-Collège, Schoten
+      year: year_4th
+    - position: "-"
+      score: 37
+      name: Jonathan Swinnen
+      school: Sint Norbertus Duffel
+      year: year_4th
+
+  senior:
+    - position: 1
+      score: 40
+      name: Flor Kochuyt
+      school: DvM Humaniora Aalst
+      year: year_6th
+    - position: 2
+      score: 39
+      name: Arthur Massar
+      school: Institut Saint-Boniface Parnasse, Ixelles
+      year: year_5th
+    - position: "-"
+      score: 39
+      name: Bruno Ploumhans
+      school: Collège Saint-Michel, Etterbeek
+      year: year_5th
+    - position: "-"
+      score: 39
+      name: Lukas Vandeputte
+      school: Guldensporencollege Plein, Kortrijk
+      year: year_5th
+    - position: "-"
+      score: 39
+      name: Lennert Luyckx
+      school: Sint-Jan Berchmanscollege, Mol
+      year: year_6th
+    - position: "-"
+      score: 39
+      name: Robbe Pincket
+      school: Maris Stella Instituut, Oostmalle
+      year: year_6th
+    - position: "-"
+      score: 39
+      name: Stef Pletinck
+      school: OLVI-PIUS X, Zele
+      year: year_6th
+    - position: "-"
+      score: 39
+      name: Arnaud  Reybrouck
+      school: Ikso Denderleeuw, Denderleeuw
+      year: year_6th
+    - position: "-"
+      score: 39
+      name: Robin Simoens
+      school: Sint-Barbaracollege, Gent
+      year: year_6th
+    - position: "-"
+      score: 39
+      name: Robbe Van Herck
+      school: Sint-Jan Berchmanscollege, Mol
+      year: year_6th
+    - position: 11
+      score: 38
+      name: Daan Beernaert
+      school: Koninklijk Atheneum Geraardsbergen
+      year: year_5th
+    - position: "-"
+      score: 38
+      name: Kamron  Geijsen
+      school: Sint-Bavohumaniora, Gent
+      year: year_5th
+    - position: "-"
+      score: 38
+      name: Jason Paes
+      school: Vrije St.Lambertusscholen, Westerlo
+      year: year_6th
+    - position: "-"
+      score: 38
+      name: Ovidiu-Alexandru Parfene
+      school:  Ecole Internationale du SHAPE, Mons
+      year: year_6th
+    - position: "-"
+      score: 38
+      name: Django Rabaey
+      school: Atheneum Voskenslaan, Gent
+      year: year_6th
+count_cadet: 280
+count_junior: 380
+count_senior: 512
+schools:
+  nb_contestants:
+    - 
+      name: "Sint-Franciscus Xaveriusinstituut, Brugge"
+      value: 58
+    - 
+      name: "Maris Stella Instituut, Malle"
+      value: 54
+    - 
+      name: "École Européenne de Bruxelles IV"
+      value: 50
+    - 
+      name: "Centre Asty Moulin, Namur"
+      value: 49
+    - 
+      name: "Immaculata instituut, Oostmalle"
+      value: 48
