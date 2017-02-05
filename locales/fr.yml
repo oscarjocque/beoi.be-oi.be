@@ -75,7 +75,7 @@ fr:
     <a href="/fr/registration">Inscrivez-vous</a> pour passer l'épreuve dans l'un des centres près de chez vous.
 
   # Be inform about registration form
-  keep_me_informed_of_registrations: M'informer de l'ouverture de la beOI 2017
+  keep_me_informed_of_registrations: M'informer de l'ouverture de la beOI 2018
   mailinglist_success_msg: Merci. Nous vous informerons de l'ouverture des inscriptions.
   mailinglist_error_msg: Veuillez entrez une adresse e-mail correcte.
   mailinglist_email_placeholder: Adresse e-mail
@@ -84,7 +84,7 @@ fr:
   wait_for_qualif_results_title: Vous avez participé à l'éliminatoire ?
   wait_for_qualif_results_descr: Vos résultats vous seront transmis par e-mail dans les prochaines semaines.
 
-  index_qualif_result_title: "Éliminatoire 2016"
+  index_qualif_result_title: "Éliminatoire 2017"
   index_final_result_title: "Finale 2016"
   index_qualif_result_link: "Les résultats"
 
@@ -178,7 +178,7 @@ fr:
   previous_olympiad_edition_tile: beOI %d
 
   # Qualif result page
-  qualif_result_title: "Éliminatoire 2016: Résultats"
+  qualif_result_title: "Éliminatoire 2017: Résultats"
   qualif_topx: Top %d
   column_name: Nom
   column_school: "Ecole (année)"
@@ -197,6 +197,15 @@ fr:
     Les six premiers de chaque catégorie ont reçu un prix lors de la proclamation du 7 mai à Bruxelles.
   final_top: Top-%d, par ordre alphabétique
   final_after_top: Classement à partir de la %de position
+  qualif_intro_text: |
+    L'éliminatoire de l'olympiade 2017 a eu lieu ce 1er février dans les écoles et centre régionaux.
+    Cette page reprend les résultats et quelques statistiques sur cette épreuve. 
+  qualif_chart_nbcontestants: Nombre de participants
+  qualif_chart_lang: Langue
+  qualif_chart_lang_fr: Francophones
+  qualif_chart_lang_nl: Néérlandophones
+  qualif_chart_lang_de: Germanophones
+
 
 
   # Registrations
@@ -205,7 +214,7 @@ fr:
   firstname_field: Prénom
   lastname_field: Nom de famille
   birthday_field: Date de naissance
-  gender_field: Sexe
+  gender_field: Genre
   gender_men: Masculin
   gender_women: Féminin
   city_field: Ville

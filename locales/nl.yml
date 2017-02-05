@@ -75,7 +75,7 @@ nl:
     <a href="/nl/registration">Schrijf je dan individueel in</a> om de proef af te leggen in één van de regionale centra.
 
   # Be informed about registration form
-  keep_me_informed_of_registrations : Wees als eerste op de hoogte van de start van beOI 2017!
+  keep_me_informed_of_registrations : Wees als eerste op de hoogte van de start van beOI 2018!
   mailinglist_success_msg: Bedankt! We houden je op de hoogte van de start van de inschrijvingen. 
   mailinglist_error_msg: Gelieve een correct e-mailadres in te geven.
   mailinglist_email_placeholder: E-mailadres 
@@ -84,7 +84,7 @@ nl:
   wait_for_qualif_results_title: Heb je deelgenomen aan de eerste ronde ?
   wait_for_qualif_results_descr: Je krijgt jouw resultaten via email in de loop van de volgende weken.
 
-  index_qualif_result_title: "Eerste ronde 2016"
+  index_qualif_result_title: "Eerste ronde 2017"
   index_final_result_title: "Finale 2016"
   index_qualif_result_link: "De resultaten"
 
@@ -172,7 +172,7 @@ nl:
   previous_olympiad_edition_tile: beOI %d
   
     # Qualif result page
-  qualif_result_title: "Eerste ronde 2016: resultaten"
+  qualif_result_title: "Eerste ronde 2017: resultaten"
   qualif_topx: Top %d
   column_name: Naam
   column_school: "School (jaar)"
@@ -190,6 +190,14 @@ nl:
     De eerste zes finalisten in elke categorie kregen een prijs uitgereikt op de proclamatie op 7 mei in Brussel.
   final_top: Top-%d, in alfabetische volgorde
   final_after_top: Eindklassement vanaf de %de plaats
+  qualif_intro_text: |
+    De eerste ronde van de olympiade 2017 vond plaats op 1 februari in verschillende scholen en regionale centra.
+    Op deze pagina staan de resultaten van en enkele statistieken over deze ronde.
+  qualif_chart_nbcontestants: Aantal deelnemers
+  qualif_chart_lang: Taal
+  qualif_chart_lang_fr: Franstaligen
+  qualif_chart_lang_nl: Nederlandstaligen
+  qualif_chart_lang_de: Duitstaligen
 
    # Registrations
   registration_title: Inschrijven voor beOI %s

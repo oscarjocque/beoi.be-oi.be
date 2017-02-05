@@ -73,20 +73,8 @@ management_platform:
   <!--end of container-->
 </section>
 
-<!-- <%= partial "index_results" %> -->
+<%= partial "index_results" %>
 
-<section class="bg-dark pb8 pt32">
-  <div class="container">
-    <div class="row  mb-xs-32">
-    
-      <div class="col-md-12 col-sm-12 text-center">
-        <h3 class="large"><%= t("platform_try_title") %></h3>
-        <%= link_to t(:platform_try_link), current_page.data.contest_platform[lang], class:'btn btn-lg btn-filled' %>
-      </div>
-
-    </div>
-  </div>
-</section>
 
 <a name="sponsors"></a>
 <section>
@@ -113,6 +101,20 @@ management_platform:
   <!--end of container-->
 </section>  
 
+<!-- <section class="bg-dark pb8 pt32">
+  <div class="container">
+    <div class="row  mb-xs-32">
+    
+      <div class="col-md-12 col-sm-12 text-center">
+        <h3 class="large"><%= t("platform_try_title") %></h3>
+        <%= link_to t(:platform_try_link), current_page.data.contest_platform[lang], class:'btn btn-lg btn-filled' %>
+      </div>
+
+    </div>
+  </div>
+</section>
+ -->
+
 <section class="bg-dark pb0">
   <div class="container">
     <div class="row mb64 mb-xs-32">
@@ -123,7 +125,7 @@ management_platform:
 
       <hr> -->
 
-<!--       <div class="col-md-12 col-sm-12 text-center">
+      <div class="col-md-12 col-sm-12 text-center">
         <h2 class="large"><%= t("keep_me_informed_of_registrations") %></h2>
       </div>
       <div class="row mb24">
@@ -136,13 +138,13 @@ management_platform:
             </iframe>
           </form>
         </div>
-      </div> -->
+      </div> 
     
-      <div class="col-md-12 col-sm-12 text-center">
+<!--       <div class="col-md-12 col-sm-12 text-center">
         <h2 class="large"><%= t("register_text") %></h2>
         <%= link_to t(:register_button), current_page.data.management_platform[lang], class:"btn btn-filled btn-lg mb0" %>
         <h4 class="large mt24"><%= t("register_school_text") %></h4>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -205,24 +207,8 @@ management_platform:
   <!--end of container-->
 </section>  
 
-<%= partial "map_qualif_centers" %>
-
-<a name="sample-questions"></a>
-<section class="bg-secondary">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h4 class="uppercase mb80"><%= t(:sample_tasks_qualifying) %></h4>
-        <%= link_to t(:platform_try_link), current_page.data.contest_platform[lang], class:'btn btn-lg btn-filled' %>
-      </div>
-    </div>
-    <!--end of row-->
-  </div>
-  <!--end of container-->
-</section>
-
 <a name="sample-questions-final"></a>
-<section>
+<section class="bg-secondary">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
