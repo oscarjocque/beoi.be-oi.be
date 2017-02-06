@@ -242,6 +242,24 @@ management_platform:
     </div>
     <!--end of row-->
 
+
+    <a name="questions-2016"></a>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h5 class="uppercase mb16 mb0"><%= t(:final_task_descriptions_title) %></h5>
+        <p><%= t(:task_descriptions_remark) %></p>
+      </div>
+    </div>
+    <!--end of row-->
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <% data.task_descriptions[2016]["final"].each do |e| %>
+        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+      </div>
+    </div>
+    <!--end of row-->
+
   </div>
   <!--end of container-->
 </section>
