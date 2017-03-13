@@ -119,7 +119,7 @@ nl:
   center_in_your_school: "We moedigen je aan om de eerste ronde in je eigen school af te leggen, als dat mogelijk is."
  
   qualif_task_descriptions_title: Eerste ronde 2016
-  final_task_descriptions_title: Finale 2016
+  final_task_descriptions_title: Finale %d
   task_description: Opgaven
   solutions: Oplossingen 
   task_descriptions_remark: ""
