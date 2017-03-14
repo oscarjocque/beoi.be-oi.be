@@ -36,3 +36,41 @@
       file:
         fr: beOI16-final-fr-senior-sol.pdf
         nl: beOI16-final-nl-senior-sol.pdf
+2017:
+  final:
+    -
+      type: :task_description
+      category: :Cadet
+      file:
+        fr: beOI17-final-fr-cadet.pdf
+        nl: beOI17-final-nl-beloften.pdf
+    -
+      type: :task_description
+      category: :Junior
+      file:
+        fr: beOI17-final-fr-junior.pdf
+        nl: beOI17-final-nl-junior.pdf
+    -
+      type: :task_description
+      category: :Senior
+      file:
+        fr: beOI17-final-fr-senior.pdf
+        nl: beOI17-final-nl-senior.pdf
+    -
+      type: :solutions
+      category: :Cadet
+      file:
+        fr: beOI17-final-fr-cadet-sol.pdf
+        nl: beOI17-final-nl-beloften-sol.pdf
+    -
+      type: :solutions
+      category: :Junior
+      file:
+        fr: beOI17-final-fr-junior-sol.pdf
+        nl: beOI17-final-nl-junior-sol.pdf
+    -
+      type: :solutions
+      category: :Senior
+      file:
+        fr: beOI17-final-fr-senior-sol.pdf
+        nl: beOI17-final-nl-senior-sol.pdf
