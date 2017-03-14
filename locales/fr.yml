@@ -120,7 +120,7 @@ fr:
   center_in_your_school: "Nous vous encourageons à, si possible, passer l'épreuve dans votre école."
 
   qualif_task_descriptions_title: Éliminatoire 2016
-  final_task_descriptions_title: Finale 2016
+  final_task_descriptions_title: Finale %d
   task_description: Énoncé
   solutions: Solutions
   task_descriptions_remark: ""
