@@ -7,7 +7,7 @@ nl:
   nonprofit: VZW
   participants: deelnemers
 
-  meta_description:  Wedstrijd creatief probleemoplossend denken en initiatie tot programmeren voor leerlingen uit het secundair. 
+  meta_description:  Wedstrijd creatief probleemoplossend denken en initiatie tot programmeren voor leerlingen uit het secundair.
 
   # Menu
   Contest_menu: Wedstrijd
@@ -25,11 +25,11 @@ nl:
   Registration: Inschrijven
   Sponsors: Onze sponsors
 
-  # Index 
+  # Index
   title: "Belgische Informatica-olympiade"
   subtitle: |
-    Wedstrijd creatief probleemoplossend denken en initiatie 
-    tot programmeren voor leerlingen uit het secundair. 
+    Wedstrijd creatief probleemoplossend denken en initiatie
+    tot programmeren voor leerlingen uit het secundair.
 
   members: Onze leden
   sample_tasks_qualifying: "Voorbeeldvragen voor de eerste ronde"
@@ -53,8 +53,8 @@ nl:
     De eerste ronde bevat enkel puzzelvragen en logica,
     geen vragen over programmeren, dus er is geen voorkennis
     vereist. Enkel de finale bevat vragen waarbij
-    code op papier gelezen en vervolledigd moet worden. 
-    
+    code op papier gelezen en vervolledigd moet worden.
+
 
   overview_second_title: Drie leeftijdscategorieën
   overview_second_desc: |
@@ -64,28 +64,28 @@ nl:
   overview_third_title: Coaching
   overview_third_desc: |
     Wie voorbij de eerste ronde raakt, mag een opleiding volgen
-    en krijgt ook enkele tools aangereikt om de basis van 
-    programmeren te leren. De allerbesten mogen ook meedoen 
+    en krijgt ook enkele tools aangereikt om de basis van
+    programmeren te leren. De allerbesten mogen ook meedoen
     met de trainingen van de nationale ploeg (beCP).
 
   register_button: Ik vertegenwoordig een school en wil mijn school inschrijven
   register_text: Schrijf je in voor de eerste ronde op 1 februari!
   register_school_text: |
-    Kan je echt geen leerkracht vinden om jouw school in te schrijven voor beOI?  
+    Kan je echt geen leerkracht vinden om jouw school in te schrijven voor beOI?
     <a href="/nl/registration">Schrijf je dan individueel in</a> om de proef af te leggen in één van de regionale centra.
 
   # Be informed about registration form
   keep_me_informed_of_registrations : Wees als eerste op de hoogte van de start van beOI 2018!
-  mailinglist_success_msg: Bedankt! We houden je op de hoogte van de start van de inschrijvingen. 
+  mailinglist_success_msg: Bedankt! We houden je op de hoogte van de start van de inschrijvingen.
   mailinglist_error_msg: Gelieve een correct e-mailadres in te geven.
-  mailinglist_email_placeholder: E-mailadres 
-  mailinglist_submit_button: Hou me op de hoogte 
+  mailinglist_email_placeholder: E-mailadres
+  mailinglist_submit_button: Hou me op de hoogte
 
   wait_for_qualif_results_title: Heb je deelgenomen aan de eerste ronde ?
   wait_for_qualif_results_descr: Je krijgt jouw resultaten via email in de loop van de volgende weken.
 
   index_qualif_result_title: "Eerste ronde 2017"
-  index_final_result_title: "Finale 2016"
+  index_final_result_title: "Finale 2017"
   index_qualif_result_link: "De resultaten"
 
   platform_try_title: "Nieuwe wedstrijd, interactief aan de computer!"
@@ -103,7 +103,7 @@ nl:
   Oct: okt
   Nov: nov
   Dec: dec
-  
+
   task_social_network: Het sociaal netwerk
   task_south_pole: Onder de Zuidpool
   task_black_and_white: Zwart-wit
@@ -117,21 +117,21 @@ nl:
 
   route_instruct: Routebeschrijving
   center_in_your_school: "We moedigen je aan om de eerste ronde in je eigen school af te leggen, als dat mogelijk is."
- 
+
   qualif_task_descriptions_title: Eerste ronde 2016
   final_task_descriptions_title: Finale %d
   task_description: Opgaven
-  solutions: Oplossingen 
+  solutions: Oplossingen
   task_descriptions_remark: ""
- 
+
   # FAQ
   faq_title: Vaak gestelde vragen
   faq_subtitle: Antwoorden op de meest gestelde vragen over de olympiade
   faq_morequestions: |
-      Een andere vraag ? Stel ze aan ons via <a href="mailto:info@be-oi.be">e-mail</a>, 
-      <a href="https://www.facebook.com/beoi.contest" target="_blank">Facebook</a> of 
+      Een andere vraag ? Stel ze aan ons via <a href="mailto:info@be-oi.be">e-mail</a>,
+      <a href="https://www.facebook.com/beoi.contest" target="_blank">Facebook</a> of
       <a href="https://twitter.com/beoi_nl"
-      target="_blank">Twitter</a>. 
+      target="_blank">Twitter</a>.
 
   # About
   about_title: Over beOI
@@ -140,7 +140,7 @@ nl:
   about_its_sponsors: haar sponsors
   about_its_volunteer: haar vrijwilligers
   about_intro: |
-    De Belgische Informatica-olympiade wordt georganiseerd door beOI vzw. De organisatie wordt mogelijk gemaakt door de steun van haar leden, haar sponsors en de tijd die vrijwilligers er aan wijden.    
+    De Belgische Informatica-olympiade wordt georganiseerd door beOI vzw. De organisatie wordt mogelijk gemaakt door de steun van haar leden, haar sponsors en de tijd die vrijwilligers er aan wijden.
   about_interested_sponsors: |
     Interesse om sponsor te worden voor deze editie, of om een prijs aan te bieden?
   about_kbs_frb : |
@@ -149,7 +149,7 @@ nl:
   about_become_member: Lid worden ? Contacteer ons !
   about_our_contact_details: Contactgegevens
   about_contact_text: |
-    Aarzel niet om ons te contacteren met vragen over onze vereniging en haar activiteiten.    
+    Aarzel niet om ons te contacteren met vragen over onze vereniging en haar activiteiten.
   bce_num: KBO-nummer
   about_become_sponsor: Sponsor worden ? Contacteer ons !
   sponsors_support: "Sponsors & Steun"
@@ -167,10 +167,10 @@ nl:
   Categories: Categorieën
   rules_part_4: Gratis wedstrijd
   rules_part_5: 50 besten (of 15%) van de eerste ronde naar de finale (per categorie)
-  
+
   # Archives
   previous_olympiad_edition_tile: beOI %d
-  
+
     # Qualif result page
   qualif_result_title: "Eerste ronde 2017: resultaten"
   qualif_topx: Top %d
@@ -178,16 +178,20 @@ nl:
   column_school: "School (jaar)"
   column_score: Score
   qualif_on_total: Op een totaal van %d deelnemers
-  qualif_top_schools: Scholen 
-  qualif_top_schools_count_expl: Deelnemende scholen gerangschikt volgens aantal deelnemers aan de eerste ronde 
-  qualif_top_schools_score_expl: Klassement van scholen gerangschikt volgens gemiddelde score van hun 5 beste deelnemers 
+  qualif_top_schools: Scholen
+  qualif_top_schools_count_expl: Deelnemende scholen gerangschikt volgens aantal deelnemers aan de eerste ronde
+  qualif_top_schools_score_expl: Klassement van scholen gerangschikt volgens gemiddelde score van hun 5 beste deelnemers
   qualif_top_girls: De beste meisjes
   qualif_top_girls_expl: |
-    In een (helaas en onterecht) vaak mannelijk gekleurd vak, hebben dit jaar %d meisjes deelgenomen aan de eerste ronde, een absoluut record! Dit zijn de besten onder hen. 
+    In een (helaas en onterecht) vaak mannelijk gekleurd vak, hebben dit jaar %d meisjes deelgenomen aan de eerste ronde, een absoluut record! Dit zijn de besten onder hen.
 
-  final_results_expl: |
-    Hieronder staan, per categorie, de resultaten van de finale. 
-    De eerste zes finalisten in elke categorie kregen een prijs uitgereikt op de proclamatie op 7 mei in Brussel.
+  final_results_expl_past: |
+    Hieronder staan, per categorie, de resultaten van de finale.
+    De eerste finalisten in elke categorie kregen een prijs uitgereikt op de proclamatie op 13 mei in Brussel.
+  final_results_expl_future: |
+    Hieronder staan, per categorie, de resultaten van de finale.
+    De eerste finalisten in elke categorie zijn in alfabetische volgorde vermeld, zonder hun score. 
+    Zij komen hun plaats te weten, en krijgen een prijs uitgereikt, op de proclamatie op 13 mei in Brussel.
   final_top: Top-%d, in alfabetische volgorde
   final_after_top: Eindklassement vanaf de %de plaats
   qualif_intro_text: |
@@ -198,6 +202,7 @@ nl:
   qualif_chart_lang_fr: Franstaligen
   qualif_chart_lang_nl: Nederlandstaligen
   qualif_chart_lang_de: Duitstaligen
+  results_max_score: De maximumscore was %d punten.
 
    # Registrations
   registration_title: Inschrijven voor beOI %s
@@ -209,7 +214,7 @@ nl:
   gender_men: Mannelijk
   gender_women: Vrouwelijk
   city_field: Gemeente
-  city_placeholder: Gemeente (+ land indien niet in België) 
+  city_placeholder: Gemeente (+ land indien niet in België)
   school_field: "School (naam, postcode en gemeente)"
   school_name_placeholder: Naam van de school
   school_zip_placeholder: Postcode
@@ -236,6 +241,6 @@ nl:
     Door je in te schrijven aanvaard je de regels van de wedstrijd beschreven in het %s.
   subscribe_button: Inschrijven
   form_fail: (Problemen met dit formulier? Probeer met een andere browser!)
-  
+
   # Local Centers
   localcenters_title: "Eerste ronde: de 11 centra"

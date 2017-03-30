@@ -25,7 +25,7 @@ fr:
   Registration: Inscriptions
   Sponsors: Nos sponsors
 
-  # Index 
+  # Index
   title: "Olympiade belge d'Informatique"
   subtitle: |
     Concours de raisonnement informatique et d'initiation
@@ -44,28 +44,28 @@ fr:
   # index: overview module
   overview_title: Un nouveau concours... accessible à tous
   overview_desc: |
-    Le concours beOI a été rendu plus accessible 
-    qu'auparavant afin que tout élève du secondaire puisse y 
+    Le concours beOI a été rendu plus accessible
+    qu'auparavant afin que tout élève du secondaire puisse y
     participer sans connaissance préalable.
 
   overview_first_title: Aucune base nécessaire
   overview_first_desc: |
-    L'épreuve éliminatoire ne comporte pas de programmation, 
-    uniquement des exercices de raisonnement informatique ne 
-    nécessitant aucune connaissance préalable. La finale 
-    comporte, elle, de la programmation, via des codes à 
-    comprendre et à compléter sur papier. 
+    L'épreuve éliminatoire ne comporte pas de programmation,
+    uniquement des exercices de raisonnement informatique ne
+    nécessitant aucune connaissance préalable. La finale
+    comporte, elle, de la programmation, via des codes à
+    comprendre et à compléter sur papier.
 
   overview_second_title: Trois catégories d'âge
   overview_second_desc: |
-    Le concours comporte maintenant trois catégories selon 
+    Le concours comporte maintenant trois catégories selon
     l'année de l'élève, chacune comportant son propre classement:
 
   overview_third_title: Guidage
   overview_third_desc: |
     Les candidats passant les éliminatoires se verront proposer
     une formation et une série d'outils leur permettant d'apprendre les
-    bases de la programmation. Les meilleurs pourront également 
+    bases de la programmation. Les meilleurs pourront également
     intégrer la formation de l'équipe nationale (beCP).
 
   register_button: Je représente une école, je souhaite inscrire mon école
@@ -85,7 +85,7 @@ fr:
   wait_for_qualif_results_descr: Vos résultats vous seront transmis par e-mail dans les prochaines semaines.
 
   index_qualif_result_title: "Éliminatoire 2017"
-  index_final_result_title: "Finale 2016"
+  index_final_result_title: "Finale 2017"
   index_qualif_result_link: "Les résultats"
 
   platform_try_title: "Nouvelle épreuve interactive sur ordinateur!"
@@ -125,17 +125,17 @@ fr:
   solutions: Solutions
   task_descriptions_remark: ""
   # |
-  #  (Attention, quelques solutions fournies dans ces documents sont incorrectes. 
+  #  (Attention, quelques solutions fournies dans ces documents sont incorrectes.
   #  Une version corrigé sera mise en ligne d'ici peu !)
 
   # FAQ
   faq_title: Foire aux questions
   faq_subtitle: Questions fréquemment posées à propos de l'olympiade
   faq_morequestions: |
-      Vous avez d'autres questions ? Posez-les nous via <a href="mailto:info@be-oi.be">e-mail</a>, 
+      Vous avez d'autres questions ? Posez-les nous via <a href="mailto:info@be-oi.be">e-mail</a>,
       <a href="https://www.facebook.com/beoi.contest" target="_blank">Facebook</a> ou
-      <a href="https://twitter.com/beoi_fr" target="_blank">Twitter</a>. 
-  
+      <a href="https://twitter.com/beoi_fr" target="_blank">Twitter</a>.
+
   # About
   about_title: A propos de beOI
   belgium: Belgique
@@ -145,7 +145,7 @@ fr:
   about_intro: |
     L'Olympiade belge d'Informatique est organisée par l'ASBL beOI. Elle n'est
     possible que grâce au soutien de ses membres, de ses sponsors et du temps
-    consacré par ses bénévoles. 
+    consacré par ses bénévoles.
   about_interested_sponsors: |
     Intéressés à devenir sponsor pour cette édition ou à offrir un prix ?
   about_kbs_frb: |
@@ -184,29 +184,32 @@ fr:
   column_school: "Ecole (année)"
   column_score: Score
   qualif_on_total: Sur un total de %d participants
-  qualif_top_schools: Écoles 
+  qualif_top_schools: Écoles
   qualif_top_schools_count_expl: Classement des écoles par nombre de participants à l'éliminatoire
   qualif_top_schools_score_expl: Classement des écoles par score moyen de leurs 5 meilleurs participants
   qualif_top_girls: Top des filles
   qualif_top_girls_expl: |
     Dans un domaine par les hommes, %d filles participaient cette année à l'éliminatoire,
     un record ! Voici un classement des meilleures d'entre elles.
-  
-  final_results_expl: |
-    Les classements ci-dessous reprennent, par catégorie, les résultats de la finale. 
-    Les six premiers de chaque catégorie ont reçu un prix lors de la proclamation du 7 mai à Bruxelles.
+
+  final_results_expl_past: |
+    Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.
+    Les premiers de chaque catégorie ont reçu un prix lors de la proclamation du 13 mai à Bruxelles.
+  final_results_expl_future: |
+    Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.
+    Les premiers de chaque catégorie sont donnés par ordre alphabétique et sans leur score. 
+    Ces derniers recevront leur classement final et un prix lors de la proclamation du 13 mai à Bruxelles.
   final_top: Top-%d, par ordre alphabétique
-  final_after_top: Classement à partir de la %de position
+  final_after_top: Classement après la %de position
   qualif_intro_text: |
     L'éliminatoire de l'olympiade 2017 a eu lieu ce 1er février dans les écoles et centre régionaux.
-    Cette page reprend les résultats et quelques statistiques sur cette épreuve. 
+    Cette page reprend les résultats et quelques statistiques sur cette épreuve.
   qualif_chart_nbcontestants: Nombre de participants
   qualif_chart_lang: Langue
   qualif_chart_lang_fr: Francophones
   qualif_chart_lang_nl: Néerlandophones
   qualif_chart_lang_de: Germanophones
-
-
+  results_max_score: Le score maximum possible était de %d points.
 
   # Registrations
   registration_title: Inscription à la beOI %s
@@ -247,6 +250,6 @@ fr:
     la page %s.
   subscribe_button: M'inscrire
   form_fail: (Un problème avec ce formulaire ? Essayez un autre navigateur !)
-  
+
   # Local Centers
   localcenters_title: "Eliminatoire: les 11 centres"
