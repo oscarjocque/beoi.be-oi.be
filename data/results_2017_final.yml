@@ -4,6 +4,46 @@ contestants:
   junior_max: 106
   senior_max: 115
   cadet:
+  - :position: 1
+    :score: 78
+    :name: Gus Vanpoucke
+    :school: Sint-Bavohumaniora, Gent
+    :year: year_2nd
+  - :position: 2
+    :score: 69
+    :name: Daan Phlips
+    :school: Sint-Bavohumaniora, Gent
+    :year: year_2nd
+  - :position: 3
+    :score: 57
+    :name: Bas De Bue
+    :school: Vita et Pax-Collège, Schoten
+    :year: year_2nd
+  - :position: 4
+    :score: 56
+    :name: Jorian Debaeke Van Meerhaeghe
+    :school: Don Boscocollege Zwijnaarde, Gent
+    :year: year_2nd 
+  - :position: 4
+    :score: 56
+    :name: Lucas Schonkeren
+    :school: Katholieke Centrumscholen Sint-Truiden
+    :year: year_2nd  
+  - :position: 4
+    :score: 56
+    :name: Sander Verwimp
+    :school: Heilig Hart Van Maria, Berlaar
+    :year: year_2nd
+  - :position: 7
+    :score: 54
+    :name: Michiel Segers
+    :school: DvM Humaniora Aalst
+    :year: year_2nd
+  - :position: 8
+    :score: 52
+    :name: Stephan Obeid
+    :school: Institut de la Vierge Fidèle, Schaerbeek
+    :year: year_2nd   
   - :position: 9
     :score: 50
     :name: Diego Torres
@@ -168,6 +208,51 @@ contestants:
     :school: Heilig Hart Van Maria, Berlaar
     :year: year_2nd
   junior:
+  - :position: 1
+    :score: 99
+    :name: Lucas Prieels
+    :school: Collège Don Bosco, Bruxelles
+    :year: year_4th
+  - :position: 2
+    :score: 94
+    :name: Simon Pitte
+    :school: "École Européenne de Bruxelles IV"
+    :year: year_3rd
+  - :position: 3
+    :score: 92
+    :name: Daniel Cortild
+    :school: Collège Saint-Michel, Etterbeek
+    :year: year_3rd
+  - :position: 4
+    :score: 89
+    :name: Sebastian Weiermann
+    :school: GO! Erasmus De Pinte
+    :year: year_4th     
+  - :position: 5
+    :score: 88
+    :name: Jan Livens
+    :school: Vita et Pax-Collège, Schoten
+    :year: year_4th
+  - :position: 6
+    :score: 86
+    :name: Ruben Bekaert
+    :school: "École Européenne de Bruxelles IV"
+    :year: year_4th    
+  - :position: 7
+    :score: 85
+    :name: Tom Gautot
+    :school: Athénée Royal de Gembloux
+    :year: year_4th  
+  - :position: 8
+    :score: 84
+    :name: Marie Peeters
+    :school: Institut Saint-Albert, Jodoigne
+    :year: year_4th
+  - :position: 8
+    :score: 84
+    :name: Jan Quan
+    :school: Guldenporencollege Kaai, Kortrijk
+    :year: year_4th
   - :position: 10
     :score: 83
     :name: Andrei Anghel-Pantelimon
@@ -411,6 +496,46 @@ contestants:
     :school: GO! Erasmus De Pinte
     :year: year_4th
   senior:
+  - :position: 1
+    :score: 115
+    :name: Django Rabaey
+    :school: KA Voskenslaan, Gent
+    :year: year_6th
+  - :position: 2
+    :score: 108
+    :name: Arthur Massar
+    :school: Saint Boniface, Bruxelles
+    :year: year_5th
+  - :position: 3
+    :score: 107
+    :name: Robbe Pincket
+    :school: Maris Stella Instituut, Malle
+    :year: year_6th
+  - :position: 4
+    :score: 104
+    :name: Kamron Geijsen
+    :school: Sint-Bavohumaniora, Gent
+    :year: year_5th
+  - :position: 5
+    :score: 102
+    :name: Robin Simoens
+    :school: Sint-Barbaracollege, Gent
+    :year: year_6th
+  - :position: 6
+    :score: 101
+    :name: Maxim De Clercq
+    :school: Sint-Barbaracollege, Gent
+    :year: year_5th
+  - :position: 7
+    :score: 97
+    :name: Lukas Vandeputte
+    :school: Guldensporencollege Plein, Kortrijk
+    :year: year_5th
+  - :position: 8
+    :score: 95
+    :name: Kristiaan Bogaerts
+    :school: Sint-Ludgardis Merksem, Antwerpen
+    :year: year_5th    
   - :position: 9
     :score: 93
     :name: Sebastian Petit
