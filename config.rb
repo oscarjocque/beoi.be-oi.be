@@ -75,13 +75,11 @@ configure :build do
   activate :minify_javascript
 
   # Enable cache buster
-  activate :asset_hash
+  activate :asset_hash, :exts => %w(.mp4 .webm .jpg .jpeg .png .gif .webp .js .css .otf .woff .woff2 .eot .ttf .svg .svgz .map) 
 
   # Use relative URLs
   activate :relative_assets
 
-  activate :gzip
-  
   # activate :asset_host
   # set :asset_host do
   #   '//YOURDOMAIN.cloudfront.net'
@@ -92,14 +90,13 @@ configure :build do
 end
 
 activate :s3_sync do |s3_sync|
-  s3_sync.bucket                     = 'beoi.be-oi.be'
-  s3_sync.region                     = 'eu-central-1'
+  s3_sync.region                     = ENV["AWS_DEFAULT_REGION"]
   s3_sync.delete                     = true # delete stray files
   s3_sync.after_build                = false # do not chain after the build step
 end
 
-caching_policy 'text/html; charset=utf-8',                            max_age: 0,        must_revalidate: true
-caching_policy 'text/html',                                           max_age: 0,        must_revalidate: true
+caching_policy 'text/html; charset=utf-8',                            max_age: 10,       public: true
+caching_policy 'text/html',                                           max_age: 10,       public: true
 caching_policy 'image/png',                                           max_age: 31536000, public: true
 caching_policy 'image/jpeg',                                          max_age: 31536000, public: true
 caching_policy 'image/gif',                                           max_age: 31536000, public: true

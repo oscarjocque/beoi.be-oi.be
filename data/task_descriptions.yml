@@ -1,4 +1,4 @@
-2016:
+"2016":
   final:
     -
       type: :task_description
@@ -36,7 +36,7 @@
       file:
         fr: beOI16-final-fr-senior-sol.pdf
         nl: beOI16-final-nl-senior-sol.pdf
-2017:
+"2017":
   final:
     -
       type: :task_description

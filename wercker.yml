@@ -1,0 +1,13 @@
+box: ruby:2.3.3
+build:
+  steps:
+    - bundle-install
+    - script:
+      name: middleman build
+      code: bundle exec middleman build --verbose
+deploy:
+  steps:
+    - bundle-install
+    - script:
+      name: middleman s3_sync
+      code: bundle exec middleman s3_sync

@@ -2,15 +2,20 @@
 # the following line to use "http://" instead
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.4.0"
+Encoding.default_external = Encoding::UTF_8
+Encoding.default_internal = Encoding::UTF_8
 
-# Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
+# Middleman Gems
+gem 'middleman'
+gem 'middleman-livereload'
+gem 'middleman-s3_sync'
+gem 'mime-types'
+
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
-
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 
-gem 'middleman-s3_sync', "~>3.3.3"
+# to have ExecJS working
+gem 'therubyracer', :platforms => :ruby
