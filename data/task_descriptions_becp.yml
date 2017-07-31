@@ -1,0 +1,82 @@
+"2016":
+  -
+    title:
+      official: Coins
+      fr: Pièces
+      nl: Stukken
+    file:
+      fr: beCP16-coins-fr.pdf
+      nl: beCP16-coins-nl.pdf
+  -
+    title:
+      official: Keys
+      fr: Échange de clés
+      nl: Sleutels uitwisselen
+    file:
+      fr: beCP16-keys-fr.pdf
+      nl: beCP16-keys-nl.pdf
+  -
+    title:
+      official: Trains
+      fr: Trains
+      nl: Treinen
+    file:
+      fr: beCP16-trains-fr.pdf
+      nl: beCP16-trains-nl.pdf
+  -
+    title:
+      official: Water
+      fr: De la flotte partout 
+      nl: Overal water
+    file:
+      fr: beCP16-water-fr.pdf
+      nl: beCP16-water-nl.pdf
+"2017":
+  -
+    title:
+      official: Flags
+      fr: Récupération des drapeaux
+      nl: Vlaggen redden
+    file:
+      fr: beCP17-flags-fr.pdf
+      nl: beCP17-flags-nl.pdf
+  -
+    title:
+      official: Sheep
+      fr: Des moutons à foison
+      nl: Schapen winnen
+    file:
+      fr: beCP17-sheep-fr.pdf
+      nl: beCP17-sheep-nl.pdf
+  -
+    title:
+      official: Cats
+      fr: Arbre à chats
+      nl: Boom van katten
+    file:
+      fr: beCP17-cats-fr.pdf
+      nl: beCP17-cats-nl.pdf
+  -
+    title:
+      official: Cables
+      fr: Un enfer de câbles
+      nl: Een wirwar van kabels
+    file:
+      fr: beCP17-cables-fr.pdf
+      nl: beCP17-cables-nl.pdf
+  -
+    title:
+      official: Annihilation
+      fr: Annihilation
+      nl: Annihilatie
+    file:
+      fr: beCP17-annihilation-fr.pdf
+      nl: beCP17-annihilation-nl.pdf
+  -
+    title:
+      official: Harmony
+      fr: Mort à l’harmonie
+      nl: Weg met de harmonie
+    file:
+      fr: beCP17-harmony-fr.pdf
+      nl: beCP17-harmony-nl.pdf

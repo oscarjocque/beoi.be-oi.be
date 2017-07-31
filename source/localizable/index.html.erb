@@ -2,7 +2,6 @@
 mailchimp_submit:
   fr: "//be-oi.us6.list-manage.com/subscribe/post?u=4a51a9ab354aa26ba87f9a75f&amp;id=0637c4db56"
   nl: "//be-oi.us9.list-manage.com/subscribe/post?u=c6d8dcea8c4875082e570aee9&amp;id=96b626466f"
-trianglify_colors: '["#e31d3b","#d53e4f","#f46d43","#fdae61","#fee08b","#ffffbf","#e6f598","#abdda4","#66c2a5","#3288bd","#5e4fa2"]'
 contest_platform:
   fr: https://concours.be-oi.be/
   nl: https://wedstrijd.be-oi.be/
@@ -10,21 +9,31 @@ management_platform:
   fr: https://gestion.be-oi.be/
   nl: https://beheer.be-oi.be/
 ---
-<section class="image-bg parallax pt120 pb80 pt-xs-40 pb-xs-40" style="background-color:#fdae61;">
+<section class="image-bg overlay parallax" style="background-color:#48ad68;">
   <%=page_header_empty_image_holder %>
+  <div class="background-image-holder background-image-mosaic">
+    <img alt="Background" class="background-image" src="/img/background-sciences.png"/>
+  </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-8 col-sm-12">
-        <h1 style="color:#101010; opacity:0.7;"><%= t(:title) %></h1>
-        <h4 class=" mb48 mb-xs-32" style="color:#101010; opacity:0.7;">
-          <%= t(:subtitle) %>
-        </h4>
+      <div class="col-sm-12">
+        <div class="col-sm-2 text-center">
+          <img src="/img/logo-beoi-white.png" style="max-height: 160px;">
+        </div>
+        <div class="col-sm-8">
+          <h1><%= t(:title) %></h1>
+          <h4 class="uppercase mb48 mb-xs-32">
+            <%= t(:subtitle) %>
+          </h4>
+        </div>
       </div>
     </div>
     <!--end of row-->
   </div>
   <!--end of container-->
 </section>
+
+<a name="intro"></a>
 
 <section>
   <div class="container">

@@ -10,8 +10,8 @@ fr:
   meta_description: Concours de raisonnement informatique et d'initiation à la programmation pour élèves du secondaire.
 
   # Menu
-  Contest_menu: Concours
-  AllContests: Tous les concours
+  beOI_Contest_menu: Olympiade
+  ContestIndex: Présentation
   Contest: Déroulement
   QualifResults: "Eliminatoire: Résultats"
   FinalResults: "Finale: Résultats"
@@ -24,6 +24,11 @@ fr:
   Members: Membres
   Registration: Inscriptions
   Sponsors: Nos sponsors
+  #beCP menu
+  beCP_Contest_menu: beCP
+  TaskDescriptions: Énoncés
+  BelgiumAtIOI: "Belgique à l'IOI"
+  Results: Résultats
 
   # Index
   title: "Olympiade belge d'Informatique"
@@ -42,7 +47,7 @@ fr:
 
 
   # index: overview module
-  overview_title: Un nouveau concours... accessible à tous
+  overview_title: Un concours accessible à tous
   overview_desc: |
     Le concours beOI a été rendu plus accessible
     qu'auparavant afin que tout élève du secondaire puisse y
@@ -73,6 +78,42 @@ fr:
   register_school_text: |
     Même après leur avoir parlé du concours votre école ne souhaite pas participer à la beOI ?
     <a href="/fr/registration">Inscrivez-vous</a> pour passer l'épreuve dans l'un des centres près de chez vous.
+
+  # beCP
+
+  becp_title: Concours de programmation belge (beCP)
+  becp_subtitle: |
+    Concours pour élèves du secondaire permettant de composer la délégation belge
+    pour l'Olympiade Internationale d'Informatique.
+
+  becp_step1: Sélection pour beCP
+  becp_step1_expl: |
+    Entre dans le groupe beCP en résolvant des problèmes de programmation en ligne
+    pour nous montrer tes capacités et ta motivation&nbsp;!
+  becp_step2: Entraînement
+  becp_step2_expl: |
+    Nous dispensons des formations (gratuites hors logement et nourriture) et du coaching pour tout 
+    participant s'entraînant régulièrement.
+  becp_step3: Sélection nationale
+  becp_step3_expl: |
+    Un concours de programmation est organisé au niveau belge chaque année (vers le mois de mai) pour 
+    composer la délégation belge.
+  becp_step4: Olympiade Internationale
+  becp_step4_expl: |
+    La délegation belge (4 participants et 2 encadrants) participe à l'Olympiade Internationale 
+    d'Informatique avec plus de 80 autres pays.
+
+  Calendar: Calendrier
+  training_camp: Camp d'entraînement
+  training_course: Formation
+  date_program_location_tbd: Dates, lieu et programme à déterminer
+  selection_contest: Concours de sélection pour l'IOI
+  selection_contest_details: Bruxelles (à confirmer)
+  ioi_full: Olympiade Internationale d'Informatique (IOI)
+  ioi_details: Téhéran, Iran
+
+  ranking: Classement
+  task_descriptions: Énoncés
 
   # Be inform about registration form
   keep_me_informed_of_registrations: M'informer de l'ouverture de la beOI 2018
