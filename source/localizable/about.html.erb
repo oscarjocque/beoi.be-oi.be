@@ -61,6 +61,11 @@ trianglify_colors: '["#fff5f0","#fee0d2","#fcbba1","#fc9272","#fb6a4a","#ef3b2c"
       <p><%= t(:about_interested_sponsors) %></p>
       <%= mail_to 'sponsors@be-oi.be', t(:about_become_sponsor), class:'btn btn-lg btn-filled' %>
     </div>
+    <% if locale == :nl %>
+		<div class="row mt16 text-center">
+			<p>BeOI vzw is mede-ondertekenaar van het <%= link_to 'STEM-charter', 'http://www.stemcharter.be', target:"_blank" %>.</p>
+		</div>
+    <% end %>
   </div>
 </section>    
 
