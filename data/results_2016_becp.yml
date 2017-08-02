@@ -1,0 +1,62 @@
+- position: 1
+  score: 489
+  name: Damien Galant
+  school: Athénée Provincial de La Louvière
+  year: year_6th
+- position: 2
+  score: 356
+  name: Corentin Simon
+  school: Lycée Émile Jacqmain, Bruxelles
+  year: year_6th
+- position: 3
+  score: 220
+  name: Bruno Ploumhans
+  school: Collège Saint-Michel, Etterbeek
+  year: year_4th
+- position: 4
+  score:  198
+  name: Arthur Massar
+  school: Institut Saint-Boniface-Parnasse d'Ixelles
+  year: year_4th
+- position: 5
+  score: 118
+  name: Alexandre Terefenko
+  school: Athénée Provincial de La Louvière
+  year: year_6th
+- position: 6
+  score: 79
+  name: Ovidiu Parfene
+  school: SHAPE, Mons
+  year: year_5th
+- position: 7
+  score: 67
+  name: Ruben Van Dijck
+  school: Instituut Heilig Hart van Maria, Berlaar
+  year: year_2nd
+- position: 8
+  score: 58
+  name: Jari Van Melckebeke
+  school: Sint-Aloysiuscollege, Ninove
+  year: year_3rd
+- position: 9
+  score: 35
+  name: Robbe Pincket
+  school: Maris Stella Instituut, Oostmalle
+  year: year_5th
+- position: 10
+  score: 12
+  name: Gus Vanpoucke
+  school: Sint-Bavohumaniora, Gent
+  year: year_1st
+- position: 11
+  name: Lucas Prieels
+  school: Collège Don Bosco, Bruxelles
+  year: year_3rd
+- position: 12
+  name: Louis Billot
+  school: Collège Notre-Dame de Bon Secours, Binche
+  year: year_6th
+- position: 13
+  name: Sammy Delanghe
+  school: Petrus & Paulus OLV College, Oostende
+  year: year_6th

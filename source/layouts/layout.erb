@@ -14,7 +14,7 @@
     <meta property="og:locale" content="<%= lang %>" />
     <% end %>
 
-    <%= stylesheet_link_tag "bootstrap.min", "themify-icons", "flexslider", "lightbox.min", "theme-red", "custom" %>
+    <%= stylesheet_link_tag "bootstrap.min", "themify-icons", "flexslider", "lightbox.min", "theme", "custom" %>
     <link href='//fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Comfortaa:700' rel='stylesheet' type='text/css'>
 
@@ -43,20 +43,16 @@
       </div>
       <div class="module-group left">
         <div class="module left">
+          <% link_to 'index.html', style:'opacity:1 !important;' do %>
+            <%= image_tag 'logo-beoi-small.png', class:'logo', alt:'beOI' %>
+          <% end %>
+        </div>
+        <div class="module left">
           <ul class="menu mb0">
             <li class="has-dropdown">
-              <% link_to 'index.html', style:'opacity:1 !important;' do %>
-              <%= image_tag 'logo-beoi-small.png', class:'logo', alt:'beOI' %>
-              <% end %>
+              <%= link_to t(:beOI_Contest_menu), 'index.html' %>
               <ul>
-                <li><%= link_to t('AllContests'), '//www.be-oi.be' %></li>
-                <li><%= link_to 'beOI', '//beoi.be-oi.be' %></li>
-                <li><%= link_to 'beCP', '//becp.be-oi.be' %></li>
-              </ul>
-            </li>
-            <li class="has-dropdown">
-              <%= link_to t(:Contest_menu), 'index.html' %>
-              <ul>
+                <li><%= link_to t('ContestIndex'), 'index.html#intro' %></li>
                 <li><%= link_to t('Contest'), 'index.html#contest' %></li>
                 <li><%= link_to t('QualifResults'), 'qualif_results.html' %></li>
                 <li><%= link_to t('FinalResults'), 'final_results.html' %></li>
@@ -66,6 +62,15 @@
                 <!-- <li><a href="learn-programming.html">Apprendre à programmer</a></li> -->
                 <!-- <li><a href="prizes.html">À remporter</a></li> -->
                 <li><%= link_to t('FAQ'), 'faq.html' %></li>
+              </ul>
+            </li>
+            <li class="has-dropdown">
+              <%= link_to t(:beCP_Contest_menu), 'becp.html' %>
+              <ul>
+                <li><%= link_to t('ContestIndex'), 'becp.html#intro' %></li>
+                <li><%= link_to t('TaskDescriptions'), 'becp.html#questions' %></li>
+                <li><%= link_to t('Results')+" 2016", 'becp.html#results' %></li>
+                <li><%= link_to t('BelgiumAtIOI'), 'http://stats.ioinformatics.org/results/BEL?sort=rel_rank_desc' %></li>
               </ul>
             </li>
             <li class="has-dropdown">

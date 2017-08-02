@@ -10,8 +10,8 @@ nl:
   meta_description:  Wedstrijd creatief probleemoplossend denken en initiatie tot programmeren voor leerlingen uit het secundair.
 
   # Menu
-  Contest_menu: Wedstrijd
-  AllContests: Alle wedstrijden
+  beOI_Contest_menu: Olympiade
+  ContestIndex: Introductie
   Contest: Wedstrijdverloop
   QualifResults: "Eerste ronde: resulaten"
   FinalResults: "Finale: resultaten"
@@ -24,6 +24,11 @@ nl:
   Members: Onze leden
   Registration: Inschrijven
   Sponsors: Onze sponsors
+  # beCP menu
+  beCP_Contest_menu: beCP
+  TaskDescriptions: Opdrachten
+  BelgiumAtIOI: "België op de IOI"
+  Results: Resultaten
 
   # Index
   title: "Belgische Informatica-olympiade"
@@ -42,7 +47,7 @@ nl:
 
 
   # index: overview module
-  overview_title: Een vernieuwde wedstrijd... voor iedereen
+  overview_title: Een toegankelijke wedstrijd voor iedereen
   overview_desc: |
     De beOI wedstrijd is toegankelijker dan ooit
     tevoren: elke leerling uit het secundair kan
@@ -73,6 +78,42 @@ nl:
   register_school_text: |
     Kan je echt geen leerkracht vinden om jouw school in te schrijven voor beOI?
     <a href="/nl/registration">Schrijf je dan individueel in</a> om de proef af te leggen in één van de regionale centra.
+
+  # beCP
+  
+  becp_title: Belgische wedstrijd pogrammeren (beCP)
+  becp_subtitle: |
+    Wedstrijd voor leerlingen uit het middelbaar ter selectie van de Belgische delegatie
+    voor de Internationale Olympiade Informatica.
+
+  becp_step1: Selectie voor beCP
+  becp_step1_expl: |
+    Word lid van de beCP groep door programmeerproblemen op te lossen
+    en ons zo te overtuigen van jouw capaciteiten en motivatie!
+  becp_step2: Trainingen
+  becp_step2_expl: |
+    Wij voorzien opleidingen (gratis, uitgezonder logies en maaltijden) en coaching 
+    voor iedereen die regelmatig oefent.
+  becp_step3: Nationale selectie
+  becp_step3_expl: |
+    Elk jaar wordt een programmeerwedstrijd op nationaal niveau georganiseerd (rond mei) 
+    om de Belgische delegatie samen te stellen.
+  becp_step4: Internationale Olympiade
+  becp_step4_expl: |
+    De Belgische delegatie - 4 deelne(e)m(st)ers en 2 begeleiders - neemt deel aan de Internationale Olympiade
+    Informatica met meer dan 80 andere landen.
+
+  Calendar: Kalender
+  training_camp: Trainingskamp
+  training_course: Cursus
+  date_program_location_tbd: Datum, plaatse en programma te bepalen
+  selection_contest: Selectiewedstrijd voor de IOI
+  selection_contest_details: Brussel
+  ioi_full: Internationale Olympiade Informatica (IOI)
+  ioi_details: Teheran, Iran
+
+  ranking: Eindklassement
+  task_descriptions: Opdrachten
 
   # Be informed about registration form
   keep_me_informed_of_registrations : Wees als eerste op de hoogte van de start van beOI 2018!
@@ -140,7 +181,7 @@ nl:
   about_its_sponsors: haar sponsors
   about_its_volunteer: haar vrijwilligers
   about_intro: |
-    De Belgische Informatica-olympiade wordt georganiseerd door beOI vzw. De organisatie wordt mogelijk gemaakt door de steun van haar leden, haar sponsors en de tijd die vrijwilligers er aan wijden.
+    De Belgische Informatica-olympiade en beCP worden georganiseerd door beOI vzw. Dit is mogelijk dankzij de steun van haar leden, haar sponsors, en de tijd die vrijwilligers er aan wijden.
   about_interested_sponsors: |
     Interesse om sponsor te worden voor deze editie, of om een prijs aan te bieden?
   about_kbs_frb : |
