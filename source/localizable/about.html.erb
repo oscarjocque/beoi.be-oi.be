@@ -48,15 +48,17 @@ trianglify_colors: '["#fff5f0","#fee0d2","#fcbba1","#fc9272","#fb6a4a","#ef3b2c"
         <p><%= t(:sponsors_intro) %></p>
       </div>
     </div>
-    <div class="row mt16">
-      <% data.sponsors.each do |m| %>
+    <% data.sponsors.each_slice(4) do |group| %>
+    <div class="row mt16" style="margin-bottom:30px;">
+      <% group.each do |m| %>
         <% link_to m.href, target:"_blank" do %>
           <div class="col-md-3 col-sm-6 col-xs-8" class="text-center">
-            <%= image_tag "ext-logos/%s"%m.image, alt:m.name, style:"max-height:120px; max-weight:100%;"  %>
+            <%= image_tag "ext-logos/%s"%m.image, alt:m.name, style:"max-height:120px; max-height:100%;"  %>
           </div>
         <% end %>
       <% end %>
-    </div>   
+    </div>
+    <% end %>
     <div class="row mt16 text-center">   
       <p><%= t(:about_interested_sponsors) %></p>
       <%= mail_to 'sponsors@be-oi.be', t(:about_become_sponsor), class:'btn btn-lg btn-filled' %>
