@@ -82,33 +82,9 @@ management_platform:
   <!--end of container-->
 </section>
 
-<%= partial "index_results" %>
+<%= partial "index_calendar" %>
 
-
-<a name="sponsors"></a>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h4 class="uppercase mb16 mb-xs-40"><%= t(:sponsors_support) %></h4>
-      </div>
-    </div>
-    <!--end of row-->
-    <div class="row">
-      <div class="mt8">
-        <% data.sponsors.each do |m| %>
-          <% link_to m.href, target:"_blank" do %>
-          <div class="col-md-3 col-sm-3 col-xs-12" class="text-center">
-            <%= image_tag "ext-logos/%s"%m.image, alt:m.name, style:"max-height:60px; display:block; max-width:100%; margin:auto; margin-bottom:15px;"  %>
-          </div>
-          <% end %>
-        <% end %>
-      </div>
-    </div>
-    <!--end of row-->
-  </div>
-  <!--end of container-->
-</section>  
+<%# partial "sponsors" %>
 
 <!-- <section class="bg-dark pb8 pt32">
   <div class="container">
@@ -123,6 +99,26 @@ management_platform:
   </div>
 </section>
  -->
+<a name="contest"></a>
+<a name="contest-step1"></a>
+<section class="image-square left bg-secondary">
+  <div class="col-md-6 image">
+    <div class="background-image-holder">
+    <img alt="image" class="background-image" src="/img/kid_blockly.jpg" />
+    </div>
+  </div>
+  <div class="col-md-6 col-md-offset-1 content"><%= partial "index_contest_step1" %></div>
+</section>
+
+<!--<section class="pt64 pb64">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <%= partial "index_contest_training" %>
+      </div>
+    </div>
+  </div>
+</section>-->
 
 <section class="bg-dark pb0">
   <div class="container">
@@ -159,26 +155,7 @@ management_platform:
   </div>
 </section>
 
-<a name="contest"></a>
-<section class="image-square left bg-secondary">
-  <div class="col-md-6 image">
-    <div class="background-image-holder">
-    <img alt="image" class="background-image" src="/img/pic1.jpg" />
-    </div>
-  </div>
-  <div class="col-md-6 col-md-offset-1 content"><%= partial "index_contest_step1" %></div>
-</section>
-<section class="pt64 pb64">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <%= partial "index_contest_training" %>
-      </div>
-    </div>
-    <!--end of row-->
-  </div>
-  <!--end of container-->
-</section>
+<a name="contest-step2"></a>
 <section class="image-square right bg-secondary">
   <div class="col-md-6 image">
     <div class="background-image-holder">
@@ -216,78 +193,13 @@ management_platform:
   <!--end of container-->
 </section>  
 
-<a name="sample-questions"></a>
-<a name="sample-questions-final"></a>
-<section class="bg-secondary">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h4 class="uppercase mb80"><%= t(:sample_tasks_final) %></h4>
-        <p><%= t(:pseudocode_expl) %>
-        <%= link_to t(:inthisdoc), "/archives/pseudo-code-#{lang}.pdf", target:"_blank" %>.</p>
-        <div class="tabbed-content button-tabs vertical">
-          <ul class="tabs">
-            <% data.final_tasks.each_with_index do |task, index| %>
-            <li <% if index == 0 %>class="active"<% end %>>
-              <div class="tab-title">
-                <span><%= t("task_"+task) %></span>
-              </div>
-              <div class="tab-content">
-                <!-- <h5 class="uppercase">Let's Talk Tabs</h5>
-                <hr> -->
-                <%= partial "tasks/"+task %>
-                <a class="btn btn-sm" onclick="javascript:$('#task_<%= task %>').toggle();"><%= t(:task_toggle_solution) %></a>
-                <div id="task_<%= task %>" style="display: none; padding:10px;" class="feature bordered bg-white">
-                  <%= partial "tasks/"+task+"_sol" %>
-                </div>
-              </div>
-            </li>
-            <% end %>
-          </ul>
-        </div>
-        <!--end of button tabs-->
-      </div>
+<a name="qualif-sample-questions"></a>
+<%= partial "index_qualif_sample_questions" %>
 
-    </div>
-    <!--end of row-->
+<%= partial "map_qualif_centers" %>
 
+<%= partial "index_final_sample_questions" %>
 
-    <a name="questions-2016"></a>
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h5 class="uppercase mb16 mb0"><%= t(:final_task_descriptions_title)%2016 %></h5>
-        <p><%= t(:task_descriptions_remark) %></p>
-      </div>
-    </div>
-    <!--end of row-->
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <% data.task_descriptions[2016]["final"].each do |e| %>
-        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
-        <% end %>
-      </div>
-    </div>
-
-    <a name="questions-2017"></a>
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h5 class="uppercase mb16 mb0"><%= t(:final_task_descriptions_title)%2017 %></h5>
-        <p><%= t(:task_descriptions_remark) %></p>
-      </div>
-    </div>
-    <!--end of row-->
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <% data.task_descriptions[2017]["final"].each do |e| %>
-        <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
-        <% end %>
-      </div>
-    </div>
-    <!--end of row-->
-
-  </div>
-  <!--end of container-->
-</section>
 
 <section class="bg-dark pb0">
   <div class="container">

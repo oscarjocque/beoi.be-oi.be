@@ -1,0 +1,13 @@
+fr:
+  - name: Variables
+    id: 2016-FR-19-minmax-variables-fr
+  - name: Mobiles
+    id: 2016-FR-20-mobiles-fr
+  - name: Flocon
+    id: 2016-FR-21-snowflake-fr
+  - name: Dessin
+    id: 2016-FR-22-nested-pattern-fr
+  - name: Leçon de pilotage
+    id: 2016-blockly-simple-fr
+  - name: Cela dépend...
+    id: 2016-blockly-cond-fr

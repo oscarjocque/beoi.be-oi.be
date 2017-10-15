@@ -1,0 +1,20 @@
+<a name="sample-questions-qualif"></a>
+<section class="bg-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h4 class="uppercase mb80"><%= t(:sample_tasks_qualifying) %></h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <% data.qualif_sample_tasks[lang].each do |e| %>
+        <%= link_to e.name, (development? ? 'http://beoi.be-oi.be' : '') + '/contest/sample-tasks/' + e.id, class:"btn btn-sm", target:"_blank" %>
+        <% end %>
+      </div>
+    </div>
+
+  </div>
+  <!--end of container-->
+</section>
