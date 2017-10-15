@@ -1,130 +1,141 @@
 - 
   city: Antwerpen
   place: Universiteit Antwerpen
-  address: |
-    Campus Groenenborger, gebouw Z
-    lokaal Z.421
-    Groenenborgerlaan 171
-    2020 Antwerpen
-  route_link: https://www.uantwerpen.be/campus-groenenborger
+  address: Te bepalen / A définir 
+  # address: |
+  #   Campus Groenenborger, gebouw Z
+  #   lokaal Z.421
+  #   Groenenborgerlaan 171
+  #   2020 Antwerpen
+  # route_link: https://www.uantwerpen.be/campus-groenenborger
   pos:
     lat: 51.17821
     lng: 4.41853
 -
   city: Brussel / Bruxelles
   place: Université Libre de Bruxelles
-  address: |
-    Campus de la Plaine, salle/zaal NO4.008,
-    bâtiment NO, 4ème étage, à gauche en sortant des ascenseurs.
-    gebouw NO, 4e verdieping, links bij het uitstappen uit de lift.
-    Boulevard du Triomphe
-    1050 Bruxelles
-  route_link: https://www.ulb.ac.be/campus/plaine/plaine.html
+  address: Te bepalen / A définir 
+  # address: |
+  #   Campus de la Plaine, salle/zaal NO4.008,
+  #   bâtiment NO, 4ème étage, à gauche en sortant des ascenseurs.
+  #   gebouw NO, 4e verdieping, links bij het uitstappen uit de lift.
+  #   Boulevard du Triomphe
+  #   1050 Bruxelles
+  # route_link: https://www.ulb.ac.be/campus/plaine/plaine.html
   pos:
     lat: 50.8200945
     lng: 4.3973233
 - 
   city: Gent
   place: Universiteit Gent
-  address: |
-    Campus Sterre, gebouw S9
-    zaal Turing en zaal Zuse
-    Krijgslaan 281
-    9000 Gent
-  route_link: http://www.ugent.be/we/nl/diensten/ipvw-ices/contact/locaties/sterre
+  address: Te bepalen / A définir 
+  # address: |
+  #   Campus Sterre, gebouw S9
+  #   zaal Turing en zaal Zuse
+  #   Krijgslaan 281
+  #   9000 Gent
+  # route_link: http://www.ugent.be/we/nl/diensten/ipvw-ices/contact/locaties/sterre
   pos:
     lat: 51.0227516
     lng: 3.7105733
 - 
   city: Hasselt
   place: Universiteit Hasselt
-  address: |
-    Campus Diepenbeek, lokaal B17
-    Agoralaan Gebouw D
-    3590 Diepenbeek
-  route_link: http://www.uhasselt.be/Contact-en-ligging#tabs2
+  address: Te bepalen / A définir 
+  # address: |
+  #   Campus Diepenbeek, lokaal B17
+  #   Agoralaan Gebouw D
+  #   3590 Diepenbeek
+  # route_link: http://www.uhasselt.be/Contact-en-ligging#tabs2
   pos:
     lat: 50.9253703
     lng: 5.3912436
 - 
   city: Kortrijk
   place: Hogeschool VIVES Kortrijk
-  address: |
-    VIVES gebouw HWBK, zone HANTAL 2, 
-    lokalen 2.11, 2.12, 2.13 en 2.14
-    Doorniksesteenweg 145
-    8500 Kortrijk
-  route_link: https://www.vives.be/campus/kortrijk/onderweg
+  address: Te bepalen / A définir 
+  # address: |
+  #   VIVES gebouw HWBK, zone HANTAL 2, 
+  #   lokalen 2.11, 2.12, 2.13 en 2.14
+  #   Doorniksesteenweg 145
+  #   8500 Kortrijk
+  # route_link: https://www.vives.be/campus/kortrijk/onderweg
   pos:
     lat: 50.8058796
     lng: 3.2840281
 - 
   city: Leuven
   place: KU Leuven
-  address: |
-    Departement Computerwetenschappen
-    Lokaal 200A-00.124
-    Celestijnenlaan 200A
-    3001 Heverlee
-  route_link: https://wms.cs.kuleuven.be/cs/algemeen/routebeschrijving
+  address: Te bepalen / A définir 
+  # address: |
+  #   Departement Computerwetenschappen
+  #   Lokaal 200A-00.124
+  #   Celestijnenlaan 200A
+  #   3001 Heverlee
+  # route_link: https://wms.cs.kuleuven.be/cs/algemeen/routebeschrijving
   pos:
     lat: 50.86411
     lng: 4.6786777
 - 
   city: Libramont
   place: Haute École Robert Schuman (HERS)
-  address: |
-    Local B2 (près de la salle de sport de l'école)
-    Rue de la Cité 64
-    6800 Libramont
-  route_link: "https://www.google.be/maps/place/Haute+Ecole+Robert+Schuman/@49.9280097,5.3788132,15z/data=!4m2!3m1!1s0x0:0x9b062899079abb50?hl=fr-BE"
+  address: Te bepalen / A définir 
+  # address: |
+  #   Local B2 (près de la salle de sport de l'école)
+  #   Rue de la Cité 64
+  #   6800 Libramont
+  # route_link: "https://www.google.be/maps/place/Haute+Ecole+Robert+Schuman/@49.9280097,5.3788132,15z/data=!4m2!3m1!1s0x0:0x9b062899079abb50?hl=fr-BE"
   pos:
     lat: 49.9280097
     lng: 5.3788132
 - 
   city: Liège
   place: ULg, Institut Montefiore
-  address: |
-      Quartier Polytech 1
-      Allée de la découverte 10
-      4000 Liège
-  route_link: http://www.montefiore.ulg.ac.be/location
+  address: Te bepalen / A définir 
+  # address: |
+  #     Quartier Polytech 1
+  #     Allée de la découverte 10
+  #     4000 Liège
+  # route_link: http://www.montefiore.ulg.ac.be/location
   pos:
     lat: 50.5857616
     lng: 5.5594127   
 - 
   city: Louvain-la-Neuve
   place: Université catholique de Louvain
-  address: |
-    bâtiment Réaumur, salle INTEL
-    rez-de-chaussée, aile B
-    place Ste Barbe 2
-    1348 Louvain-la-Neuve
-  route_link: https://www.uclouvain.be/395422.html
+  address: Te bepalen / A définir 
+  # address: |
+  #   bâtiment Réaumur, salle INTEL
+  #   rez-de-chaussée, aile B
+  #   place Ste Barbe 2
+  #   1348 Louvain-la-Neuve
+  # route_link: https://www.uclouvain.be/395422.html
   pos:
     lat: 50.668426
     lng: 4.619527
 - 
   city: Mons
   place: Université de Mons
-  address: |
-    Campus Polytech
-    Salle Carton
-    boulevard Dolez 31
-    7000 Mons
-  route_link: https://portail.umons.ac.be/FR/universite/admin/cerp/plancampus/Pages/CampusPolytech.aspx
+  address: Te bepalen / A définir 
+  # address: |
+  #   Campus Polytech
+  #   Salle Carton
+  #   boulevard Dolez 31
+  #   7000 Mons
+  # route_link: https://portail.umons.ac.be/FR/universite/admin/cerp/plancampus/Pages/CampusPolytech.aspx
   pos:
     lat: 50.4516334
     lng: 3.9591075
 - 
   city: Namur
   place: Université de Namur
-  address: |
-    Auditoire I21
-    Faculté d'Informatique
-    Rue grandgagnage 21  
-    5000 Namur
-  route_link: "https://www.google.be/maps/place/Facult%C3%A9+d'Informatique/@50.4659799,4.857612,15z/data=!4m5!3m4!1s0x0:0x2d36dcd7ac1f25!8m2!3d50.4659799!4d4.857612"
+  address: Te bepalen / A définir 
+  # address: |
+  #   Auditoire I21
+  #   Faculté d'Informatique
+  #   Rue grandgagnage 21  
+  #   5000 Namur
+  # route_link: "https://www.google.be/maps/place/Facult%C3%A9+d'Informatique/@50.4659799,4.857612,15z/data=!4m5!3m4!1s0x0:0x2d36dcd7ac1f25!8m2!3d50.4659799!4d4.857612"
   pos:
     lat: 50.4658487
     lng: 4.8576964
