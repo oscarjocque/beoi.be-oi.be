@@ -1,0 +1,24 @@
+<a name="sponsors"></a>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h4 class="uppercase mb16 mb-xs-40"><%= t(:sponsors_support) %></h4>
+      </div>
+    </div>
+    <!--end of row-->
+    <div class="row">
+      <div class="mt8">
+        <% data.sponsors.each do |m| %>
+          <% link_to m.href, target:"_blank" do %>
+          <div class="col-md-3 col-sm-3 col-xs-12" class="text-center">
+            <%= image_tag "ext-logos/%s"%m.image, alt:m.name, style:"max-height:60px; display:block; max-width:100%; margin:auto; margin-bottom:15px;"  %>
+          </div>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>  
