@@ -54,13 +54,12 @@
               <ul>
                 <li><%= link_to t('ContestIndex'), 'index.html#intro' %></li>
                 <li><%= link_to t('Contest'), 'index.html#contest' %></li>
-                <li><%= link_to t('QualifResults'), 'qualif_results.html' %></li>
-                <li><%= link_to t('FinalResults'), 'final_results.html' %></li>
+                <!-- <li><%= link_to t('QualifResults'), 'qualif_results.html' %></li> -->
+                <!-- <li><%= link_to t('FinalResults'), 'final_results.html' %></li> -->
                 <li><%= link_to t('Rules'), 'rules.html' %></li>
                 <!--<li><%= link_to t('Registration'), 'registration.html' %></li>-->
                 <li><%= link_to t('Tasks'), 'index.html#sample-questions' %></li>
                 <!-- <li><a href="learn-programming.html">Apprendre à programmer</a></li> -->
-                <!-- <li><a href="prizes.html">À remporter</a></li> -->
                 <li><%= link_to t('FAQ'), 'faq.html' %></li>
               </ul>
             </li>
@@ -69,13 +68,14 @@
               <ul>
                 <li><%= link_to t('ContestIndex'), 'becp.html#intro' %></li>
                 <li><%= link_to t('TaskDescriptions'), 'becp.html#questions' %></li>
-                <li><%= link_to t('Results')+" 2017", 'becp.html#results' %></li>
+                <!-- <li><%= link_to t('Results')+" 2017", 'becp.html#results' %></li> -->
                 <li><%= link_to t('BelgiumAtIOI'), 'http://stats.ioinformatics.org/results/BEL?sort=rel_rank_desc' %></li>
               </ul>
             </li>
             <li class="has-dropdown">
               <%= link_to t(:Archives), '#' %>
               <ul>
+                <li><%= link_to "#{t('Edition')} 2017", 'beoi17.html' %></li>
                 <li><%= link_to "#{t('Edition')} 2016", 'beoi16.html' %></li>
                 <li><%= link_to "#{t('Edition')} 2015", 'beoi15.html' %></li>
                 <li><%= link_to "#{t('Edition')} 2014", 'beoi14.html' %></li>
