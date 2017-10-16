@@ -11,3 +11,31 @@ fr:
     id: 2016-blockly-simple-fr
   - name: Cela dépend...
     id: 2016-blockly-cond-fr
+
+nl:
+  - name: Variabelen
+    id: 2016-FR-19-minmax-variables-nl
+  - name: Mobiles
+    id: 2016-FR-20-mobiles-nl
+  - name: Sneeuwvlok
+    id: 2016-FR-21-snowflake-nl
+  - name: Tekening
+    id: 2016-FR-22-nested-pattern-nl
+  - name: Robot-rijles
+    id: 2016-blockly-simple-nl
+  - name: Het hangt er van af...
+    id: 2016-blockly-cond-nl
+
+de:
+  - name: Variables
+    id: 2016-FR-19-minmax-variables-de
+  - name: Mobiles
+    id: 2016-FR-20-mobiles-de
+  - name: Schneeflocke
+    id: 2016-FR-21-snowflake-de
+  - name: Dessin
+    id: 2016-FR-22-nested-pattern-de
+  - name: Leçon de pilotage
+    id: 2016-blockly-simple-de
+  - name: Das hängt ab von......
+    id: 2016-blockly-cond-de

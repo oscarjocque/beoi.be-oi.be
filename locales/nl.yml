@@ -45,6 +45,11 @@ nl:
   questions: Vragen?
   contact_us: Contacteer ons!
 
+  qualif_round: eerste ronde
+  final_round: finale
+  more_info_below: meer details hieronder
+  more_info_later: te bepalen
+
 
   # index: overview module
   overview_title: Een toegankelijke wedstrijd voor iedereen
@@ -110,7 +115,8 @@ nl:
   selection_contest: Selectiewedstrijd voor de IOI
   selection_contest_details: Brussel
   ioi_full: Internationale Olympiade Informatica (IOI)
-  ioi_details: Teheran, Iran
+  ioi_details: Tsukuba, Japan
+  selection_contest_link: Meer info over beCP
 
   ranking: Eindklassement
   task_descriptions: Opdrachten
