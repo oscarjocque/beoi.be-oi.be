@@ -20,7 +20,7 @@ fbq('track', 'RegistrationPage');
           <form action="<%= current_page.data.mailchimp_registration_submit[lang] %>" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
           <div class="mc-field-group">
-            <span></span>
+            <span><%= t(:registration_only_for_non_school) %></span>
           </div>
 
 
