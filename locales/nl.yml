@@ -278,6 +278,8 @@ nl:
   year_6th: 6e
   year_7th: 7e
   qualification_center_field: Centrum voor eerste ronde
+  registration_only_for_non_school: |
+    Alleen voor wie NIET deelneemt in de eigen school. Om mee te doen in je eigen school, vraag je aan een leerkracht om zich te registreren op het wedstrijdplatform (uitgelegd op de hoofdpagina).
   qualification_center_my_school: mijn school
   qualification_center_my_school_expl: |
     Als je kiest voor "%s", dan MOET jouw school ons contacteren en de regels volgen die in de %s staan.
