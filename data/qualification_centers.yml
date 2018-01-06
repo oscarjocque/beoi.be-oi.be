@@ -38,25 +38,22 @@
 - 
   city: Hasselt
   place: Universiteit Hasselt
-  address: Te bepalen / A définir 
-  # address: |
-  #   Campus Diepenbeek, lokaal B17
-  #   Agoralaan Gebouw D
-  #   3590 Diepenbeek
-  # route_link: http://www.uhasselt.be/Contact-en-ligging#tabs2
+  address: |
+    Lokaal Units AB LL2
+    Agoralaan gebouw D 
+    3590 Diepenbeek
+  route_link: https://drive.google.com/a/uhasselt.be/open?id=1zXIf7GVO8ILyyZWhAxpnhnuAHEZO80-i&usp=sharing 
   pos:
     lat: 50.9253703
     lng: 5.3912436
 - 
   city: Kortrijk
   place: Hogeschool VIVES Kortrijk
-  address: Te bepalen / A définir 
-  # address: |
-  #   VIVES gebouw HWBK, zone HANTAL 2, 
-  #   lokalen 2.11, 2.12, 2.13 en 2.14
-  #   Doorniksesteenweg 145
-  #   8500 Kortrijk
-  # route_link: https://www.vives.be/campus/kortrijk/onderweg
+  address: | 
+    HWBK 
+    Doorniksesteenweg 145 
+    8500 Kortrijk
+  route_link: https://www.vives.be/nl/campussen/campus-kortrijk/onderweg
   pos:
     lat: 50.8058796
     lng: 3.2840281
