@@ -1,8 +1,4 @@
 -
-  name: Exellys
-  href: http://exellys.com/
-  image: exellys-logo.jpg
--
   name: Docbyte
   href: http://www.docbyte.com/
   image: docbyte-logo.png
@@ -15,10 +11,11 @@
   href: http://www.cfwb.be/
   image: cfwb.jpg
 -
+  name: STEM-academie
+  href: http://www.stem-academie.be/
+  image: stem-academie-logo.png  
+-
   name: Agoria
   href: http://www.agoria.be/
   image: agoria-logo.png
--
-  name: STEM-academie
-  href: http://www.stem-academie.be/
-  image: stem-academie-logo.png
+
