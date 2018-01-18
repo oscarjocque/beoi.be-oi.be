@@ -87,7 +87,7 @@
       HELMO Campus Guillemins
       Rue de Harlez 35
       4000 Liège
-  route_link:
+  route_link: http://helmo.be/CMS/Actualites/Agendas/OLYMPIADES-BELGES-D’INFORMATIQUE-A-LIEGE.aspx
   pos:
     lat: 50.6224177
     lng: 5.5723187  
@@ -106,13 +106,13 @@
 - 
   city: Mons
   place: Université de Mons
-  address: Te bepalen / A définir 
-  # address: |
-  #   Campus Polytech
-  #   Salle Carton
-  #   boulevard Dolez 31
-  #   7000 Mons
-  # route_link: https://portail.umons.ac.be/FR/universite/admin/cerp/plancampus/Pages/CampusPolytech.aspx
+  address: |
+     Salle Escher et Turing
+     Rez de chaussée
+     Bâtiment des Grands Amphithéâtres (9 sur la carte)
+     Avenue du champ de Mars, 8
+     7000 Mons
+  route_link: https://portail.umons.ac.be/fr/universite/admin/cerp/plancampus/pages/campusplainedenimy.aspx
   pos:
     lat: 50.4516334
     lng: 3.9591075
