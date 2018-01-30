@@ -112,7 +112,7 @@
      Bâtiment des Grands Amphithéâtres (9 sur la carte)
      Avenue du champ de Mars, 8
      7000 Mons
-  route_link: https://portail.umons.ac.be/fr/universite/admin/cerp/plancampus/pages/campusplainedenimy.aspx
+  route_link: http://informatique.umons.ac.be/index.php?p=olympiades
   pos:
     lat: 50.4516334
     lng: 3.9591075
