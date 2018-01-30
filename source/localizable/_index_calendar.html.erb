@@ -26,11 +26,18 @@
           <li class="mb0 mb-xs-16">
             <div class="overflow-hidden mb0 pt8">
               <div class="col-sm-4">
-                <h4 class="uppercase pt8 mb0">12-16 <%= t(:Feb) %></h4>
+                <h4 class="uppercase pt8 mb0">
+                <% if lang == :fr %>13-15 <%= t(:Feb) %>
+                <% else %>14-16 <%= t(:Feb) %>
+                <% end %></h4>
               </div>
               <div class="col-sm-8 mb8">
                 <h6 class="uppercase mb0"><%= t(:training_course).capitalize %></h6>
-                <span><%= t(:more_info_later).capitalize %></span>
+                <span>
+                <% if lang == :fr %>Louvain-la-Neuve
+                <% else %>Leuven
+                <% end %>
+                <%# t(:more_info_later).capitalize %></span>
               </div>
             </div>
             <hr class="fade-half mb0">
