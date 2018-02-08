@@ -113,8 +113,8 @@ contestants:
     - position: 3
       score: 307
       name: Lucas Prieels
-      school: year_5th
-      year: Collège Don Bosco, Bruxelles
+      school: Collège Don Bosco, Bruxelles
+      year: year_5th
     - position: "-"
       score: 307
       name: Jan Quan
