@@ -131,7 +131,7 @@ fr:
   wait_for_qualif_results_title: Vous avez participé à l'éliminatoire ?
   wait_for_qualif_results_descr: Vos résultats vous seront transmis par e-mail dans les prochaines semaines.
 
-  index_qualif_result_title: "Éliminatoire 2017"
+  index_qualif_result_title: "Éliminatoire 2018"
   index_final_result_title: "Finale 2017"
   index_qualif_result_link: "Les résultats"
 
@@ -225,7 +225,7 @@ fr:
   previous_olympiad_edition_tile: beOI %d
 
   # Qualif result page
-  qualif_result_title: "Éliminatoire 2017: Résultats"
+  qualif_result_title: "Éliminatoire: Résultats"
   qualif_topx: Top %d
   column_name: Nom
   column_school: "Ecole (année)"
@@ -249,7 +249,7 @@ fr:
   final_top: Top-%d, par ordre alphabétique
   final_after_top: Classement après la %de position
   qualif_intro_text: |
-    L'éliminatoire de l'olympiade 2017 a eu lieu ce 1er février dans les écoles et centre régionaux.
+    L'éliminatoire de l'olympiade 2018 a eu lieu ce 7 février dans les écoles et centre régionaux.
     Cette page reprend les résultats et quelques statistiques sur cette épreuve.
   qualif_chart_nbcontestants: Nombre de participants
   qualif_chart_lang: Langue

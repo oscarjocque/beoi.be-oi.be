@@ -1,0 +1,169 @@
+contestants:
+  cadet:
+    - position: 1
+      score: 277
+      name: Dylan Lejeune
+      school: De zonnewijzer Zwalm, Gent
+      year: year_6th
+    - position: "-"
+      score: 277
+      name: Niels Vaneynde
+      school: Koninklijk Atheneum Ekeren
+      year: year_2nd
+    - position: 3
+      score: 272
+      name: Gael Berlanga Boemare
+      school: École Européenne de Bruxelles IV
+      year: year_2nd
+    - position: 4
+      score: 270
+      name: Maxime Spelmans
+      school: KCST, Sint-Truiden
+      year: year_2nd
+    - position: 5
+      score: 267
+      name: Kasper-Rork	Staelens
+      school: Óscar Romerocollege campus Nachtegaal
+      year: year_2nd
+    - position: "-"
+      score: 267
+      name: Norah	Vansteeland
+      school: Sint-Franciscus Xaveriusinstituut, Brugge
+      year: year_2nd
+    - position: 7
+      score: 260
+      name: Petar Vitorac
+      school: Collège Saint-Pierre Uccle
+      year: year_2nd
+    - position: "-"
+      score: 260
+      name: Benoit Van Schaftingen
+      school: Collège du Christ-Roi, Ottignies
+      year: year_1st
+    - position: "-"
+      score: 260
+      name: Ciaran De Smet
+      school: Sint Barbaracollege, Gent
+      year: year_2nd
+    - position: "-"
+      score: 260
+      name: Lowie Goossens
+      school: Sint-Bavohumaniora, Gent
+      year: year_1st
+
+  junior:
+    - position: 1
+      score: 300
+      name: Senne De Vocht
+      school: Githo Nijlen
+      year: year_4th
+    - position: "-"
+      score: 300
+      name: Simon	Pitte
+      school: École Européenne de Bruxelles IV
+      year: year_4th
+    - position: 3
+      score: 290
+      name: Daniel Cortild
+      school: Collège Saint-Michel, Etterbeek
+      year: year_4th
+    - position: "-"
+      score: 290
+      name: Guillaume Deceuninck
+      school: Collège Saint-Guibert, Gembloux
+      year: year_4th
+    - position: 5
+      score: 287
+      name: Julien Brandoit
+      school: Athénée Royal de Marche-en-Famenne
+      year: year_4th
+    - position: "-"
+      score: 287
+      name: Pieter Van Steenweghen
+      school: Heilig Hart Van Maria Berlaar
+      year: year_4th
+    - position: "-"
+      score: 287
+      name: Fakuan Li
+      school: Sint-Albertuscollege-Haasrode
+      year: year_4th
+    - position: 8
+      score: 285
+      name: Olivier Fays
+      school: Institut Saint-Roch Theux
+      year: year_3rd
+    - position: 9
+      score: 283
+      name: Antonin Rousseau
+      school: Institut Notre-Dame de Bertrix
+      year: year_4th
+
+  senior:
+
+    - position: 1
+      score: 317
+      name: Silke Van Der Schueren
+      school: Sint-Bavohumaniora, Gent
+      year: year_6th
+    - position: 2
+      score: 315
+      name: Gijs Fiten
+      school: Sint-Augustinusinstituut, Bree
+      year: year_6th
+    - position: 3
+      score: 307
+      name: Lucas Prieels
+      school: year_5th
+      year: Collège Don Bosco, Bruxelles
+    - position: "-"
+      score: 307
+      name: Jan Quan
+      school: Guldenporencollege Kaai
+      year: year_5th
+    - position: 5
+      score: 305
+      name: Klaas Goethals
+      school: Sint-Godelievecollege Gistel-Eernegem
+      year: year_6th
+    - position: 6
+      score: 300
+      name: Arthur Massar
+      school: Saint-Boniface Parnasse, Bruxelles
+      year: year_6th
+    - position: "-"
+      score: 300
+      name: Jonas Malice
+      school: Institut Saint André, Ramegnies-Chin
+      year: year_5th
+    - position: "-"
+      score: 300
+      name: Ruben Van Assche
+      school: Óscar Romerocollege campus T&EW
+      year: year_6th
+    - position: "-"
+      score: 300
+      name: Joke Tanghe
+      school: Sint-Franciscus Xaveriusinstituut, Brugge
+      year: year_6th
+
+count_cadet: 367  
+count_junior: 500 
+count_senior: 589 
+
+schools:
+  nb_contestants:
+    - 
+      name: "Centre Asty Moulin, Namur"
+      value: 60
+    - 
+      name: "VTI Sint-Lucas Menen"
+      value: 56
+    - 
+      name: "Heilig Hart Van Maria Berlaar"
+      value: 50
+    - 
+      name: "Institut Diderot, Bruxelles"
+      value: 47
+    - 
+      name: "Sint-Bavohumaniora, Gent"
+      value: 46
