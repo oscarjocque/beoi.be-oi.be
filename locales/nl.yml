@@ -270,6 +270,7 @@ nl:
   select_make_choice: Selecteer een waarde
   primary: lagere school
   secondary: middelbaar
+  year_6th_prim: 6e (lager)
   year_1st: 1e
   year_2nd: 2e
   year_3rd: 3e
