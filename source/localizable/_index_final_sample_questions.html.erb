@@ -76,7 +76,7 @@
     <!--end of row-->
     <div class="row">
       <div class="col-sm-12 text-center">
-        <% data.task_descriptions[2017]["final"].each do |e| %>
+        <% data.task_descriptions[2018]["final"].each do |e| %>
         <%= link_to "#{t(e.category)}: #{t(e.type)} ", "/archives/#{e.file[lang]}" , class:"btn btn-sm", target:"_blank" %>
         <% end %>
       </div>
