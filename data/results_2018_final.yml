@@ -1,0 +1,506 @@
+---
+contestants:
+  cadet_max: 65
+  junior_max: 88
+  senior_max: 106
+  cadet:
+  - :position: 11
+    :score: 36
+    :name: Louis Bauer
+    :school: Collège Saint-Michel, Bruxelles
+    :year: year_2nd
+  - :position: 12
+    :score: 34
+    :name: Benoit Van Schaftingen
+    :school: Collège du Christ-Roi, Ottignies
+    :year: year_1st
+  - :position: 12
+    :score: 34
+    :name: Norah Vansteeland
+    :school: Sint-Franciscus Xaveriusinstituut, Brugge
+    :year: year_2nd
+  - :position: 14
+    :score: 33
+    :name: Leo Nigot
+    :school: Athénée Royal de Neufchâteau-Bertrix
+    :year: year_2nd
+  - :position: 14
+    :score: 33
+    :name: Nils Lopez Martin
+    :school: Athénée Royal d'Uccle 1, Uccle
+    :year: year_2nd
+  - :position: 16
+    :score: 32
+    :name: Suzanne Dubois
+    :school: Collège Saint-Guibert, Gembloux
+    :year: year_2nd
+  - :position: 17
+    :score: 31
+    :name: Lucas Belmans
+    :school: Heilig Hart Van Maria Berlaar, Berlaar
+    :year: year_1st
+  - :position: 18
+    :score: 30
+    :name: Loup Charlier
+    :school: Athénée Royal de Neufchâteau-Bertrix
+    :year: year_2nd
+  - :position: 18
+    :score: 30
+    :name: Mohamed Achraf Moussaoui
+    :school: Collège Saint-Michel, Bruxelles
+    :year: year_2nd
+  - :position: 20
+    :score: 29
+    :name: Dylan Lejeune
+    :school: De zonnewijzer, Zwalm
+    :year: year_2nd
+  - :position: 21
+    :score: 28
+    :name: Viktor Cloes
+    :school: Heilig Hart Van Maria Berlaar, Berlaar
+    :year: year_1st
+  - :position: 22
+    :score: 25
+    :name: Janneke Meert
+    :school: Sint-Bavohumaniora, Gent
+    :year: year_2nd
+  - :position: 22
+    :score: 25
+    :name: Kasper-Rork Staelens
+    :school: Óscar Romerocollege campus Nachtegaal, Dendermonde
+    :year: year_2nd
+  - :position: 24
+    :score: 24
+    :name: Teodor Mocanu
+    :school: École Européenne de Bruxelles IV, Bruxelles
+    :year: year_2nd
+  - :position: 25
+    :score: 21
+    :name: Jolien Gastmans
+    :school: Heilig Hart Van Maria Berlaar, Berlaar
+    :year: year_2nd
+  - :position: 25
+    :score: 21
+    :name: Stef Van Den Broeck
+    :school: Heilig Hart Van Maria Berlaar, Berlaar
+    :year: year_1st
+  - :position: 27
+    :score: 19
+    :name: Seppe Landtsheer
+    :school: Óscar Romerocollege campus Nachtegaal, Dendermonde
+    :year: year_2nd
+  - :position: 28
+    :score: 18
+    :name: Sander Wouters
+    :school: Heilig Hart Van Maria Berlaar, Berlaar
+    :year: year_1st
+  - :position: 29
+    :score: 14
+    :name: Nesta Dhooghe
+    :school: Sint-Michielscollege Schoten, Schoten
+    :year: year_2nd
+  cadet_top:
+  - :lastname: Berlanga Boemare
+    :name: Gael Berlanga Boemare
+    :school: École Européenne de Bruxelles IV, Bruxelles
+    :year: year_2nd
+  - :lastname: Gernez
+    :name: Mathias Gernez
+    :school: Athénée Royal de Nivelles, Nivelles
+    :year: year_2nd
+  - :lastname: Goossens
+    :name: Lowie Goossens
+    :school: Sint-Bavohumaniora, Gent
+    :year: year_1st
+  - :lastname: Rooryck
+    :name: Dries Rooryck
+    :school: École Européenne de Bruxelles IV, Bruxelles
+    :year: year_2nd
+  - :lastname: Vagenende
+    :name: Pieterjan Vagenende
+    :school: Collège van de Paters Jozefieten, Melle
+    :year: year_2nd
+  - :lastname: Vanderhaeghe
+    :name: Rik Vanderhaeghe
+    :school: Óscar Romerocollege campus Nachtegaal, Dendermonde
+    :year: year_2nd
+  - :lastname: Vaneynde
+    :name: Niels Vaneynde
+    :school: Koninklijk Atheneum, Ekeren
+    :year: year_2nd
+  - :lastname: Vitorac
+    :name: Petar Vitorac
+    :school: Collège Saint-Pierre, Uccle
+    :year: year_2nd
+  - :lastname: Watthez
+    :name: Corentin Watthez
+    :school: Institut de la Sainte-Union, Kain
+    :year: year_2nd
+  - :lastname: Willaert
+    :name: Tim Willaert
+    :school: Sint-Godelievecollege Gistel-Eernegem, Gistel
+    :year: year_2nd
+  junior:
+  - :position: 11
+    :score: 61
+    :name: Guillaume Deceuninck
+    :school: Collège Saint-Guibert, Gembloux
+    :year: year_4th
+  - :position: 11
+    :score: 61
+    :name: Julien Brandoit
+    :school: Athénée Royal de Marche-en-Famenne
+    :year: year_4th
+  - :position: 13
+    :score: 59
+    :name: Fakuan Li
+    :school: Sint-Albertuscollege-Haasrode, Heverlee
+    :year: year_4th
+  - :position: 14
+    :score: 57
+    :name: Maximilien Zarioh
+    :school: Athénée Provincial de La Louvière
+    :year: year_4th
+  - :position: 15
+    :score: 48
+    :name: Alexander Van Haastrecht
+    :school: Vita et Pax-Collège, Schoten
+    :year: year_3rd
+  - :position: 16
+    :score: 47
+    :name: Stephan Obeid
+    :school: Institut de la Vierge Fidèle, Bruxelles
+    :year: year_3rd
+  - :position: 17
+    :score: 45
+    :name: Lobke Van Der Schueren
+    :school: Sint-Bavohumaniora, Gent
+    :year: year_3rd
+  - :position: 18
+    :score: 44
+    :name: Lucas Schonkeren
+    :school: Katholieke Centrumscholen Sint Truiden
+    :year: year_3rd
+  - :position: 19
+    :score: 43
+    :name: Charles Van Hees
+    :school: Institute Saint-Boniface-Parnasse, Ixelles
+    :year: year_3rd
+  - :position: 20
+    :score: 41
+    :name: Maximilian Grotz
+    :school: École Européenne de Bruxelles IV, Bruxelles
+    :year: year_4th
+  - :position: 20
+    :score: 41
+    :name: Yannick Maes
+    :school: Pius X Collège Tessenderlo, Tessenderlo
+    :year: year_3rd
+  - :position: 22
+    :score: 40
+    :name: Henri Dambiermont
+    :school: Athénée Royal de Marche-en-Famenne
+    :year: year_4th
+  - :position: 23
+    :score: 36
+    :name: Barthélemy Brodzinski
+    :school: Lycée Martin V, Louvain-la-Neuve
+    :year: year_3rd
+  - :position: 24
+    :score: 35
+    :name: Quentin Lépine
+    :school: Collège Saint-Guibert, Gembloux
+    :year: year_4th
+  - :position: 25
+    :score: 34
+    :name: Gijs Verschaeve
+    :school: Heilig Hart Van Maria Berlaar, Berlaar
+    :year: year_4th
+  - :position: 26
+    :score: 33
+    :name: Antonin Rousseau
+    :school: Institut Notre-Dame de Bertrix, Bertrix
+    :year: year_4th
+  - :position: 27
+    :score: 28
+    :name: Aron Crets
+    :school: Pius X Collège Tessenderlo, Tessenderlo
+    :year: year_3rd
+  - :position: 28
+    :score: 27
+    :name: Kobe Crets
+    :school: Pius X Collège Tessenderlo, Tessenderlo
+    :year: year_3rd
+  - :position: 28
+    :score: 27
+    :name: Kobe Celen
+    :school: Annuntia-Instituut, Wijnegem
+    :year: year_4th
+  - :position: 30
+    :score: 25
+    :name: Jules Rosier
+    :school: Koninklijk Atheneum, Zottegem
+    :year: year_4th
+  - :position: 31
+    :score: 23
+    :name: Hanaël Queroles
+    :school: Collège Saint-Servais, Asty-Moulin, Namur
+    :year: year_3rd
+  - :position: 32
+    :score: 21
+    :name: Marie Lampaert
+    :school: Collège Ieper, Ieper
+    :year: year_3rd
+  - :position: 33
+    :score: 18
+    :name: Nathan Dubois
+    :school: École Polytechnique de Verviers, Verviers
+    :year: year_4th
+  - :position: 34
+    :score: 17
+    :name: Kasper Lerno
+    :school: Annuntia-Instituut, Wijnegem
+    :year: year_4th
+  - :position: 35
+    :score: 16
+    :name: Adam Paluch
+    :school: École Européenne de Bruxelles IV, Bruxelles
+    :year: year_4th
+  - :position: 36
+    :score: 14
+    :name: Florian Renders
+    :school: ITN Namur
+    :year: year_3rd
+  junior_top:
+  - :lastname: De Moor
+    :name: Arn De Moor
+    :school: Sint-Barbaracollege, Gent
+    :year: year_4th
+  - :lastname: De Schouwer
+    :name: Jonas De Schouwer
+    :school: Jan-Van-Ruusbroeckollege, Brussel
+    :year: year_4th
+  - :lastname: De Vocht
+    :name: Senne De Vocht
+    :school: GITHO, Nijlen
+    :year: year_4th
+  - :lastname: Fays
+    :name: Olivier Fays
+    :school: Institut Saint-Roch, Theux
+    :year: year_3rd
+  - :lastname: Jocqué
+    :name: Oscar Jocqué
+    :school: Collège van de Paters Jozefieten, Melle
+    :year: year_4th
+  - :lastname: Mikus
+    :name: Erik Mikus
+    :school: Sint-Albertuscollege-Haasrode, Heverlee
+    :year: year_4th
+  - :lastname: Pitte
+    :name: Simon Pitte
+    :school: École Européenne de Bruxelles IV, Bruxelles
+    :year: year_4th
+  - :lastname: Van Dijck
+    :name: Ruben Van Dijck
+    :school: Heilig Hart Van Maria Berlaar, Berlaar
+    :year: year_4th
+  - :lastname: Van Steenweghen
+    :name: Pieter Van Steenweghen
+    :school: Heilig Hart Van Maria Berlaar, Berlaar
+    :year: year_4th
+  - :lastname: Vanpoucke
+    :name: Gus Vanpoucke
+    :school: Sint-Bavohumaniora, Gent
+    :year: year_3rd
+  senior:
+  - :position: 12
+    :score: 65
+    :name: Andrei Anghel-Pantelimon
+    :school: École Européenne de Bruxelles IV, Bruxelles
+    :year: year_5th
+  - :position: 13
+    :score: 64
+    :name: Daan Beernaert
+    :school: Koninklijk Atheneum, Geraardsbergen
+    :year: year_6th
+  - :position: 14
+    :score: 63
+    :name: Ruben Bekaert
+    :school: École Européenne de Bruxelles IV, Bruxelles
+    :year: year_6th
+  - :position: 14
+    :score: 63
+    :name: Jelle Vandersnickt
+    :school: Jan-Van-Ruusbroeckollege, Brussel
+    :year: year_5th
+  - :position: 14
+    :score: 63
+    :name: Silke Van Der Schueren
+    :school: Sint-Bavohumaniora, Gent
+    :year: year_6th
+  - :position: 17
+    :score: 62
+    :name: Bastien Wiaux
+    :school: Lycée Martin V, Louvain-la-Neuve
+    :year: year_6th
+  - :position: 17
+    :score: 62
+    :name: Klaas Goethals
+    :school: Sint-Godelievecollege Gistel-Eernegem, Gistel
+    :year: year_6th
+  - :position: 17
+    :score: 62
+    :name: Kristiaan Bogaerts
+    :school: Sint-Ludgardisschool, Merksem
+    :year: year_6th
+  - :position: 20
+    :score: 61
+    :name: Arno Depoorter
+    :school: Sint-Godelievecollege Gistel-Eernegem, Gistel
+    :year: year_6th
+  - :position: 21
+    :score: 60
+    :name: Renaud Fensie
+    :school: Collège du Christ-Roi, Ottignies
+    :year: year_5th
+  - :position: 21
+    :score: 60
+    :name: Simon Maldague
+    :school: Collège Saint-Guibert, Gembloux
+    :year: year_5th
+  - :position: 23
+    :score: 56
+    :name: Jan Quan
+    :school: Guldenporencollege Kaai, Kortrijk
+    :year: year_5th
+  - :position: 24
+    :score: 54
+    :name: Thomas Van Gestel
+    :school: Sint-Martinus ASO Walfergem, Asse
+    :year: year_5th
+  - :position: 25
+    :score: 52
+    :name: Jonas Malice
+    :school: Institut Saint André, Ramegnies-Chin
+    :year: year_5th
+  - :position: 26
+    :score: 50
+    :name: Mielan Blyaert
+    :school: Sint-Franciscus Xaveriusinstituut, Brugge
+    :year: year_6th
+  - :position: 27
+    :score: 49
+    :name: Abel Van Steenweghen
+    :school: Heilig Hart Van Maria Berlaar, Berlaar
+    :year: year_6th
+  - :position: 28
+    :score: 46
+    :name: René Van Der Schueren
+    :school: Koninklijk Atheneum, Zottegem
+    :year: year_5th
+  - :position: 29
+    :score: 45
+    :name: Kobe De Peuter
+    :school: Technische Scholen Mechelen, Mechelen
+    :year: year_6th
+  - :position: 30
+    :score: 44
+    :name: Thomas Michel
+    :school: Institut Saint Joseph, Bruxelles
+    :year: year_6th
+  - :position: 31
+    :score: 43
+    :name: Tessa Ickx
+    :school: Sint-Jozefsinstituut, Geraardsbergen
+    :year: year_6th
+  - :position: 32
+    :score: 41
+    :name: Dries Van Schuylenbergh
+    :school: Koninklijk Atheneum, Zottegem
+    :year: year_5th
+  - :position: 33
+    :score: 40
+    :name: Sévag Willemot
+    :school: Institut Notre Dame - École des Frères, Tournai
+    :year: year_6th
+  - :position: 33
+    :score: 40
+    :name: Luka Claeys
+    :school: Institut Saint André, Ramegnies-Chin
+    :year: year_6th
+  - :position: 35
+    :score: 38
+    :name: Jonas De Reuse
+    :school: Sint-Martinusscholen ASO Asse, Asse
+    :year: year_5th
+  - :position: 36
+    :score: 36
+    :name: Saartje Van Holder
+    :school: Paridaensinstituut, Leuven
+    :year: year_6th
+  - :position: 37
+    :score: 34
+    :name: Alexandre Wery
+    :school: Institut Provincial d'Enseignement Technique de Nivelles (IPET)
+    :year: year_5th
+  - :position: 38
+    :score: 28
+    :name: Louis Ghislain
+    :school: Lycée Martin V, Louvain-la-Neuve
+    :year: year_5th
+  - :position: 39
+    :score: 27
+    :name: Michiel Geyskens
+    :school: Vrije St.Lambertusscholen, Westerlo
+    :year: year_5th
+  - :position: 40
+    :score: 22
+    :name: Gianni De Herdt
+    :school: Vrije St.Lambertusscholen, Westerlo
+    :year: year_5th
+  senior_top:
+  - :lastname: De Clercq
+    :name: Maxim De Clercq
+    :school: Sint-Barbaracollege, Gent
+    :year: year_6th
+  - :lastname: Fiten
+    :name: Gijs Fiten
+    :school: Sint-Augustinusinstituut, Bree
+    :year: year_6th
+  - :lastname: Geijsen
+    :name: Kamron Geijsen
+    :school: Sint-Bavohumaniora, Gent
+    :year: year_6th
+  - :lastname: Livens
+    :name: Jan Livens
+    :school: Vita et Pax-Collège, Schoten
+    :year: year_5th
+  - :lastname: Livens
+    :name: Bert Livens
+    :school: Vita et Pax-Collège, Schoten
+    :year: year_6th
+  - :lastname: Prieels
+    :name: Lucas Prieels
+    :school: Collège Don Bosco, Bruxelles
+    :year: year_5th
+  - :lastname: Stuyven
+    :name: Miro Stuyven
+    :school: Sint-Lodewijkscollege, Lokeren
+    :year: year_6th
+  - :lastname: Swinnen
+    :name: Jonathan Swinnen
+    :school: Sint Norbertus, Duffel
+    :year: year_5th
+  - :lastname: Vandeputte
+    :name: Lukas Vandeputte
+    :school: Guldenporencollege Kaai, Kortrijk
+    :year: year_6th
+  - :lastname: Vervaet
+    :name: Gwenaël Vervaet
+    :school: Athénée Robert Catteau, Bruxelles
+    :year: year_6th
+  - :lastname: Weiermann
+    :name: Sebastian Weiermann
+    :school: GO! Erasmus De Pinte, De Pinte
+    :year: year_5th
+
