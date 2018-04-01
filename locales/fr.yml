@@ -132,7 +132,7 @@ fr:
   wait_for_qualif_results_descr: Vos résultats vous seront transmis par e-mail dans les prochaines semaines.
 
   index_qualif_result_title: "Éliminatoire 2018"
-  index_final_result_title: "Finale 2017"
+  index_final_result_title: "Finale 2018"
   index_qualif_result_link: "Les résultats"
 
   platform_try_title: "Nouvelle épreuve interactive sur ordinateur!"
@@ -241,11 +241,11 @@ fr:
 
   final_results_expl_past: |
     Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.
-    Les premiers de chaque catégorie ont reçu un prix lors de la proclamation du 13 mai à Bruxelles.
+    Les premiers de chaque catégorie ont reçu un prix lors de la proclamation du 19 mai à Bruxelles.
   final_results_expl_future: |
     Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.
     Les premiers de chaque catégorie sont donnés par ordre alphabétique et sans leur score. 
-    Ces derniers recevront leur classement final et un prix lors de la proclamation du 13 mai à Bruxelles.
+    Ces derniers recevront leur classement final et un prix lors de la proclamation du 19 mai à Bruxelles.
   final_top: Top-%d, par ordre alphabétique
   final_after_top: Classement après la %de position
   qualif_intro_text: |
