@@ -4,6 +4,56 @@ contestants:
   junior_max: 88
   senior_max: 106
   cadet:
+  - :position: 1
+    :score: 61
+    :name: Petar Vitorac
+    :school: Collège Saint-Pierre, Uccle
+    :year: year_2nd
+  - :position: 2
+    :score: 58
+    :name: Rik Vanderhaeghe
+    :school: Óscar Romerocollege campus Nachtegaal, Dendermonde
+    :year: year_2nd
+  - :position: 3
+    :score: 50
+    :name: Gael Berlanga Boemare
+    :school: École Européenne de Bruxelles IV, Bruxelles
+    :year: year_2nd
+  - :position: 4
+    :score: 46
+    :name: Mathias Gernez
+    :school: Athénée Royal de Nivelles, Nivelles
+    :year: year_2nd
+  - :position: 5
+    :score: 45
+    :name: Tim Willaert
+    :school: Sint-Godelievecollege Gistel-Eernegem, Gistel
+    :year: year_2nd
+  - :position: 6
+    :score: 42
+    :name: Dries Rooryck
+    :school: École Européenne de Bruxelles IV, Bruxelles
+    :year: year_2nd
+  - :position: 6
+    :score: 42
+    :name: Corentin Watthez
+    :school: Institut de la Sainte-Union, Kain
+    :year: year_2nd
+  - :position: 8
+    :score: 41
+    :name: Niels Vaneynde
+    :school: Koninklijk Atheneum, Ekeren
+    :year: year_2nd
+  - :position: 9
+    :score: 38
+    :name: Pieterjan Vagenende
+    :school: Collège van de Paters Jozefieten, Melle
+    :year: year_2nd
+  - :position: 10
+    :score: 37
+    :name: Lowie Goossens
+    :school: Sint-Bavohumaniora, Gent
+    :year: year_1st
   - :position: 11
     :score: 36
     :name: Louis Bauer
@@ -141,6 +191,56 @@ contestants:
     :school: Sint-Godelievecollege Gistel-Eernegem, Gistel
     :year: year_2nd
   junior:
+  - :position: 1
+    :score: 85
+    :name: Jonas De Schouwer
+    :school: Jan-Van-Ruusbroeckollege, Brussel
+    :year: year_4th
+  - :position: 2
+    :score: 78
+    :name: Simon Pitte
+    :school: École Européenne de Bruxelles IV, Bruxelles
+    :year: year_4th
+  - :position: 2
+    :score: 78
+    :name: Oscar Jocqué
+    :school: Collège van de Paters Jozefieten, Melle
+    :year: year_4th
+  - :position: 4
+    :score: 75
+    :name: Erik Mikus
+    :school: Sint-Albertuscollege-Haasrode, Heverlee
+    :year: year_4th
+  - :position: 5
+    :score: 73
+    :name: Pieter Van Steenweghen
+    :school: Heilig Hart Van Maria Berlaar, Berlaar
+    :year: year_4th
+  - :position: 6
+    :score: 72
+    :name: Ruben Van Dijck
+    :school: Heilig Hart Van Maria Berlaar, Berlaar
+    :year: year_4th
+  - :position: 7
+    :score: 70
+    :name: Gus Vanpoucke
+    :school: Sint-Bavohumaniora, Gent
+    :year: year_3rd    
+  - :position: 8
+    :score: 69
+    :name: Senne De Vocht
+    :school: GITHO, Nijlen
+    :year: year_4th
+  - :position: 9
+    :score: 63
+    :name: Olivier Fays
+    :school: Institut Saint-Roch, Theux
+    :year: year_3rd
+  - :position: 9
+    :score: 63
+    :name: Arn De Moor
+    :school: Sint-Barbaracollege, Gent
+    :year: year_4th
   - :position: 11
     :score: 61
     :name: Guillaume Deceuninck
@@ -313,6 +413,61 @@ contestants:
     :school: Sint-Bavohumaniora, Gent
     :year: year_3rd
   senior:
+  - :position: 1
+    :score: 95
+    :name: Jan Livens
+    :school: Vita et Pax-Collège, Schoten
+    :year: year_5th
+  - :position: 2
+    :score: 91
+    :name: Lukas Vandeputte
+    :school: Guldenporencollege Kaai, Kortrijk
+    :year: year_6th
+  - :position: 3
+    :score: 83
+    :name: Miro Stuyven
+    :school: Sint-Lodewijkscollege, Lokeren
+    :year: year_6th
+  - :position: 4
+    :score: 80
+    :name: Lucas Prieels
+    :school: Collège Don Bosco, Bruxelles
+    :year: year_5th
+  - :position: 4
+    :score: 80
+    :name: Kamron Geijsen
+    :school: Sint-Bavohumaniora, Gent
+    :year: year_6th
+  - :position: 6
+    :score: 78
+    :name: Maxim De Clercq
+    :school: Sint-Barbaracollege, Gent
+    :year: year_6th
+  - :position: 7
+    :score: 77
+    :name: Gijs Fiten
+    :school: Sint-Augustinusinstituut, Bree
+    :year: year_6th
+  - :position: 8
+    :score: 75
+    :name: Bert Livens
+    :school: Vita et Pax-Collège, Schoten
+    :year: year_6th
+  - :position: 9
+    :score: 71
+    :name: Sebastian Weiermann
+    :school: GO! Erasmus De Pinte, De Pinte
+    :year: year_5th
+  - :position: 10
+    :score: 68
+    :name: Jonathan Swinnen
+    :school: Sint Norbertus, Duffel
+    :year: year_5th
+  - :position: 10
+    :score: 68
+    :name: Gwenaël Vervaet
+    :school: Athénée Robert Catteau, Bruxelles
+    :year: year_6th
   - :position: 12
     :score: 65
     :name: Andrei Anghel-Pantelimon
