@@ -1,0 +1,81 @@
+- position: 1
+  score: 335
+  name: Oscar	Jocqué
+  school: College Paters Jozefieten, Melle
+  year: year_4th
+- position: 2
+  score: 295
+  name: Bruno Ploumhans
+  school: Collège Saint-Michel, Etterbeek
+  year: year_6th
+- position: 3
+  score: 280
+  name: Arthur Massar
+  school: Institut Saint-Boniface Parnasse, Ixelles
+  year: year_6th
+- position: 4
+  score: 220
+  name: Tom	Gautot
+  school: Collège Saint-Michel, Etterbeek
+  year: year_6th
+- position: 5
+  score: 205
+  name: Sebastian Weiermann
+  school: GO! Erasmus De Pinte
+  year: year_5th
+- position: 6
+  score: 130
+  name: Jérôme Mayolet
+  school: Athénée Royal, Jodoigne
+  year: year_4th
+- position: 7
+  score: 125
+  name: Zhiyi Luo
+  school: College Paters Jozefieten, Melle
+  year: year_1st
+- position: 8
+  score: 125
+  name: Jan Livens
+  school: Vita et Pax-Collège, Schoten
+  year: year_5th
+- position: 9
+  score: 115
+  name: Maxim	De Clercq
+  school: Sint-Barbaracollege, Gent
+  year: year_6th
+- position: 10
+  name: Lucas Prieels
+  school: Collège Don Bosco Woluwe-Saint-Lambert
+  year: year_5th
+- position: 11
+  name: Ruben	Van Dijck
+  school: Heilig Hart Van Maria, Berlaar
+  year: year_4th
+- position: 12
+  name: Arn	De Moor
+  school: Sint-Barbaracollege, Gent
+  year: year_4th
+- position: 13
+  name: Jan Quan
+  school: Guldensporencollege Kaai Kortrijk
+  year: year_5th
+- position: 14
+  name: Antoine Demblon
+  school: Collège Saint Michel, Etterbeek
+  year: year_6th
+- position: 15
+  name: Gus	Vanpoucke
+  school: Sint-Bavohumaniora, Gent
+  year: year_3rd
+- position: 16
+  name: Jonas De Schouwer
+  school: Jan-van-Ruusbroeckollege, Brussels
+  year: year_4th
+- position: 17
+  name: Erik Mikus
+  school: Sint-Albertuscollege, Haasrode
+  year: year_4th
+- position: 18
+  name: Pieterjan Vagenende
+  school: College Paters Jozefieten, Melle
+  year: year_2nd
