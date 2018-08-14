@@ -119,16 +119,16 @@ management_platform:
     </div>
   </div>
 </section>-->
-<!--
+
 <section class="bg-dark pb0">
   <div class="container">
     <div class="row mb64 mb-xs-32">
-    
-       <div class="col-md-12 col-sm-12 text-center">
+      <!--
+      <div class="col-md-12 col-sm-12 text-center">
         <h2 class="large"><%= t("wait_for_qualif_results") %></h2>
       </div>
 
-      <hr>
+      <hr>-->
 
       <div class="col-md-12 col-sm-12 text-center">
         <h2 class="large"><%= t("keep_me_informed_of_registrations") %></h2>
@@ -144,16 +144,16 @@ management_platform:
           </form>
         </div>
       </div> 
-    
+    <!--
       <div class="col-md-12 col-sm-12 text-center">
         <h2 class="large"><%= t("register_text") %></h2>
         <%= link_to t(:register_button), current_page.data.management_platform[lang], class:"btn btn-filled btn-lg mb0" %>
         <h4 class="large mt24"><%= t("register_school_text") %></h4>
       </div> 
-
+    -->
     </div>
   </div>
-</section>-->
+</section>
 
 <a name="contest-step2"></a>
 <section class="image-square right bg-secondary">
@@ -193,14 +193,14 @@ management_platform:
   <!--end of container-->
 </section>  
 
-<%= partial "map_qualif_centers" %>
+<%# partial "map_qualif_centers" %>
 
 <a name="sample-questions"></a>
 <a name="qualif-sample-questions"></a>
-<%# partial "index_qualif_sample_questions" %>
+<%= partial "index_qualif_sample_questions" %>
 
 <a name="final-sample-questions"></a>
-<%= partial "index_final_sample_questions" %>
+<%# partial "index_final_sample_questions" %>
 
 
 <section class="bg-dark pb0">

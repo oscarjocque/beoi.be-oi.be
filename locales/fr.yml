@@ -116,13 +116,15 @@ fr:
   selection_contest_details: Bruxelles
   ioi_full: Olympiade Internationale d'Informatique (IOI)
   ioi_details: Tsukuba, Japon
+  ejoi_full: Olympiade Européenne Junior d'Informatique (EJOI)
+  ejoi_details: Kazan, Russie
   selection_contest_link: Plus d'infos sur la beCP
 
   ranking: Classement
   task_descriptions: Énoncés
 
   # Be inform about registration form
-  keep_me_informed_of_registrations: M'informer de l'ouverture de la beOI 2018
+  keep_me_informed_of_registrations: M'informer de l'ouverture de la beOI 2019
   mailinglist_success_msg: Merci. Nous vous informerons de l'ouverture des inscriptions.
   mailinglist_error_msg: Veuillez entrez une adresse e-mail correcte.
   mailinglist_email_placeholder: Adresse e-mail
