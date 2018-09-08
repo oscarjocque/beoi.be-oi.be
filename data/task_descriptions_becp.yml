@@ -80,3 +80,52 @@
     file:
       fr: beCP17-harmony-fr.pdf
       nl: beCP17-harmony-nl.pdf
+"2018":
+  -
+    title:
+      official: riddle
+      fr: Énigme japonaise
+      nl: Japans raadsel
+    file:
+      fr: beCP18-riddle-fr.pdf
+      nl: beCP18-riddle-nl.pdf
+  -
+    title:
+      official: highways
+      fr: Péages autoroutiers
+      nl: Tolwegen
+    file:
+      fr: beCP18-highways-fr.pdf
+      nl: beCP18-highways-nl.pdf
+  -
+    title:
+      official: warehouse
+      fr: Hangar en bazar
+      nl: Loods-zwaar
+    file:
+      fr: beCP18-warehouse-fr.pdf
+      nl: beCP18-warehouse-nl.pdf
+  -
+    title:
+      official: beauty
+      fr: Beauté
+      nl: Schoonheid
+    file:
+      fr: beCP18-beauty-fr.pdf
+      nl: beCP18-beauty-nl.pdf
+  -
+    title:
+      official: editors
+      fr: Guerre d'éditeurs
+      nl: Editor oorlog
+    file:
+      fr: beCP18-editors-fr.pdf
+      nl: beCP18-editors-nl.pdf
+  -
+    title:
+      official: boat
+      fr: Traversée du fleuve
+      nl: De stroom oversteken
+    file:
+      fr: beCP18-boat-fr.pdf
+      nl: beCP18-boat-nl.pdf
