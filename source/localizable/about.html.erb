@@ -83,8 +83,14 @@ trianglify_colors: '["#fff5f0","#fee0d2","#fcbba1","#fc9272","#fb6a4a","#ef3b2c"
     <hr>
     <p>
       beOI ASBL/VZW
-      <br> rue du Grand Hornu, 1 bte 207
-      <br> 1348 Louvain-la-Neuve
+      <br> Campus de la plaine
+      <% if lang == :nl %>
+      <br> Triomflaan, CPI 212
+      <br> 1050 Brussel      
+      <% else %>
+      <br> Boulevard du triomphe, CPI 212
+      <br> 1050 Bruxelles
+      % end %></h4>
       <br> <%= t(:belgium) %>
     </p>
     <p>
