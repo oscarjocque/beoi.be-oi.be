@@ -61,7 +61,7 @@ management_platform:
             <i class="ti-bar-chart icon-sm"></i>
             <h5 class="uppercase"><%= t(:overview_second_title) %></h5>
           </div>
-          <p class="mb8"><%= t(:overview_second_desc) %></p> 
+          <p class="mb8"><%= t(:overview_second_desc) %></p>
           <dl class="dl-horizontal category-list"><%= partial "index_list_categories" %></dl>
         </div>
         <!--end of feature-->
@@ -98,7 +98,7 @@ management_platform:
       </div>
       <div class="row mb24">
         <div class="col-sm-6 col-sm-offset-3">
-          
+
           <form class="halves form-newsletter" data-success="<%= t("mailinglist_success_msg") %>" data-error="<%= t("mailinglist_error_msg") %>">
             <input type="text" name="email" class="mb0 validate-email validate-required signup-email-field" placeholder="<%= t("mailinglist_email_placeholder") %>" />
             <button type="submit" class="btn-white mb0"><%= t("mailinglist_submit_button") %></button>
@@ -106,13 +106,13 @@ management_platform:
             </iframe>
           </form>
         </div>
-      </div> 
+      </div>
     <!--
       <div class="col-md-12 col-sm-12 text-center">
         <h2 class="large"><%= t("register_text") %></h2>
         <%= link_to t(:register_button), current_page.data.management_platform[lang], class:"btn btn-filled btn-lg mb0" %>
         <h4 class="large mt24"><%= t("register_school_text") %></h4>
-      </div> 
+      </div>
     -->
     </div>
   </div>
@@ -123,7 +123,7 @@ management_platform:
 <!-- <section class="bg-dark pb8 pt32">
   <div class="container">
     <div class="row  mb-xs-32">
-    
+
       <div class="col-md-12 col-sm-12 text-center">
         <h3 class="large"><%= t("platform_try_title") %></h3>
         <%= link_to t(:platform_try_link), current_page.data.contest_platform[lang], class:'btn btn-lg btn-filled' %>
@@ -191,16 +191,16 @@ management_platform:
     <!--end of row-->
   </div>
   <!--end of container-->
-</section>  
+</section>
 
-<%# partial "map_qualif_centers" %>
+<%= partial "map_qualif_centers" %>
 
 <a name="sample-questions"></a>
 <a name="qualif-sample-questions"></a>
 <%= partial "index_qualif_sample_questions" %>
 
 <a name="final-sample-questions"></a>
-<%# partial "index_final_sample_questions" %>
+<%= partial "index_final_sample_questions" %>
 
 
 <section class="bg-dark pb0">

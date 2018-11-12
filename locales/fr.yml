@@ -97,15 +97,15 @@ fr:
     pour nous montrer tes capacités et ta motivation&nbsp;!
   becp_step2: Entraînement
   becp_step2_expl: |
-    Nous dispensons des formations (gratuites hors logement et nourriture) et du coaching pour tout 
+    Nous dispensons des formations (gratuites hors logement et nourriture) et du coaching pour tout
     participant s'entraînant régulièrement.
   becp_step3: Sélection nationale
   becp_step3_expl: |
-    Un concours de programmation est organisé au niveau belge chaque année (vers le mois de mai) pour 
+    Un concours de programmation est organisé au niveau belge chaque année (vers le mois de mai) pour
     composer la délégation belge.
   becp_step4: Olympiade Internationale
   becp_step4_expl: |
-    La délegation belge (4 participants et 2 encadrants) participe à l'Olympiade Internationale 
+    La délegation belge (4 participants et 2 encadrants) participe à l'Olympiade Internationale
     d'Informatique avec plus de 80 autres pays.
 
   Calendar: Calendrier
@@ -115,9 +115,11 @@ fr:
   selection_contest: Concours de sélection pour l'IOI
   selection_contest_details: Bruxelles
   ioi_full: Olympiade Internationale d'Informatique (IOI)
-  ioi_details: Tsukuba, Japon
+  ioi_details: Bakou, Azerbaïdjan
   ejoi_full: Olympiade Européenne Junior d'Informatique (EJOI)
-  ejoi_details: Kazan, Russie
+  ejoi_details: Serbie
+  bxoi_full: Olympiade du Benelux d'Informatique (BxOI)
+  bxoi_details: Louvain-la-Neuve, Belgique
   selection_contest_link: Plus d'infos sur la beCP
 
   ranking: Classement
@@ -246,7 +248,7 @@ fr:
     Les premiers de chaque catégorie ont reçu un prix lors de la proclamation du 19 mai à Bruxelles.
   final_results_expl_future: |
     Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.
-    Les premiers de chaque catégorie sont donnés par ordre alphabétique et sans leur score. 
+    Les premiers de chaque catégorie sont donnés par ordre alphabétique et sans leur score.
     Ces derniers recevront leur classement final et un prix lors de la proclamation du 19 mai à Bruxelles.
   final_top: Top-%d, par ordre alphabétique
   final_after_top: Classement après la %de position

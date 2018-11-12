@@ -85,7 +85,7 @@ nl:
     <a href="/nl/registration">Schrijf je dan individueel in</a> om de proef af te leggen in één van de regionale centra.
 
   # beCP
-  
+
   becp_title: Belgische wedstrijd pogrammeren (beCP)
   becp_subtitle: |
     Wedstrijd voor leerlingen uit het middelbaar ter selectie van de Belgische delegatie
@@ -97,11 +97,11 @@ nl:
     en ons zo te overtuigen van jouw capaciteiten en motivatie!
   becp_step2: Trainingen
   becp_step2_expl: |
-    Wij voorzien opleidingen (gratis, uitgezonder logies en maaltijden) en coaching 
+    Wij voorzien opleidingen (gratis, uitgezonder logies en maaltijden) en coaching
     voor iedereen die regelmatig oefent.
   becp_step3: Nationale selectie
   becp_step3_expl: |
-    Elk jaar wordt een programmeerwedstrijd op nationaal niveau georganiseerd (rond mei) 
+    Elk jaar wordt een programmeerwedstrijd op nationaal niveau georganiseerd (rond mei)
     om de Belgische delegatie samen te stellen.
   becp_step4: Internationale Olympiade
   becp_step4_expl: |
@@ -115,9 +115,11 @@ nl:
   selection_contest: Selectiewedstrijd voor de IOI
   selection_contest_details: Brussel
   ioi_full: Internationale Olympiade Informatica (IOI)
-  ioi_details: Tsukuba, Japan
+  ioi_details: Bakoe, Azerbeidzjan
   ejoi_full: Europese Junior Olympiade in Informatica (EJOI)
-  ejoi_details: Kazan, Rusland
+  ejoi_details: Servië
+  bxoi_full: Benelux Olympiade in Informatica (BxOI)
+  bxoi_details: Louvain-la-Neuve, België
   selection_contest_link: Meer info over beCP
 
   ranking: Eindklassement
@@ -239,7 +241,7 @@ nl:
     De eerste finalisten in elke categorie kregen een prijs uitgereikt op de proclamatie op 19 mei in Brussel.
   final_results_expl_future: |
     Hieronder staan, per categorie, de resultaten van de finale.
-    De eerste finalisten in elke categorie zijn in alfabetische volgorde vermeld, zonder hun score. 
+    De eerste finalisten in elke categorie zijn in alfabetische volgorde vermeld, zonder hun score.
     Zij komen hun plaats te weten, en krijgen een prijs uitgereikt, op de proclamatie op 19 mei in Brussel.
   final_top: Top-%d, in alfabetische volgorde
   final_after_top: Eindklassement vanaf de %de plaats
