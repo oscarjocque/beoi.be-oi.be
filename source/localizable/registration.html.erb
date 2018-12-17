@@ -1,8 +1,5 @@
 ---
 title: Registration
-mailchimp_registration_submit:
-  fr: "//be-oi.us6.list-manage.com/subscribe/post?u=4a51a9ab354aa26ba87f9a75f&amp;id=fe73f28fb4"
-  nl: "//be-oi.us9.list-manage.com/subscribe/post?u=c6d8dcea8c4875082e570aee9&amp;id=b5f459ac54"
 trianglify_colors: '"RdYlGn"'
 ---
 <script>
@@ -14,10 +11,10 @@ fbq('track', 'RegistrationPage');
     <div class="row mt16">
       <div class="col-sm-6 col-sm-offset-3">
         <div class="feature bordered text-center">
-          <h4 class="uppercase"><%= t(:registration_title)%2019 %></h4>
+          <h4 class="uppercase"><%= t(:registration_title)%config[:beoi_year] %></h4>
 
           <!-- Begin MailChimp Signup Form -->
-          <form action="<%= current_page.data.mailchimp_registration_submit[lang] %>" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <form action="<%= config[:mailchimp_registration_submit][lang] %>" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
           <div class="mc-field-group">
             <span><%= t(:registration_only_for_non_school) %></span>

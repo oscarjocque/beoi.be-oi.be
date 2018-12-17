@@ -1,3 +1,15 @@
+
+# Website content
+set :beoi_year, 2019
+set :display_qualif_result, false
+set :display_final_result, false
+set :registration_open, true
+set :mailchimp_registration_submit, {
+  fr: "//be-oi.us6.list-manage.com/subscribe/post?u=4a51a9ab354aa26ba87f9a75f&amp;id=fe73f28fb4",
+  nl: "//be-oi.us9.list-manage.com/subscribe/post?u=c6d8dcea8c4875082e570aee9&amp;id=b5f459ac54"
+}
+
+
 ###
 # Compass
 ###
