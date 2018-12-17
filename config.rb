@@ -40,7 +40,7 @@ set :mailchimp_registration_submit, {
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
-activate :i18n, :mount_at_root => false 
+activate :i18n, :mount_at_root => false
 activate :directory_indexes
 
 ###
@@ -76,7 +76,7 @@ set :js_dir, 'js'
 set :images_dir, 'img'
 
 # file reloaded when css partial changed
-# set :bundle_file_css, 'css/all.css' 
+# set :bundle_file_css, 'css/all.css'
 
 # Build-specific configuration
 configure :build do
@@ -87,7 +87,7 @@ configure :build do
   activate :minify_javascript
 
   # Enable cache buster
-  activate :asset_hash, :exts => %w(.mp4 .webm .jpg .jpeg .png .gif .webp .js .css .otf .woff .woff2 .eot .ttf .svg .svgz .map) 
+  activate :asset_hash, :exts => %w(.mp4 .webm .jpg .jpeg .png .gif .webp .js .css .otf .woff .woff2 .eot .ttf .svg .svgz .map)
 
   # Use relative URLs
   activate :relative_assets
@@ -96,7 +96,7 @@ configure :build do
   # set :asset_host do
   #   '//YOURDOMAIN.cloudfront.net'
   # end
-  
+
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
