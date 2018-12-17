@@ -1,8 +1,8 @@
 ---
 title: Registration
 mailchimp_registration_submit:
-  fr: "//be-oi.us6.list-manage.com/subscribe/post?u=4a51a9ab354aa26ba87f9a75f&amp;id=c9cdc3463b"
-  nl: "//be-oi.us9.list-manage.com/subscribe/post?u=c6d8dcea8c4875082e570aee9&amp;id=43c110fbb2"
+  fr: "//be-oi.us6.list-manage.com/subscribe/post?u=4a51a9ab354aa26ba87f9a75f&amp;id=fe73f28fb4"
+  nl: "//be-oi.us9.list-manage.com/subscribe/post?u=c6d8dcea8c4875082e570aee9&amp;id=b5f459ac54"
 trianglify_colors: '"RdYlGn"'
 ---
 <script>
@@ -14,7 +14,7 @@ fbq('track', 'RegistrationPage');
     <div class="row mt16">
       <div class="col-sm-6 col-sm-offset-3">
         <div class="feature bordered text-center">
-          <h4 class="uppercase"><%= t(:registration_title)%2018 %></h4>
+          <h4 class="uppercase"><%= t(:registration_title)%2019 %></h4>
 
           <!-- Begin MailChimp Signup Form -->
           <form action="<%= current_page.data.mailchimp_registration_submit[lang] %>" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -43,8 +43,8 @@ fbq('track', 'RegistrationPage');
               <label for="mce-BIRTHD-month"><%= t(:birthday_field) %>
               </label>
               <div class="datefield">
-                <span class="subfield dayfield"><input class="datepart required" type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHD[day]" id="mce-BIRTHD-day"></span> / 
-                <span class="subfield monthfield"><input class="datepart required" type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHD[month]" id="mce-BIRTHD-month"></span> / 
+                <span class="subfield dayfield"><input class="datepart required" type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHD[day]" id="mce-BIRTHD-day"></span> /
+                <span class="subfield monthfield"><input class="datepart required" type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHD[month]" id="mce-BIRTHD-month"></span> /
                 <span class="subfield yearfield"><input class="datepart required" type="text" pattern="[0-9]*" value="" placeholder="YYYY" size="4" maxlength="4" name="BIRTHD[year]" id="mce-BIRTHD-year"></span>
               </div>
             </div><div class="mc-field-group">

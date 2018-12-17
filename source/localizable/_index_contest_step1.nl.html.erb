@@ -23,13 +23,13 @@ Je vindt hieronder <%= link_to "enkele voorbeeldvragen", '#sample-questions-qual
 <h4 class="mb8">Hoe deelnemen?</h4>
 <p>
   <strong>U vertegenwoordigt een school?</strong>
-  U kan zich binnenkort inschrijven op het wedstrijd platform. Laat hieronder uw emailadres achter om verwittigd te worden eens de inschrijvingen openen.
-  <%# Schrijf u in als coördinator op ons %> <%# link_to "wedstrijdplatform (administratie)", current_page.data.management_platform["nl"], onclick:"fbq('track', 'GoToMgmtPlatform', {});" %>
+  <%# U kan zich binnenkort inschrijven op het wedstrijd platform. Laat hieronder uw emailadres achter om verwittigd te worden eens de inschrijvingen openen. %>
+  Schrijf u in als coördinator op ons <%= link_to "wedstrijdplatform (administratie)", current_page.data.management_platform["nl"], onclick:"fbq('track', 'GoToMgmtPlatform', {});" %>
 </p>
 <p>
   <strong>Jouw school wenst niet deel te nemen?</strong>
-  Je kan je binnenkort inschrijven om mee te doen in één van de regionale centra.
-  <%# Registreer je individueel bij een van onze regionale centra via%>
-    <%# link_to "dit formulier", "registration" %>
-    <%#. %>
+  <%# Je kan je binnenkort inschrijven om mee te doen in één van de regionale centra. %>
+  Registreer je individueel bij een van onze regionale centra via%>
+    <%= link_to "dit formulier", "registration" %>
+    .
 </p>

@@ -23,15 +23,15 @@ Vous retrouverez ci-dessous <%= link_to "quelques exemples de questions", '#samp
 <h4 class="mb8">Comment participer ?</h4>
 <p>
 	<strong>Vous êtes une école?</strong>
-	Vous pourrez-vous inscrire d'ici quelques jours sur la plate-forme du concours. Indiquez votre adresse e-mail ci-dessous pour être prévenu à l'ouverture de celle-ci.
-	<%# Inscrivez-vous en tant que coordinateur sur  %>
-    <%# link_to "notre plate-forme", current_page.data.management_platform["fr"], onclick:"fbq('track', 'GoToMgmtPlatform', {});" %>
-     <%# dédiée. %>
+	<%# Vous pourrez-vous inscrire d'ici quelques jours sur la plate-forme du concours. Indiquez votre adresse e-mail ci-dessous pour être prévenu à l'ouverture de celle-ci. %>
+	Inscrivez-vous en tant que coordinateur sur
+    <%= link_to "notre plate-forme", current_page.data.management_platform["fr"], onclick:"fbq('track', 'GoToMgmtPlatform', {});" %>
+     dédiée.
 </p>
 <p>
 	<strong>Votre école ne souhaite pas participer?</strong>
-	Vous pourrez vous inscrire sous peu dans l'un des centres régionaux.
-	<%# Inscrivez-vous dans l'un des centres régionaux via %>
-    <%# link_to "ce formulaire", "registration" %>
-    <%#.%>
+	<%# Vous pourrez vous inscrire sous peu dans l'un des centres régionaux. %>
+	Inscrivez-vous dans l'un des centres régionaux via
+    <%= link_to "ce formulaire", "registration" %>
+    .
 </p>
