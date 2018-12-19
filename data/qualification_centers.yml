@@ -91,11 +91,12 @@
 -
   city: Liège
   place: HELMo
-  address: |
-      HELMO Campus Guillemins
-      Rue de Harlez 35
-      4000 Liège
-  route_link: http://helmo.be/CMS/Actualites/Agendas/OLYMPIADES-BELGES-D’INFORMATIQUE-A-LIEGE.aspx
+  address: Te bepalen / A définir
+  # address: |
+  #     HELMO Campus Guillemins
+  #     Rue de Harlez 35
+  #     4000 Liège
+  # route_link: http://helmo.be/CMS/Actualites/Agendas/OLYMPIADES-BELGES-D’INFORMATIQUE-A-LIEGE.aspx
   pos:
     lat: 50.6224177
     lng: 5.5723187
