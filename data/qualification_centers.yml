@@ -27,14 +27,15 @@
 -
   city: Gent
   place: Universiteit Gent
-  address: Te bepalen / A définir
-  # |
-  #   1e verdieping
-  #   gebouw S5
-  #   Campus Sterre
-  #   Krijgslaan 281
-  #   9000 Gent
-  # route_link: http://www.ugent.be/we/nl/diensten/ipvw-ices/contact/locaties/sterre
+  address: |
+     PC-zaal Grace Hopper
+     1e verdieping
+     gebouw S5
+     Campus Sterre
+     Krijgslaan 281
+     9000 Gent
+     (niet de campus op rijden; buiten de campus parkeren)
+  route_link: http://www.ugent.be/we/nl/diensten/ipvw-ices/contact/locaties/sterre
   pos:
     lat: 51.0227516
     lng: 3.7105733
