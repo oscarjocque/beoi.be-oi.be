@@ -13,13 +13,12 @@
 -
   city: Brussel / Bruxelles
   place: Université Libre de Bruxelles
-  address: Te bepalen / A définir
-  # |
-  #   bâtiment NO, 4ème étage, à gauche en sortant des ascenseurs.
-  #   gebouw NO, 4e verdieping, links bij het uitstappen uit de lift.
-  #   Boulevard du Triomphe
-  #   1050 Bruxelles
-  # route_link: https://www.ulb.ac.be/campus/plaine/plaine.html
+  address: |
+     bâtiment NO, 4ème étage, à gauche en sortant des ascenseurs.
+     gebouw NO, 4e verdieping, links bij het uitstappen uit de lift.
+     Boulevard du Triomphe
+     1050 Bruxelles
+  route_link: https://www.ulb.ac.be/campus/plaine/plan-NO.html
   pos:
     lat: 50.8200945
     lng: 4.3973233
@@ -90,11 +89,13 @@
   city: Liège
   place: HELMo
   address: Te bepalen / A définir
-  # address: |
-  #     HELMO Campus Guillemins
-  #     Rue de Harlez 35
-  #     4000 Liège
-  # route_link: http://helmo.be/CMS/Actualites/Agendas/OLYMPIADES-BELGES-D’INFORMATIQUE-A-LIEGE.aspx
+  address: |
+     HELMO Campus Guillemins
+     Rue de Harlez, 35
+     4000 Liège
+     5ème étage, laboratoires IL51, IL55 et IL56
+     (sous le porche d'entrée (n°35) à gauche, passer les portes vitrées automatiques et monter au 5ème étage)
+  route_link: https://www.helmo.be/Institution/Instituts/HELMo-Campus-Guillemins-Sainte-Marie/Plan-Acces.aspx
   pos:
     lat: 50.6224177
     lng: 5.5723187
@@ -114,7 +115,15 @@
 -
   city: Mons
   place: Université de Mons
-  address: Te bepalen / A définir
+  address: |
+     Faculté Polytechnique UMons
+     Salle Informatique IGLab
+     Rue de Houdain, 9
+     7000 Mons
+  route_link: https://goo.gl/maps/fWeAXZkpK2u
+  pos:
+    lat: 50.4522063
+    lng: 3.9533022
   # |
   #    Salle Escher et Turing
   #    Rez de chaussée
@@ -122,19 +131,18 @@
   #    Avenue du champ de Mars, 8
   #    7000 Mons
   # route_link: http://informatique.umons.ac.be/index.php?p=olympiades
-  pos:
-    lat: 50.4516334
-    lng: 3.9591075
+  # pos:
+  #   lat: 50.4516334
+  #   lng: 3.9591075
 -
   city: Namur
   place: Université de Namur
-  address: Te bepalen / A définir
-    # |
-    # Pool informatique - 2e étage
-    # Faculté d'Informatique
-    # Rue grandgagnage 21
-    # 5000 Namur
-  # route_link: "https://www.google.be/maps/place/Facult%C3%A9+d'Informatique/@50.4659799,4.857612,15z/data=!4m5!3m4!1s0x0:0x2d36dcd7ac1f25!8m2!3d50.4659799!4d4.857612"
+  address: |
+     Université de Namur - Faculté d’informatique
+     Rue Grandgagnage, 21
+     5000 Namur
+     Pool I35 (3ème étage de la Faculté d’informatique, local 330)
+  route_link: https://documents.unamur.be/index.php/s/sz1U0b4j4TPR6Ri
   pos:
     lat: 50.4658487
     lng: 4.8576964
