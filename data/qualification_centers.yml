@@ -75,12 +75,11 @@
 -
   city: Libramont
   place: Haute École Robert Schuman (HERS)
-  address: Te bepalen / A définir
-  # |
-  #   Local B1
-  #   Rue de la Cité 64
-  #   6800 Libramont
-  # route_link: "https://www.google.be/maps/place/Haute+Ecole+Robert+Schuman/@49.9280097,5.3788132,15z/data=!4m2!3m1!1s0x0:0x9b062899079abb50?hl=fr-BE"
+  address:  |
+     Local B1
+     Rue de la Cité, 64
+     6800 Libramont
+  route_link: "https://www.google.be/maps/place/Haute+Ecole+Robert+Schuman/@49.9280097,5.3788132,15z/data=!4m2!3m1!1s0x0:0x9b062899079abb50?hl=fr-BE"
   pos:
     lat: 49.9280097
     lng: 5.3788132
@@ -101,13 +100,12 @@
 -
   city: Louvain-la-Neuve
   place: Université catholique de Louvain
-  address: Te bepalen / A définir
-  # |
-  #   Salle Darwin (local C 039)
-  #   Bâtiment Carnoy
-  #   Croix du Sud
-  #   1348 Louvain-la-Neuve
-  # route_link: https://uclouvain.be/fr/decouvrir/salles-informatiques-sst-localisation.html
+  address: |
+     Salle Darwin (local C 039)
+     Bâtiment Carnoy
+     Place Croix du Sud
+     1348 Louvain-la-Neuve
+  route_link: https://uclouvain.be/fr/decouvrir/salles-informatiques-sst-localisation.html
   pos:
     lat: 50.6671189
     lng: 4.6195422
