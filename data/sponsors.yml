@@ -1,8 +1,4 @@
 -
-  name: Docbyte
-  href: http://www.docbyte.com/
-  image: docbyte-logo.png
--
   name: Vlaamse overheid
   href: http://ond.vlaanderen.be/
   image: vlaams-overheid-logo.png
@@ -13,7 +9,7 @@
 -
   name: STEM-academie
   href: http://www.stem-academie.be/
-  image: stem-academie-logo.png  
+  image: stem-academie-logo.png
 -
   name: Agoria
   href: http://www.agoria.be/
