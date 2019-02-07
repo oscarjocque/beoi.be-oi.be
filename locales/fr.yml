@@ -126,17 +126,17 @@ fr:
   task_descriptions: Énoncés
 
   # Be inform about registration form
-  keep_me_informed_of_registrations: M'informer de l'ouverture de la beOI 2019
+  keep_me_informed_of_registrations: Soyez prévenu de la prochaine olympiade
   mailinglist_success_msg: Merci. Nous vous informerons de l'ouverture des inscriptions.
   mailinglist_error_msg: Veuillez entrez une adresse e-mail correcte.
   mailinglist_email_placeholder: Adresse e-mail
   mailinglist_submit_button: Tenez-moi informé
 
   wait_for_qualif_results_title: Vous avez participé à l'éliminatoire ?
-  wait_for_qualif_results_descr: Vos résultats vous seront transmis par e-mail dans les prochaines semaines.
+  wait_for_qualif_results_descr: Vos résultats vous seront transmis par e-mail dans les prochains jours.
 
-  index_qualif_result_title: "Éliminatoire 2018"
-  index_final_result_title: "Finale 2018"
+  index_qualif_result_title: "Éliminatoire"
+  index_final_result_title: "Finale"
   index_qualif_result_link: "Les résultats"
 
   platform_try_title: "Nouvelle épreuve interactive sur ordinateur!"
@@ -253,7 +253,7 @@ fr:
   final_top: Top-%d, par ordre alphabétique
   final_after_top: Classement après la %de position
   qualif_intro_text: |
-    L'éliminatoire de l'olympiade 2018 a eu lieu ce 7 février dans les écoles et centre régionaux.
+    L'éliminatoire de l'olympiade 2019 a eu lieu ce 6 février dans les écoles et centre régionaux.
     Cette page reprend les résultats et quelques statistiques sur cette épreuve.
   qualif_chart_nbcontestants: Nombre de participants
   qualif_chart_lang: Langue
@@ -261,6 +261,17 @@ fr:
   qualif_chart_lang_nl: Néerlandophones
   qualif_chart_lang_de: Germanophones
   results_max_score: Le score maximum possible était de %d points.
+  qualif_result_summary: En résumé
+  qualif_result_stat_contestants: Nombre de participants
+  qualif_result_stat_contestants_text: L'édition %d a compté %d participants officiels venant de plus de %d écoles différentes dont %d organisaient le concours au sein de leur établissements.
+  qualif_result_stat_results: Résultats
+  qualif_result_stat_graph_expl: |
+    Les graphiques ci-dessous représentent les scores de chaque participants. Pour estimer votre position dans le classement,
+    trouvez votre score, plus il est a gauche plus vous êtes dans les premières positions. La zone verte correspond aux candidats sélectionnés pour la finale.
+  qualif_result_stat_thresholds: |
+    Le score minimal pour être qualifié pour la finale est de <strong>%d points pour la catégorie cadet</strong> (%d candidats),
+    <strong>%d points pour la catégorie junior</strong> (%d candidats) et <strong>%d points pour la catégorie senior</strong> (%d candidats).
+    Le score maximum possible était de %d points.
 
   # Registrations
   registration_title: Inscription à la beOI %s

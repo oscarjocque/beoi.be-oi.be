@@ -1,14 +1,14 @@
 
 # Website content
 set :beoi_year, 2019
-set :display_qualif_result, false
-set :display_final_result, false
-set :registration_open, true
+set :action_block_content, :results # choices: :registrations, :waiting_qualif_results, :results
+set :show_qualif_results, true
+set :show_final_results, false
+set :registration_open, config.action_block_content == :registrations
 set :mailchimp_registration_submit, {
   fr: "//be-oi.us6.list-manage.com/subscribe/post?u=4a51a9ab354aa26ba87f9a75f&amp;id=fe73f28fb4",
   nl: "//be-oi.us9.list-manage.com/subscribe/post?u=c6d8dcea8c4875082e570aee9&amp;id=b5f459ac54"
 }
-
 
 ###
 # Compass
@@ -64,6 +64,18 @@ helpers do
   def ext_link_to(name, href, **params)
     link_to(name, href, params.merge({"target"=>"_blank"}))
   end
+
+  # convert a list of scores (one per line) as a string to a list that can be used the JS lib for drawing charts
+  def score_list_to_js_chart(scores, threshold)
+    scores.lines.map(&:chomp).map do |score|
+      if score.to_i >= threshold
+        "[' ',0,#{score}]"
+      else
+        "[' ',#{score},0]"
+      end
+    end.join(",")
+  end
+
 end
 
 set :markdown_engine
