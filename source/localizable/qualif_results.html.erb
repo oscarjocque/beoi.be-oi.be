@@ -200,9 +200,9 @@ google.charts.load('current', {'packages':['corechart','bar']});
 google.charts.setOnLoadCallback(function() {
   var data = google.visualization.arrayToDataTable([
     ['<%= t(:Categories) %>', '<%= t(:qualif_chart_nbcontestants) %>'],
-    ['<%= t(:Cadet) %>',     367],
-    ['<%= t(:Junior) %>',    500],
-    ['<%= t(:Senior) %>',    589]
+    ['<%= t(:Cadet) %>',     <%= data.results_2019_qualif.stats.count_cadet %>],
+    ['<%= t(:Junior) %>',    <%= data.results_2019_qualif.stats.count_junior %>],
+    ['<%= t(:Senior) %>',    <%= data.results_2019_qualif.stats.count_senior %>]
   ]);
   var options = {
     slices: {
@@ -218,9 +218,9 @@ google.charts.setOnLoadCallback(function() {
 google.charts.setOnLoadCallback(function() {
   var data = google.visualization.arrayToDataTable([
     ['<%= t(:qualif_chart_lang) %>', '<%= t(:qualif_chart_nbcontestants) %>'],
-    ['<%= t(:qualif_chart_lang_fr) %>',    632],
-    ['<%= t(:qualif_chart_lang_nl) %>',    806],
-    ['<%= t(:qualif_chart_lang_de) %>',    18]
+    ['<%= t(:qualif_chart_lang_fr) %>',    <%= data.results_2019_qualif.stats.count_fr %>],
+    ['<%= t(:qualif_chart_lang_nl) %>',    <%= data.results_2019_qualif.stats.count_nl %>],
+    ['<%= t(:qualif_chart_lang_de) %>',    <%= data.results_2019_qualif.stats.count_de %>]
   ]);
   var options = {
     slices: {
@@ -236,8 +236,8 @@ google.charts.setOnLoadCallback(function() {
 google.charts.setOnLoadCallback(function() {
   var data = google.visualization.arrayToDataTable([
     ['<%= t(:gender_field) %>', 'Nombre de participants'],
-    ['<%= t(:gender_men) %>',     1141],
-    ['<%= t(:gender_women) %>',      315],
+    ['<%= t(:gender_men) %>',     <%= data.results_2019_qualif.stats.count_male %>],
+    ['<%= t(:gender_women) %>',      <%= data.results_2019_qualif.stats.count_female %>],
   ]);
   var options = {
     slices: {

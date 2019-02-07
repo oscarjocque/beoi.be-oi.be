@@ -12,6 +12,11 @@ stats:
   qualified_junior: 64
   qualified_senior: 75
   max_possible_score: 400
+  count_fr: 623
+  count_nl: 768
+  count_de: 17
+  count_male: 1075
+  count_female: 333
 
 contestants:
   cadet:
