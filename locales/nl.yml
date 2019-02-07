@@ -126,17 +126,17 @@ nl:
   task_descriptions: Opdrachten
 
   # Be informed about registration form
-  keep_me_informed_of_registrations : Wees als eerste op de hoogte van de start van beOI 2019!
+  keep_me_informed_of_registrations : Wees als eerste op de hoogte van de start van de volgende editie!
   mailinglist_success_msg: Bedankt! We houden je op de hoogte van de start van de inschrijvingen.
   mailinglist_error_msg: Gelieve een correct e-mailadres in te geven.
   mailinglist_email_placeholder: E-mailadres
   mailinglist_submit_button: Hou me op de hoogte
 
   wait_for_qualif_results_title: Heb je deelgenomen aan de eerste ronde ?
-  wait_for_qualif_results_descr: Je krijgt jouw resultaten via email in de loop van de volgende weken.
+  wait_for_qualif_results_descr: Je krijgt jouw resultaten via email in de loop van de volgende dagen.
 
-  index_qualif_result_title: "Eerste ronde 2018"
-  index_final_result_title: "Finale 2018"
+  index_qualif_result_title: "Eerste ronde"
+  index_final_result_title: "Finale"
   index_qualif_result_link: "De resultaten"
 
   platform_try_title: "Nieuwe wedstrijd, interactief aan de computer!"
@@ -246,7 +246,7 @@ nl:
   final_top: Top-%d, in alfabetische volgorde
   final_after_top: Eindklassement vanaf de %de plaats
   qualif_intro_text: |
-    De eerste ronde van de olympiade 2018 vond plaats op 7 februari in verschillende scholen en regionale centra.
+    De eerste ronde van de olympiade 2019 vond plaats op 6 februari in verschillende scholen en regionale centra.
     Op deze pagina staan de resultaten van en enkele statistieken over deze ronde.
   qualif_chart_nbcontestants: Aantal deelnemers
   qualif_chart_lang: Taal
@@ -254,7 +254,19 @@ nl:
   qualif_chart_lang_nl: Nederlandstaligen
   qualif_chart_lang_de: Duitstaligen
   results_max_score: De maximumscore was %d punten.
-
+  qualif_result_summary: Samenvatting
+  qualif_result_stat_contestants: Aantal deelnemers
+  qualif_result_stat_contestants_text: De editie %d telde %d officiële deelnemers uit %d verschillende scholen, waarvan er %d de eerste ronde in eigen huis organiseerden.
+  qualif_result_stat_results: Resultaten
+  qualif_result_stat_graph_expl: |
+    De grafieken hieronder geven de resultaten van de deelnemers weer.
+    Om je positie in te schatten in het klassement vind je je score terug,
+    en hoe verder links die zich bevindt, hoe hoger jouw positie.
+    De groene zone komt overeen met de geselecteerden voor de finale.
+  qualif_result_stat_thresholds: |
+    De minimumscore om gekwalificeerd te zijn voor de finale is <strong>%d punten voor de categorie Beloften</strong> (%d finalisten),
+    <strong>%d punten voor de categorie Junior</strong> (%d finalisten) en
+    <strong>%d punten voor de categorie Senior</strong> (%d finalisten). De maximumscore was %d punten.
    # Registrations
   registration_title: Inschrijven voor beOI %s
   email_field: E-mailadres

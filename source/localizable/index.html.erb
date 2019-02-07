@@ -86,33 +86,28 @@ management_platform:
 <section class="bg-dark pb0">
   <div class="container">
     <div class="row mb64 mb-xs-32">
-      <!--
+
+      <% if config.action_block_content == :waiting_qualif_results %>
       <div class="col-md-12 col-sm-12 text-center">
-        <h2 class="large"><%= t("wait_for_qualif_results") %></h2>
+        <h2 class="large"><%= t("wait_for_qualif_results_title") %></h2>
+        <h4 class="large mt24"><%= t("wait_for_qualif_results_descr") %></h4>
       </div>
 
-      <hr>-->
-
-      <!--<div class="col-md-12 col-sm-12 text-center">
-        <h2 class="large"><%= t("keep_me_informed_of_registrations") %></h2>
-      </div>
-      <div class="row mb24">
-        <div class="col-sm-6 col-sm-offset-3">
-
-          <form class="halves form-newsletter" data-success="<%= t("mailinglist_success_msg") %>" data-error="<%= t("mailinglist_error_msg") %>">
-            <input type="text" name="email" class="mb0 validate-email validate-required signup-email-field" placeholder="<%= t("mailinglist_email_placeholder") %>" />
-            <button type="submit" class="btn-white mb0"><%= t("mailinglist_submit_button") %></button>
-            <iframe srcdoc="<link href=&quot;https://cdn-images.mailchimp.com/embedcode/classic-081711.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;><style type=&quot;text/css&quot;> #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */</style><div id=&quot;mc_embed_signup&quot;><form action=&quot;<%= escape_html(current_page.data.mailchimp_submit[lang]) %>&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate>    <div id=&quot;mc_embed_signup_scroll&quot;> <h2>Subscribe to our mailing list</h2><div class=&quot;indicates-required&quot;><span class=&quot;asterisk&quot;>*</span> indicates required</div><div class=&quot;mc-field-group&quot;>  <label for=&quot;mce-EMAIL&quot;>Email Address  <span class=&quot;asterisk&quot;>*</span></label> <input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;required email&quot; id=&quot;mce-EMAIL&quot;></div><div class=&quot;mc-field-group&quot;>  <label for=&quot;mce-FNAME&quot;>First Name </label>  <input type=&quot;text&quot; value=&quot;&quot; name=&quot;FNAME&quot; class=&quot;&quot; id=&quot;mce-FNAME&quot;></div><div class=&quot;mc-field-group&quot;> <label for=&quot;mce-LNAME&quot;>Last Name </label> <input type=&quot;text&quot; value=&quot;&quot; name=&quot;LNAME&quot; class=&quot;&quot; id=&quot;mce-LNAME&quot;></div> <div id=&quot;mce-responses&quot; class=&quot;clear&quot;>    <div class=&quot;response&quot; id=&quot;mce-error-response&quot; style=&quot;display:none&quot;></div>   <div class=&quot;response&quot; id=&quot;mce-success-response&quot; style=&quot;display:none&quot;></div> </div>        <div style=&quot;position: absolute; left: -5000px;&quot;><input type=&quot;text&quot; name=&quot;b_77142ece814d3cff52058a51f_94d040322a&quot; tabindex=&quot;-1&quot; value=&quot;&quot;></div>    <div class=&quot;clear&quot;><input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot;></div>    </div></form></div><script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>" class="mail-list-form">
-            </iframe>
-          </form>
-        </div>
-      </div>-->
-
+      <% elsif config.action_block_content == :registrations %>
       <div class="col-md-12 col-sm-12 text-center">
         <h2 class="large"><%= t("register_text") %></h2>
         <%= link_to t(:register_button), current_page.data.management_platform[lang], class:"btn btn-filled btn-lg mb0" %>
         <h4 class="large mt24"><%= t("register_school_text") %></h4>
       </div>
+
+      <% elsif config.action_block_content == :results && (config.show_qualif_results || config.show_final_results) %>
+      <div class="col-md-12 col-sm-12 text-center">
+        <h3 class="large"><%= t("index_qualif_result_link") %> <%= config.beoi_year %></h3>
+        <% if config.show_qualif_results %><%= link_to t(:index_qualif_result_title), 'qualif_results', class:'btn btn-lg btn-filled' %><% end %>
+        <% if config.show_final_results %><%= link_to t(:index_final_result_title), 'final_results', class:'btn btn-lg btn-filled' %><% end %>
+      </div>
+
+      <% end %>
 
     </div>
   </div>
@@ -165,6 +160,27 @@ management_platform:
   <div class="col-md-6 content"><%= partial "index_contest_step2" %></div>
 </section>
 
+
+<section class="bg-dark pb0">
+  <div class="container">
+    <div class="row mb64 mb-xs-32">
+      <div class="col-md-12 col-sm-12 text-center">
+        <h2 class="large"><%= t("keep_me_informed_of_registrations") %></h2>
+      </div>
+      <div class="row mb24">
+        <div class="col-sm-6 col-sm-offset-3">
+          <form class="halves form-newsletter" data-success="<%= t("mailinglist_success_msg") %>" data-error="<%= t("mailinglist_error_msg") %>">
+            <input type="text" name="email" class="mb0 validate-email validate-required signup-email-field" placeholder="<%= t("mailinglist_email_placeholder") %>" />
+            <button type="submit" class="btn-white mb0"><%= t("mailinglist_submit_button") %></button>
+            <iframe srcdoc="<link href=&quot;https://cdn-images.mailchimp.com/embedcode/classic-081711.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;><style type=&quot;text/css&quot;> #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */</style><div id=&quot;mc_embed_signup&quot;><form action=&quot;<%= escape_html(current_page.data.mailchimp_submit[lang]) %>&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate>    <div id=&quot;mc_embed_signup_scroll&quot;> <h2>Subscribe to our mailing list</h2><div class=&quot;indicates-required&quot;><span class=&quot;asterisk&quot;>*</span> indicates required</div><div class=&quot;mc-field-group&quot;>  <label for=&quot;mce-EMAIL&quot;>Email Address  <span class=&quot;asterisk&quot;>*</span></label> <input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;required email&quot; id=&quot;mce-EMAIL&quot;></div><div class=&quot;mc-field-group&quot;>  <label for=&quot;mce-FNAME&quot;>First Name </label>  <input type=&quot;text&quot; value=&quot;&quot; name=&quot;FNAME&quot; class=&quot;&quot; id=&quot;mce-FNAME&quot;></div><div class=&quot;mc-field-group&quot;> <label for=&quot;mce-LNAME&quot;>Last Name </label> <input type=&quot;text&quot; value=&quot;&quot; name=&quot;LNAME&quot; class=&quot;&quot; id=&quot;mce-LNAME&quot;></div> <div id=&quot;mce-responses&quot; class=&quot;clear&quot;>    <div class=&quot;response&quot; id=&quot;mce-error-response&quot; style=&quot;display:none&quot;></div>   <div class=&quot;response&quot; id=&quot;mce-success-response&quot; style=&quot;display:none&quot;></div> </div>        <div style=&quot;position: absolute; left: -5000px;&quot;><input type=&quot;text&quot; name=&quot;b_77142ece814d3cff52058a51f_94d040322a&quot; tabindex=&quot;-1&quot; value=&quot;&quot;></div>    <div class=&quot;clear&quot;><input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot;></div>    </div></form></div><script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>" class="mail-list-form">
+            </iframe>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <a name="members"></a>
 <section>
   <div class="container">
@@ -193,7 +209,9 @@ management_platform:
   <!--end of container-->
 </section>
 
+<% if config.registration_open %>
 <%= partial "map_qualif_centers" %>
+<% end %>
 
 <a name="sample-questions"></a>
 <a name="qualif-sample-questions"></a>

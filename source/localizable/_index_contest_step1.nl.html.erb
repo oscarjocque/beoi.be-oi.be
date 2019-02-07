@@ -2,7 +2,13 @@
 <h4 class="mb8">Plaats en datum</h4>
 <p>
   De eerste ronde vindt plaats op <strong>woensdag 6 februari 2019</strong> in jouw school (start tussen 8u00 en 15u30)
-	of in één van de <%= link_to "11 regionale centra", "#qualif-centers" %> (start om 14u00). De proef duurt 75 minuten.
+	of in één van de
+  <% if config.registration_open %>
+    <%= link_to "11 regionale centra", "#qualif-centers" %>
+  <% else %>
+    11 regionale centra
+  <% end %>
+  (start om 14u00). De proef duurt 75 minuten.
 </p>
 
 
@@ -19,6 +25,7 @@ Je vindt hieronder <%= link_to "enkele voorbeeldvragen", '#sample-questions-qual
   interactieve vragen uit te testen.
 </p>-->
 
+<% if config.registration_open %>
 
 <h4 class="mb8">Hoe deelnemen?</h4>
 <p>
@@ -33,3 +40,4 @@ Je vindt hieronder <%= link_to "enkele voorbeeldvragen", '#sample-questions-qual
     <%= link_to "dit formulier", "registration" %>
     .
 </p>
+<% end %>
