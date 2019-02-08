@@ -2,7 +2,13 @@
 <h4 class="mb8">Lieu et date</h4>
 <p>
   L'éliminatoire a lieu le <strong>mercredi 6 février 2019</strong> dans votre école (démarrage entre 8h00 et 15h30)
-	ou dans l'un des <%= link_to "11 centres régionaux", "#qualif-centers" %> à 14h. L'épreuve durera 75 minutes.
+	ou dans l'un des
+  <% if config.registration_open %>
+  <%= link_to "11 centres régionaux", "#qualif-centers" %>
+  <% else %>
+    11 centres régionaux
+  <% end %>
+  à 14h. L'épreuve dure 75 minutes.
 </p>
 
 
@@ -20,6 +26,7 @@ Vous retrouverez ci-dessous <%= link_to "quelques exemples de questions", '#samp
 	les tâches interactives de beOI.
 </p>-->
 
+<% if config.registration_open %>
 <h4 class="mb8">Comment participer ?</h4>
 <p>
 	<strong>Vous êtes une école?</strong>
@@ -35,3 +42,4 @@ Vous retrouverez ci-dessous <%= link_to "quelques exemples de questions", '#samp
     <%= link_to "ce formulaire", "registration" %>
     .
 </p>
+<% end %>
