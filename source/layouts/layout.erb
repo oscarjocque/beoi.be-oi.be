@@ -54,8 +54,8 @@
               <ul>
                 <li><%= link_to t('ContestIndex'), 'index.html#intro' %></li>
                 <li><%= link_to t('Contest'), 'index.html#contest' %></li>
-                <% if config[:display_qualif_result] %><li><%= link_to t('QualifResults'), 'qualif_results.html' %></li><% end %>
-                <% if config[:display_final_result] %><li><%= link_to t('FinalResults'), 'final_results.html' %></li><% end %>
+                <% if config.show_qualif_results %><li><%= link_to t('QualifResults'), 'qualif_results.html' %></li><% end %>
+                <% if config.show_final_results %><li><%= link_to t('FinalResults'), 'final_results.html' %></li><% end %>
                 <li><%= link_to t('Rules'), 'rules.html' %></li>
                 <% if config[:registration_open] %><li><%= link_to t('Registration'), 'registration.html' %></li><% end %>
                 <li><%= link_to t('Tasks'), 'index.html#sample-questions' %></li>
