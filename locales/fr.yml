@@ -263,7 +263,7 @@ fr:
   results_max_score: Le score maximum possible était de %d points.
   qualif_result_summary: En résumé
   qualif_result_stat_contestants: Nombre de participants
-  qualif_result_stat_contestants_text: L'édition %d a compté %d participants officiels venant de plus de %d écoles différentes dont %d organisaient le concours au sein de leur établissements.
+  qualif_result_stat_contestants_text: L'édition %d a compté %d participants officiels venant de plus de %d écoles différentes dont %d organisaient le concours au sein de leur établissement.
   qualif_result_stat_results: Résultats
   qualif_result_stat_graph_expl: |
     Les graphiques ci-dessous représentent les scores de chaque participants. Pour estimer votre position dans le classement,
