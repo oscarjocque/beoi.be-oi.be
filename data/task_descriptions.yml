@@ -112,3 +112,47 @@
       file:
         fr: beOI18-final-fr-senior-sol.pdf
         nl: beOI18-final-nl-senior-sol.pdf       
+"2019":
+  final:
+    -
+      type: :task_description
+      category: :Cadet
+      file:
+        fr: beOI19-final-fr-cadet.pdf
+        nl: beOI19-final-nl-beloften.pdf
+        de: beOI19-final-de-cadet.pdf
+    -
+      type: :task_description
+      category: :Junior
+      file:
+        fr: beOI19-final-fr-junior.pdf
+        nl: beOI19-final-nl-junior.pdf
+        de: beOI19-final-de-junior.pdf
+    -
+      type: :task_description
+      category: :Senior
+      file:
+        fr: beOI19-final-fr-senior.pdf
+        nl: beOI19-final-nl-senior.pdf
+        de: beOI19-final-de-senior.pdf
+    -
+      type: :solutions
+      category: :Cadet
+      file:
+        fr: beOI19-final-fr-cadet-sol.pdf
+        nl: beOI19-final-nl-beloften-sol.pdf
+        de: beOI19-final-de-beloften-sol.pdf
+    -
+      type: :solutions
+      category: :Junior
+      file:
+        fr: beOI19-final-fr-junior-sol.pdf
+        nl: beOI19-final-nl-junior-sol.pdf
+        de: beOI19-final-de-junior-sol.pdf
+    -
+      type: :solutions
+      category: :Senior
+      file:
+        fr: beOI19-final-fr-senior-sol.pdf
+        nl: beOI19-final-nl-senior-sol.pdf
+        de: beOI19-final-de-senior-sol.pdf		
