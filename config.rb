@@ -3,7 +3,7 @@
 set :beoi_year, 2019
 set :action_block_content, :results # choices: :registrations, :waiting_qualif_results, :results
 set :show_qualif_results, true
-set :show_final_results, false
+set :show_final_results, true
 set :registration_open, config.action_block_content == :registrations
 set :mailchimp_registration_submit, {
   fr: "//be-oi.us6.list-manage.com/subscribe/post?u=4a51a9ab354aa26ba87f9a75f&amp;id=fe73f28fb4",

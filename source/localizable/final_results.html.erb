@@ -7,7 +7,7 @@ trianglify_colors: '"RdYlGn"'
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h3 class="uppercase mb0"><%= t(:index_final_result_title) %></h3>
+        <h3 class="uppercase mb0"><%= t(:final_result_title) %> 2019</h3>
       </div>
     </div>
     <!--end of row-->
@@ -20,8 +20,8 @@ trianglify_colors: '"RdYlGn"'
   <div class="container">
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2 text-center">
-        <!-- <p class="mb16 text-center lead"><%= t(:final_results_expl_future) %></p> -->
-        <p class="mb16 text-center lead"><%= t(:final_results_expl_past) %></p>
+        <p class="mb16 text-center lead"><%= t(:final_results_expl_future) %></p>
+        <!-- <p class="mb16 text-center lead"><%= t(:final_results_expl_past) %></p> -->
       </div>
     </div>
   </div>
@@ -36,27 +36,28 @@ trianglify_colors: '"RdYlGn"'
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
-        <!--<h5 class="uppercase mb16 text-center"><%= t(:final_top) % data.results_2018_final.contestants.cadet_top.length %></h5>
+        <h5 class="uppercase mb16 text-center"><%= t(:final_top) % data.results_2019_final.contestants.cadet_top.length %></h5>
+
         <table class="table table-striped">
           <tbody>
             <tr><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th></tr>
-            <% data.results_2018_final.contestants.cadet_top.each do |r| %>
+            <% data.results_2019_final.contestants.cadet_top.each do |r| %>
             <tr>
               <td nowrap="nowrap"><%= r.name %></td>
               <td><%= r.school %> (<%= t(r.year) %>)</td>
             </tr>
             <% end %>
           </tbody>
-        </table>-->
+        </table>
 
+        <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % data.results_2019_final.contestants.cadet_top.length %></h5>
 
-        <!-- <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % data.results_2018_final.contestants.cadet_top.length %></h5> -->
-        <p class="mb16 text-center"><%= t(:results_max_score)%data.results_2018_final.contestants.cadet_max %></p>
+        <p class="mb16 text-center"><%= t(:results_max_score)%data.results_2019_final.contestants.cadet_max %></p>
 
         <table class="table table-striped">
           <tbody>
             <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
-            <% data.results_2018_final.contestants.cadet.each do |r| %>
+            <% data.results_2019_final.contestants.cadet.each do |r| %>
             <tr>
               <td><%= r.position %></td>
               <td nowrap="nowrap"><%= r.name %></td>
@@ -83,28 +84,28 @@ trianglify_colors: '"RdYlGn"'
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
-        <!-- <h5 class="uppercase mb16 text-center"><%= t(:final_top) % data.results_2018_final.contestants.junior_top.length %></h5>
+        <h5 class="uppercase mb16 text-center"><%= t(:final_top) % data.results_2019_final.contestants.junior_top.length %></h5>
+
         <table class="table table-striped">
           <tbody>
             <tr><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th></tr>
-            <% data.results_2018_final.contestants.junior_top.each do |r| %>
+            <% data.results_2019_final.contestants.junior_top.each do |r| %>
             <tr>
               <td nowrap="nowrap"><%= r.name %></td>
               <td><%= r.school %> (<%= t(r.year) %>)</td>
             </tr>
             <% end %>
           </tbody>
-        </table> -->
+        </table>
 
-
-        <!-- <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % data.results_2018_final.contestants.junior_top.length %></h5> -->
+        <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % data.results_2019_final.contestants.junior_top.length %></h5>
        
-        <p class="mb16 text-center"><%= t(:results_max_score)%data.results_2018_final.contestants.junior_max %></p>
+        <p class="mb16 text-center"><%= t(:results_max_score)%data.results_2019_final.contestants.junior_max %></p>
 
         <table class="table table-striped">
           <tbody>
             <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
-            <% data.results_2018_final.contestants.junior.each do |r| %>
+            <% data.results_2019_final.contestants.junior.each do |r| %>
             <tr>
               <td><%= r.position %></td>
               <td nowrap="nowrap"><%= r.name %></td>
@@ -131,28 +132,28 @@ trianglify_colors: '"RdYlGn"'
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 
-        <!-- <h5 class="uppercase mb16 text-center"><%= t(:final_top) % data.results_2018_final.contestants.senior_top.length %></h5>
+        <h5 class="uppercase mb16 text-center"><%= t(:final_top) % data.results_2019_final.contestants.senior_top.length %></h5>
+        
         <table class="table table-striped">
           <tbody>
             <tr><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th></tr>
-            <% data.results_2018_final.contestants.senior_top.each do |r| %>
+            <% data.results_2019_final.contestants.senior_top.each do |r| %>
             <tr>
               <td nowrap="nowrap"><%= r.name %></td>
               <td><%= r.school %> (<%= t(r.year) %>)</td>
             </tr>
             <% end %>
           </tbody>
-        </table> -->
+        </table>
 
-
-        <!-- <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % data.results_2018_final.contestants.senior_top.length %></h5> -->
+        <h5 class="uppercase mb16 text-center"><%= t(:final_after_top) % data.results_2019_final.contestants.senior_top.length %></h5>
         
-        <p class="mb16 text-center"><%= t(:results_max_score)%data.results_2018_final.contestants.senior_max %></p>
+        <p class="mb16 text-center"><%= t(:results_max_score)%data.results_2019_final.contestants.senior_max %></p>
 
         <table class="table table-striped">
           <tbody>
             <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
-            <% data.results_2018_final.contestants.senior.each do |r| %>
+            <% data.results_2019_final.contestants.senior.each do |r| %>
             <tr>
               <td><%= r.position %></td>
               <td nowrap="nowrap"><%= r.name %></td>
