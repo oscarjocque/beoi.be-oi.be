@@ -5,7 +5,7 @@
 -
   name: UCLouvain
   href: http://www.uclouvain.be/
-  image: ucl-logo.png
+  image: uclouvain-logo.png
 -
   name: VUB
   href: http://www.vub.ac.be/
@@ -28,12 +28,12 @@
   image: uhasselt-logo.png
 -
   name: ULg
-  href: http://www.ulg.ac.be/
-  image: ulg-logo.png
+  href: https://www.uliege.be
+  image: uliege-logo.jpg
 -
   name: HERS
   href: http://www.hers.be/
-  image: hers-logo.jpg  
+  image: hers-logo.jpg
 -
   name: KULeuven
   href: http://www.kuleuven.be/
@@ -50,7 +50,7 @@
   name: HELMo
   href: http://www.helmo.be
   image: helmo-logo.png
-- 
+-
   name: Cetic
   href: https://www.cetic.be/
   image: cetic-logo.png
@@ -59,9 +59,9 @@
   href: https://www.kdg.be/
   image: kdg-logo.jpg
 -
-  name: HEB-ESI
+  name: HE2B-ESI
   href: http://www.heb.be/esi/
-  image: heb-esi-logo.gif
+  image: heb-esi-logo.png
 -
   name: VIVES
   href: http://www.vives.be
@@ -73,4 +73,4 @@
 -
   name: Howest
   href: http://www.howest.be
-  image: howest-logo.jpg  
+  image: howest-logo.jpg
