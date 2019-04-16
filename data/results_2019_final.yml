@@ -44,7 +44,7 @@ contestants:
       name: Jannes Imans
       school: Sint-Albertuscollege-Haasrode
       year: year_2nd
-    - position: .
+    - position: "-"
       score: 72
       name: Sébastien Maes
       school: Institut Saint-Boniface Parnasse
@@ -54,17 +54,17 @@ contestants:
       name: Enya Leroy
       school: Städtisches Gymnasium Sankt Leonhard
       year: year_1st
-    - position: .
+    - position: "-"
       score: 70
       name: Finn Van Roey
       school: Paridaensinstituut
       year: year_2nd
-    - position: .
+    - position: "-"
       score: 70
       name: Mark Maquestiaux
       school: Athénée Royal Neufchâteau-Bertrix
       year: year_1st
-    - position: .
+    - position: "-"
       score: 70
       name: Warre De Raet
       school: Heilig Hart Van Maria Berlaar
@@ -89,7 +89,7 @@ contestants:
       name: Felix Van Lubek
       school: École Européenne de Bruxelles IV
       year: year_2nd
-    - position: .
+    - position: "-"
       score: 60
       name: Viktor Cloes
       school: Heilig Hart Van Maria Berlaar
@@ -114,12 +114,12 @@ contestants:
       name: Hidde De Ridder
       school: Heilig Hart Van Maria Berlaar
       year: year_1st
-    - position: .
+    - position: "-"
       score: 53
       name: Mathijs Van Laeken
       school: Heilig Hart Van Maria Berlaar
       year: year_1st
-    - position: .
+    - position: "-"
       score: 53
       name: Vaclav Kropac
       school: École Européenne III
@@ -134,7 +134,7 @@ contestants:
       name: Caspar Salaets
       school: Heilig Hart Van Maria Berlaar
       year: year_2nd
-    - position: .
+    - position: "-"
       score: 49
       name: Mauro Lottin
       school: Sint-Bavohumaniora
@@ -144,7 +144,7 @@ contestants:
       name: Ignace Terwagne
       school: Collège Hagelstein
       year: year_1st
-    - position: .
+    - position: "-"
       score: 46
       name: Laurentiu Galateanu
       school: École Européenne de Bruxelles IV
@@ -169,7 +169,7 @@ contestants:
       name: Elias Lombart
       school: .
       year: year_1st
-    - position: .
+    - position: "-"
       score: 39
       name: Noor Verschaeve
       school: Heilig Hart Van Maria Berlaar
@@ -204,7 +204,7 @@ contestants:
       name: Enzo Manzano
       school: École Européenne de Bruxelles IV
       year: year_2nd
-    - position: .
+    - position: "-"
       score: 29
       name: Mateo Rivero Agra
       school: École Européenne de Bruxelles IV
@@ -274,7 +274,7 @@ contestants:
       name: Mathias Gernez
       school: Athénée Royal de Nivelles
       year: year_3rd
-    - position: .
+    - position: "-"
       score: 101
       name: Matthias Seghers
       school: GO! Erasmusatheneum Deinze
@@ -289,7 +289,7 @@ contestants:
       name: Corentin Watthez
       school: Institut de la Sainte-Union Kain
       year: year_3rd
-    - position: .
+    - position: "-"
       score: 97
       name: Suzanne Dubois
       school: Collège Saint-Guibert Gembloux
@@ -319,7 +319,7 @@ contestants:
       name: Kobe Crets
       school: Pius X Collège Tessenderlo
       year: year_4th
-    - position: .
+    - position: "-"
       score: 86
       name: Marie Lampaert
       school: Collège Ieper
@@ -329,7 +329,7 @@ contestants:
       name: Andriy Torisaen
       school: Institut Provincial d'Enseignement Technique de Nivelles (IPET)
       year: year_4th
-    - position: .
+    - position: "-"
       score: 85
       name: Jakob Dilen
       school: KCST Sint-Truiden
@@ -349,7 +349,7 @@ contestants:
       name: Arno Boussery
       school: VTI-Torhout Sint-Aloysius
       year: year_4th
-    - position: .
+    - position: "-"
       score: 80
       name: Lotte Van Marcke
       school: Collège Hagelstein
@@ -359,7 +359,7 @@ contestants:
       name: Alexander Kuypers
       school: Vrije St.Lambertusscholen
       year: year_4th
-    - position: .
+    - position: "-"
       score: 79
       name: Charles Simon
       school: Saint Barthelemy
@@ -379,7 +379,7 @@ contestants:
       name: Ilias Deschuyter
       school: Pius X Collège Tessenderlo
       year: year_3rd
-    - position: .
+    - position: "-"
       score: 75
       name: Lise Boone
       school: Collège Ieper
@@ -389,12 +389,12 @@ contestants:
       name: Aron Crets
       school: Pius X Collège Tessenderlo
       year: year_4th
-    - position: .
+    - position: "-"
       score: 73
       name: Margaux Leleu
       school: Institut Saint-Ferdinand Jemappes
       year: year_4th
-    - position: .
+    - position: "-"
       score: 73
       name: Nathan Cattelain
       school: Collège Saint-Guibert Gembloux
@@ -409,7 +409,7 @@ contestants:
       name: Achille Masson
       school: Institut Notre-Dame Malmedy
       year: year_4th
-    - position: .
+    - position: "-"
       score: 68
       name: Yasmine Decadt
       school: VTI-Torhout Sint-Aloysius
@@ -439,7 +439,7 @@ contestants:
       name: Noah Edwards
       school: Institut Provincial d'Enseignement Technique de Nivelles (IPET)
       year: year_4th
-    - position: .
+    - position: "-"
       score: 62
       name: Thibeau De Ryck
       school: Heilig Hart Van Maria Berlaar
@@ -459,7 +459,7 @@ contestants:
       name: Bert Billiet
       school: GO! Erasmusatheneum Deinze
       year: year_4th
-    - position: .
+    - position: "-"
       score: 58
       name: Ian Fleerackers
       school: Paridaensinstituut
@@ -540,7 +540,7 @@ contestants:
       name: Ilse Daels
       school: Guldensporencollege Kaai 3 Kortrijk
       year: year_6th
-    - position: .
+    - position: "-"
       score: 114
       name: Jonas Malice
       school: Institut Saint-André Ramegnies-Chin
@@ -570,7 +570,7 @@ contestants:
       name: Arn De Moor
       school: Sint-Barbaracollege
       year: year_5th
-    - position: .
+    - position: "-"
       score: 98
       name: Senne Doumen
       school: Sint-Augustinusinstituut Bree
@@ -585,7 +585,7 @@ contestants:
       name: Gijs Verschaeve
       school: Heilig Hart Van Maria Berlaar
       year: year_5th
-    - position: .
+    - position: "-"
       score: 96
       name: Julien Brandoit
       school: Athénée Royal de Marche-en-Famenne (Marche)
@@ -595,7 +595,7 @@ contestants:
       name: Ruben Van Dijck
       school: Heilig Hart Van Maria Berlaar
       year: year_5th
-    - position: .
+    - position: "-"
       score: 95
       name: Willem Bormans
       school: Vrije St.Lambertusscholen Westerlo
@@ -620,12 +620,12 @@ contestants:
       name: Henri Dambiermont
       school: Athénée Royal de Marche-en-Famenne (Marche)
       year: year_5th
-    - position: .
+    - position: "-"
       score: 84
       name: Joey Koster
       school: TISM
       year: year_5th
-    - position: .
+    - position: "-"
       score: 84
       name: Quentin Raemdonck
       school: Institut de l'Enfant Jésus
@@ -645,7 +645,7 @@ contestants:
       name: Guillaume Deceuninck
       school: Collège Saint-Guibert Gembloux
       year: year_5th
-    - position: .
+    - position: "-"
       score: 81
       name: Vladomeare Obolonskyy
       school: Sint-Lievens College Antwerpen
@@ -665,7 +665,7 @@ contestants:
       name: Quentin Lépine
       school: Collège Saint-Guibert Gembloux
       year: year_5th
-    - position: .
+    - position: "-"
       score: 76
       name: Remko Van Wassenhove
       school: Campus Redingenhof
