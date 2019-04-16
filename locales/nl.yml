@@ -137,7 +137,7 @@ nl:
 
   index_qualif_result_title: "Eerste ronde"
   index_final_result_title: "Finale"
-  index_qualif_result_link: "De resultaten"
+  index_result_link: "De resultaten"
 
   platform_try_title: "Nieuwe wedstrijd, interactief aan de computer!"
   platform_try_link: "Test de nieuwe interactieve vragen op ons wedstrijdplatform"
@@ -181,8 +181,7 @@ nl:
   faq_morequestions: |
       Een andere vraag ? Stel ze aan ons via <a href="mailto:info@be-oi.be">e-mail</a>,
       <a href="https://www.facebook.com/beoi.contest" target="_blank">Facebook</a> of
-      <a href="https://twitter.com/beoi_nl"
-      target="_blank">Twitter</a>.
+      <a href="https://twitter.com/beoi_nl" target="_blank">Twitter</a>.
 
   # About
   about_title: Over beOI
@@ -206,6 +205,8 @@ nl:
   sponsors_support: "Sponsors & Steun"
   sponsors_intro: Onze sponsors zorgen ervoor dat we aan onze getalenteerde deelnemers opleidingen kunnen geven en een interessante prijzenpot kunnen aanbieden.
 
+  
+  
   # Rules
   rules_title: Reglement
   Introduction: Introductie
@@ -222,7 +223,7 @@ nl:
   # Archives
   previous_olympiad_edition_tile: beOI %d
 
-    # Qualif result page
+  # Qualif result page
   qualif_result_title: "Eerste ronde: resultaten"
   qualif_topx: Top %d
   column_name: Naam
@@ -236,13 +237,14 @@ nl:
   qualif_top_girls_expl: |
     In een (helaas en onterecht) vaak mannelijk gekleurd vak, hebben dit jaar %d meisjes deelgenomen aan de eerste ronde, een absoluut record! Dit zijn de besten onder hen.
 
+  final_result_title: "Finale: resultaten"
   final_results_expl_past: |
-    Hieronder staan, per categorie, de resultaten van de finale.
-    De eerste finalisten in elke categorie kregen een prijs uitgereikt op de proclamatie op 19 mei in Brussel.
+    Hieronder staan, per categorie, de resultaten van de finale.<br>
+    De eerste finalisten in elke categorie kregen een prijs uitgereikt op de proclamatie op 4 mei in Brussel.
   final_results_expl_future: |
-    Hieronder staan, per categorie, de resultaten van de finale.
-    De eerste finalisten in elke categorie zijn in alfabetische volgorde vermeld, zonder hun score.
-    Zij komen hun plaats te weten, en krijgen een prijs uitgereikt, op de proclamatie op 19 mei in Brussel.
+    Hieronder staan, per categorie, de resultaten van de finale.<br>
+    De eerste finalisten in elke categorie zijn in alfabetische volgorde vermeld, zonder hun score.<br>
+    Zij komen hun plaats te weten, en krijgen een prijs uitgereikt, op de proclamatie op 4 mei in Brussel.
   final_top: Top-%d, in alfabetische volgorde
   final_after_top: Eindklassement vanaf de %de plaats
   qualif_intro_text: |
@@ -267,7 +269,8 @@ nl:
     De minimumscore om gekwalificeerd te zijn voor de finale is <strong>%d punten voor de categorie Beloften</strong> (%d finalisten),
     <strong>%d punten voor de categorie Junior</strong> (%d finalisten) en
     <strong>%d punten voor de categorie Senior</strong> (%d finalisten). De maximumscore was %d punten.
-   # Registrations
+
+  # Registrations
   registration_title: Inschrijven voor beOI %s
   email_field: E-mailadres
   firstname_field: Voornaam

@@ -137,11 +137,10 @@ fr:
 
   index_qualif_result_title: "Éliminatoire"
   index_final_result_title: "Finale"
-  index_qualif_result_link: "Les résultats"
+  index_result_link: "Les résultats"
 
   platform_try_title: "Nouvelle épreuve interactive sur ordinateur!"
   platform_try_link: "Testez les nouvelles tâches interactives sur notre plateforme"
-
 
   Jan: jan
   Feb: fév
@@ -175,9 +174,6 @@ fr:
   task_description: Énoncé
   solutions: Solutions
   task_descriptions_remark: ""
-  # |
-  #  (Attention, quelques solutions fournies dans ces documents sont incorrectes.
-  #  Une version corrigé sera mise en ligne d'ici peu !)
 
   # FAQ
   faq_title: Foire aux questions
@@ -195,8 +191,7 @@ fr:
   about_its_volunteer: ses bénévoles
   about_intro: |
     L'Olympiade belge d'Informatique est organisée par l'ASBL beOI. Elle n'est
-    possible que grâce au soutien de ses membres, de ses sponsors et du temps
-    consacré par ses bénévoles.
+    possible que grâce au soutien de ses membres, de ses sponsors et du temps consacré par ses bénévoles.
   about_interested_sponsors: |
     Intéressés à devenir sponsor pour cette édition ou à offrir un prix ?
   about_kbs_frb: |
@@ -240,16 +235,16 @@ fr:
   qualif_top_schools_score_expl: Classement des écoles par score moyen de leurs 5 meilleurs participants
   qualif_top_girls: Top des filles
   qualif_top_girls_expl: |
-    Dans un domaine par les hommes, %d filles participaient cette année à l'éliminatoire,
-    un record ! Voici un classement des meilleures d'entre elles.
+    Dans un domaine par les hommes, %d filles participaient cette année à l'éliminatoire, un record ! Voici un classement des meilleures d'entre elles.
 
+  final_result_title: "Finale: Résultats"
   final_results_expl_past: |
-    Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.
-    Les premiers de chaque catégorie ont reçu un prix lors de la proclamation du 19 mai à Bruxelles.
+    Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.<br>
+    Les premiers de chaque catégorie ont reçu un prix lors de la proclamation du 4 mai à Bruxelles.
   final_results_expl_future: |
-    Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.
-    Les premiers de chaque catégorie sont donnés par ordre alphabétique et sans leur score.
-    Ces derniers recevront leur classement final et un prix lors de la proclamation du 19 mai à Bruxelles.
+    Les classements ci-dessous reprennent, par catégorie, les résultats de la finale.<br>
+    Les premiers de chaque catégorie sont donnés par ordre alphabétique et sans leur score.<br>
+    Ils recevront leur classement final et un prix lors de la proclamation du 4 mai à Bruxelles.
   final_top: Top-%d, par ordre alphabétique
   final_after_top: Classement après la %de position
   qualif_intro_text: |
@@ -266,8 +261,10 @@ fr:
   qualif_result_stat_contestants_text: L'édition %d a compté %d participants officiels venant de plus de %d écoles différentes dont %d organisaient le concours au sein de leur établissement.
   qualif_result_stat_results: Résultats
   qualif_result_stat_graph_expl: |
-    Les graphiques ci-dessous représentent les scores de chaque participants. Pour estimer votre position dans le classement,
-    trouvez votre score, plus il est a gauche plus vous êtes dans les premières positions. La zone verte correspond aux candidats sélectionnés pour la finale.
+    Les graphiques ci-dessous représentent les scores de chaque participants.
+    Pour estimer votre position dans le classement,
+    trouvez votre score, plus il est a gauche plus vous êtes dans les premières positions.
+    La zone verte correspond aux candidats sélectionnés pour la finale.
   qualif_result_stat_thresholds: |
     Le score minimal pour être qualifié pour la finale est de <strong>%d points pour la catégorie cadet</strong> (%d candidats),
     <strong>%d points pour la catégorie junior</strong> (%d candidats) et <strong>%d points pour la catégorie senior</strong> (%d candidats).
@@ -302,18 +299,15 @@ fr:
   year_7th: 7e
   qualification_center_field: Centre pour l'éliminatoire
   registration_only_for_non_school: |
-    Uniquement si vous NE participez PAS dans votre école. Pour participer dans votre école, demandez à l'un de vos professeurs de s'inscrire sur
-    la plateforme du concours (expliqué sur la page principale).
+    Uniquement si vous NE participez PAS dans votre école. Pour participer dans votre école, demandez à l'un de vos professeurs de s'inscrire sur la plateforme du concours (expliqué sur la page principale).
   qualification_center_my_school: mon école
   qualification_center_my_school_expl: |
-    Si vous choississez "%s", votre école DOIT nous contacter et
-    suivre les règles définies dans la %s.
+    Si vous choississez "%s", votre école DOIT nous contacter et suivre les règles définies dans la %s.
   qualification_center_expl: |
     L'adresse plus précise du centre (université/haute-école) vous sera communiquée par e-mail et
     sera disponible sur le site d'ici peu.
   registration_rule_approval: |
-    En vous inscrivant, vous acceptez les règles du concours décrites dans
-    la page %s.
+    En vous inscrivant, vous acceptez les règles du concours décrites dans la page %s.
   subscribe_button: M'inscrire
   form_fail: (Un problème avec ce formulaire ? Essayez un autre navigateur !)
 
