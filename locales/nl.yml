@@ -137,7 +137,7 @@ nl:
 
   index_qualif_result_title: "Eerste ronde"
   index_final_result_title: "Finale"
-  index_qualif_result_link: "De resultaten"
+  index_result_link: "De resultaten"
 
   platform_try_title: "Nieuwe wedstrijd, interactief aan de computer!"
   platform_try_link: "Test de nieuwe interactieve vragen op ons wedstrijdplatform"

@@ -41,3 +41,5 @@ Je vindt hieronder <%= link_to "enkele voorbeeldvragen", '#sample-questions-qual
     .
 </p>
 <% end %>
+
+<% if config.show_qualif_results %><%= link_to t("Results"), 'qualif_results', class:'btn btn-lg btn-filled' %><% end %>

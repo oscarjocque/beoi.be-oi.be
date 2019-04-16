@@ -76,6 +76,10 @@ helpers do
     end.join(",")
   end
 
+  def has_current_year_solutions
+    data.task_descriptions.has_key? config.beoi_year
+  end
+
 end
 
 set :markdown_engine
