@@ -129,3 +129,53 @@
     file:
       fr: beCP18-boat-fr.pdf
       nl: beCP18-boat-nl.pdf
+"2019":
+  -
+    title:
+      official: boxes
+      fr: Des boîtes lourdes
+      nl: Zware dozen
+    file:
+      fr: beCP19-boxes-fr.pdf
+      nl: beCP19-boxes-nl.pdf
+  -
+    title:
+      official: scheduling
+      fr: Planification
+      nl: Planning
+    file:
+      fr: beCP19-scheduling-fr.pdf
+      nl: beCP19-scheduling-nl.pdf
+  -
+    title:
+      official: jeopardy
+      fr: Péril
+      nl: Jeopardy
+    file:
+      fr: beCP19-jeopardy-fr.pdf
+      nl: beCP19-jeopardy-nl.pdf
+  -
+    title:
+      official: goat
+      fr: Goat
+      nl: Geit
+    file:
+      fr: beCP19-goat-fr.pdf
+      nl: beCP19-goat-nl.pdf
+  -
+    title:
+      official: monsters
+      fr: Pourchassée par des monstres
+      nl: Monsters
+    file:
+      fr: beCP19-monsters-fr.pdf
+      nl: beCP19-monsters-nl.pdf
+  -
+    title:
+      official: embargo
+      fr: Embargo
+      nl: Embargo
+    file:
+      fr: beCP19-embargo-fr.pdf
+      nl: beCP19-embargo-nl.pdf
+
