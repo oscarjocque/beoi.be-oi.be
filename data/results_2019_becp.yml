@@ -1,0 +1,74 @@
+- position: 1
+  score: 592
+  name: Oscar	Jocqué
+  school: College Paters Jozefieten, Melle
+  year: year_5th
+- position: 2
+  score: 417
+  name: Sebastian Weiermann
+  school: GO! Erasmus De Pinte
+  year: year_6th
+- position: 3
+  score: 411
+  name: Zhiyi Luo
+  school: College Paters Jozefieten, Melle
+  year: year_2nd
+- position: 4
+  score: 402
+  name: Jan Quan
+  school: Guldensporencollege Kaai 3, Kortrijk
+  year: year_6th
+- position: 5
+  score: 358
+  name: Jérôme Mayolet
+  school: Athénée Royal, Jodoigne
+  year: year_5th
+- position: 6
+  score: 247
+  name: Ruben	Van Dijck
+  school: Heilig Hart Van Maria, Berlaar
+  year: year_5th
+- position: 7
+  score: 165
+  name: Erik Mikus
+  school: Sint-Albertuscollege, Haasrode
+  year: year_5th
+- position: 8
+  score: 159
+  name: Petar Vitorac
+  school: Collège Saint-Pierre, Uccle
+  year: year_3rd
+- position: 9
+  score: 150
+  name: Marie	Peeters
+  school: (enseignement à domicile)
+  year: year_6th
+- position: 10
+  score: 140
+  name: Amos	Nicodemus
+  school: Provinciale School, Diepenbeek
+  year: year_5th
+- position: 11
+  name: Sylvain	Powis de Tenbossche
+  school: Collège Saint-Hubert
+  year: year_5th
+- position: 12
+  name: Alexander	Van Haastrecht
+  school: Vita et Pax-Collège
+  year: year_4th
+- position: 13
+  name: Charles	Van Hees
+  school: Institut Saint-Boniface Parnasse
+  year: year_4th
+- position: 14
+  name: Daan	Phlips
+  school: Sint-Bavohumaniora
+  year: year_4th
+- position: 15
+  name: Arthur	Renard
+  school: Athénée Royal René Magritte, Lessines
+  year: year_6th
+- position: "-"
+  name: Sander	Wouters
+  school: Heilig Hart Van Maria, Berlaar
+  year: year_2nd

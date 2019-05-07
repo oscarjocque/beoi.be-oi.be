@@ -3,14 +3,14 @@
   <div class="container">
     <div class="row mb64 mb-xs-32">
       <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
-        <h4 class="uppercase large"><%= t(:ranking) %> 2018</h4>
+        <h4 class="uppercase large"><%= t(:ranking) %> 2019</h4>
       </div>
 
       <div class="col-sm-12 col-md-10 col-md-offset-1">
         <table class="table table-striped">
           <tbody>
-            <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
-            <% data.results_2018_becp.each do |r| %>
+            <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %> /600</th></tr>
+            <% data.results_2019_becp.each do |r| %>
             <tr>
               <td><%= r.position %></td>
               <td nowrap="nowrap"><%= r.name %></td>
@@ -20,7 +20,9 @@
             <% end %>
           </tbody>
         </table>
+		
       </div>
+	  
     </div><!--end of row-->
 
   </div><!--end of container-->
