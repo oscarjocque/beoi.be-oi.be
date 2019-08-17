@@ -1,0 +1,1527 @@
+---
+title: beOI 2019
+trianglify_colors: '"RdBu"'
+---
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<section class="page-title page-title-4 image-bg">
+  <%=page_header_empty_image_holder %>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="uppercase mb0"><%= t(:previous_olympiad_edition_tile)%2019 %></h3>
+      </div>
+    </div>
+    <!--end of row-->
+  </div>
+  <!--end of container-->
+</section>
+
+<section class="altern">
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+		
+		<h2>Olympiades nationales</h2>
+        <p class="lead">
+          L'éliminatoire de l'Olympiade belge d'Informatique (beOI) s'est à nouveau déroulée sur ordinateur en 2019. Elle a eu lieu début février dans les écoles et les centres régionaux.
+		  L'épreuve, accessible à tous, consistait à résoudre des problèmes de logique et de programmation à l'aide de blocs graphiques à glisser avec la souris.
+		  Il y avait un peu plus de 1400 participants, comme en 2018.<br>
+
+		  Les mieux classés dans chaque catégorie d'âge ont été invités à la finale sur papier. Nous avons lancé plus d'invitations que les années précédentes et 139 courageux sont venus à Bruxelles le 30 mars.<br>
+			
+		  Les 7 premiers cadets, les 10 premiers juniors et les 10 premiers seniors ont reçu des prix et un diplôme lors d'une proclamation organisée début mai, le même jour que le Concours de programmation belge (beCP).
+		</p>
+		
+		<h2>Compétitions internationales</h2>
+		<p class="lead">
+		  En octobre 2018 nous organisions la première Olympiade d'informatique du Benelux (BxOI) à Louvain-La-Neuve.
+		  Elle réunissait 6 belges, 6 néerlandais et 4 luxembourgeois.
+		  Nous y avons obtenu d'excellents résultats en décrochant les 4 premières places ainsi que la sixième et la septième.
+		</p>
+
+		<p class="lead">
+		  Hélas, nous n'avons pas obtenu de médaille à l'Olympiade internationale (IOI), organisée début août à Baku en Azerbaïdjan.
+		</p>
+		
+		<p class="lead">		
+		  Les résultats de l'Olympiade européenne Junior (eJOI) seront bientôt publiés. La compétition a lieu à Maribor en Slovénie du 23 au 29 août 2019.
+		</p>
+		
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+</section>
+
+<section class="altern">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+        <h2>Éliminatoire beOI</h2>
+
+        <p>L'édition 2019 a compté 1408 participants officiels venant de plus de 160 écoles différentes dont 83 organisaient le concours au sein de leur établissement.</p>
+		
+		<h3>Quelques chiffres</h3>
+		
+        <p>Le score minimal pour être qualifié pour la finale est de <strong>310 points pour la catégorie cadet</strong> (47 candidats), <strong>350 points pour la catégorie junior</strong> (64 candidats) et <strong>360 points pour la catégorie senior</strong> (75 candidats). Le score maximum possible était de 400 points.</p>
+      </div>
+    </div>
+	
+	<div class="row">
+      <div id="chart-cat" class="col-md-4" style="height: 200px;"></div>
+      <div id="chart-lang" class="col-md-4" style="height: 200px;"></div>
+      <div id="chart-gender" class="col-md-4" style="height: 200px;"></div>
+    </div> 
+  </div><!--end of container-->
+</section>
+
+<section class="altern">
+  <div class="container">
+	<div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <h4 class="uppercase mb16 text-center">Éliminatoire Cadet</h4>
+        <h5 class="uppercase mb16 text-center">Top 10 - Sur un total de 371 participants</h5>
+      </div>
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <table class="table table-striped">
+          <tbody>
+            <tr><th>#</th><th>Nom</th><th>Ecole (année)</th><th>Score</th></tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Lowie Goossens</td>
+              <td>Sint-Bavohumaniora, Gent (2e)</td>
+              <td><strong>370</strong></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td nowrap="nowrap">Dylan Lejeune</td>
+              <td>koninklijk Atheneum Zottegem (1re)</td>
+              <td><strong>366</strong></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td nowrap="nowrap">Enya Leroy</td>
+              <td>Städtisches Gymnasium St. Leonhard, Aachen (1re)</td>
+              <td><strong>360</strong></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td nowrap="nowrap">Sébastien	Maes</td>
+              <td>Institut Saint-Boniface Parnasse, Ixelles (2e)</td>
+              <td><strong>360</strong></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td nowrap="nowrap">Laurentiu Galateanu</td>
+              <td>École Européenne de Bruxelles IV (2e)</td>
+              <td><strong>360</strong></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td nowrap="nowrap">Benoit Van Schaftingen</td>
+              <td>Collège du Christ Roi, Ottignies (2e)</td>
+              <td><strong>356</strong></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td nowrap="nowrap">Arthur Tirez</td>
+              <td>Sint-Vincentiuscollege Buggenhout (2e)</td>
+              <td><strong>356</strong></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td nowrap="nowrap">Mauro Lottin</td>
+              <td>Sint-Bavohumaniora, Gent (2e)</td>
+              <td><strong>354</strong></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td nowrap="nowrap">Warre	De Raet</td>
+              <td>Heilig Hart Van Maria Berlaar (2e)</td>
+              <td><strong>354</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Mark Maquestiaux</td>
+              <td>Athénée Royal Neufchâteau-Bertrix (1re)</td>
+              <td><strong>352</strong></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <h4 class="uppercase mb16 text-center">Éliminatoire Junior</h4>
+        <h5 class="uppercase mb16 text-center">Top 10 - Sur un total de 508 participants</h5>
+      </div>
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <table class="table table-striped">
+          <tbody>
+            <tr><th>#</th><th>Nom</th><th>Ecole (année)</th><th>Score</th></tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Daan Phlips</td>
+              <td>Sint-Bavohumaniora, Gent (4e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td nowrap="nowrap">Alexander	Van Haastrecht</td>
+              <td>Vita et Pax-Collège, Schoten (4e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td nowrap="nowrap">Tim Willaert</td>
+              <td>SIGO Gistel-Eernegem (3e)</td>
+              <td><strong>380</strong></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td nowrap="nowrap">Charles Van Hees</td>
+              <td>Institut Saint-Boniface Parnasse, Ixelles (4e)</td>
+              <td><strong>380</strong></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td nowrap="nowrap">Jolien Stoffelen</td>
+              <td>Sint-Michielscollege Schoten (4e)</td>
+              <td><strong>380</strong></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td nowrap="nowrap">Gus Vanpoucke</td>
+              <td>Sint-Bavohumaniora, Gent (4e)</td>
+              <td><strong>380</strong></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td nowrap="nowrap">Jakob Dilen</td>
+              <td>Katholieke Centrumscholen Sint Truiden (4e)</td>
+              <td><strong>376</strong></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td nowrap="nowrap">Gael Berlanga</td>
+              <td>École Européenne de Bruxelles IV (3e)</td>
+              <td><strong>375</strong></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td nowrap="nowrap">Bas De Bue</td>
+              <td>Vita et Pax-Collège, Schoten (4e)</td>
+              <td><strong>375</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Arnaud Wery</td>
+              <td>Institut Provincial d'Enseignement Technique de Nivelles (IPET) (4e)</td>
+              <td><strong>371</strong></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <h4 class="uppercase mb16 text-center">Éliminatoire Senior</h4>
+        <h5 class="uppercase mb16 text-center">Top 10 - Sur un total de 529 participants</h5>
+      </div>
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <table class="table table-striped">
+          <tbody>
+            <tr><th>#</th><th>Nom</th><th>Ecole (année)</th><th>Score</th></tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Erik Mikus</td>
+              <td>Sint-Albertuscollege-Haasrode (5e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Quentin Raemdonck</td>
+              <td>Institut de l'Enfant Jésus, Nivelles (5e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Arn De Moor</td>
+              <td>Sint-Barbaracollege, Gent (5e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Oscar Jocqué</td>
+              <td>College Paters Jozefieten, Melle (5e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Jan Quan</td>
+              <td>Guldenporencollege Kaai, Kortrijk (6e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Sebastian Weiermann</td>
+              <td>GO! Erasmus De Pinte (6e)</td>
+              <td><strong>400</strong></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td nowrap="nowrap">Simon	Pitte</td>
+              <td>École Européenne de Bruxelles IV (5e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td nowrap="nowrap">Jonas De Schouwer</td>
+              <td>Jan-van-Ruusbroeckollege, Brussel (5e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td nowrap="nowrap">Alex Van Mechelen</td>
+              <td>Sint-Michielscollege Schoten (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td nowrap="nowrap">Willem Bormans</td>
+              <td>Vrije St.Lambertusscholen, Westerlo (6e)</td>
+              <td><strong>390</strong></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <h4 class="uppercase mb16 text-center">Écoles</h4>
+        <h5 class="mb16 text-center">Classement des écoles par nombre de participants à l'éliminatoire</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3 feature bordered" style="padding-bottom:8px;">
+        <ol class="dl-horizontal category-list">
+          <li>Institut de la Providence (GPH), Gosselies: 70 participants</li>
+          <li>Sint-Vincentiuscollege Buggenhout: 66 participants</li>
+          <li>Athénée Royal René Magritte, Lessines: 62 participants</li>
+        </ol>
+      </div>
+    </div>
+  </div><!--end of container-->
+</section>
+
+<section class="altern">
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+
+        <h2>Finale beOI</h2>
+
+        <p>La finale a eu lieu 30 mars 2019 à Bruxelles. 41, 52 et 46 élèves participaients respectivement dans les catégories cadet, junior et senior.</p>
+        <p>Les finalistes étaient invités à une formation et à rejoindre la beCP en vue d'une éventuelle sélection à l'olympiade internationale d'informatique.</p>
+
+        <p>Le classement et les résultats complets sont disponibles <a href="#results">ci-dessous</a>.</p>
+
+        <%= image_tag "archives/2019/beoi19-becp19-winners.jpg", class:"img-polaroid cast-shadow" %>
+		<p>Les 3 meilleurs de chaque catégorie beOI et le top-3 beCP sur la même photo.</p>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+</section>
+
+
+<section class="altern">
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+
+        <h2>beCP</h2>
+
+        <p>La sélection pour l'Olympiade Internationale d'Informatique (IOI 2019) a eu lieu le 4 mai à l'HEB-ESI, au coeur de Bruxelles. Pour rejoindre la beCP, les étudiants devaient
+        démontrer leur motivation et compétence en programmation. De nombreux camps d'entraînement ont été organisés tout au long de l'année pour le groupe entier.</p>
+
+        <p>La proclamation a été organisée avec la proclamation beOI. Les résultats officiels de la beCP sont disponibles <a href="#results_becp">ci-dessous</a>.</p>
+
+        <%= image_tag "archives/2019/becp19.jpg", class:"img-polaroid cast-shadow" %>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+</section>
+
+
+
+<section class="altern">
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+
+        <h2>Olympiade du Benelux (BxOI)</h2>
+		
+		<p>Nous avons organisé la première Olympiade d'informatique du Benelux le samedi 27 octobre 2018 à Louvain-La-Neuve. 
+		Elle réunissait 6 belges, 6 néerlandais et 4 luxembourgeois.<br>
+		Les concurrents belges ont obtenu d'excellents résultats en décrochant les 4 premières places ainsi que la sixième et la septième.<br>
+		Sur un score maximal de 500 points:
+		</p>
+		<ul>
+          <li>1er: Jan Quan - 390 pts (médaille d'Or)</li>
+          <li>2e: Sebastian Weiermann - 285 pts (médaille d'Or)</li>
+          <li>3e: Zhiyi Luo - 365 pts (médaille d'Argent)</li>
+          <li>4e: Tom Gautot - 335 pts (médaille d'Argent)</li>
+		  <li>6e: Jérôme Mayolet - 275 pts (médaille de Bronze)</li>
+          <li>7e: Jan Livens - 260 pts (médaille de Bronze)</li>
+        </ul>
+	
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+</section>
+
+
+
+<section class="altern">
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+
+        <h2>Olympiade Internationale (IOI)</h2>
+
+        <p><%= image_tag "archives/2019/ioi2019-logo.png", class:"pull-right cast-shadow", width:250 %>
+        La 31e Olympiade Internationale d'Informatique avait lieu à Bakou, en Azerbaïdjan.
+        La délégation belge était composée de Sebastian Weiermann (6e), Oscar Jocqué (5e), Jérôme Mayolet (5e) et Zhiyi Luo (2e)
+		encadrés par Damien Leroy et Jorik Jooken. Sebastian et Oscar participaient pour la troisième fois, c'était la première IOI pour les Jérôme et Zhiyi.
+        Nous n'avons pas remporté de médaille cette année.</p>
+
+        <p>327 participants issus de 87 pays participaient à l'IOI 2019. Les résultats de l'équipe belge sont les suivants (sur un total possible de 600 points):
+        </p>
+        <ul>
+          <li>172e: Oscar Jocqué - 237.45 pts (2e sur la photo)</li>
+          <li>176e: Sebastian Weiermann - 234.27 pts (3e sur la photo)</li>
+          <li>215e: Zhiyi Luo - 203.68 pts (5e sur la photo)</li>
+          <li>257e: Jérôme Mayolet - 152.00 pts (4e sur la photo)</li>
+        </ul>
+
+        <p>Pensez-vous faire mieux ? Téléchargez les questions et tentez de résoudre les problèmes en moins de 10 heures !
+        (<%= link_to 'jour 1', '/archives/IOI19-Questions-day1-en.zip' %>, <%= link_to 'jour 2', '/archives/IOI19-Questions-day2-en.zip' %>)</p>
+
+        <%= image_tag "archives/2019/ioi2019-team.jpg", class:"img-polaroid cast-shadow", width:680, title:"Délégation belge à l'IOI 2019"  %>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+</section>
+
+
+
+<section class="altern">
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+
+        <h2>Sponsors et support</h2>
+
+
+        <p>Ces Olympiades ont pu être organisées grâce au soutien reçu par divers organismes. Nous les remercions énormément pour leur support.</p>
+
+        <h3>Sponsors </h3>
+
+        <h3 class="mt32">Avec le soutien de</h3>
+        <% link_to "http://www.ond.vlaanderen.be/", target:'_blank' do %>
+        <%= image_tag "ext-logos/vlaams-overheid-logo.png", width:350, height:103 %>
+        <% end %>
+        <% link_to "http://www.federation-wallonie-bruxelles.be", target:'_blank' do %>
+        <%= image_tag "ext-logos/cfwb.jpg", width:350, style:"padding:10px;" %>
+        <% end %>
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+</section>
+
+<!--- Results beOI final -->
+<section class="altern" id="results">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <h4 class="uppercase mb16 text-center">Finale beOI Cadet</h4>
+      </div>
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <p class="mb16 text-center">Sur un score maximal de 100 points.</p>
+
+        <table class="table table-striped">
+          <tbody>
+            <tr><th>#</th><th>Nom</th><th>Ecole (année)</th><th>Score</th></tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Zhiyi Luo</td>
+              <td>College Paters Jozefieten Melle (2e)</td>
+              <td><strong>100</strong></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td nowrap="nowrap">Rune De Clercq</td>
+              <td>Sint-Laurens Wachtebeke (2e)</td>
+              <td><strong>82</strong></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td nowrap="nowrap">Cyril Zech</td>
+              <td>Collège du Christ-Roi (2e)</td>
+              <td><strong>80</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Lowie Goossens</td>
+              <td>Sint-Bavohumaniora (2e)</td>
+              <td><strong>80</strong></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td nowrap="nowrap">Sander Wouters</td>
+              <td>Heilig Hart Van Maria Berlaar (2e)</td>
+              <td><strong>76</strong></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td nowrap="nowrap">Arthur Tirez</td>
+              <td>Sint-Vincentiuscollege Buggenhout (2e)</td>
+              <td><strong>74</strong></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td nowrap="nowrap">Benoit Van Schaftingen</td>
+              <td>Collège du Christ-Roi (2e)</td>
+              <td><strong>73</strong></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td nowrap="nowrap">Jannes Imans</td>
+              <td>Sint-Albertuscollege-Haasrode (2e)</td>
+              <td><strong>72</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Sébastien Maes</td>
+              <td>Institut Saint-Boniface Parnasse (2e)</td>
+              <td><strong>72</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Enya Leroy</td>
+              <td>Städtisches Gymnasium Sankt Leonhard (1re)</td>
+              <td><strong>70</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Finn Van Roey</td>
+              <td>Paridaensinstituut (2e)</td>
+              <td><strong>70</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Mark Maquestiaux</td>
+              <td>Athénée Royal Neufchâteau-Bertrix (1re)</td>
+              <td><strong>70</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Warre De Raet</td>
+              <td>Heilig Hart Van Maria Berlaar (2e)</td>
+              <td><strong>70</strong></td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td nowrap="nowrap">Antoine Davidts</td>
+              <td>Institut Saint-Boniface Parnasse (2e)</td>
+              <td><strong>69</strong></td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td nowrap="nowrap">Pieter Ectors</td>
+              <td>Middenschool Heilig Hart Bree (2e)</td>
+              <td><strong>68</strong></td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td nowrap="nowrap">Julie De Clercq</td>
+              <td>Sint-Barbaracollege (2e)</td>
+              <td><strong>64</strong></td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td nowrap="nowrap">Felix Van Lubek</td>
+              <td>École Européenne de Bruxelles IV (2e)</td>
+              <td><strong>60</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Viktor Cloes</td>
+              <td>Heilig Hart Van Maria Berlaar (2e)</td>
+              <td><strong>60</strong></td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td nowrap="nowrap">Axel Rodrigo Calderon Ezan</td>
+              <td>École Européenne III (2e)</td>
+              <td><strong>59</strong></td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td nowrap="nowrap">Bas Adriaenssen</td>
+              <td>Heilig Hart Van Maria Berlaar (2e)</td>
+              <td><strong>58</strong></td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td nowrap="nowrap">Dylan Lejeune</td>
+              <td>Koninklijk Atheneum Zottegem (1re)</td>
+              <td><strong>57</strong></td>
+            </tr>
+            <tr>
+              <td>22</td>
+              <td nowrap="nowrap">Hidde De Ridder</td>
+              <td>Heilig Hart Van Maria Berlaar (1re)</td>
+              <td><strong>53</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Mathijs Van Laeken</td>
+              <td>Heilig Hart Van Maria Berlaar (1re)</td>
+              <td><strong>53</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Vaclav Kropac</td>
+              <td>École Européenne III (2e)</td>
+              <td><strong>53</strong></td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td nowrap="nowrap">Vivian Fitvoye</td>
+              <td>École de l'enfant Jésus (1re)</td>
+              <td><strong>52</strong></td>
+            </tr>
+            <tr>
+              <td>26</td>
+              <td nowrap="nowrap">Caspar Salaets</td>
+              <td>Heilig Hart Van Maria Berlaar (2e)</td>
+              <td><strong>49</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Mauro Lottin</td>
+              <td>Sint-Bavohumaniora (2e)</td>
+              <td><strong>49</strong></td>
+            </tr>
+            <tr>
+              <td>28</td>
+              <td nowrap="nowrap">Ignace Terwagne</td>
+              <td>Collège Hagelstein (1re)</td>
+              <td><strong>46</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Laurentiu Galateanu</td>
+              <td>École Européenne de Bruxelles IV (2e)</td>
+              <td><strong>46</strong></td>
+            </tr>
+            <tr>
+              <td>30</td>
+              <td nowrap="nowrap">Louis Verstraeten</td>
+              <td>Sint-Bavohumaniora (2e)</td>
+              <td><strong>42</strong></td>
+            </tr>
+            <tr>
+              <td>31</td>
+              <td nowrap="nowrap">Lien Janssens</td>
+              <td>Heilig Hart Van Maria Berlaar (2e)</td>
+              <td><strong>41</strong></td>
+            </tr>
+            <tr>
+              <td>32</td>
+              <td nowrap="nowrap">Elise Ringoot Newton</td>
+              <td>Óscar Romerocollege campus Nachtegaal (1re)</td>
+              <td><strong>40</strong></td>
+            </tr>
+            <tr>
+              <td>33</td>
+              <td nowrap="nowrap">Elias Lombart</td>
+              <td>. (1re)</td>
+              <td><strong>39</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Noor Verschaeve</td>
+              <td>Heilig Hart Van Maria Berlaar (2e)</td>
+              <td><strong>39</strong></td>
+            </tr>
+            <tr>
+              <td>35</td>
+              <td nowrap="nowrap">Mathias Etienne</td>
+              <td>Sint-Bavohumaniora (2e)</td>
+              <td><strong>38</strong></td>
+            </tr>
+            <tr>
+              <td>36</td>
+              <td nowrap="nowrap">Maarten Claus</td>
+              <td>Middenschool Heilig Hart Bree (2e)</td>
+              <td><strong>36</strong></td>
+            </tr>
+            <tr>
+              <td>37</td>
+              <td nowrap="nowrap">Martina Delcroix</td>
+              <td>École Européenne III (6e (primaire))</td>
+              <td><strong>35</strong></td>
+            </tr>
+            <tr>
+              <td>38</td>
+              <td nowrap="nowrap">Jarne De Proft</td>
+              <td>Óscar Romerocollege campus Nachtegaal (2e)</td>
+              <td><strong>32</strong></td>
+            </tr>
+            <tr>
+              <td>39</td>
+              <td nowrap="nowrap">Sander Janssens</td>
+              <td>Middenschool Heilig Hart Bree (2e)</td>
+              <td><strong>30</strong></td>
+            </tr>
+            <tr>
+              <td>40</td>
+              <td nowrap="nowrap">Enzo Manzano</td>
+              <td>École Européenne de Bruxelles IV (2e)</td>
+              <td><strong>29</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Mateo Rivero Agra</td>
+              <td>École Européenne de Bruxelles IV (2e)</td>
+              <td><strong>29</strong></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <h4 class="uppercase mb16 text-center">Finale beOI Junior</h4>
+      </div>
+      <div class="col-sm-12 col-md-10 col-md-offset-1">      
+        <p class="mb16 text-center">Sur un score maximal de 138 points.</p>
+
+        <table class="table table-striped">
+          <tbody>
+            <tr><th>#</th><th>Nom</th><th>Ecole (année)</th><th>Score</th></tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Daan Phlips</td>
+              <td>Sint-Bavohumaniora (4e)</td>
+              <td><strong>133</strong></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td nowrap="nowrap">Petar Vitorac</td>
+              <td>Collège Saint-Pierre Uccle (3e)</td>
+              <td><strong>127</strong></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td nowrap="nowrap">Charles Van Hees</td>
+              <td>Institut Saint-Boniface Parnasse (4e)</td>
+              <td><strong>126</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Gus Vanpoucke</td>
+              <td>Sint-Bavohumaniora (4e)</td>
+              <td><strong>126</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Pablo Berlanga</td>
+              <td>École Européenne de Bruxelles IV (4e)</td>
+              <td><strong>126</strong></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td nowrap="nowrap">Alexander Van Haastrecht</td>
+              <td>Vita et Pax-Collège (4e)</td>
+              <td><strong>119</strong></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td nowrap="nowrap">Sander Verwimp</td>
+              <td>Heilig Hart Van Maria Berlaar (4e)</td>
+              <td><strong>114</strong></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td nowrap="nowrap">Corentin Michaux</td>
+              <td>Athénée Royal "Air Pur" de Seraing (3e)</td>
+              <td><strong>112</strong></td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td nowrap="nowrap">Carlo Schmitt</td>
+              <td>Athénée Robert Catteau (4e)</td>
+              <td><strong>111</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Tim Willaert</td>
+              <td>SIGO Gistel-Eernegem (3e)</td>
+              <td><strong>107</strong></td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td nowrap="nowrap">Bas De Bue</td>
+              <td>Vita et Pax-Collège (4e)</td>
+              <td><strong>102</strong></td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td nowrap="nowrap">Bas De Bue</td>
+              <td>Vita et Pax-Collège (4e)</td>
+              <td><strong>102</strong></td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td nowrap="nowrap">Mathias Gernez</td>
+              <td>Athénée Royal de Nivelles (3e)</td>
+              <td><strong>101</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Matthias Seghers</td>
+              <td>GO! Erasmusatheneum Deinze (4e)</td>
+              <td><strong>101</strong></td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td nowrap="nowrap">Wannes Croes</td>
+              <td>Vrije St.Lambertusscholen Westerlo (4e)</td>
+              <td><strong>100</strong></td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td nowrap="nowrap">Corentin Watthez</td>
+              <td>Institut de la Sainte-Union Kain (3e)</td>
+              <td><strong>97</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Suzanne Dubois</td>
+              <td>Collège Saint-Guibert Gembloux (3e)</td>
+              <td><strong>97</strong></td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td nowrap="nowrap">Gael Berlanga</td>
+              <td>École Européenne de Bruxelles IV (3e)</td>
+              <td><strong>93</strong></td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td nowrap="nowrap">Stephan Obeid</td>
+              <td>Institut de la Vierge Fidèle (4e)</td>
+              <td><strong>92</strong></td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td nowrap="nowrap">Simon De Cock</td>
+              <td>Onze-Lieve-Vrouwcollege Zottegem (4e)</td>
+              <td><strong>90</strong></td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td nowrap="nowrap">Elina Van Der Taelen</td>
+              <td>Heilig Hart Van Maria Berlaar (4e)</td>
+              <td><strong>87</strong></td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td nowrap="nowrap">Kobe Crets</td>
+              <td>Pius X Collège Tessenderlo (4e)</td>
+              <td><strong>86</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Marie Lampaert</td>
+              <td>Collège Ieper (4e)</td>
+              <td><strong>86</strong></td>
+            </tr>
+            <tr>
+              <td>23</td>
+              <td nowrap="nowrap">Andriy Torisaen</td>
+              <td>Institut Provincial d'Enseignement Technique de Nivelles (IPET) (4e)</td>
+              <td><strong>85</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Jakob Dilen</td>
+              <td>KCST Sint-Truiden (4e)</td>
+              <td><strong>85</strong></td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td nowrap="nowrap">Michiel Segers</td>
+              <td>DvM Humaniora (4e)</td>
+              <td><strong>84</strong></td>
+            </tr>
+            <tr>
+              <td>26</td>
+              <td nowrap="nowrap">Thomas Ollevier</td>
+              <td>Lycée Martin V (3e)</td>
+              <td><strong>83</strong></td>
+            </tr>
+            <tr>
+              <td>27</td>
+              <td nowrap="nowrap">Arno Boussery</td>
+              <td>VTI-Torhout Sint-Aloysius (4e)</td>
+              <td><strong>80</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Lotte Van Marcke</td>
+              <td>Collège Hagelstein (4e)</td>
+              <td><strong>80</strong></td>
+            </tr>
+            <tr>
+              <td>29</td>
+              <td nowrap="nowrap">Alexander Kuypers</td>
+              <td>Vrije St.Lambertusscholen (4e)</td>
+              <td><strong>79</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Charles Simon</td>
+              <td>Saint Barthelemy (3e)</td>
+              <td><strong>79</strong></td>
+            </tr>
+            <tr>
+              <td>31</td>
+              <td nowrap="nowrap">Lucas Schonkeren</td>
+              <td>KCST (4e)</td>
+              <td><strong>77</strong></td>
+            </tr>
+            <tr>
+              <td>32</td>
+              <td nowrap="nowrap">Yannick Maes</td>
+              <td>Pius X Collège Tessenderlo (4e)</td>
+              <td><strong>76</strong></td>
+            </tr>
+            <tr>
+              <td>33</td>
+              <td nowrap="nowrap">Ilias Deschuyter</td>
+              <td>Pius X Collège Tessenderlo (3e)</td>
+              <td><strong>75</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Lise Boone</td>
+              <td>Collège Ieper (4e)</td>
+              <td><strong>75</strong></td>
+            </tr>
+            <tr>
+              <td>35</td>
+              <td nowrap="nowrap">Aron Crets</td>
+              <td>Pius X Collège Tessenderlo (4e)</td>
+              <td><strong>73</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Margaux Leleu</td>
+              <td>Institut Saint-Ferdinand Jemappes (4e)</td>
+              <td><strong>73</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Nathan Cattelain</td>
+              <td>Collège Saint-Guibert Gembloux (4e)</td>
+              <td><strong>73</strong></td>
+            </tr>
+            <tr>
+              <td>38</td>
+              <td nowrap="nowrap">Noah Cavrenne</td>
+              <td>Collège Saint-Guibert Gembloux (4e)</td>
+              <td><strong>70</strong></td>
+            </tr>
+            <tr>
+              <td>39</td>
+              <td nowrap="nowrap">Achille Masson</td>
+              <td>Institut Notre-Dame Malmedy (4e)</td>
+              <td><strong>68</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Yasmine Decadt</td>
+              <td>VTI-Torhout Sint-Aloysius (4e)</td>
+              <td><strong>68</strong></td>
+            </tr>
+            <tr>
+              <td>41</td>
+              <td nowrap="nowrap">Arnaud Wery</td>
+              <td>Institut Provincial d'Enseignement Technique de Nivelles (IPET) (4e)</td>
+              <td><strong>67</strong></td>
+            </tr>
+            <tr>
+              <td>42</td>
+              <td nowrap="nowrap">Mohamed Achraf Moussaoui</td>
+              <td>Collège Saint-Michel (3e)</td>
+              <td><strong>66</strong></td>
+            </tr>
+            <tr>
+              <td>43</td>
+              <td nowrap="nowrap">Pepijn Vranckx</td>
+              <td>Heilig Hart Van Maria Berlaar (3e)</td>
+              <td><strong>65</strong></td>
+            </tr>
+            <tr>
+              <td>44</td>
+              <td nowrap="nowrap">Thomas Lambert</td>
+              <td>Institut Notre-Dame de Bertrix (3e)</td>
+              <td><strong>64</strong></td>
+            </tr>
+            <tr>
+              <td>45</td>
+              <td nowrap="nowrap">Noah Edwards</td>
+              <td>Institut Provincial d'Enseignement Technique de Nivelles (IPET) (4e)</td>
+              <td><strong>62</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Thibeau De Ryck</td>
+              <td>Heilig Hart Van Maria Berlaar (3e)</td>
+              <td><strong>62</strong></td>
+            </tr>
+            <tr>
+              <td>47</td>
+              <td nowrap="nowrap">Xander Buyst</td>
+              <td>Pius X Collège Tessenderlo (4e)</td>
+              <td><strong>60</strong></td>
+            </tr>
+            <tr>
+              <td>48</td>
+              <td nowrap="nowrap">Alexandra Pantouli</td>
+              <td>École Européenne III (3e)</td>
+              <td><strong>59</strong></td>
+            </tr>
+            <tr>
+              <td>49</td>
+              <td nowrap="nowrap">Bert Billiet</td>
+              <td>GO! Erasmusatheneum Deinze (4e)</td>
+              <td><strong>58</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Ian Fleerackers</td>
+              <td>Paridaensinstituut (4e)</td>
+              <td><strong>58</strong></td>
+            </tr>
+            <tr>
+              <td>51</td>
+              <td nowrap="nowrap">Henri Laloux</td>
+              <td>Collège Ieper (3e)</td>
+              <td><strong>56</strong></td>
+            </tr>
+            <tr>
+              <td>52</td>
+              <td nowrap="nowrap">Thomas Ocket</td>
+              <td>VTI-Torhout Sint-Aloysius (4e)</td>
+              <td><strong>48</strong></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <h4 class="uppercase mb16 text-center">Finale beOI Senior</h4>
+      </div>
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <p class="mb16 text-center">Sur un score maximal de 143 points.</p>
+
+        <table class="table table-striped">
+          <tbody>
+            <tr><th>#</th><th>Nom</th><th>Ecole (année)</th><th>Score</th></tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Jonas De Schouwer</td>
+              <td>Jan-van-Ruusbroeckollege Laken (5e)</td>
+              <td><strong>134</strong></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td nowrap="nowrap">Jan Quan</td>
+              <td>Guldensporencollege Kaai 3 Kortrijk (6e)</td>
+              <td><strong>133</strong></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td nowrap="nowrap">Amos Nicodemus</td>
+              <td>Provinciale School Diepenbeek (5e)</td>
+              <td><strong>130</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Erik Mikus</td>
+              <td>Sint-Albertuscollege, Haasrode (5e)</td>
+              <td><strong>130</strong></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td nowrap="nowrap">Pavel Descamps</td>
+              <td>Sint-Franciscus Evergem (5e)</td>
+              <td><strong>126</strong></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td nowrap="nowrap">Alex Van Mechelen</td>
+              <td>Sint-Michielscollege Schoten (6e)</td>
+              <td><strong>125</strong></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td nowrap="nowrap">Jonathan Swinnen</td>
+              <td>Sint-Norbertus Duffel (6e)</td>
+              <td><strong>124</strong></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td nowrap="nowrap">Oscar Jocqué</td>
+              <td>College Patesr Jozefieten Melle (5e)</td>
+              <td><strong>120</strong></td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td nowrap="nowrap">Marie Peeters</td>
+              <td>(enseignement à domicile) (6e)</td>
+              <td><strong>117</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Quinten Luyten</td>
+              <td>Onze-Lieve-Vrouw Presentatie Sint-Niklaas (5e)</td>
+              <td><strong>116</strong></td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td nowrap="nowrap">Jérôme Mayolet</td>
+              <td>Athénée Royal de Jodoigne (5e)</td>
+              <td><strong>115</strong></td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td nowrap="nowrap">Ilse Daels</td>
+              <td>Guldensporencollege Kaai 3 Kortrijk (6e)</td>
+              <td><strong>114</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Jonas Malice</td>
+              <td>Institut Saint-André Ramegnies-Chin (6e)</td>
+              <td><strong>114</strong></td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td nowrap="nowrap">Jan Livens</td>
+              <td>Vita et Pax-Collège (6e)</td>
+              <td><strong>110</strong></td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td nowrap="nowrap">Ruben Bekaert</td>
+              <td>École Européenne de Bruxelles IV (5e)</td>
+              <td><strong>107</strong></td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td nowrap="nowrap">Melvin Claes</td>
+              <td>Institut Saint André (6e)</td>
+              <td><strong>106</strong></td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td nowrap="nowrap">Florian Leroy</td>
+              <td>Institut Saint-André Ramegnies-Chin (5e)</td>
+              <td><strong>105</strong></td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td nowrap="nowrap">Arn De Moor</td>
+              <td>Sint-Barbaracollege (5e)</td>
+              <td><strong>98</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Senne Doumen</td>
+              <td>Sint-Augustinusinstituut Bree (6e)</td>
+              <td><strong>98</strong></td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td nowrap="nowrap">Sylvain Powis de Tenbossche</td>
+              <td>Collège Saint-Hubert (5e)</td>
+              <td><strong>97</strong></td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td nowrap="nowrap">Gijs Verschaeve</td>
+              <td>Heilig Hart Van Maria Berlaar (5e)</td>
+              <td><strong>96</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Julien Brandoit</td>
+              <td>Athénée Royal de Marche-en-Famenne (Marche) (5e)</td>
+              <td><strong>96</strong></td>
+            </tr>
+            <tr>
+              <td>23</td>
+              <td nowrap="nowrap">Ruben Van Dijck</td>
+              <td>Heilig Hart Van Maria Berlaar (5e)</td>
+              <td><strong>95</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Willem Bormans</td>
+              <td>Vrije St.Lambertusscholen Westerlo (6e)</td>
+              <td><strong>95</strong></td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td nowrap="nowrap">Stev Fivez</td>
+              <td>Jan-van-Ruusbroeckollege (5e)</td>
+              <td><strong>92</strong></td>
+            </tr>
+            <tr>
+              <td>26</td>
+              <td nowrap="nowrap">Antonin Rousseau</td>
+              <td>Institut Notre-Dame de Bertrix (5e)</td>
+              <td><strong>90</strong></td>
+            </tr>
+            <tr>
+              <td>27</td>
+              <td nowrap="nowrap">Anton Haes</td>
+              <td>Jan-van-Ruusbroeckollege (5e)</td>
+              <td><strong>86</strong></td>
+            </tr>
+            <tr>
+              <td>28</td>
+              <td nowrap="nowrap">Henri Dambiermont</td>
+              <td>Athénée Royal de Marche-en-Famenne (Marche) (5e)</td>
+              <td><strong>84</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Joey Koster</td>
+              <td>TISM (5e)</td>
+              <td><strong>84</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Quentin Raemdonck</td>
+              <td>Institut de l'Enfant Jésus (5e)</td>
+              <td><strong>84</strong></td>
+            </tr>
+            <tr>
+              <td>31</td>
+              <td nowrap="nowrap">Kenzo Staelens</td>
+              <td>KA Zottegem (5e)</td>
+              <td><strong>83</strong></td>
+            </tr>
+            <tr>
+              <td>32</td>
+              <td nowrap="nowrap">Liam Letot</td>
+              <td>Communauté Scolaire Sainte-Marie Namur (5e)</td>
+              <td><strong>82</strong></td>
+            </tr>
+            <tr>
+              <td>33</td>
+              <td nowrap="nowrap">Guillaume Deceuninck</td>
+              <td>Collège Saint-Guibert Gembloux (5e)</td>
+              <td><strong>81</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Vladomeare Obolonskyy</td>
+              <td>Sint-Lievens College Antwerpen (6e)</td>
+              <td><strong>81</strong></td>
+            </tr>
+            <tr>
+              <td>35</td>
+              <td nowrap="nowrap">Marek Chmielewski</td>
+              <td>Institut Saint Joseph (6e)</td>
+              <td><strong>78</strong></td>
+            </tr>
+            <tr>
+              <td>36</td>
+              <td nowrap="nowrap">Jolien Ameel</td>
+              <td>Sint-Pieterscollege (5e)</td>
+              <td><strong>77</strong></td>
+            </tr>
+            <tr>
+              <td>37</td>
+              <td nowrap="nowrap">Quentin Lépine</td>
+              <td>Collège Saint-Guibert Gembloux (5e)</td>
+              <td><strong>76</strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Remko Van Wassenhove</td>
+              <td>Campus Redingenhof (6e)</td>
+              <td><strong>76</strong></td>
+            </tr>
+            <tr>
+              <td>39</td>
+              <td nowrap="nowrap">Stef Van Meerbeeck</td>
+              <td>Maris Stella Instituut Oostmalle (5e)</td>
+              <td><strong>75</strong></td>
+            </tr>
+            <tr>
+              <td>40</td>
+              <td nowrap="nowrap">Felix De Peuter</td>
+              <td>Heilig Hart Van Maria Berlaar (5e)</td>
+              <td><strong>72</strong></td>
+            </tr>
+            <tr>
+              <td>41</td>
+              <td nowrap="nowrap">Filip Kalapish</td>
+              <td>École Européenne de Bruxelles IV (5e)</td>
+              <td><strong>69</strong></td>
+            </tr>
+            <tr>
+              <td>42</td>
+              <td nowrap="nowrap">Mees De Lepeleire</td>
+              <td>Campus Redingenhof (5e)</td>
+              <td><strong>68</strong></td>
+            </tr>
+            <tr>
+              <td>43</td>
+              <td nowrap="nowrap">Pieter Waelbers</td>
+              <td>TISM Bree (6e)</td>
+              <td><strong>67</strong></td>
+            </tr>
+            <tr>
+              <td>44</td>
+              <td nowrap="nowrap">Thomas Boffé</td>
+              <td>GO! Erasmusatheneum Deinze (6e)</td>
+              <td><strong>66</strong></td>
+            </tr>
+            <tr>
+              <td>45</td>
+              <td nowrap="nowrap">Jonas De Reuse</td>
+              <td>Sint-Martinusscholen ASO Walfergem (6e)</td>
+              <td><strong>60</strong></td>
+            </tr>
+            <tr>
+              <td>46</td>
+              <td nowrap="nowrap">Przemek Slusarczyk</td>
+              <td>Bischöfliches Institut Büllingen (5e)</td>
+              <td><strong>40</strong></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+</section>
+
+<!--- Results beCP -->
+<section class="altern" id="results_becp">
+  <div class="container">
+    <div class="row mb64 mb-xs-32">
+      <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
+        <h4 class="uppercase large">Classement beCP 2019</h4>
+      </div>
+
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+		<p class="mb16 text-center">Sur un score maximal de 600 points.</p>
+        
+		<table class="table table-striped">
+          <tbody>
+            <tr><th>#</th><th>Nom</th><th>Ecole (année)</th><th>Score</th></tr>
+            <tr>
+              <td>1</td>
+              <td nowrap="nowrap">Oscar	Jocqué</td>
+              <td>College Paters Jozefieten, Melle (5e)</td>
+              <td><strong>592</strong></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td nowrap="nowrap">Sebastian Weiermann</td>
+              <td>GO! Erasmus De Pinte (6e)</td>
+              <td><strong>417</strong></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td nowrap="nowrap">Zhiyi Luo</td>
+              <td>College Paters Jozefieten, Melle (2e)</td>
+              <td><strong>411</strong></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td nowrap="nowrap">Jan Quan</td>
+              <td>Guldensporencollege Kaai 3, Kortrijk (6e)</td>
+              <td><strong>402</strong></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td nowrap="nowrap">Jérôme Mayolet</td>
+              <td>Athénée Royal, Jodoigne (5e)</td>
+              <td><strong>358</strong></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td nowrap="nowrap">Ruben	Van Dijck</td>
+              <td>Heilig Hart Van Maria, Berlaar (5e)</td>
+              <td><strong>247</strong></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td nowrap="nowrap">Erik Mikus</td>
+              <td>Sint-Albertuscollege, Haasrode (5e)</td>
+              <td><strong>165</strong></td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td nowrap="nowrap">Petar Vitorac</td>
+              <td>Collège Saint-Pierre, Uccle (3e)</td>
+              <td><strong>159</strong></td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td nowrap="nowrap">Marie	Peeters</td>
+              <td>(enseignement à domicile) (6e)</td>
+              <td><strong>150</strong></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td nowrap="nowrap">Amos	Nicodemus</td>
+              <td>Provinciale School, Diepenbeek (5e)</td>
+              <td><strong>140</strong></td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td nowrap="nowrap">Sylvain	Powis de Tenbossche</td>
+              <td>Collège Saint-Hubert (5e)</td>
+              <td><strong></strong></td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td nowrap="nowrap">Alexander	Van Haastrecht</td>
+              <td>Vita et Pax-Collège (4e)</td>
+              <td><strong></strong></td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td nowrap="nowrap">Charles	Van Hees</td>
+              <td>Institut Saint-Boniface Parnasse (4e)</td>
+              <td><strong></strong></td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td nowrap="nowrap">Daan	Phlips</td>
+              <td>Sint-Bavohumaniora (4e)</td>
+              <td><strong></strong></td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td nowrap="nowrap">Arthur	Renard</td>
+              <td>Athénée Royal René Magritte, Lessines (6e)</td>
+              <td><strong></strong></td>
+            </tr>
+            <tr>
+              <td>-</td>
+              <td nowrap="nowrap">Sander	Wouters</td>
+              <td>Heilig Hart Van Maria, Berlaar (2e)</td>
+              <td><strong></strong></td>
+            </tr>
+          </tbody>
+        </table>
+		
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+</section>
+
+<!--- Script for graphics -->
+<script type="text/javascript">
+google.charts.load('current', {'packages':['corechart','bar']});
+google.charts.setOnLoadCallback(function() {
+  var data = google.visualization.arrayToDataTable([
+    ['<%= t(:Categories) %>', '<%= t(:qualif_chart_nbcontestants) %>'],
+    ['<%= t(:Cadet) %>',     371],
+    ['<%= t(:Junior) %>',    508],
+    ['<%= t(:Senior) %>',    529]
+  ]);
+  var options = {
+    slices: {
+      0: { color: '#e31d3b' },
+      1: { color: '#f46d43' },
+      2: { color: '#fdae61' }
+    },
+    backgroundColor: "transparent"
+  };
+  var chart = new google.visualization.PieChart(document.getElementById('chart-cat'));
+  chart.draw(data, options);
+});
+google.charts.setOnLoadCallback(function() {
+  var data = google.visualization.arrayToDataTable([
+    ['<%= t(:qualif_chart_lang) %>', '<%= t(:qualif_chart_nbcontestants) %>'],
+    ['<%= t(:qualif_chart_lang_fr) %>',    623],
+    ['<%= t(:qualif_chart_lang_nl) %>',    769],
+    ['<%= t(:qualif_chart_lang_de) %>',    17]
+  ]);
+  var options = {
+    slices: {
+      0: { color: '#f46d43' },
+      1: { color: '#fdae61' },
+      2: { color: '#e31d3b' }
+    },
+    backgroundColor: "transparent"
+  };
+  var chart = new google.visualization.PieChart(document.getElementById('chart-lang'));
+  chart.draw(data, options);
+});
+google.charts.setOnLoadCallback(function() {
+  var data = google.visualization.arrayToDataTable([
+    ['<%= t(:gender_field) %>', '<%= t(:qualif_chart_nbcontestants) %>'],
+    ['<%= t(:gender_men) %>',     1076],
+    ['<%= t(:gender_women) %>',      333],
+  ]);
+  var options = {
+    slices: {
+      0: { color: '#fdae61' },
+      1: { color: '#f46d43' },
+    },
+    backgroundColor: "transparent"
+  };
+  var chart = new google.visualization.PieChart(document.getElementById('chart-gender'));
+  chart.draw(data, options);
+});
+</script>

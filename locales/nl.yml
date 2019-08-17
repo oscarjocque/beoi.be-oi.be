@@ -115,11 +115,11 @@ nl:
   selection_contest: Selectiewedstrijd voor de IOI
   selection_contest_details: Brussel
   ioi_full: Internationale Olympiade Informatica (IOI)
-  ioi_details: Bakoe, Azerbeidzjan
+  ioi_details: Singapore
   ejoi_full: Europese Junior Olympiade in Informatica (EJOI)
-  ejoi_details: Maribor, Slovenië
+  ejoi_details: (Town), (Country)
   bxoi_full: Benelux Olympiade in Informatica (BxOI)
-  bxoi_details: Louvain-la-Neuve, België
+  bxoi_details: Nijmegen, Holland
   selection_contest_link: Meer info over beCP
 
   ranking: Eindklassement
