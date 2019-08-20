@@ -81,8 +81,8 @@ fr:
   register_button: Je représente une école, je souhaite inscrire mon école
   register_text: Inscrivez-vous aux éliminatoires du 6 février !
   register_school_text: |
-    Même après leur avoir parlé du concours votre école ne souhaite pas participer à la beOI ?
-    <a href="/fr/registration">Inscrivez-vous</a> pour passer l'épreuve dans l'un des centres près de chez vous.
+    Même après leur avoir parlé du concours votre école ne souhaite pas participer à la beOI ?<br/>
+    <a href="/fr/registration">Inscrivez-vous individuellement</a> pour passer l'épreuve dans l'un des centres près de chez vous.
 
   # beCP
 
