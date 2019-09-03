@@ -1,0 +1,34 @@
+
+<section class="bg-dark pb0">
+  <div class="container">
+    <div class="row mb64 mb-xs-32">
+      <div class="col-md-12 col-sm-12 text-center">
+
+        <% case config.contest_state
+
+          when :preregistration %>
+          <h2 class="large text-center"><%= t("keep_me_informed_of_registrations") %></h2>
+          <div class="row mb24"><%= partial "subscribe_info_form" %></div>
+
+          <% when :registration %>
+          <h2 class="large"><%= t("register_text") %></h2>
+          <%= link_to t(:register_button), current_page.data.management_platform[lang], class:"btn btn-filled btn-lg mb0" %>
+          <h4 class="large mt24"><%= t("register_school_text") %></h4>
+
+          <% when :waiting_qualif_results %>
+          <h2 class="large"><%= t("wait_for_qualif_results_title") %></h2>
+          <h4 class="large mt24"><%= t("wait_for_qualif_results_descr") %></h4>
+
+          <% when :qualif_results_published, :waiting_final_results, :final_results_published %>
+          <h3 class="large"><%= t("index_result_link") %> <%= config.beoi_year %></h3>
+          <% if config.show_qualif_results %><%= link_to t(:index_qualif_result_title), 'qualif_results', class:'btn btn-lg btn-filled' %><% end %>
+          <% if config.show_final_results %><%= link_to t(:index_final_result_title), 'final_results', class:'btn btn-lg btn-filled' %><% end %>
+
+        <%
+        end
+        %>
+
+      </div>
+    </div>
+  </div>
+</section>
