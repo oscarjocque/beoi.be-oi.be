@@ -19,9 +19,9 @@ trianglify_colors: '"RdBu"'
 
 <section class="altern">
   <div class="container">
-    <div class="row ">
+    <div class="row">
       <div class="col-sm-12 col-md-8 col-md-offset-2">
-		
+
 		<h2>Olympiades nationales</h2>
         <p class="lead">
           L'éliminatoire de l'Olympiade belge d'Informatique (beOI) s'est à nouveau déroulée sur ordinateur en 2019. Elle a eu lieu début février dans les écoles et les centres régionaux.
@@ -29,25 +29,25 @@ trianglify_colors: '"RdBu"'
 		  Il y avait un peu plus de 1400 participants, comme en 2018.<br>
 
 		  Les mieux classés dans chaque catégorie d'âge ont été invités à la finale sur papier. Nous avons lancé plus d'invitations que les années précédentes et 139 courageux sont venus à Bruxelles le 30 mars.<br>
-			
+
 		  Les 7 premiers cadets, les 10 premiers juniors et les 10 premiers seniors ont reçu des prix et un diplôme lors d'une proclamation organisée début mai, le même jour que le Concours de programmation belge (beCP).
 		</p>
-		
-		<h2>Compétitions internationales</h2>
+
+		<h2 class="mt64">Compétitions internationales</h2>
 		<p class="lead">
-		  En octobre 2018 nous organisions la première Olympiade d'informatique du Benelux (BxOI) à Louvain-La-Neuve.
+		  En octobre 2018, nous organisions la première <%= link_to "Olympiade d'informatique du Benelux (BxOI)", "beoi19.html#beoi" %> à Louvain-La-Neuve.
 		  Elle réunissait 6 belges, 6 néerlandais et 4 luxembourgeois.
 		  Nous y avons obtenu d'excellents résultats en décrochant les 4 premières places ainsi que la sixième et la septième.
 		</p>
 
 		<p class="lead">
-		  Hélas, nous n'avons pas obtenu de médaille à l'Olympiade internationale (IOI), organisée début août à Baku en Azerbaïdjan.
+		  Hélas, nous n'avons pas obtenu de médaille à l'<%= link_to "Olympiade internationale (IOI)", "beoi19.html#ioi" %>, organisée début août à Baku en Azerbaïdjan.
 		</p>
-		
-		<p class="lead">		
-		  Les résultats de l'Olympiade européenne Junior (eJOI) seront bientôt publiés. La compétition a lieu à Maribor en Slovénie du 23 au 29 août 2019.
+
+		<p class="lead">
+		  Pour notre troisième participation à l'<%= link_to "Olympiade européenne Junior (eJOI)", "beoi19.html#ejoi" %>, nous avons obtenus de remarquables résultats avec une médaille d'argent avec Zhiyi Luo.
 		</p>
-		
+
       </div>
     </div><!--end of row-->
   </div><!--end of container-->
@@ -60,18 +60,18 @@ trianglify_colors: '"RdBu"'
         <h2>Éliminatoire beOI</h2>
 
         <p>L'édition 2019 a compté 1408 participants officiels venant de plus de 160 écoles différentes dont 83 organisaient le concours au sein de leur établissement.</p>
-		
+
 		<h3>Quelques chiffres</h3>
-		
+
         <p>Le score minimal pour être qualifié pour la finale est de <strong>310 points pour la catégorie cadet</strong> (47 candidats), <strong>350 points pour la catégorie junior</strong> (64 candidats) et <strong>360 points pour la catégorie senior</strong> (75 candidats). Le score maximum possible était de 400 points.</p>
       </div>
     </div>
-	
+
 	<div class="row">
       <div id="chart-cat" class="col-md-4" style="height: 200px;"></div>
       <div id="chart-lang" class="col-md-4" style="height: 200px;"></div>
       <div id="chart-gender" class="col-md-4" style="height: 200px;"></div>
-    </div> 
+    </div>
   </div><!--end of container-->
 </section>
 
@@ -367,15 +367,15 @@ trianglify_colors: '"RdBu"'
 </section>
 
 
-
+<a name="bxoi"></a>
 <section class="altern">
   <div class="container">
     <div class="row ">
       <div class="col-sm-12 col-md-8 col-md-offset-2">
 
         <h2>Olympiade du Benelux (BxOI)</h2>
-		
-		<p>Nous avons organisé la première Olympiade d'informatique du Benelux le samedi 27 octobre 2018 à Louvain-La-Neuve. 
+
+		<p>Nous avons organisé la première Olympiade d'informatique du Benelux le samedi 27 octobre 2018 à Louvain-La-Neuve.
 		Elle réunissait 6 belges, 6 néerlandais et 4 luxembourgeois.<br>
 		Les concurrents belges ont obtenu d'excellents résultats en décrochant les 4 premières places ainsi que la sixième et la septième.<br>
 		Sur un score maximal de 500 points:
@@ -388,14 +388,14 @@ trianglify_colors: '"RdBu"'
 		  <li>6e: Jérôme Mayolet - 275 pts (médaille de Bronze)</li>
           <li>7e: Jan Livens - 260 pts (médaille de Bronze)</li>
         </ul>
-	
+
       </div>
     </div><!--end of row-->
   </div><!--end of container-->
 </section>
 
 
-
+<a name="ioi"></a>
 <section class="altern">
   <div class="container">
     <div class="row ">
@@ -422,6 +422,35 @@ trianglify_colors: '"RdBu"'
         (<%= link_to 'jour 1', '/archives/IOI19-Questions-day1-en.zip' %>, <%= link_to 'jour 2', '/archives/IOI19-Questions-day2-en.zip' %>)</p>
 
         <%= image_tag "archives/2019/ioi2019-team.jpg", class:"img-polaroid cast-shadow", width:680, title:"Délégation belge à l'IOI 2019"  %>
+
+      </div>
+    </div><!--end of row-->
+  </div><!--end of container-->
+</section>
+
+
+
+<a name="ejoi"></a>
+<section class="altern">
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-12 col-md-8 col-md-offset-2">
+
+        <h2>Olympiade Européenne Junior d'Informatique (eJOI)</h2>
+
+        <%= image_tag "archives/2019/ejoi19.jpg", class:"pull-right cast-shadow", width:400, style:"margin-left:32px;" %>
+
+        <p>
+        La 3e Olympiade Européenne Junior d'Informatique avait lieu à Maribor en Slovénie du 23 au 29 août..
+        La délégation belge était composée de Zhiyi Luo et Petar Vitorac encadrés par Bruno Ploumhans.
+        Nous avons obtenu de remarquables résultats avec la médaille d'argent (à une place d'une médaille d'or) pour Zhiyi et une très belle 60e place de Petar pour une première épreuve internationale.</p>
+
+        <p>90 participants participaient à l'eJOI 2019. Les résultats de l'équipe belge sont les suivants (sur un total possible de 600 points):
+        </p>
+        <ul>
+          <li>9e: Zhiyi Luo - 403.2 pts (médaille d'argent)</li>
+          <li>60e: Petar Vitorac - 89 pts</li>
+        </ul>
 
       </div>
     </div><!--end of row-->
@@ -725,7 +754,7 @@ trianglify_colors: '"RdBu"'
       <div class="col-sm-10 col-sm-offset-1 text-center">
         <h4 class="uppercase mb16 text-center">Finale beOI Junior</h4>
       </div>
-      <div class="col-sm-12 col-md-10 col-md-offset-1">      
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
         <p class="mb16 text-center">Sur un score maximal de 138 points.</p>
 
         <table class="table table-striped">
@@ -1361,7 +1390,7 @@ trianglify_colors: '"RdBu"'
 
       <div class="col-sm-12 col-md-10 col-md-offset-1">
 		<p class="mb16 text-center">Sur un score maximal de 600 points.</p>
-        
+
 		<table class="table table-striped">
           <tbody>
             <tr><th>#</th><th>Nom</th><th>Ecole (année)</th><th>Score</th></tr>
@@ -1463,7 +1492,7 @@ trianglify_colors: '"RdBu"'
             </tr>
           </tbody>
         </table>
-		
+
       </div>
     </div><!--end of row-->
   </div><!--end of container-->
