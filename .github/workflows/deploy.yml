@@ -1,0 +1,32 @@
+name: Deploy on S3
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build + Publish
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+      with:
+        version: 2.4.x
+    - name: Install bundler
+      run: |
+        gem install bundler
+        gem update bundler
+    - name: Install dependencies
+      run: bundle install --without development --jobs 4 --retry 3
+    - run: bundle exec middleman build --verbose
+    - name: Publish to S3
+      run: bundle exec middleman s3_sync
+      env:
+        AWS_ACCESS_KEY_ID: ${{secrets.AWS_ACCESS_KEY_ID}}
+        AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}}
+        AWS_DEFAULT_REGION: eu-central-1
+        AWS_BUCKET: www.be-oi.be
