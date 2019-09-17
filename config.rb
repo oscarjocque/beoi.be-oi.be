@@ -1,10 +1,23 @@
 
-# Website content
-set :beoi_year, 2019
-set :action_block_content, :results # choices: :registrations, :waiting_qualif_results, :results
-set :show_qualif_results, true
-set :show_final_results, true
-set :registration_open, config.action_block_content == :registrations
+###
+# Contest-related states
+###
+set :beoi_year, 2020
+
+# states:
+# - :preregistration -- Calendar on :beoi_year ready, but registrations not yet open
+# - :registration -- Registrations (both form and platform) open
+# - :waiting_qualif_results -- Qualif past, waiting for results to be available
+# - :qualif_results_published -- Qualif results available, final in future
+# - :waiting_final_results -- Final past, waiting for results to be available
+# - :final_results_published -- Final results available
+set :contest_state, :preregistration
+
+# some config depending on the contest state
+set :show_qualif_results, %i[qualif_results_published waiting_final_results final_results_published].include?(config.contest_state)
+set :show_final_results, config.contest_state == :final_results_published
+set :registration_open, config.contest_state == :registration
+
 set :mailchimp_registration_submit, {
   fr: "//be-oi.us6.list-manage.com/subscribe/post?u=4a51a9ab354aa26ba87f9a75f&amp;id=fe73f28fb4",
   nl: "//be-oi.us9.list-manage.com/subscribe/post?u=c6d8dcea8c4875082e570aee9&amp;id=b5f459ac54"

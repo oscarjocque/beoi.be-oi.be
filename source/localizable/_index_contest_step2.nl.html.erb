@@ -2,13 +2,10 @@
 
 <h4>Plaats en datum</h4>
 <p>
-  De finale vindt plaats op <strong>zaterdag 30 maart 2019</strong> in Brussel, Franklin Rooseveltlaan 50.<br>
-  <strong>Solbosch campus van de ULB, gebouw U, ingang B, tweede verdieping, <%= ext_link_to "auditoria 252A", 'https://www.ulb.ac.be/campus/solbosch/plan-U.html' %></strong>.<br>
-  Finalisten worden ter plaatse verwacht tegen 9u15.<br>
-  De proef <strong>begint om 9u30 en duurt 2 uur</strong>.
+  De finale vindt plaats op <strong>zaterdag 7 maart 2020</strong> in Brussel.<br>
+  De proef duurt 2 uur.
 </p>
 
-<!--
 <h4>Praktisch</h4>
 <p>
   Je moet enkel iets om te schrijven meenemen.
@@ -18,10 +15,7 @@
 <h4>Types van vragen</h4>
 <p>De finale is een proef op papier, zoals de voorgaande jaren. Je vindt hieronder <%= link_to "enkele voorbeeldvragen", '#sample-questions-final' %>
 en de <%= link_to "vragen van de vorige finales", "#questions-solutions" %>.</p>
--->
+
 
 <% if has_current_year_solutions %><%= link_to "#{t("task_description")}/#{t("solutions")}", '#questions-solutions', class:'btn btn-lg btn-filled' %><% end %>
 <% if config.show_final_results %><%= link_to t("Results"), 'final_results', class:'btn btn-lg btn-filled' %><% end %>
-
-<p style="font-size:10px;">Vanwege een technische fout bevat de Nederlandstalige cadet-vragenlijst nog 4 deelvragen dan de Franstalige vragenlijst.
-We hebben een oplossing gevonden om een eerlijke rangorde vast te stellen, cadetpunten zullen meer dan 100 zijn voor zowel Nederlandstaligen als Franstaligen.</p>
