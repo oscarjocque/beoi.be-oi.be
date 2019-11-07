@@ -62,15 +62,15 @@
   name: HE2B-ESI
   href: http://www.heb.be/esi/
   image: heb-esi-logo.png
--
-  name: VIVES
-  href: http://www.vives.be
-  image: vives-logo.jpg
--
-  name: EHB
-  href: http://www.ehb.be
-  image: ehb-logo.jpg
--
-  name: Howest
-  href: http://www.howest.be
-  image: howest-logo.jpg
+#-
+#  name: VIVES
+#  href: http://www.vives.be
+#  image: vives-logo.jpg
+#-
+#  name: EHB
+#  href: http://www.ehb.be
+#  image: ehb-logo.jpg
+#-
+#  name: Howest
+#  href: http://www.howest.be
+#  image: howest-logo.jpg
