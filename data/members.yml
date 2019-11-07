@@ -50,14 +50,14 @@
   name: HELMo
   href: http://www.helmo.be
   image: helmo-logo.png
-#-
-#  name: Cetic
-#  href: https://www.cetic.be/
-#  image: cetic-logo.png
-#-
-#  name: KDG
-#  href: https://www.kdg.be/
-#  image: kdg-logo.jpg
+-
+  name: Cetic
+  href: https://www.cetic.be/
+  image: cetic-logo.png
+-
+  name: KDG
+  href: https://www.kdg.be/
+  image: kdg-logo.jpg
 -
   name: HE2B-ESI
   href: http://www.heb.be/esi/
