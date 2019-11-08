@@ -189,6 +189,7 @@ fr:
   about_its_members: ses membres
   about_its_sponsors: ses sponsors
   about_its_volunteer: ses bénévoles
+  about_its_administrators: son conseil d'administration
   about_intro: |
     L'Olympiade belge d'Informatique est organisée par l'ASBL beOI. Elle n'est
     possible que grâce au soutien de ses membres, de ses sponsors et du temps consacré par ses bénévoles.
@@ -206,6 +207,9 @@ fr:
   about_become_sponsor: Envie de nous sponsoriser ? Contactez-nous !
   sponsors_support: "Sponsors & Support"
   sponsors_intro: Nos sponsors nous permettent de pouvoir financer les frais liés aux formations et d'offrir des prix aux gagnants.
+  about_administrators: Conseil d'administration
+  about_administrators_text: |
+    Les bénévols suivants assument pour le moment l'administration de l'asbl:
 
   # Rules
   rules_title: Règlement
