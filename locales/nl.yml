@@ -189,6 +189,7 @@ nl:
   about_its_members: haar leden
   about_its_sponsors: haar sponsors
   about_its_volunteer: haar vrijwilligers
+  about_its_administrators: haar raad van bestuur
   about_intro: |
     De Belgische Informatica-olympiade en beCP worden georganiseerd door beOI vzw. Dit is mogelijk dankzij de steun van haar leden, haar sponsors, en de tijd die vrijwilligers er aan wijden.
   about_interested_sponsors: |
@@ -204,8 +205,9 @@ nl:
   about_become_sponsor: Sponsor worden ? Contacteer ons !
   sponsors_support: "Sponsors & Steun"
   sponsors_intro: Onze sponsors zorgen ervoor dat we aan onze getalenteerde deelnemers opleidingen kunnen geven en een interessante prijzenpot kunnen aanbieden.
-
-
+  about_administrators_details: Raad van bestuur
+  about_administrators_text: |
+    De volgende vrijwilligers nemen momenteel het bestuur van de vzw waar:
 
   # Rules
   rules_title: Reglement
