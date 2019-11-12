@@ -131,6 +131,8 @@ fr:
   mailinglist_error_msg: Veuillez entrez une adresse e-mail correcte.
   mailinglist_email_placeholder: Adresse e-mail
   mailinglist_submit_button: Tenez-moi informé
+  mailinglist_alt_link_l1: Le formulaire ci-dessus ne fonctionne pas dans votre navigateur ?
+  mailinglist_alt_link_l2: Indiquez votre adresse email sur cette page.
 
   wait_for_qualif_results_title: Vous avez participé à l'éliminatoire ?
   wait_for_qualif_results_descr: Vos résultats vous seront transmis par e-mail dans les prochains jours.

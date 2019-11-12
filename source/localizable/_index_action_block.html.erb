@@ -9,6 +9,10 @@
           when :preregistration %>
           <h2 class="large text-center"><%= t("keep_me_informed_of_registrations") %></h2>
           <div class="row mb24"><%= partial "subscribe_info_form" %></div>
+          <div class="row mb24">
+            <span class="thin" style="color:#ccc;"><%= t("mailinglist_alt_link_l1") %></span>
+            <a class="thin" href="<%= current_page.data.mailchimp_alt[lang] %>" target="_blank"><%= t("mailinglist_alt_link_l2") %></a>
+          </div>
 
           <% when :registration %>
           <h2 class="large"><%= t("register_text") %></h2>
