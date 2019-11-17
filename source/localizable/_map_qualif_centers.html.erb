@@ -14,8 +14,10 @@
         <div class="col-sm-6" style="padding:0 6px 0 12px;">
           <h6 class="uppercase mb0"><%= c.city %></h6>
           <p>
-            <%= c.place %>
-            <% if c.address %><br><%= c.address.gsub(/(\n)/, "<br>") %><% end %>
+            <%= c.place %><br>
+            <% if c.address %><%= c.address.gsub(/(\n)/, "<br>") %>
+            <% else %>  <%= t(:more_info_later).capitalize %>
+            <% end %>
             <% if c.route_link %><%= ext_link_to t(:route_instruct), c.route_link %><% end %>
           </p>
         </div>
