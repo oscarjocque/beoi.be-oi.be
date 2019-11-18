@@ -131,6 +131,8 @@ nl:
   mailinglist_error_msg: Gelieve een correct e-mailadres in te geven.
   mailinglist_email_placeholder: E-mailadres
   mailinglist_submit_button: Hou me op de hoogte
+  mailinglist_alt_link_l1: Het formulier hierboven werkt niet in uw browser ?
+  mailinglist_alt_link_l2: Geef uw e-mailadres op op deze pagina.
 
   wait_for_qualif_results_title: Heb je deelgenomen aan de eerste ronde ?
   wait_for_qualif_results_descr: Je krijgt jouw resultaten via email in de loop van de volgende dagen.
