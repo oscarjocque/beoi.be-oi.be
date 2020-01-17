@@ -13,27 +13,27 @@
 -
   city: Brussel / Bruxelles
   place: Université Libre de Bruxelles
-  # address: |
-  #    bâtiment NO, 4ème étage, à gauche en sortant des ascenseurs.
-  #    gebouw NO, 4e verdieping, links bij het uitstappen uit de lift.
-  #    Boulevard du Triomphe
-  #    1050 Bruxelles
-  # route_link: https://www.ulb.ac.be/campus/plaine/plan-NO.html
+    address: |
+       bâtiment NO, 4ème étage, à gauche en sortant des ascenseurs.
+       gebouw NO, 4e verdieping, links bij het uitstappen uit de lift.
+       Boulevard du Triomphe
+       1050 Bruxelles
+    route_link: https://www.ulb.ac.be/campus/plaine/plan-NO.html
   pos:
     lat: 50.8200945
     lng: 4.3973233
 -
   city: Gent
   place: Universiteit Gent
-  # address: |
-  #    PC-zaal Grace Hopper
-  #    1e verdieping
-  #    gebouw S5
-  #    Campus Sterre
-  #    Krijgslaan 281
-  #    9000 Gent
-  #    (niet de campus op rijden; buiten de campus parkeren)
-  # route_link: http://www.ugent.be/we/nl/diensten/ipvw-ices/contact/locaties/sterre
+    address: |
+       PC-zaal Grace Hopper
+       1e verdieping
+       gebouw S5
+       Campus Sterre
+       Krijgslaan 281
+       9000 Gent
+       (niet de campus op rijden; buiten de campus parkeren)
+    route_link: http://www.ugent.be/we/nl/diensten/ipvw-ices/contact/locaties/sterre
   pos:
     lat: 51.0227516
     lng: 3.7105733
@@ -51,72 +51,74 @@
 -
   city: Kortrijk
   place: Hogeschool VIVES Kortrijk
-  # address: |
-  #    Lokaal 61.09
-  #    (via receptie in centrale gebouw 't Forum)
-  #    Doorniksesteenweg 145
-  #    8500 Kortrijk
-  # route_link: https://www.vives.be/nl/campussen/campus-kortrijk/onderweg
+    address: |
+       Lokaal 61.09
+       (via receptie in centrale gebouw 't Forum)
+       Doorniksesteenweg 145
+       8500 Kortrijk
+    route_link: https://www.vives.be/nl/campussen/campus-kortrijk/onderweg
   pos:
     lat: 50.8058796
     lng: 3.2840281
 -
   city: Leuven
   place: KU Leuven
-  # address: |
-  #    Departement Computerwetenschappen
-  #    Lokaal 200A-00.124
-  #    Celestijnenlaan 200A
-  #    3001 Heverlee
-  # route_link: https://wms.cs.kuleuven.be/cs/algemeen/routebeschrijving
+    address: |
+       Departement Computerwetenschappen
+       Lokaal 200A-00.124
+       Celestijnenlaan 200A
+       3001 Heverlee
+    route_link: https://wms.cs.kuleuven.be/cs/algemeen/routebeschrijving
   pos:
     lat: 50.86411
     lng: 4.6786777
 -
  city: Libramont
  place: Haute École Robert Schuman (HERS)
-#  address:  |
-#     Local B1
-#     Rue de la Cité, 64
-#     6800 Libramont
-#  route_link: "https://www.google.be/maps/place/Haute+Ecole+Robert+Schuman/@49.9280097,5.3788132,15z/data=!4m2!3m1!1s0x0:0x9b062899079abb50?hl=fr-BE"
+   address:  |
+      Local B1
+      Rue de la Cité, 64
+      6800 Libramont
+   route_link: "https://www.google.be/maps/place/Haute+Ecole+Robert+Schuman/@49.9280097,5.3788132,15z/data=!4m2!3m1!1s0x0:0x9b062899079abb50?hl=fr-BE"
  pos:
    lat: 49.9280097
    lng: 5.3788132
 -
   city: Liège
   place: HELMo
-  # address: |
-  #    HELMO Campus Guillemins
-  #    Rue de Harlez, 35
-  #    4000 Liège
-  #    5ème étage, laboratoires IL51, IL55 et IL56
-  #    (sous le porche d'entrée (n°35) à gauche, passer les portes vitrées automatiques et monter au 5ème étage)
-  # route_link: https://www.helmo.be/Institution/Instituts/HELMo-Campus-Guillemins-Sainte-Marie/Plan-Acces.aspx
+    address: |
+       HELMO Campus Guillemins
+       Rue de Harlez, 35
+       4000 Liège
+       5ème étage, laboratoires IL51, IL55 et IL56
+       (sous le porche d'entrée (n°35) à gauche, passer les portes vitrées automatiques et monter au 5ème étage)
+    route_link: https://www.helmo.be/Institution/Instituts/HELMo-Campus-Guillemins-Sainte-Marie/Plan-Acces.aspx
   pos:
     lat: 50.6224177
     lng: 5.5723187
 -
   city: Louvain-la-Neuve
   place: Université catholique de Louvain
-  # address: |
-  #    Salle Darwin (local C 039)
-  #    Bâtiment Carnoy
-  #    Place Croix du Sud
-  #    1348 Louvain-la-Neuve
-  # route_link: https://uclouvain.be/fr/decouvrir/salles-informatiques-sst-localisation.html
+    address: |
+       Salle Darwin (local C 039)
+       Bâtiment Carnoy
+       Place Croix du Sud
+       1348 Louvain-la-Neuve
+    route_link: https://uclouvain.be/fr/decouvrir/salles-informatiques-sst-localisation.html
   pos:
     lat: 50.6671189
     lng: 4.6195422
 -
   city: Mons
   place: Université de Mons
-  # address: |
-  #    Faculté Polytechnique UMons
-  #    Salle Informatique IGLab
-  #    Rue de Houdain, 9
-  #    7000 Mons
-  # route_link: https://goo.gl/maps/fWeAXZkpK2u
+    address: |
+       Université de Mons,
+       Faculté des sciences
+       Salle Bertrand Russell
+       Bâtiment de Vinci, Premier étage
+       Avenue Maistriau, 19
+       7000 Mons
+    route_link: https://goo.gl/maps/Z1ovUPz6zWhDJKYx9
   pos:
     lat: 50.4522063
     lng: 3.9533022
