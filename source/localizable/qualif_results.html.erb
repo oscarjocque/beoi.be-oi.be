@@ -265,7 +265,8 @@ google.charts.setOnLoadCallback(function() {
     legend: { position: "none" },
     bar: { groupWidth: "100%" },
     backgroundColor: "transparent",
-    chartArea: { backgroundColor: "transparent" }
+    chartArea: { backgroundColor: "transparent" },
+    vAxis: { viewWindow: {max: <%= data.results_2020_qualif.stats.max_possible_score %>} }
   };
   var chart = new google.charts.Bar(document.getElementById('chart-scores-cad'));
   chart.draw(data, google.charts.Bar.convertOptions(options));
@@ -284,7 +285,8 @@ google.charts.setOnLoadCallback(function() {
     legend: { position: "none" },
     bar: { groupWidth: "100%" },
     backgroundColor: "transparent",
-    chartArea: { backgroundColor: "transparent" }
+    chartArea: { backgroundColor: "transparent" },
+    vAxis: { viewWindow: {max: <%= data.results_2020_qualif.stats.max_possible_score %>} }
   };
   var chart = new google.charts.Bar(document.getElementById('chart-scores-jun'));
   chart.draw(data, google.charts.Bar.convertOptions(options));
@@ -304,7 +306,7 @@ google.charts.setOnLoadCallback(function() {
     bar: { groupWidth: "100%" },
     backgroundColor: "transparent",
     chartArea: { backgroundColor: "transparent" },
-    vAxis: { maxValue: 40 }
+    vAxis: { viewWindow: {max: <%= data.results_2020_qualif.stats.max_possible_score %>} }
   };
 
   var chart = new google.charts.Bar(document.getElementById('chart-scores-sen'));
