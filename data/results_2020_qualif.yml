@@ -9,7 +9,7 @@ stats:
   qualified_cadet: 42
   qualified_junior: 63
   qualified_senior: 73
-  max_possible_score: 400
+  max_possible_score: 360
   count_fr: 699
   count_nl: 670
   count_de: 34
