@@ -260,10 +260,11 @@ fr:
   qualif_chart_lang_fr: Francophones
   qualif_chart_lang_nl: Néerlandophones
   qualif_chart_lang_de: Germanophones
+  qualif_chart_lang_en: Anglophones
   results_max_score: Le score maximum possible était de %d points.
   qualif_result_summary: En résumé
   qualif_result_stat_contestants: Nombre de participants
-  qualif_result_stat_contestants_text: L'édition %d a compté %d participants officiels venant de plus de %d écoles différentes dont %d organisaient le concours au sein de leur établissement.
+  qualif_result_stat_contestants_text: L'édition %d a compté %d participants officiels venant de plus de %d écoles différentes.
   qualif_result_stat_results: Résultats
   qualif_result_stat_graph_expl: |
     Les graphiques ci-dessous représentent les scores de chaque participants.

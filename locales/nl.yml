@@ -258,10 +258,11 @@ nl:
   qualif_chart_lang_fr: Franstaligen
   qualif_chart_lang_nl: Nederlandstaligen
   qualif_chart_lang_de: Duitstaligen
+  qualif_chart_lang_en: Engelstaligen
   results_max_score: De maximumscore was %d punten.
   qualif_result_summary: Samenvatting
   qualif_result_stat_contestants: Aantal deelnemers
-  qualif_result_stat_contestants_text: De editie %d telde %d officiële deelnemers uit %d verschillende scholen, waarvan er %d de eerste ronde in eigen huis organiseerden.
+  qualif_result_stat_contestants_text: De editie %d telde %d officiële deelnemers uit %d verschillende scholen.
   qualif_result_stat_results: Resultaten
   qualif_result_stat_graph_expl: |
     De grafieken hieronder geven de resultaten van de deelnemers weer.

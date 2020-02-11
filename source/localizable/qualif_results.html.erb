@@ -8,7 +8,7 @@ trianglify_colors: '"RdYlGn"'
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h3 class="uppercase mb0"><%= t(:qualif_result_title) %> 2019</h3>
+        <h3 class="uppercase mb0"><%= t(:qualif_result_title) %> <%= config.beoi_year %></h3>
       </div>
     </div>
     <!--end of row-->
@@ -41,7 +41,7 @@ trianglify_colors: '"RdYlGn"'
     <div class="row">
       <div class="col-md-12">
         <p class="text-center"><%=
-          t(:qualif_result_stat_contestants_text) % [config.beoi_year, data.results_2019_qualif.stats.total_contestants, data.results_2019_qualif.stats.school_total, data.results_2019_qualif.stats.school_org_total]
+          t(:qualif_result_stat_contestants_text) % [config.beoi_year, data.results_2020_qualif.stats.count_cadet+data.results_2020_qualif.stats.count_junior+data.results_2020_qualif.stats.count_senior, data.results_2020_qualif.stats.school_org_total]
         %></p>
       </div>
       <div id="chart-cat" class="col-md-4" style="height: 200px;"></div>
@@ -56,7 +56,7 @@ trianglify_colors: '"RdYlGn"'
     <div class="row">
       <div class="col-md-12">
         <p class="text-center"><%= t(:qualif_result_stat_graph_expl) %></p>
-        <p class="text-center"><%= t(:qualif_result_stat_thresholds) % [data.results_2019_qualif.stats.threshold_cadet, data.results_2019_qualif.stats.qualified_cadet, data.results_2019_qualif.stats.threshold_junior, data.results_2019_qualif.stats.qualified_junior, data.results_2019_qualif.stats.threshold_senior, data.results_2019_qualif.stats.qualified_senior, data.results_2019_qualif.stats.max_possible_score] %></p>
+        <p class="text-center"><%= t(:qualif_result_stat_thresholds) % [data.results_2020_qualif.stats.threshold_cadet, data.results_2020_qualif.stats.qualified_cadet, data.results_2020_qualif.stats.threshold_junior, data.results_2020_qualif.stats.qualified_junior, data.results_2020_qualif.stats.threshold_senior, data.results_2020_qualif.stats.qualified_senior, data.results_2020_qualif.stats.max_possible_score] %></p>
       </div>
     </div>
     <div class="row">
@@ -87,13 +87,13 @@ trianglify_colors: '"RdYlGn"'
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
         <h4 class="uppercase mb16 text-center"><%= t(:Cadet) %></h4>
-        <h5 class="uppercase mb16 text-center"><%= t(:qualif_topx)%data.results_2019_qualif.contestants.cadet.size %> - <%= t(:qualif_on_total)%data.results_2019_qualif.stats.count_cadet %></h5>
+        <h5 class="uppercase mb16 text-center"><%= t(:qualif_topx)%data.results_2020_qualif.contestants.cadet.size %> - <%= t(:qualif_on_total)%data.results_2020_qualif.stats.count_cadet %></h5>
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
         <table class="table table-striped">
           <tbody>
             <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
-            <% data.results_2019_qualif.contestants.cadet.each do |r| %>
+            <% data.results_2020_qualif.contestants.cadet.each do |r| %>
             <tr>
               <td><%= r.position %></td>
               <td nowrap="nowrap"><%= r.name %></td>
@@ -117,13 +117,13 @@ trianglify_colors: '"RdYlGn"'
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
         <h4 class="uppercase mb16 text-center"><%= t(:Junior) %></h4>
-        <h5 class="uppercase mb16 text-center"><%= t(:qualif_topx)%data.results_2019_qualif.contestants.junior.size %> - <%= t(:qualif_on_total)%data.results_2019_qualif.stats.count_junior %></h5>
+        <h5 class="uppercase mb16 text-center"><%= t(:qualif_topx)%data.results_2020_qualif.contestants.junior.size %> - <%= t(:qualif_on_total)%data.results_2020_qualif.stats.count_junior %></h5>
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
         <table class="table table-striped">
           <tbody>
             <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
-            <% data.results_2019_qualif.contestants.junior.each do |r| %>
+            <% data.results_2020_qualif.contestants.junior.each do |r| %>
             <tr>
               <td><%= r.position %></td>
               <td nowrap="nowrap"><%= r.name %></td>
@@ -147,13 +147,13 @@ trianglify_colors: '"RdYlGn"'
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
         <h4 class="uppercase mb16 text-center"><%= t(:Senior) %></h4>
-        <h5 class="uppercase mb16 text-center"><%= t(:qualif_topx)%data.results_2019_qualif.contestants.senior.size %> - <%= t(:qualif_on_total)%data.results_2019_qualif.stats.count_senior %></h5>
+        <h5 class="uppercase mb16 text-center"><%= t(:qualif_topx)%data.results_2020_qualif.contestants.senior.size %> - <%= t(:qualif_on_total)%data.results_2020_qualif.stats.count_senior %></h5>
       </div>
       <div class="col-sm-12 col-md-10 col-md-offset-1">
         <table class="table table-striped">
           <tbody>
             <tr><th>#</th><th><%= t(:column_name) %></th><th><%= t(:column_school) %></th><th><%= t(:column_score) %></th></tr>
-            <% data.results_2019_qualif.contestants.senior.each do |r| %>
+            <% data.results_2020_qualif.contestants.senior.each do |r| %>
             <tr>
               <td><%= r.position %></td>
               <td nowrap="nowrap"><%= r.name %></td>
@@ -184,7 +184,7 @@ trianglify_colors: '"RdYlGn"'
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3 feature bordered" style="padding-bottom:8px;">
         <ol class="dl-horizontal category-list">
-          <% data.results_2019_qualif.schools.nb_contestants.each do |s| %>
+          <% data.results_2020_qualif.schools.nb_contestants.each do |s| %>
           <li><%= s.name %>: <%= s.value %> <%= t(:participants) %></li>
           <% end %>
         </ol>
@@ -200,9 +200,9 @@ google.charts.load('current', {'packages':['corechart','bar']});
 google.charts.setOnLoadCallback(function() {
   var data = google.visualization.arrayToDataTable([
     ['<%= t(:Categories) %>', '<%= t(:qualif_chart_nbcontestants) %>'],
-    ['<%= t(:Cadet) %>',     <%= data.results_2019_qualif.stats.count_cadet %>],
-    ['<%= t(:Junior) %>',    <%= data.results_2019_qualif.stats.count_junior %>],
-    ['<%= t(:Senior) %>',    <%= data.results_2019_qualif.stats.count_senior %>]
+    ['<%= t(:Cadet) %>',     <%= data.results_2020_qualif.stats.count_cadet %>],
+    ['<%= t(:Junior) %>',    <%= data.results_2020_qualif.stats.count_junior %>],
+    ['<%= t(:Senior) %>',    <%= data.results_2020_qualif.stats.count_senior %>]
   ]);
   var options = {
     slices: {
@@ -218,9 +218,11 @@ google.charts.setOnLoadCallback(function() {
 google.charts.setOnLoadCallback(function() {
   var data = google.visualization.arrayToDataTable([
     ['<%= t(:qualif_chart_lang) %>', '<%= t(:qualif_chart_nbcontestants) %>'],
-    ['<%= t(:qualif_chart_lang_fr) %>',    <%= data.results_2019_qualif.stats.count_fr %>],
-    ['<%= t(:qualif_chart_lang_nl) %>',    <%= data.results_2019_qualif.stats.count_nl %>],
-    ['<%= t(:qualif_chart_lang_de) %>',    <%= data.results_2019_qualif.stats.count_de %>]
+    ['<%= t(:qualif_chart_lang_fr) %>',    <%= data.results_2020_qualif.stats.count_fr %>],
+    ['<%= t(:qualif_chart_lang_nl) %>',    <%= data.results_2020_qualif.stats.count_nl %>],
+    ['<%= t(:qualif_chart_lang_de) %>',    <%= data.results_2020_qualif.stats.count_de %>],
+    ['<%= t(:qualif_chart_lang_en) %>',    <%= data.results_2020_qualif.stats.count_en %>]
+
   ]);
   var options = {
     slices: {
@@ -236,8 +238,8 @@ google.charts.setOnLoadCallback(function() {
 google.charts.setOnLoadCallback(function() {
   var data = google.visualization.arrayToDataTable([
     ['<%= t(:gender_field) %>', 'Nombre de participants'],
-    ['<%= t(:gender_men) %>',     <%= data.results_2019_qualif.stats.count_male %>],
-    ['<%= t(:gender_women) %>',      <%= data.results_2019_qualif.stats.count_female %>],
+    ['<%= t(:gender_men) %>',     <%= data.results_2020_qualif.stats.count_male %>],
+    ['<%= t(:gender_women) %>',      <%= data.results_2020_qualif.stats.count_female %>],
   ]);
   var options = {
     slices: {
@@ -252,7 +254,7 @@ google.charts.setOnLoadCallback(function() {
 google.charts.setOnLoadCallback(function() {
   var data = google.visualization.arrayToDataTable([
     ['', 'Score','Score'],
-    <%= score_list_to_js_chart(data.results_2019_qualif.charts.cadet, data.results_2019_qualif.stats.threshold_cadet) %>
+    <%= score_list_to_js_chart(data.results_2020_qualif.charts.cadet, data.results_2020_qualif.stats.threshold_cadet) %>
   ]);
 
   var options = {
@@ -271,7 +273,7 @@ google.charts.setOnLoadCallback(function() {
 google.charts.setOnLoadCallback(function() {
   var data = google.visualization.arrayToDataTable([
     ['', 'Score','Score'],
-    <%= score_list_to_js_chart(data.results_2019_qualif.charts.junior, data.results_2019_qualif.stats.threshold_junior) %>
+    <%= score_list_to_js_chart(data.results_2020_qualif.charts.junior, data.results_2020_qualif.stats.threshold_junior) %>
   ]);
 
   var options = {
@@ -290,7 +292,7 @@ google.charts.setOnLoadCallback(function() {
 google.charts.setOnLoadCallback(function() {
   var data = google.visualization.arrayToDataTable([
     ['', 'Score','Score'],
-    <%= score_list_to_js_chart(data.results_2019_qualif.charts.senior, data.results_2019_qualif.stats.threshold_senior) %>
+    <%= score_list_to_js_chart(data.results_2020_qualif.charts.senior, data.results_2020_qualif.stats.threshold_senior) %>
   ]);
 
   var options = {
