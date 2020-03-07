@@ -15,6 +15,7 @@ set :contest_state, :waiting_final_results
 
 # some config depending on the contest state
 set :show_qualif_results, %i[qualif_results_published waiting_final_results final_results_published].include?(config.contest_state)
+set :final_is_over, %i[waiting_final_results final_results_published].include?(config.contest_state)
 set :show_final_results, config.contest_state == :final_results_published
 set :registration_open, config.contest_state == :registration
 

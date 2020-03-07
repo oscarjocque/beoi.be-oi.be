@@ -3,11 +3,13 @@
 <h4>Plaats en datum</h4>
 <p>
   De finale vindt plaats op <strong>zaterdag 7 maart 2020</strong> in Brussel, Franklin Rooseveltlaan 50.<br>
-  <strong>Solbosch campus van de ULB, gebouw U, ingang B, 
+  <strong>Solbosch campus van de ULB, gebouw U, ingang B,
   <%= ext_link_to "auditoria Lameere 252A", 'https://www.ulb.be/en/solbosch/campus-map' %></strong>.<br>
   Finalisten worden ter plaatse verwacht tegen 9u15.<br>
   De proef <strong>begint om 9u30 en duurt 2 uur</strong>.
 </p>
+
+<% unless config.final_is_over %>
 
 <h4>Praktisch</h4>
 <p>
@@ -19,6 +21,7 @@
 <p>De finale is een proef op papier, zoals de voorgaande jaren. Je vindt hieronder <%= link_to "enkele voorbeeldvragen", '#sample-questions-final' %>
 en de <%= link_to "vragen van de vorige finales", "#questions-solutions" %>.</p>
 
+<% end %>
 
 <% if has_current_year_solutions %><h4>Vragen en oplossingen 2020</h4><%= link_to "#{t("task_description")}/#{t("solutions")}", '#questions-solutions', class:'btn btn-lg btn-filled' %><% end %>
 <% if config.show_final_results %><%= link_to t("Results"), 'final_results', class:'btn btn-lg btn-filled' %><% end %>
