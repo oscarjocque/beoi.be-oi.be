@@ -141,7 +141,7 @@
       file:
         fr: beOI19-final-fr-cadet-sol.pdf
         nl: beOI19-final-nl-beloften-sol.pdf
-        de: beOI19-final-de-beloften-sol.pdf
+        de: beOI19-final-de-cadet-sol.pdf
     -
       type: :solutions
       category: :Junior
@@ -156,3 +156,53 @@
         fr: beOI19-final-fr-senior-sol.pdf
         nl: beOI19-final-nl-senior-sol.pdf
         de: beOI19-final-de-senior-sol.pdf		
+"2020":
+  final:
+    -
+      type: :task_description
+      category: :Cadet
+      file:
+        fr: beOI20-final-fr-cadet.pdf
+        nl: beOI20-final-nl-beloften.pdf
+        de: beOI20-final-de-cadet.pdf
+        en: beOI20-final-en-cadet.pdf
+    -
+      type: :task_description
+      category: :Junior
+      file:
+        fr: beOI20-final-fr-junior.pdf
+        nl: beOI20-final-nl-junior.pdf
+        de: beOI20-final-de-junior.pdf
+        en: beOI20-final-en-junior.pdf
+    -
+      type: :task_description
+      category: :Senior
+      file:
+        fr: beOI20-final-fr-senior.pdf
+        nl: beOI20-final-nl-senior.pdf
+        de: beOI20-final-de-senior.pdf
+        en: beOI20-final-en-senior.pdf
+    -
+      type: :solutions
+      category: :Cadet
+      file:
+        fr: beOI20-final-fr-cadet-sol.pdf
+        nl: beOI20-final-nl-beloften-sol.pdf
+        de: beOI20-final-de-cadet-sol.pdf
+        en: beOI20-final-en-cadet-sol.pdf
+    -
+      type: :solutions
+      category: :Junior
+      file:
+        fr: beOI20-final-fr-junior-sol.pdf
+        nl: beOI20-final-nl-junior-sol.pdf
+        de: beOI20-final-de-junior-sol.pdf
+        en: beOI20-final-en-junior-sol.pdf
+    -
+      type: :solutions
+      category: :Senior
+      file:
+        fr: beOI20-final-fr-senior-sol.pdf
+        nl: beOI20-final-nl-senior-sol.pdf
+        de: beOI20-final-de-senior-sol.pdf
+        en: beOI20-final-en-senior-sol.pdf
