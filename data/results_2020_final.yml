@@ -29,6 +29,31 @@ contestants:
       year: year_2nd
 
   cadet:
+    - position: 1
+      score: 93
+      name: Siebe Van de Weyer
+      school: Sint-Aloysius Geel
+      year: year_2nd
+    - position: 2
+      score: 92
+      name: Dylan Lejeune
+      school: Koninklijk Atheneum Zottegem
+      year: year_2nd
+    - position: 3
+      score: 85
+      name: Enya Leroy
+      school: Sankt Leonhard Gymnasium
+      year: year_2nd
+    - position: 4
+      score: 83
+      name: Mark Maquestiaux
+      school: Athénée Royal Neufchâteau-Bertrix
+      year: year_2nd
+    - position: 5
+      score: 81
+      name: Alban Van Vyve
+      school: Institut de la Vierge Fidèle
+      year: year_1st
     - position: 6
       score: 78
       name: Stijn Janssens
@@ -214,6 +239,51 @@ contestants:
       year: year_3rd
 
   junior:
+    - position: 1
+      score: 155
+      name: Zhiyi Luo
+      school: College Paters Jozefieten Melle
+      year: year_3rd
+    - position: 2
+      score: 140
+      name: Vladislav Morozov
+      school: British School of Brussels
+      year: year_4th
+    - position: 3
+      score: 137
+      name: Petar Vitorac
+      school: Collège Saint-Pierre d'Uccle
+      year: year_4th
+    - position: 4
+      score: 121
+      name: Ilias Deschuyter
+      school: Pius X College Tessenderlo
+      year: year_4th
+    - position: "-"
+      score: 121
+      name: Samuel Poivre
+      school: Collège Saint-Stanislas
+      year: year_3rd
+    - position: 6
+      score: 113
+      name: Corentin Watthez
+      school: Institut de la Sainte-Union Kain
+      year: year_4th
+    - position: 7
+      score: 107
+      name: Robbe Heyde
+      school: Sint-Lievenscollege Gent
+      year: year_4th
+    - position: 8
+      score: 106
+      name: Gael Berlanga
+      school: École Européenne de Bruxelles IV
+      year: year_4th
+    - position: 9
+      score: 104
+      name: Lowie Goossens
+      school: Sint-Bavohumaniora
+      year: year_3rd
     - position: 10
       score: 102
       name: Mathias Gernez
@@ -489,6 +559,51 @@ contestants:
       year: year_6th
 
   senior:
+    - position: 1
+      score: 185
+      name: Jonas De Schouwer
+      school: Jan-van-Ruusbroeckollege
+      year: year_6th
+    - position: 2
+      score: 172
+      name: Amos Nicodemus
+      school: Provinciale School Diepenbeek
+      year: year_6th
+    - position: 3
+      score: 163
+      name: Oscar Jocqué
+      school: College Paters Jozefieten Melle
+      year: year_6th
+    - position: 4
+      score: 158
+      name: Erik Mikus
+      school: Sint-Albertuscollege-Haasrode
+      year: year_6th
+    - position: 5
+      score: 155
+      name: Daniel Cortild
+      school: Collège Saint-Michel d'Etterbeek
+      year: year_6th
+    - position: 6
+      score: 150
+      name: Alexander Van Haastrecht
+      school: Vita et Pax-College
+      year: year_5th
+    - position: "-"
+      score: 150
+      name: Ruben Van Dijck
+      school: Heilig Hart Van Maria Berlaar
+      year: year_6th
+    - position: 8
+      score: 147
+      name: Quinten Luyten
+      school: Onze-Lieve-Vrouw-Presentatie Sint-Niklaas
+      year: year_6th
+    - position: 9
+      score: 141
+      name: Alzbeta Kocmanova
+      school: École Européenne d'Ixelles III
+      year: year_5th
     - position: 10
       score: 129
       name: Dorien Roelandt
