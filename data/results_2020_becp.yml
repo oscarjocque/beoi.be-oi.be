@@ -1,0 +1,35 @@
+- position: 1
+  score: 280
+  name: Oscar	Jocqué
+  school: College Paters Jozefieten, Melle
+  year: year_6th
+- position: 2
+  score: 125
+  name: Zhiyi Luo
+  school: College Paters Jozefieten, Melle
+  year: year_3rd
+- position: 3
+  score: 55
+  name: Jérôme Mayolet
+  school: Athénée Royal, Jodoigne
+  year: year_6th
+- position: 4
+  score: 35
+  name: Petar Vitorac
+  school: Collège Saint-Pierre, Uccle
+  year: year_4th
+- position: 5
+  score: 30
+  name: Vlad Morozov
+  school:
+  year: year_5th
+- position: 6
+  score: 15
+  name: Amos Nicodemus
+  school: Provinciale School, Diepenbeek
+  year: year_6th
+- position: 6
+  score: 15
+  name: Daniel Smolders
+  school: British School of Brussels
+  year: year_5th
